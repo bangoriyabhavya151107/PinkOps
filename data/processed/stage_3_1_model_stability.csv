@@ -1,0 +1,10 @@
+experiment_category,specification,features_count,cv_mae,cv_rmse,cv_mae_std,slice_group,verdict
+Pressure Ablation,Model A: Resource Only,3,1.2881,1.7072,0.0086,All Deliveries,Baseline
+Pressure Ablation,Model B: + Trajectory,4,1.283,1.7029,0.0121,All Deliveries,Incremental Gain
+Pressure Ablation,Model C: + Temporal/Rate,8,1.2811,1.7,0.0117,All Deliveries,Incremental Gain
+Pressure Ablation,Model D: + WPLI,9,1.281,1.7,0.0118,All Deliveries,Marginal/Diminishing
+Phase Calibration,Model C on Powerplay,8,1.3886,1.7705,0.0,Powerplay,"Observed Mean=1.368, Pred Mean=1.320"
+Phase Calibration,Model C on Middle,8,1.1728,1.608,0.0,Middle,"Observed Mean=1.349, Pred Mean=1.388"
+Phase Calibration,Model C on Death,8,1.3606,1.7802,0.0,Death,"Observed Mean=1.571, Pred Mean=1.552"
+Competition Calibration,Model C on IPL,8,1.3299,1.7492,0.0,IPL,"Observed Mean=1.483, Pred Mean=1.450"
+Competition Calibration,Model C on Non-IPL,8,1.2432,1.6607,0.0,Non-IPL,"Observed Mean=1.361, Pred Mean=1.387"

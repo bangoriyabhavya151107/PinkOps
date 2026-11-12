@@ -1,0 +1,4 @@
+formulation,mathematical_basis,min,p25,median,mean,p75,p95,max,std,spearman_corr_with_wpli_b,recommendation
+WPLI-A (Current Scaled),Scaled by 2*sigma(WP); unconstrained upper tail,0.0,0.0663,0.1926,0.1905,0.2938,0.3814,1.4484,0.142,1.0,Retain as Descriptive Feature (Downgraded from Primary Model Gate)
+WPLI-B (Absolute Swing),"Bounded [0, 1]; directly represents average WP swing",0.0,0.0229,0.0664,0.0657,0.1013,0.1315,0.4994,0.049,1.0,Retain as Descriptive Feature (Downgraded from Primary Model Gate)
+WPLI-C (RMS Leverage),"Bounded [0, 1]; quadratic penalty on large swings",0.0,0.0251,0.0749,0.0736,0.1155,0.1436,0.6463,0.0543,0.9955,Retain as Descriptive Feature (Downgraded from Primary Model Gate)

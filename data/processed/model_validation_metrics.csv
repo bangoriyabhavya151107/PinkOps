@@ -1,0 +1,6 @@
+model,validation_scheme,train_samples,test_samples,primary_metric,metric_value,metric_std,secondary_metric,secondary_value,secondary_std,calibration_logloss
+Chase Win Probability,Match-Grouped 5-Fold CV,76116,19029,ROC-AUC,0.8959,0.0201,Brier Score,0.1316,0.014,0.4035
+Chase Win Probability,"Temporal Holdout (Train <= 2024, Test >= 2025)",57443,37703,ROC-AUC,0.9036,0.0,Brier Score,0.1291,0.0,0.3935
+Chase Win Probability,"LOCO (Train Non-IPL, Test IPL)",53068,42078,ROC-AUC,0.8898,0.0,Brier Score,0.1461,0.0,0.446
+First Innings Expected Runs,Match-Grouped 5-Fold CV,84581,21145,MAE,1.2733,0.0151,RMSE,1.6931,0.0178,0.0
+First Innings Expected Runs,"Temporal Holdout (Train <= 2024, Test >= 2025)",62972,42755,MAE,1.2835,0.0,RMSE,1.7282,0.0,0.0
