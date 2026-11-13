@@ -1,5 +1,9 @@
 # PinkOps — Stage 4.1: Comprehensive Statistical Validation Report
 
+> [!NOTE]
+> **ARCHIVED / HISTORICAL DOCUMENT (SUPERSEDED)**  
+> This report documents the initial Stage 4.1 validation pass (17 assertions). It has been superseded by Stage 4.1.1 Hardening & Truth Reconciliation ([`outputs/stage_4_1_1_final_clearance_report.md`](file:///D:/PinkOps/outputs/stage_4_1_1_final_clearance_report.md)) and the expanded 28-assertion executable test suite ([`src/stage_4_1_1/test_stage_4_1_1.py`](file:///D:/PinkOps/src/stage_4_1_1/test_stage_4_1_1.py)).
+
 **Project:** Operation Pink Panther  
 **Competition:** Rajasthan Royals SupeRR Selector Season 2 — Round 1  
 **Brand:** PinkOps  

@@ -12,8 +12,8 @@
 > - **Stage 3 & 3.1 (Completed & Verified)**: Continuous pressure formulation, contextual expectation modeling, opposition strength adjustments, and exposure diagnostics.
 > - **Stage 4.0 (Completed & Remediated)**: Reliability architecture, estimand freeze (Spec B), player attribution audit, and lower uncertainty bound derivation.
 > - **Stage 4.1 (Completed & Verified)**: Multi-dimensional uncollapsed player evidence profiling across tactical roles and 6 reliability archetypes.
-> - **Stage 4.1.1 (Completed & Hardened)**: Independent reproduction, mathematical derivation of uncertainty bounds, genuine methodological multiverse recomputation, strengthened clutch CEM matching, and a 22-point automated test suite.
-> - **STAGE 5: NOT YET EXECUTED.** In strict compliance with competition governance, **NO final player rankings, NO Top 10 lists, NO auction recommendations, and NO composite scalar scores** have been generated.
+> - **Stage 4.1.1 (Completed, Hardened & Reconciled)**: Independent reproduction, mathematical derivation of uncertainty bounds, genuine 15-branch methodological multiverse recomputation, strengthened clutch CEM matching, end-to-end data leakage provenance audit, and a comprehensive 28-point automated test suite (T01–T28, 100% pass rate).
+> - **STAGE 5: NOT YET EXECUTED (ABSOLUTE STOP CONDITION)**. In strict compliance with competition governance, **NO final player rankings, NO Top 10 lists, NO auction recommendations, NO bid prices, NO purse allocations, and NO composite scalar scores** have been generated.
 
 ---
 
@@ -128,7 +128,10 @@ python src/stage_4_1_1/clutch_matching.py
 # Run genuine methodological multiverse engine (15 specifications)
 python src/stage_4_1_1/multiverse.py
 
-# Execute the 22-point automated test suite
+# Run end-to-end data leakage provenance audit (31 pipeline features)
+python src/stage_4_1_1/leakage_audit.py
+
+# Execute the 28-point comprehensive automated test suite (T01 - T28)
 python src/stage_4_1_1/test_stage_4_1_1.py
 ```
 

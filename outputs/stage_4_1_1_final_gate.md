@@ -1,4 +1,9 @@
 # PinkOps — Stage 4.1.1: Pre-Stage-5 Hardening & Final Gate Decision
+
+> [!NOTE]
+> **ARCHIVED / HISTORICAL DOCUMENT (SUPERSEDED BY FINAL RECONCILIATION)**  
+> This preliminary gate report reflects the pre-reconciliation audit. It has been superseded by the final reconciled clearance report: [`outputs/stage_4_1_1_final_clearance_report.md`](file:///D:/PinkOps/outputs/stage_4_1_1_final_clearance_report.md) and [`outputs/stage_4_1_1_discrepancy_ledger.md`](file:///D:/PinkOps/outputs/stage_4_1_1_discrepancy_ledger.md).
+
 **Project:** Operation Pink Panther / PinkOps  
 **Brand:** PinkOps  
 **Competition:** Rajasthan Royals SupeRR Selector Season 2 — Round 1  

@@ -1,5 +1,9 @@
 # PinkOps — Stage 4.1: Multiverse Robustness & Sensitivity Report
 
+> [!NOTE]
+> **ARCHIVED / HISTORICAL DOCUMENT (SUPERSEDED)**  
+> This report documents the early 24-branch sensitivity exploration. It has been superseded by the genuine 15-specification Methodological Multiverse in Stage 4.1.1 ([`outputs/stage_4_1_1_robustness_audit.md`](file:///D:/PinkOps/outputs/stage_4_1_1_robustness_audit.md) and [`data/processed/stage_4_1_1_multiverse_results.csv`](file:///D:/PinkOps/data/processed/stage_4_1_1_multiverse_results.csv)), which completely eliminated synthetic perturbations and implemented genuine delivery/match recomputations.
+
 **Project:** Operation Pink Panther  
 **Competition:** Rajasthan Royals SupeRR Selector Season 2 — Round 1  
 **Brand:** PinkOps  
