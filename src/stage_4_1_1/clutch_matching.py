@@ -1,5 +1,5 @@
 """
-PinkOps — Stage 4.1.1: Strengthened Clutch Coarsened Exact Matching (CEM)
+PinkOps — Stage 4.1.1: Strengthened Clutch Coarsened Exact Matching (CEM) (Hardened)
 Module: src/stage_4_1_1/clutch_matching.py
 
 Purpose:
@@ -11,8 +11,8 @@ Purpose:
     4. Required Run Rate / Rate Stress (Sub-7.0, 7.0-9.5, 9.5-12.0, Over-12.0)
     5. Batting Order Tier (Top 1-3, Mid 4-6, Lower 7-11)
     6. Bowling Style (Pace vs Spin)
-    7. Opposition Pre-Match Elo (Upper >1530, Mid 1470-1530, Lower <1470)
-    8. Venue Scoring Baseline (Low, Mid, High scoring)
+    7. Opposition Pre-Match Elo: assigned from ACTUAL opponent bowling team (not inferred from chase)
+    8. Venue Scoring Baseline: STRICTLY PRE-MATCH historical expanding baseline (excluding current & future matches)
     9. Chase Status (1st Innings Defend vs 2nd Innings Chase)
 - Evaluates Covariate Balance:
     * Standardized Mean Differences (SMD) before vs after matching
@@ -37,9 +37,10 @@ def run_clutch_matching(project_root: Path):
     print(f"Loading normal-innings delivery match state from {parquet_path}...")
     query = f"""
         SELECT 
-            match_id, innings, innings_ball_num, overid,
-            striker_id, bowler_id, batting_order,
-            runs, runs_on_delivery, extras_type,
+            match_id, match_date, innings, innings_ball_num, overid,
+            striker_id, bowler_id, home_team_id, away_team_id,
+            batting_team_id, bowling_team_id, batting_order,
+            runs, runs_on_delivery, extras_type, is_legal_delivery,
             wickets_in_hand_before, balls_remaining_before,
             is_chase, pace_or_spin, required_run_rate_before,
             venue_id
@@ -47,16 +48,69 @@ def run_clutch_matching(project_root: Path):
         WHERE is_super_over = 0 AND innings IN (1, 2)
     """
     df = con.execute(query).df()
+    n_deliveries = len(df)
     
-    # Load ELO baselines
+    # -------------------------------------------------------------
+    # 1. Opponent Pre-Match Elo Assignment (Hardened & Leakage-Free)
+    # Correct relation: batting_team -> opponent_team = bowling_team -> opponent pre-match Elo
+    # -------------------------------------------------------------
     elo_df = pd.read_csv(elo_path)
     df = df.merge(
-        elo_df[['match_id', 'home_pre_match_elo', 'away_pre_match_elo']], 
+        elo_df[['match_id', 'home_team_id', 'away_team_id', 'home_pre_match_elo', 'away_pre_match_elo']], 
+        on='match_id', how='left', suffixes=('', '_elo')
+    )
+    
+    # Assert bowling_team is either home or away
+    is_home_bowler = (df['bowling_team_id'] == df['home_team_id'])
+    is_away_bowler = (df['bowling_team_id'] == df['away_team_id'])
+    assert (is_home_bowler | is_away_bowler).all(), "Bowler team not in home/away teams!"
+    assert (df['batting_team_id'] != df['bowling_team_id']).all(), "Batting team equals bowling team!"
+    
+    # Correctly assign opponent Elo from actual opponent bowling team
+    df['opp_team_id'] = df['bowling_team_id']
+    df['opp_elo'] = np.where(
+        is_home_bowler, 
+        df['home_pre_match_elo'], 
+        df['away_pre_match_elo']
+    )
+    df['opp_elo'] = df['opp_elo'].fillna(1500.0)
+    print(f"Verified opponent Elo assignment across {n_deliveries:,} deliveries (100% verified against actual opponent bowling team).")
+
+    # -------------------------------------------------------------
+    # 2. Historical Pre-Match Venue Scoring Baseline (Strictly Pre-Match)
+    # Computes expanding historical venue averages strictly before current match date
+    # -------------------------------------------------------------
+    match_venue_df = df.groupby(['venue_id', 'match_date', 'match_id']).agg(
+        match_runs=('runs_on_delivery', 'sum'),
+        match_balls=('is_legal_delivery', 'sum')
+    ).reset_index().sort_values(['venue_id', 'match_date', 'match_id'])
+
+    # Historical cumulative sums excluding current match
+    match_venue_df['cum_runs'] = match_venue_df.groupby('venue_id')['match_runs'].cumsum() - match_venue_df['match_runs']
+    match_venue_df['cum_balls'] = match_venue_df.groupby('venue_id')['match_balls'].cumsum() - match_venue_df['match_balls']
+    match_venue_df['prior_matches'] = match_venue_df.groupby('venue_id').cumcount()
+
+    # Empirical Bayes shrinkage toward population mean (1.30 runs/ball) with K=500
+    K_venue = 500.0
+    pop_mean = 1.30
+    match_venue_df['hist_venue_baseline'] = (match_venue_df['cum_runs'] + K_venue * pop_mean) / (match_venue_df['cum_balls'] + K_venue)
+
+    # Verification: Ensure prior_matches == 0 has exactly cum_balls == 0
+    zero_prior = match_venue_df[match_venue_df['prior_matches'] == 0]
+    assert (zero_prior['cum_balls'] == 0).all(), "Prior matches == 0 has non-zero balls!"
+    assert (zero_prior['cum_runs'] == 0).all(), "Prior matches == 0 has non-zero runs!"
+    assert np.allclose(zero_prior['hist_venue_baseline'], 1.30), "Zero prior baseline != 1.30!"
+
+    # Merge strictly historical venue baseline back to delivery dataframe
+    df = df.merge(
+        match_venue_df[['match_id', 'hist_venue_baseline', 'prior_matches']], 
         on='match_id', how='left'
     )
-    df['opp_elo'] = pd.Series(np.where(df['is_chase'], df['home_pre_match_elo'], df['away_pre_match_elo'])).fillna(1500.0)
-    
-    # 1. Clean Pre-Delivery Covariates
+    print("Verified historical venue baselines: strictly excludes current match and all future matches.")
+
+    # -------------------------------------------------------------
+    # 3. Clean Pre-Delivery Covariates for CEM Matching
+    # -------------------------------------------------------------
     # Phase
     df['phase_cat'] = np.where(df['overid'] < 6, 'Powerplay',
                       np.where(df['overid'] >= 16, 'Death', 'Middle'))
@@ -95,10 +149,9 @@ def run_clutch_matching(project_root: Path):
     # Chase category
     df['chase_cat'] = np.where(df['is_chase'], 'Chase', 'FirstInnings')
     
-    # Venue scoring environment
-    venue_avg = df.groupby('venue_id')['runs_on_delivery'].transform('mean')
+    # Venue scoring environment (tertiles from strictly pre-match historical baseline)
     df['venue_env_bin'] = pd.qcut(
-        venue_avg, 
+        df['hist_venue_baseline'], 
         q=3, 
         labels=['Low_Scoring', 'Mid_Scoring', 'High_Scoring']
     )
@@ -109,7 +162,9 @@ def run_clutch_matching(project_root: Path):
     pressure_proxy = 0.40 * phase_urgency + 0.35 * wkt_urgency + 0.25 * df['is_chase'].astype(float)
     df['treatment_high_pressure'] = (pressure_proxy >= 0.50).astype(int)
     
-    # 2. Form Coarsened Strata
+    # -------------------------------------------------------------
+    # 4. Form Coarsened Exact Matching (CEM) Strata
+    # -------------------------------------------------------------
     strata_cols = [
         'phase_cat', 'wkt_cat', 'balls_rem_bin', 'rrr_bin', 
         'chase_cat', 'is_pace', 'order_tier', 'elo_tier', 'venue_env_bin'
@@ -118,7 +173,9 @@ def run_clutch_matching(project_root: Path):
     n_strata = df['cem_stratum'].nunique()
     print(f"Constructed {n_strata} multi-dimensional pre-delivery CEM strata.")
     
-    # 3. Identify Common Support (Strata with both Treated and Control deliveries)
+    # -------------------------------------------------------------
+    # 5. Common Support Identification & Pruning
+    # -------------------------------------------------------------
     stratum_counts = df.groupby('cem_stratum')['treatment_high_pressure'].agg(['sum', 'count'])
     stratum_counts['n_treated'] = stratum_counts['sum']
     stratum_counts['n_control'] = stratum_counts['count'] - stratum_counts['sum']
@@ -135,7 +192,9 @@ def run_clutch_matching(project_root: Path):
     print(f"High Pressure Deliveries (Treated): {n_treated_matched} / {n_treated_total} matched ({n_treated_matched/n_treated_total*100:.1f}%)")
     print(f"Low Pressure Deliveries (Control):   {n_control_matched} / {n_control_total} matched ({n_control_matched/n_control_total*100:.1f}%)")
     
-    # 4. Compute CEM Balancing Weights
+    # -------------------------------------------------------------
+    # 6. Compute CEM Balancing Weights
+    # -------------------------------------------------------------
     cell_weights = stratum_counts.loc[valid_strata].copy()
     cell_weights['weight_factor'] = (cell_weights['n_treated'] / cell_weights['n_control']) * (n_control_matched / n_treated_matched)
     
@@ -145,14 +204,17 @@ def run_clutch_matching(project_root: Path):
         matched_df['cem_stratum'].map(cell_weights['weight_factor'])
     )
     
-    # 5. Evaluate Standardized Mean Differences (SMD)
+    # -------------------------------------------------------------
+    # 7. Evaluate Standardized Mean Differences (SMD)
+    # -------------------------------------------------------------
     covariates = [
         ('wickets_in_hand_before', 'Wickets in Hand'),
         ('balls_remaining_before', 'Balls Remaining'),
         ('rrr_clean', 'Required Run Rate / Rate Urgency'),
         ('opp_elo', 'Opponent Pre-Match Elo'),
         ('is_pace', 'Pace Bowling Delivery Indicator'),
-        ('batting_order', 'Batting Order Position')
+        ('batting_order', 'Batting Order Position'),
+        ('hist_venue_baseline', 'Pre-Match Historical Venue Baseline')
     ]
     
     balance_records = []
@@ -191,7 +253,7 @@ def run_clutch_matching(project_root: Path):
         
     df_balance = pd.DataFrame(balance_records)
     df_balance.to_csv(out_csv, index=False)
-    print(f"\nSaved clutch matching balance table to {out_csv}")
+    print(f"\nSaved hardened clutch matching balance table to {out_csv}")
     print(df_balance.to_string(index=False))
     
     # Compute Effective Sample Size

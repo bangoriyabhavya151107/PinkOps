@@ -1,7 +1,8 @@
 covariate,mean_treated_unadjusted,mean_control_unadjusted,smd_unadjusted,mean_treated_matched,mean_control_matched,smd_matched,smd_reduction_pct,balance_status
-Wickets in Hand,5.392,8.363,-1.6659,6.22,6.957,-0.4133,75.19,Substantially Attenuated
-Balls Remaining,33.217,78.064,-1.7666,34.746,46.175,-0.4502,74.51,Substantially Attenuated
-Required Run Rate / Rate Urgency,10.567,8.297,0.6165,8.235,8.301,-0.0179,97.09,Strictly Balanced (|SMD| <= 0.10)
-Opponent Pre-Match Elo,1510.097,1509.021,0.0163,1509.315,1508.411,0.0137,15.98,Strictly Balanced (|SMD| <= 0.10)
+Wickets in Hand,5.392,8.363,-1.6659,6.216,6.963,-0.4189,74.85,Substantially Attenuated
+Balls Remaining,33.217,78.064,-1.7666,34.737,46.334,-0.4569,74.14,Substantially Attenuated
+Required Run Rate / Rate Urgency,10.567,8.297,0.6165,8.295,8.35,-0.0149,97.58,Strictly Balanced (|SMD| <= 0.10)
+Opponent Pre-Match Elo,1510.866,1509.168,0.0258,1507.934,1507.849,0.0013,94.97,Strictly Balanced (|SMD| <= 0.10)
 Pace Bowling Delivery Indicator,0.618,0.615,0.0069,0.626,0.626,0.0,100.0,Strictly Balanced (|SMD| <= 0.10)
-Batting Order Position,5.639,2.907,1.3681,4.787,4.529,0.1294,90.54,Substantially Attenuated
+Batting Order Position,5.639,2.907,1.3681,4.784,4.523,0.1304,90.47,Substantially Attenuated
+Pre-Match Historical Venue Baseline,1.392,1.393,-0.0141,1.392,1.391,0.0131,6.76,Strictly Balanced (|SMD| <= 0.10)

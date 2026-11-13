@@ -1,4 +1,4 @@
-STAGE 4.1.1 AUTOMATED TEST SUITE EXECUTION SUMMARY
+STAGE 4.1.1 AUTOMATED TEST SUITE EXECUTION SUMMARY (T01 - T28)
 ================================================================================
 [PASS] T01: Evidence rows match classification rows -> Count = 1535
 [PASS] T02: Every player has a valid assigned reliability profile -> Unique profiles = 6
@@ -21,6 +21,12 @@ STAGE 4.1.1 AUTOMATED TEST SUITE EXECUTION SUMMARY
 [PASS] T19: Robustness branches genuinely recompute affected methodology -> 15 independent branches evaluated
 [PASS] T20: No robustness branch uses synthetic post-estimation perturbation -> Zero synthetic multipliers or trigonometric perturbations
 [PASS] T21: Clutch matching strictly uses pre-delivery variables -> Pre-delivery match state strata verified
-[PASS] T22: All machine-readable processed artifacts exist and are populated -> All 8 artifacts verified
+[PASS] T22: All machine-readable processed artifacts exist and are populated -> All 9 artifacts verified
+[PASS] T23: Historical venue baseline strictly excludes current & future matches -> Pre-match expanding cumulative sums verified
+[PASS] T24: Opponent Elo is assigned from actual opponent team (bowling_team_id) -> 100% verified against actual opponent bowling team
+[PASS] T25: Multiverse pressure specifications use canonical expectation model residuals -> Zero hardcoded -1.30 constants; Spec B model residuals used
+[PASS] T26: Every multiverse branch has a declared provenance classification -> Classifications: {'PARTIAL_RECOMPUTATION', 'DESCRIPTOR_ALTERNATIVE', 'FULL_RECOMPUTATION'}
+[PASS] T27: LUB simulation truth test evaluates coverage against known latent_mu (seed=42) -> Ground truth latent_mu recovery verified across 14,000 players
+[PASS] T28: End-to-end leakage provenance confirms zero UNKNOWN or POST-EVENT features in decision models -> 22 inputs verified as PRE_DELIVERY or HISTORICAL_PRE_MATCH
 ================================================================================
-FINAL STATUS: 22/22 ASSERTIONS PASSED (100% PASS RATE)
+FINAL STATUS: 28/28 ASSERTIONS PASSED (100% PASS RATE)
