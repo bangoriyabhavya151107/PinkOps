@@ -1,0 +1,18 @@
+category_type,event_name,raw_delivery_count,normal_delivery_count,super_over_count,normal_runs_on_delivery,batter_runs_off_bat,extras_runs,batter_ball_faced,bowler_runs_charged,accounting_rule
+Extra Attribution,wide,7714,7710,4,9166,0,9166,0,1,Wides are bowler execution extras; batter did not face a legal ball; excluded from balls faced
+Extra Attribution,legbyes,2748,2747,1,3603,1,3602,1,0,Legbyes are fielding/keeper extras; batter faced ball; excluded from bowler runs conceded
+Extra Attribution,Overstep,576,576,0,1476,852,576,1,1,No-balls / illegal deliveries; batter faced delivery; extra run charged to bowler ledger
+Extra Attribution,byes,529,529,0,1000,0,1000,1,0,Byes are fielding/keeper extras; batter faced ball; excluded from bowler runs conceded
+Extra Attribution,other,264,263,1,706,408,263,1,1,No-balls / illegal deliveries; batter faced delivery; extra run charged to bowler ledger
+Extra Attribution,Penalty,1,1,0,5,0,5,0,0,Penalty runs are team conduct adjustments; strictly isolated from individual player metrics
+Extra Attribution,None (Clean Delivery),189167,189135,32,268247,268245,1,1,1,Standard legal delivery; runs off bat credited to batter; runs conceded charged to bowler
+Dismissal Attribution,None (Not Out),190118,190093,25,283890,269242,14564,1,0,Delivery did not produce a dismissal
+Dismissal Attribution,Caught,7557,7549,8,0,0,0,1,1,Direct execution dismissal; credited to bowler wicket column; charged to batter dismissal ledger
+Dismissal Attribution,Bowled,1775,1772,3,0,0,0,1,1,Direct execution dismissal; credited to bowler wicket column; charged to batter dismissal ledger
+Dismissal Attribution,LBW,709,709,0,0,0,0,1,1,Direct execution dismissal; credited to bowler wicket column; charged to batter dismissal ledger
+Dismissal Attribution,RunOut,600,598,2,275,251,24,1,0,Run outs involve fielding action / team running error; strictly 0 bowler wickets; isolated from batter failure
+Dismissal Attribution,Stump,214,214,0,25,0,25,1,1,Direct execution dismissal; credited to bowler wicket column; charged to batter dismissal ledger
+Dismissal Attribution,Hit Wicket,17,17,0,0,0,0,1,1,Direct execution dismissal; credited to bowler wicket column; charged to batter dismissal ledger
+Dismissal Attribution,Retire Out,6,6,0,10,10,0,1,0,Tactical retirement counted as batter dismissal; 0 wickets credited to bowler
+Dismissal Attribution,Obstructing the field,3,3,0,3,3,0,1,0,Conduct dismissal counted as batter dismissal; 0 wickets credited to bowler
+Injury Isolation,Retired Hurt (Injury),12,12,0,18,18,0,1,0,Physical injury event; strictly 0 team wickets and 0 bowler wickets; zero downside penalty charged

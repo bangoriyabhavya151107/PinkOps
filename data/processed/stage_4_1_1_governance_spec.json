@@ -1,0 +1,135 @@
+{
+  "project": "Operation Pink Panther",
+  "brand": "PinkOps",
+  "competition": "Rajasthan Royals SupeRR Selector Season 2 — Round 1",
+  "stage": "4.1.1",
+  "governance_status": "FROZEN_CANONICAL_SPECIFICATION",
+  "canonical_evidence_tiers": {
+    "Robust Evidence": {
+      "min_total_deliveries": 150,
+      "min_pressure_deliveries": 40,
+      "description": "High sample cohort where empirical observations dominate shrinkage prior; eligible for unconstrained deployment."
+    },
+    "Moderate Evidence": {
+      "min_total_deliveries": 50,
+      "min_pressure_deliveries": 15,
+      "description": "Medium sample cohort where shrinkage pulls moderately toward prior; requires contextual corroboration."
+    },
+    "Low / Sparse Evidence": {
+      "min_total_deliveries": 0,
+      "min_pressure_deliveries": 0,
+      "description": "Low sample cohort dominated by population prior; unsuitable for primary reliability deployment."
+    }
+  },
+  "sensitivity_evidence_tiers": {
+    "Strict Cohort": {
+      "min_total_deliveries": 250,
+      "min_pressure_deliveries": 75
+    },
+    "Permissive Cohort": {
+      "min_total_deliveries": 100,
+      "min_pressure_deliveries": 30
+    }
+  },
+  "operating_parameters": {
+    "eb_shrinkage_k": {
+      "primary": 100.0,
+      "alternatives": [50.0, 200.0],
+      "governance_type": "SENSITIVITY-TESTED GOVERNANCE CHOICE"
+    },
+    "population_sigma": {
+      "value": 1.10,
+      "governance_type": "DATA-DERIVED"
+    },
+    "lub_percentile": {
+      "primary": 20,
+      "z_score": 0.842,
+      "alternatives": [
+        {"percentile": 10, "z_score": 1.282},
+        {"percentile": 15, "z_score": 1.036},
+        {"percentile": 25, "z_score": 0.674},
+        {"percentile": 30, "z_score": 0.524}
+      ],
+      "governance_type": "PRE-REGISTERED GOVERNANCE CHOICE"
+    },
+    "pressure_percentile_cutoff": {
+      "primary": 80,
+      "alternatives": [70, 85],
+      "governance_type": "SENSITIVITY-TESTED GOVERNANCE CHOICE"
+    },
+    "venue_shrinkage_k": {
+      "primary": 500,
+      "alternatives": [250, 1000],
+      "governance_type": "SENSITIVITY-TESTED GOVERNANCE CHOICE"
+    },
+    "elo_k_factor": {
+      "primary": 32,
+      "alternatives": [16, 48],
+      "governance_type": "PRE-REGISTERED GOVERNANCE CHOICE"
+    },
+    "rdi_epsilon": {
+      "primary": 0.15,
+      "alternatives": [0.10, 0.20],
+      "governance_type": "SENSITIVITY-TESTED GOVERNANCE CHOICE"
+    }
+  },
+  "profile_classification_thresholds": {
+    "lub_20_positive": {
+      "threshold": 0.0,
+      "comparison": ">",
+      "governance_type": "PRE-REGISTERED GOVERNANCE CHOICE"
+    },
+    "batter_early_dismissal_rate_max": {
+      "threshold": 0.20,
+      "comparison": "<=",
+      "governance_type": "SENSITIVITY-TESTED GOVERNANCE CHOICE",
+      "tested_range": [0.15, 0.18, 0.20, 0.22, 0.25]
+    },
+    "bowler_blowout_rate_max": {
+      "threshold": 0.20,
+      "comparison": "<=",
+      "governance_type": "SENSITIVITY-TESTED GOVERNANCE CHOICE",
+      "tested_range": [0.15, 0.18, 0.20, 0.22, 0.25]
+    },
+    "batter_match_mad_max": {
+      "threshold": 0.55,
+      "comparison": "<=",
+      "governance_type": "DATA-DERIVED",
+      "notes": "Corresponds to 75th percentile of match-level MAD for qualified batters."
+    },
+    "bowler_match_mad_max": {
+      "threshold": 0.45,
+      "comparison": "<=",
+      "governance_type": "DATA-DERIVED",
+      "notes": "Corresponds to 75th percentile of match-level MAD for qualified bowlers."
+    },
+    "min_multiverse_branches_supported": {
+      "threshold": 7,
+      "total_primary_branches": 8,
+      "governance_type": "PRE-REGISTERED GOVERNANCE CHOICE"
+    }
+  },
+  "tactical_roles": {
+    "batting": [
+      "Top-Order Anchor / Powerplay Batter",
+      "Middle-Overs Accelerator",
+      "Finisher / Death Specialist"
+    ],
+    "bowling": [
+      "Powerplay Specialist (Pace)",
+      "Powerplay Specialist (Spin)",
+      "Middle Enforcer (Pace)",
+      "Middle Enforcer (Spin)",
+      "Death Specialist (Pace)",
+      "Death Specialist (Spin)"
+    ]
+  },
+  "canonical_population": {
+    "raw_delivery_rows": 200999,
+    "super_over_deliveries": 38,
+    "normal_innings_modeling_deliveries": 200961,
+    "first_innings_deliveries": 105727,
+    "second_innings_deliveries": 95234,
+    "contested_matches": 867
+  }
+}

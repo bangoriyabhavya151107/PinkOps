@@ -1,0 +1,10 @@
+metric,count,pct_of_total,status
+Raw Total Deliveries,200999,100.0,Immutable Raw Denominator
+Super Over Deliveries (Innings 3 & 4),38,0.0189,Isolated in Dedicated Stress Register
+Super Over Innings 3 Balls,25,0.0124,Isolated
+Super Over Innings 4 Balls,13,0.0065,Isolated
+Canonical Normal-Innings Modeling Universe,200961,99.9811,Frozen Modeling Denominator
+Normal First-Innings Deliveries (Innings 1),105727,52.6008,Target Setting Phase
+Normal Second-Innings Deliveries (Innings 2),95234,47.3803,Chasing Phase
+Contested Matches with Delivery Telemetry,867,100.0,Verified Matches
+Matches Involving Super Overs,6,0.692,Tied Contests (6 Matches)

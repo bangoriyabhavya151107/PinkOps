@@ -1,0 +1,26 @@
+STAGE 4.1.1 AUTOMATED TEST SUITE EXECUTION SUMMARY
+================================================================================
+[PASS] T01: Evidence rows match classification rows -> Count = 1535
+[PASS] T02: Every player has a valid assigned reliability profile -> Unique profiles = 6
+[PASS] T03: No NaN or infinite values in core decision metrics -> Verified across all 1535 players
+[PASS] T04: No composite scalar score exists in evidence vector -> Forbidden columns found: []
+[PASS] T05: No linear 1-to-N ranking exists in evidence vector -> Forbidden rank columns found: []
+[PASS] T06: No Top 10 player output files exist in outputs/ -> Files found: []
+[PASS] T07: No auction recommendations or price estimations exist -> Forbidden auction columns: []
+[PASS] T08: Super Over rows equal exactly 38 and are isolated -> Super Over count = 38
+[PASS] T09: Normal modeling rows equal exactly 200,961 (Inn1=105,727; Inn2=95,234) -> Normal=200961, Inn1=105727, Inn2=95234
+[PASS] T10: Batter runs strictly exclude non-batter extras -> Wide bat runs credited = 0
+[PASS] T11: Bowler conceded runs exclude byes, leg-byes, and penalty runs -> Byes=0, LegByes=0, Penalty=0
+[PASS] T12: All pre-delivery match-state features use strictly pre-delivery state (t-) -> Verified on match_state.parquet
+[PASS] T13: Rolling features strictly exclude current delivery outcome -> ROWS BETWEEN 12 PRECEDING AND 1 PRECEDING verified
+[PASS] T14: Team Elo ratings are strictly pre-match ratings -> home_pre_match_elo / away_pre_match_elo joined
+[PASS] T15: Venue and competition baselines are historical regularized baselines -> venue_baselines.csv & competition_baselines.csv verified
+[PASS] T16: LUB uncertainty standard error is strictly positive (se_eb > 0) -> Min SE = 0.0302 > 0.0
+[PASS] T17: Classification thresholds match frozen methodology specification -> EDR max = 0.2, BOR max = 0.2
+[PASS] T18: Evidence-tier definitions match canonical thresholds (N_tot>=150, N_pr>=40) -> Robust Min Total=150, Min Pressure=40
+[PASS] T19: Robustness branches genuinely recompute affected methodology -> 15 independent branches evaluated
+[PASS] T20: No robustness branch uses synthetic post-estimation perturbation -> Zero synthetic multipliers or trigonometric perturbations
+[PASS] T21: Clutch matching strictly uses pre-delivery variables -> Pre-delivery match state strata verified
+[PASS] T22: All machine-readable processed artifacts exist and are populated -> All 8 artifacts verified
+================================================================================
+FINAL STATUS: 22/22 ASSERTIONS PASSED (100% PASS RATE)
