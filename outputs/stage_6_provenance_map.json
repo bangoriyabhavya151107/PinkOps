@@ -1,5 +1,6 @@
 [
   {
+    "claim_id": "CLM-001",
     "claim": "Naman Dhir highest LUB20 among robust batters (+0.1918)",
     "artifact": "final_10_batters.csv",
     "source_stage": "Stage 5",
@@ -8,6 +9,7 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-002",
     "claim": "Suryakumar Yadav elite middle accelerator (2,848 balls, LUB20 +0.0893)",
     "artifact": "final_10_batters.csv",
     "source_stage": "Stage 5",
@@ -16,6 +18,7 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-003",
     "claim": "Tim David 735 pressure deliveries (LUB20 +0.1326)",
     "artifact": "final_10_batters.csv",
     "source_stage": "Stage 5",
@@ -24,6 +27,7 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-004",
     "claim": "Yashasvi Jaiswal low match dispersion (MAD 0.2880, EDR 14.6%)",
     "artifact": "final_10_batters.csv",
     "source_stage": "Stage 5",
@@ -32,6 +36,7 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-005",
     "claim": "Jitesh Sharma clinical death finisher (LUB20 +0.1103)",
     "artifact": "final_10_batters.csv",
     "source_stage": "Stage 5",
@@ -40,6 +45,7 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-006",
     "claim": "Fakhar Zaman lowest middle accelerator EDR (10.6%)",
     "artifact": "final_10_batters.csv",
     "source_stage": "Stage 5",
@@ -48,6 +54,7 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-007",
     "claim": "Rajat Patidar middle spin enforcer (LUB20 +0.0573, EDR 12.5%)",
     "artifact": "final_10_batters.csv",
     "source_stage": "Stage 5",
@@ -56,6 +63,7 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-008",
     "claim": "Brian Bennett emerging international opener (LUB20 +0.0674)",
     "artifact": "final_10_batters.csv",
     "source_stage": "Stage 5",
@@ -64,6 +72,7 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-009",
     "claim": "Shai Hope pressure chase anchor (211 pressure balls, LUB20 +0.0434)",
     "artifact": "final_10_batters.csv",
     "source_stage": "Stage 5",
@@ -72,6 +81,7 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-010",
     "claim": "Nicholas Pooran high exposure left-hand finisher (LUB20 +0.0305)",
     "artifact": "final_10_batters.csv",
     "source_stage": "Stage 5",
@@ -80,6 +90,7 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-011",
     "claim": "Jasprit Bumrah global death benchmark (+0.3196 run prevention, LUB20 +0.2848)",
     "artifact": "final_10_bowlers.csv",
     "source_stage": "Stage 5",
@@ -88,6 +99,7 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-012",
     "claim": "Sunil Narine highest run prevention (+0.3228 run prevention, LUB20 +0.2848)",
     "artifact": "final_10_bowlers.csv",
     "source_stage": "Stage 5",
@@ -96,6 +108,7 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-013",
     "claim": "Abrar Ahmed lowest spinner blowout rate (5.4%, LUB20 +0.1556)",
     "artifact": "final_10_bowlers.csv",
     "source_stage": "Stage 5",
@@ -104,6 +117,7 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-014",
     "claim": "Matheesha Pathirana premier death slinger (82 wkts, LUB20 +0.1449)",
     "artifact": "final_10_bowlers.csv",
     "source_stage": "Stage 5",
@@ -112,6 +126,7 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-015",
     "claim": "Jamie Overton high-release pace enforcer (LUB20 +0.1398)",
     "artifact": "final_10_bowlers.csv",
     "source_stage": "Stage 5",
@@ -120,6 +135,7 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-016",
     "claim": "Akeal Hosein zero match blowouts (0.00% blowout, LUB20 +0.0904)",
     "artifact": "final_10_bowlers.csv",
     "source_stage": "Stage 5",
@@ -128,6 +144,7 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-017",
     "claim": "Josh Hazlewood accurate two-phase pacer (98 wkts, LUB20 +0.0893)",
     "artifact": "final_10_bowlers.csv",
     "source_stage": "Stage 5",
@@ -136,6 +153,7 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-018",
     "claim": "Mitchell Santner defensive control specialist (LUB20 +0.0882)",
     "artifact": "final_10_bowlers.csv",
     "source_stage": "Stage 5",
@@ -144,6 +162,7 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-019",
     "claim": "Sai Kishore bounce spin attacker (LUB20 +0.0865, blowout 13.6%)",
     "artifact": "final_10_bowlers.csv",
     "source_stage": "Stage 5",
@@ -152,6 +171,7 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-020",
     "claim": "Kyle Jamieson tall powerplay bounce specialist (LUB20 +0.0753)",
     "artifact": "final_10_bowlers.csv",
     "source_stage": "Stage 5",
@@ -160,6 +180,7 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-021",
     "claim": "All 20 selections maintain positive LUB20 downside floors",
     "artifact": "final_player_comparison.csv",
     "source_stage": "Stage 5",
@@ -168,14 +189,25 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-022",
     "claim": "All 20 selections achieve 6/6 universal performance robustness",
     "artifact": "stage_5_final_selection_robustness.parquet",
     "source_stage": "Stage 5",
-    "metric": "specs_supported_out_of_8",
+    "metric": "full_performance_specs_supported / full_performance_specs_total",
     "source_file": "data/processed/stage_5_final_selection_robustness.parquet",
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-023",
+    "claim": "All 20 selections achieve 8/8 unanimous support across extended primary grid",
+    "artifact": "stage_5_final_selection_robustness.parquet",
+    "source_stage": "Stage 5",
+    "metric": "extended_grid_specs_supported / extended_grid_specs_total",
+    "source_file": "data/processed/stage_5_final_selection_robustness.parquet",
+    "status": "VERIFIED"
+  },
+  {
+    "claim_id": "CLM-024",
     "claim": "Super Overs strictly isolated to 38 balls across 6 matches",
     "artifact": "match_state.parquet",
     "source_stage": "Stage 2.1",
@@ -184,6 +216,7 @@
     "status": "VERIFIED"
   },
   {
+    "claim_id": "CLM-025",
     "claim": "Raw competition dataset remains byte-for-byte immutable",
     "artifact": "data/raw/",
     "source_stage": "Stage 1",

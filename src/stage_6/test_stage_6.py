@@ -260,7 +260,7 @@ def run_stage_6_tests():
     log_test("T23", "Stage 5 Evidence Lineage Verified", passed, f"Stage 5 player records: {len(df_s5)}")
 
     # -------------------------------------------------------------------------
-    # T24: Zero Future Information Leakage
+    # T24: Frozen Methodology Manifest Contains No Known Post-Match Variables
     # -------------------------------------------------------------------------
     manifest_p = outputs_dir / "stage_5_frozen_methodology_manifest.json"
     with open(manifest_p, "r", encoding="utf-8") as f:
@@ -269,38 +269,84 @@ def run_stage_6_tests():
     forbidden = ["match_won", "margin", "match_result", "target_achieved", "player_of_match", "innings_total_runs"]
     leaks = [f for f in features if f in forbidden]
     passed = (len(leaks) == 0)
-    log_test("T24", "Zero Future Information Leakage", passed, "Verified predictive features condition strictly on t-" if passed else f"Leaks: {leaks}")
+    log_test("T24", "Frozen Methodology Manifest Contains No Known Post-Match Variables", passed, "Verified predictive features condition strictly on t-" if passed else f"Leaks: {leaks}")
 
     # -------------------------------------------------------------------------
-    # T25: Zero Post-Match Telemetry in Delivery Expectations
+    # T25: Comprehensive Causal Provenance & Data Leakage Audit
     # -------------------------------------------------------------------------
     df_leak = pd.read_csv(data_dir / "stage_4_1_1_leakage_audit.csv")
     post_match_features = df_leak[df_leak["temporal_classification"] == "POST_MATCH"]
     model_inputs = df_leak[df_leak["pipeline_role"].str.startswith("Model input")]
+    
+    # 1. Zero unknown model inputs
+    zero_unknown = len(df_leak[df_leak["temporal_classification"] == "UNKNOWN"]) == 0
+    # 2. Zero post-delivery inputs into predictive models
+    zero_post_delivery_inputs = len(df_leak[(df_leak["pipeline_role"].str.startswith("Model input")) & (df_leak["temporal_classification"] == "POST_DELIVERY")]) == 0
+    # 3. Zero post-match inputs into predictive models
+    zero_post_match_inputs = len(df_leak[(df_leak["pipeline_role"].str.startswith("Model input")) & (df_leak["temporal_classification"] == "POST_MATCH")]) == 0
+    # 4. All model inputs are PRE_DELIVERY or HISTORICAL_PRE_MATCH
+    all_inputs_valid_timing = model_inputs["temporal_classification"].isin(["PRE_DELIVERY", "HISTORICAL_PRE_MATCH"]).all()
+    # 5. Post-match telemetry strictly validation only
+    post_match_validation_only = (post_match_features["pipeline_role"] == "Match outcome validation only").all()
+    # 6. Target variables properly classified
+    target_vars = df_leak[df_leak["leakage_status"] == "TARGET_VARIABLE"]
+    targets_valid = (target_vars["temporal_classification"] == "POST_DELIVERY").all()
+    
     passed = (
-        (post_match_features["pipeline_role"] == "Match outcome validation only").all() and
-        len(post_match_features) >= 2 and
-        model_inputs["temporal_classification"].isin(["PRE_DELIVERY", "HISTORICAL_PRE_MATCH"]).all()
+        zero_unknown and zero_post_delivery_inputs and zero_post_match_inputs and
+        all_inputs_valid_timing and post_match_validation_only and targets_valid and
+        len(post_match_features) >= 2
     )
-    log_test("T25", "Zero Post-Match Telemetry in Expectations", passed, "Post-match statistics strictly isolated to validation-only roles")
+    log_test("T25", "Comprehensive Causal Provenance & Leakage Audit", passed, "0 UNKNOWN, 0 POST_DELIVERY inputs, 100% pre-delivery/historical model inputs")
 
     # -------------------------------------------------------------------------
-    # T26: Stage 6 Provenance Map Completeness (>= 20 Claims)
+    # T26: Stage 6 Provenance Map Completeness (>= 24 Claims)
     # -------------------------------------------------------------------------
     prov_path = outputs_dir / "stage_6_provenance_map.json"
     with open(prov_path, "r", encoding="utf-8") as f:
         prov_data = json.load(f)
-    n_claims = len(prov_data) if isinstance(prov_data, list) else len(prov_data.get("claims", []))
-    passed = (n_claims >= 20)
-    log_test("T26", "Provenance Map Completeness", passed, f"Total verified claims: {n_claims} (>= 20)")
+    claims_list = prov_data if isinstance(prov_data, list) else prov_data.get("claims", [])
+    n_claims = len(claims_list)
+    passed = (n_claims >= 24)
+    log_test("T26", "Provenance Map Completeness", passed, f"Total verified claims: {n_claims} (>= 24)")
 
     # -------------------------------------------------------------------------
-    # T27: All Public Claims Verified in Provenance Map
+    # T27: Comprehensive Provenance Schema & Verification Audit (9 Criteria)
     # -------------------------------------------------------------------------
-    claims_list = prov_data if isinstance(prov_data, list) else prov_data.get("claims", [])
-    unverified = [c["claim_id"] for c in claims_list if c.get("status") != "VERIFIED"]
-    passed = (len(unverified) == 0)
-    log_test("T27", "All Public Claims Verified in Provenance Map", passed, "All claims verified against source files" if passed else f"Unverified: {unverified}")
+    schema_failures = []
+    if len(claims_list) < 24:
+        schema_failures.append(f"Claim count {len(claims_list)} < 24")
+    
+    claim_ids = [c.get("claim_id") for c in claims_list]
+    if any(cid is None for cid in claim_ids):
+        schema_failures.append("Missing claim_id detected")
+    if len(set(claim_ids)) != len(claim_ids):
+        schema_failures.append("Duplicate claim_ids detected")
+    
+    for cid in claim_ids:
+        if cid and not re.match(r"^CLM-\d{3}$", cid):
+            schema_failures.append(f"Invalid claim_id format: {cid}")
+            
+    claim_texts = [c.get("claim", "").strip() for c in claims_list]
+    if any(len(txt) == 0 for txt in claim_texts):
+        schema_failures.append("Empty claim text detected")
+    if len(set(claim_texts)) != len(claim_texts):
+        schema_failures.append("Duplicate claim texts detected")
+        
+    for c in claims_list:
+        art = c.get("artifact", "")
+        if not ((outputs_dir / art).exists() or (data_dir / art).exists() or (proj_root / art).exists()):
+            schema_failures.append(f"{c.get('claim_id')}: Artifact {art} not found")
+        sf = c.get("source_file", "")
+        if not (proj_root / sf).exists():
+            schema_failures.append(f"{c.get('claim_id')}: source_file {sf} not found")
+            
+    unverified = [c.get("claim_id", "UNKNOWN") for c in claims_list if c.get("status") != "VERIFIED"]
+    if len(unverified) > 0:
+        schema_failures.append(f"Unverified claims: {unverified}")
+        
+    passed = (len(schema_failures) == 0)
+    log_test("T27", "Comprehensive Provenance Schema & Verification Audit", passed, f"All {len(claims_list)} claims satisfy 9-point integrity schema" if passed else "; ".join(schema_failures[:3]))
 
     # -------------------------------------------------------------------------
     # T28: Robustness Denominator Consistency

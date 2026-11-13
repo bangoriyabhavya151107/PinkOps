@@ -10,7 +10,7 @@ STAGE 5 QUALITY CONTROL & VERIFICATION TEST SUITE RESULTS (T01 - T30)
 [PASS] T08: Epistemic uncertainty strictly retained across all player evidence profiles -> Min SE_EB = 0.0302 > 0.0
 [PASS] T09: Pressure exposure retained for all 20 final selections (N_pr >= 40) -> Min Bat Pressure=77, Min Bowl Pressure=193
 [PASS] T10: Tactical role exposure categorized for all final players -> All 20 roles verified
-[PASS] T11: Methodological robustness confirmed for all 20 final selections (>=5/8 specs) -> Min Bat Rob=8/8, Min Bowl Rob=8/8
+[PASS] T11: Methodological robustness confirmed for all 20 final selections (8/8 extended grid) -> Min Bat Rob=8/8, Min Bowl Rob=8/8
 [PASS] T12: Final batter selection count equals exactly 10 -> Count = 10
 [PASS] T13: Final bowler selection count equals exactly 10 -> Count = 10
 [PASS] T14: Every final player has an individual Target File in outputs/target_files/ -> Found 20 target files
@@ -22,9 +22,9 @@ STAGE 5 QUALITY CONTROL & VERIFICATION TEST SUITE RESULTS (T01 - T30)
 [PASS] T20: All 20 final selections trace to delivery-level match_state provenance -> 100% match state presence verified
 [PASS] T21: Zero fabricated auction prices or fictitious rupee valuations exist -> Strict adherence to competition rules
 [PASS] T22: Auction rules audit verifies problem statement and prohibits fabricated rules -> Verified auction_rules_verified.md
-[PASS] T23: Auction strategy categories are fully reproducible and valid -> Categories: {'TARGET', 'BACKUP', 'VALUE TARGET', 'MUST TARGET'}
+[PASS] T23: Auction strategy categories are fully reproducible and valid -> Categories: {'MUST TARGET', 'VALUE TARGET', 'TARGET', 'BACKUP'}
 [PASS] T24: Final 10 batters and 10 bowlers satisfy strictly positive LUB20 floors -> All 20 players demonstrate positive downside floors
-[PASS] T25: Final selection robustness table verifies multiverse support across all 20 players -> 100% robustness verification
+[PASS] T25: Final selection robustness table verifies canonical multiverse support (6/6 performance, 8/8 grid, 15 total) -> 100% canonical robustness taxonomy verified
 [PASS] T26: Zero future or in-play outcome information enters decision models -> 22 inputs verified PRE_DELIVERY or HISTORICAL
 [PASS] T27: Post-match variables are strictly quarantined to post-match validation -> 0 post-match variables in models
 [PASS] T28: Raw competition dataset SHA-256 hashes byte-for-byte unchanged -> 100% immutable data preservation confirmed

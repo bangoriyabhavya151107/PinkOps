@@ -6,7 +6,7 @@ SUMMARY: 35/35 ASSERTIONS PASSED (100.0%)
 STATUS: GREEN
 
 DETAILED RESULTS:
-[PASS] T01: Stage 5 Gate File Exists -> Size: 6915 bytes
+[PASS] T01: Stage 5 Gate File Exists -> Size: 7065 bytes
 [PASS] T02: Stage 5 Status Verified GREEN -> Verified STAGE_5_STATUS = GREEN in gate
 [PASS] T03: Raw Data SHA-256 Immutability -> All 7 raw competition files bitwise unchanged
 [PASS] T04: Exactly 10 Final Batters Selected -> Count: 10
@@ -29,10 +29,10 @@ DETAILED RESULTS:
 [PASS] T21: Match State Total Delivery Integrity -> Total balls: 200,999, Matches: 867
 [PASS] T22: Stage 4.1.1 Evidence Lineage Verified -> Stage 4.1.1 player records: 1535
 [PASS] T23: Stage 5 Evidence Lineage Verified -> Stage 5 player records: 1535
-[PASS] T24: Zero Future Information Leakage -> Verified predictive features condition strictly on t-
-[PASS] T25: Zero Post-Match Telemetry in Expectations -> Post-match statistics strictly isolated to validation-only roles
-[PASS] T26: Provenance Map Completeness -> Total verified claims: 24 (>= 20)
-[PASS] T27: All Public Claims Verified in Provenance Map -> All claims verified against source files
+[PASS] T24: Frozen Methodology Manifest Contains No Known Post-Match Variables -> Verified predictive features condition strictly on t-
+[PASS] T25: Comprehensive Causal Provenance & Leakage Audit -> 0 UNKNOWN, 0 POST_DELIVERY inputs, 100% pre-delivery/historical model inputs
+[PASS] T26: Provenance Map Completeness -> Total verified claims: 25 (>= 24)
+[PASS] T27: Comprehensive Provenance Schema & Verification Audit -> All 25 claims satisfy 9-point integrity schema
 [PASS] T28: Robustness Denominator Consistency -> Documented mathematical relationship between 6, 8, and 15
 [PASS] T29: Robustness Terminology Consistency -> Universal Support (6/6) terminology harmonized across defense dossiers
 [PASS] T30: README Documentation Integrity -> README verified clean and fully updated with Stage 5/6 status

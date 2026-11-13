@@ -1,0 +1,702 @@
+[
+  {
+    "Stage": "Stage 1",
+    "Artifact": "outputs/data_audit_report.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 29251,
+    "Schema/shape": "418 lines",
+    "Source": "src/01_data_audit.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 1",
+    "Artifact": "outputs/legal_delivery_audit.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 2970,
+    "Schema/shape": "38 lines",
+    "Source": "src/01_data_audit.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 2/2.1",
+    "Artifact": "data/processed/match_state.parquet",
+    "Type": "PARQUET",
+    "Exists": true,
+    "Size": 6444602,
+    "Schema/shape": "200999 rows x 96 cols",
+    "Source": "src/02_build_match_state.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 2.1",
+    "Artifact": "outputs/match_state_validation.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 8332,
+    "Schema/shape": "101 lines",
+    "Source": "src/02_build_match_state.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 2.1",
+    "Artifact": "outputs/stage_2_1_hardening_report.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 6409,
+    "Schema/shape": "78 lines",
+    "Source": "src/stage_2_1/validate_match_state.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 2.1",
+    "Artifact": "outputs/super_over_validation.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 1988,
+    "Schema/shape": "25 lines",
+    "Source": "src/stage_2_1/validate_match_state.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 3",
+    "Artifact": "outputs/pressure_variable_audit.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 12524,
+    "Schema/shape": "159 lines",
+    "Source": "src/03_pressure_discovery.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 3.1",
+    "Artifact": "outputs/stage_3_1_hardening_report.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 13285,
+    "Schema/shape": "211 lines",
+    "Source": "src/stage_3_1/run_all.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 3.1",
+    "Artifact": "outputs/stage_3_1_validation_results.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 5160,
+    "Schema/shape": "69 lines",
+    "Source": "src/stage_3_1/run_all.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 3.1",
+    "Artifact": "data/processed/stage_3_1_player_evidence.parquet",
+    "Type": "PARQUET",
+    "Exists": true,
+    "Size": 127470,
+    "Schema/shape": "1535 rows x 20 cols",
+    "Source": "src/stage_3_1/run_all.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 4.0",
+    "Artifact": "outputs/stage_4_0_reliability_architecture.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 13950,
+    "Schema/shape": "213 lines",
+    "Source": "src/stage_4_0/run_stage_4_0.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 4.0",
+    "Artifact": "outputs/stage_4_0_remediation_report.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 4736,
+    "Schema/shape": "44 lines",
+    "Source": "src/stage_4_0/run_stage_4_0.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 4.0",
+    "Artifact": "data/processed/stage_4_0_methodology_spec.json",
+    "Type": "JSON",
+    "Exists": true,
+    "Size": 4339,
+    "Schema/shape": "13 items",
+    "Source": "src/stage_4_0/run_stage_4_0.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 4.1",
+    "Artifact": "data/processed/stage_4_1_player_evidence.parquet",
+    "Type": "PARQUET",
+    "Exists": true,
+    "Size": 291734,
+    "Schema/shape": "1535 rows x 40 cols",
+    "Source": "src/stage_4_1/stage_4_1_pipeline.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 4.1",
+    "Artifact": "data/processed/stage_4_1_player_classifications.csv",
+    "Type": "CSV",
+    "Exists": true,
+    "Size": 320047,
+    "Schema/shape": "1535 rows x 15 cols",
+    "Source": "src/stage_4_1/stage_4_1_pipeline.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 4.1",
+    "Artifact": "outputs/stage_4_1_player_evidence_report.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 14988,
+    "Schema/shape": "173 lines",
+    "Source": "src/stage_4_1/stage_4_1_pipeline.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 4.1",
+    "Artifact": "outputs/stage_4_1_robustness_report.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 9009,
+    "Schema/shape": "99 lines",
+    "Source": "src/stage_4_1/stage_4_1_pipeline.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 4.1.1",
+    "Artifact": "data/processed/stage_4_1_1_multiverse_results.csv",
+    "Type": "CSV",
+    "Exists": true,
+    "Size": 3845,
+    "Schema/shape": "15 rows x 18 cols",
+    "Source": "src/stage_4_1_1/multiverse.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 4.1.1",
+    "Artifact": "data/processed/stage_4_1_1_leakage_audit.csv",
+    "Type": "CSV",
+    "Exists": true,
+    "Size": 3462,
+    "Schema/shape": "31 rows x 5 cols",
+    "Source": "src/stage_4_1_1/leakage_audit.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 4.1.1",
+    "Artifact": "data/processed/stage_4_1_1_lub_coverage.csv",
+    "Type": "CSV",
+    "Exists": true,
+    "Size": 764,
+    "Schema/shape": "7 rows x 12 cols",
+    "Source": "src/stage_4_1_1/lub_validation.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 4.1.1",
+    "Artifact": "data/processed/stage_4_1_1_clutch_balance.csv",
+    "Type": "CSV",
+    "Exists": true,
+    "Size": 884,
+    "Schema/shape": "7 rows x 9 cols",
+    "Source": "src/stage_4_1_1/clutch_matching.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 4.1.1",
+    "Artifact": "data/processed/stage_4_1_1_governance_spec.json",
+    "Type": "JSON",
+    "Exists": true,
+    "Size": 4301,
+    "Schema/shape": "11 items",
+    "Source": "src/stage_4_1_1/run_stage_4_1_1.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 4.1.1",
+    "Artifact": "outputs/stage_4_1_1_final_gate.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 18519,
+    "Schema/shape": "253 lines",
+    "Source": "src/stage_4_1_1/run_stage_4_1_1.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 4.1.1",
+    "Artifact": "outputs/stage_4_1_1_test_results.txt",
+    "Type": "TEXT",
+    "Exists": true,
+    "Size": 3744,
+    "Schema/shape": "",
+    "Source": "src/stage_4_1_1/test_stage_4_1_1.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 5",
+    "Artifact": "data/processed/stage_5_player_evidence.parquet",
+    "Type": "PARQUET",
+    "Exists": true,
+    "Size": 436011,
+    "Schema/shape": "1535 rows x 75 cols",
+    "Source": "src/stage_5/build_stage_5_evidence.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 5",
+    "Artifact": "data/processed/stage_5_final_selection_robustness.parquet",
+    "Type": "PARQUET",
+    "Exists": true,
+    "Size": 17959,
+    "Schema/shape": "20 rows x 24 cols",
+    "Source": "src/stage_5/candidate_selection.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 5",
+    "Artifact": "outputs/final_10_batters.csv",
+    "Type": "CSV",
+    "Exists": true,
+    "Size": 2035,
+    "Schema/shape": "10 rows x 18 cols",
+    "Source": "src/stage_5/candidate_selection.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 5",
+    "Artifact": "outputs/final_10_batters.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 13536,
+    "Schema/shape": "201 lines",
+    "Source": "src/stage_5/candidate_selection.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 5",
+    "Artifact": "outputs/final_10_bowlers.csv",
+    "Type": "CSV",
+    "Exists": true,
+    "Size": 2191,
+    "Schema/shape": "10 rows x 20 cols",
+    "Source": "src/stage_5/candidate_selection.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 5",
+    "Artifact": "outputs/final_10_bowlers.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 13686,
+    "Schema/shape": "201 lines",
+    "Source": "src/stage_5/candidate_selection.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 5",
+    "Artifact": "outputs/batter_role_portfolio.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 1536,
+    "Schema/shape": "22 lines",
+    "Source": "src/stage_5/candidate_selection.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 5",
+    "Artifact": "outputs/bowler_role_portfolio.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 1614,
+    "Schema/shape": "24 lines",
+    "Source": "src/stage_5/candidate_selection.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 5",
+    "Artifact": "outputs/stage_5_final_robustness.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 4670,
+    "Schema/shape": "43 lines",
+    "Source": "src/stage_5/candidate_selection.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 5",
+    "Artifact": "outputs/final_player_comparison.csv",
+    "Type": "CSV",
+    "Exists": true,
+    "Size": 3629,
+    "Schema/shape": "20 rows x 15 cols",
+    "Source": "src/stage_5/candidate_selection.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 5",
+    "Artifact": "outputs/final_auction_board.csv",
+    "Type": "CSV",
+    "Exists": true,
+    "Size": 7898,
+    "Schema/shape": "20 rows x 16 cols",
+    "Source": "src/stage_5/auction_strategy.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 5",
+    "Artifact": "outputs/pinkops_mission_brief.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 13325,
+    "Schema/shape": "156 lines",
+    "Source": "src/stage_5/auction_strategy.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 5",
+    "Artifact": "outputs/auction_rules_verified.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 7476,
+    "Schema/shape": "78 lines",
+    "Source": "src/stage_5/auction_strategy.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 5",
+    "Artifact": "outputs/stage_5_test_results.txt",
+    "Type": "TEXT",
+    "Exists": true,
+    "Size": 3852,
+    "Schema/shape": "",
+    "Source": "src/stage_5/test_stage_5.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 5",
+    "Artifact": "outputs/stage_5_final_gate.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 7065,
+    "Schema/shape": "92 lines",
+    "Source": "src/stage_5/candidate_selection.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 6",
+    "Artifact": "outputs/stage_6_robustness_resolution.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 4472,
+    "Schema/shape": "68 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 6",
+    "Artifact": "outputs/stage_6_final_batter_defense.csv",
+    "Type": "CSV",
+    "Exists": true,
+    "Size": 4354,
+    "Schema/shape": "10 rows x 17 cols",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 6",
+    "Artifact": "outputs/stage_6_final_batter_defense.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 13742,
+    "Schema/shape": "168 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 6",
+    "Artifact": "outputs/stage_6_final_bowler_defense.csv",
+    "Type": "CSV",
+    "Exists": true,
+    "Size": 4149,
+    "Schema/shape": "10 rows x 18 cols",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 6",
+    "Artifact": "outputs/stage_6_final_bowler_defense.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 13577,
+    "Schema/shape": "168 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 6",
+    "Artifact": "outputs/stage_6_master_player_evidence.csv",
+    "Type": "CSV",
+    "Exists": true,
+    "Size": 5823,
+    "Schema/shape": "20 rows x 20 cols",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 6",
+    "Artifact": "outputs/stage_6_final_strategy.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 5232,
+    "Schema/shape": "82 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 6",
+    "Artifact": "outputs/stage_6_why_these_20.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 5716,
+    "Schema/shape": "63 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 6",
+    "Artifact": "outputs/stage_6_final_player_comparison.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 4737,
+    "Schema/shape": "43 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 6",
+    "Artifact": "outputs/stage_6_competition_rules_defense.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 2782,
+    "Schema/shape": "37 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 6",
+    "Artifact": "outputs/stage_6_presentation_outline.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 4185,
+    "Schema/shape": "121 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 6",
+    "Artifact": "outputs/stage_6_judge_questions.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 9833,
+    "Schema/shape": "206 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 6",
+    "Artifact": "outputs/stage_6_limitations.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 2360,
+    "Schema/shape": "33 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 6",
+    "Artifact": "outputs/stage_6_provenance_map.json",
+    "Type": "JSON",
+    "Exists": true,
+    "Size": 7993,
+    "Schema/shape": "25 items",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 6",
+    "Artifact": "outputs/stage_6_test_results.txt",
+    "Type": "TEXT",
+    "Exists": true,
+    "Size": 3701,
+    "Schema/shape": "",
+    "Source": "src/stage_6/test_stage_6.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 6",
+    "Artifact": "outputs/stage_6_reproducibility.json",
+    "Type": "JSON",
+    "Exists": true,
+    "Size": 4271,
+    "Schema/shape": "13 items",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Stage 6",
+    "Artifact": "outputs/stage_6_final_gate.md",
+    "Type": "MARKDOWN",
+    "Exists": true,
+    "Size": 10628,
+    "Schema/shape": "119 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Submission",
+    "Artifact": "outputs/STAGE_6_FINAL_SUBMISSION/01_EXECUTIVE_SUMMARY.md",
+    "Type": "MD",
+    "Exists": true,
+    "Size": 5232,
+    "Schema/shape": "82 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Submission",
+    "Artifact": "outputs/STAGE_6_FINAL_SUBMISSION/02_METHODOLOGY.md",
+    "Type": "MD",
+    "Exists": true,
+    "Size": 4977,
+    "Schema/shape": "119 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Submission",
+    "Artifact": "outputs/STAGE_6_FINAL_SUBMISSION/03_FINAL_10_BATTERS.md",
+    "Type": "MD",
+    "Exists": true,
+    "Size": 13742,
+    "Schema/shape": "168 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Submission",
+    "Artifact": "outputs/STAGE_6_FINAL_SUBMISSION/04_FINAL_10_BOWLERS.md",
+    "Type": "MD",
+    "Exists": true,
+    "Size": 13577,
+    "Schema/shape": "168 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Submission",
+    "Artifact": "outputs/STAGE_6_FINAL_SUBMISSION/05_ROLE_PORTFOLIOS.md",
+    "Type": "MD",
+    "Exists": true,
+    "Size": 3154,
+    "Schema/shape": "48 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Submission",
+    "Artifact": "outputs/STAGE_6_FINAL_SUBMISSION/06_AUCTION_STRATEGY.md",
+    "Type": "MD",
+    "Exists": true,
+    "Size": 13325,
+    "Schema/shape": "156 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Submission",
+    "Artifact": "outputs/STAGE_6_FINAL_SUBMISSION/07_PLAYER_DEFENSE.md",
+    "Type": "MD",
+    "Exists": true,
+    "Size": 5716,
+    "Schema/shape": "63 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Submission",
+    "Artifact": "outputs/STAGE_6_FINAL_SUBMISSION/08_RISKS_AND_LIMITATIONS.md",
+    "Type": "MD",
+    "Exists": true,
+    "Size": 2360,
+    "Schema/shape": "33 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Submission",
+    "Artifact": "outputs/STAGE_6_FINAL_SUBMISSION/09_JUDGE_QA.md",
+    "Type": "MD",
+    "Exists": true,
+    "Size": 9833,
+    "Schema/shape": "206 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Submission",
+    "Artifact": "outputs/STAGE_6_FINAL_SUBMISSION/10_FINAL_MISSION_BRIEF.md",
+    "Type": "MD",
+    "Exists": true,
+    "Size": 13325,
+    "Schema/shape": "156 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Submission",
+    "Artifact": "outputs/STAGE_6_FINAL_SUBMISSION/11_PROVENANCE.md",
+    "Type": "MD",
+    "Exists": true,
+    "Size": 2782,
+    "Schema/shape": "37 lines",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Submission",
+    "Artifact": "outputs/STAGE_6_FINAL_SUBMISSION/final_auction_board.csv",
+    "Type": "CSV",
+    "Exists": true,
+    "Size": 7821,
+    "Schema/shape": "20 rows x 16 cols",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Submission",
+    "Artifact": "outputs/STAGE_6_FINAL_SUBMISSION/final_master_player_evidence.csv",
+    "Type": "CSV",
+    "Exists": true,
+    "Size": 5823,
+    "Schema/shape": "20 rows x 20 cols",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  },
+  {
+    "Stage": "Submission",
+    "Artifact": "outputs/STAGE_6_FINAL_SUBMISSION/final_player_comparison.csv",
+    "Type": "CSV",
+    "Exists": true,
+    "Size": 3629,
+    "Schema/shape": "20 rows x 15 cols",
+    "Source": "src/stage_6/build_stage_6_defense.py",
+    "Status": "CURRENT_TRUTH"
+  }
+]

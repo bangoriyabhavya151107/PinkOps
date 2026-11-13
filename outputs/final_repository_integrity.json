@@ -1,0 +1,24 @@
+{
+  "raw_data_immutable": true,
+  "raw_file_count": 7,
+  "hashes_verified": true,
+  "verification_timestamp": "2026-11-13T22:00:00+05:30",
+  "verified_files": [
+    "ball_by_ball.csv",
+    "competitions.csv",
+    "competition_team_player_mapping.csv",
+    "matches.csv",
+    "playing_eleven.csv",
+    "teams.csv",
+    "Round 1 Problem Statement _ SupeRR Selector Season 2.docx.pdf"
+  ],
+  "sha256_hashes": {
+    "ball_by_ball.csv": "01E2B4379EDFBAB6A6E456D304CB3C70F554CB312EF93D9588F3F32A82CB396E",
+    "competitions.csv": "507CEB7189F972D4E4F299DDCFC97F3C3247AF1913F6291106F161FA8353FD9B",
+    "competition_team_player_mapping.csv": "1DED4E42A933618572D6E2C3A521C3257EB1844FAB4456D567D77CBB2D3BBB12",
+    "matches.csv": "BB100AB84B8B9A15160C1F2315CF675210131A30E779EC5079FD5403DCF56EEF",
+    "playing_eleven.csv": "7517C73722A28D5D61C808CCF0CBED315A8780586D02E946EB9A7F5DAF011C27",
+    "teams.csv": "A65E5922A9B3BF49247B24FC9471782E700EFB31F8DCC5042923238B87C50A5D",
+    "Round 1 Problem Statement _ SupeRR Selector Season 2.docx.pdf": "8F7965C616D4A64B779E770A6B2C17DDE6A2D6CCBF7DE12A58B04DB792162489"
+  }
+}

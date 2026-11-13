@@ -25,7 +25,7 @@ Leverage is modeled continuously using the Win-Probability Pressure Index ($\tex
 
 ## 5. Reliability Architecture & Spec B Freeze
 
-We evaluate performance using **Specification B**, a contextual expectation model strictly cleansed of endogenous self-conditioning (excluding recent 12-delivery runs/wickets) to prevent causal leakage.
+We evaluate performance using **Specification B**. The primary Spec B expectation excludes recent player-specific micro-momentum to avoid endogenous self-conditioning of the opportunity baseline and preserve a cleaner attribution estimand.
 
 ## 6. Why Epistemic Uncertainty Matters
 
@@ -33,7 +33,7 @@ Small samples generate extreme observed averages that reflect noise rather than 
 
 ## 7. The Power of LUB20
 
-We implement the **Empirical Bayes Lower Uncertainty Bound (LUB20)**: $\text{LUB}_{20} = \hat{\mu}_{\text{EB}} - 0.842 \cdot \text{SE}_{\text{EB}}$. LUB20 penalizes sample sparsity without distorting rank hierarchies, serving as an unyielding downside decision floor. All 20 selected players maintain strictly positive LUB20 values.
+We implement the **Empirical-Bayes Lower Uncertainty Bound (LUB20)**: $\text{LUB}_{20} = \hat{\mu}_{\text{EB}} - 0.842 \cdot \text{SE}_{\text{EB}}$. LUB20 serves as a conservative uncertainty-adjusted decision statistic under the specified empirical-Bayes and normal-approximation framework, penalizing sample sparsity without distorting rank hierarchies. All 20 selected players maintain strictly positive LUB20 values.
 
 ## 8. Multidimensional Selection Gates
 

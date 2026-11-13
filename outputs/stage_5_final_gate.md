@@ -48,7 +48,7 @@ REPRODUCIBLE                    = TRUE
 | **PinkOps Mission Brief** | Complete strategic franchise synthesis | **PASS (Verified)** | `outputs/pinkops_mission_brief.md` |
 | **Central Comparison Table**| 20-player machine-readable comparison table | **PASS (20 Records)** | `outputs/final_player_comparison.csv` |
 | **Executable Test Suite** | 30/30 programmatic assertions passed with exit code 0 | **PASS (30/30 Passed)** | `outputs/stage_5_test_results.txt` |
-| **Multiverse Robustness** | Evaluated on 15 genuine recomputed branches | **PASS (Universal)** | `data/processed/stage_5_final_selection_robustness.parquet` |
+| **Multiverse Robustness** | Evaluated across a 15-branch methodological multiverse consisting of 6 full performance recomputations, 6 partial parameter/sensitivity recomputations, and 3 orthogonal descriptor alternatives. | **PASS (Universal)** | `data/processed/stage_5_final_selection_robustness.parquet` |
 | **Data Leakage Provenance** | 0 unknown features; 100% pre-delivery / historical timing | **PASS (0 Leakage)** | `data/processed/stage_4_1_1_leakage_audit.csv` |
 
 ---

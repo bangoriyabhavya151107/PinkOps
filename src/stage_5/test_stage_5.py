@@ -141,11 +141,11 @@ def run_stage_5_tests():
     t10_pass = df_bat['role'].notna().all() and df_bowl['role'].notna().all()
     log_test("T10", "Tactical role exposure categorized for all final players", t10_pass, "All 20 roles verified")
     
-    # T11: Robustness retained (multiverse specs supported >= 5/8 for all final players)
+    # T11: Robustness retained (multiverse specs supported 8/8 extended grid for all final players)
     min_rob_bat = df_bat['robustness_support'].min()
     min_rob_bowl = df_bowl['robustness_support'].min()
-    t11_pass = min_rob_bat >= 5 and min_rob_bowl >= 5
-    log_test("T11", "Methodological robustness confirmed for all 20 final selections (>=5/8 specs)", t11_pass, f"Min Bat Rob={min_rob_bat}/8, Min Bowl Rob={min_rob_bowl}/8")
+    t11_pass = min_rob_bat == 8 and min_rob_bowl == 8
+    log_test("T11", "Methodological robustness confirmed for all 20 final selections (8/8 extended grid)", t11_pass, f"Min Bat Rob={min_rob_bat}/8, Min Bowl Rob={min_rob_bowl}/8")
     
     # T12: Final batter count = 10
     t12_pass = len(df_bat) == 10
@@ -234,10 +234,18 @@ def run_stage_5_tests():
     t24_pass = (df_bat['lub_20'] > 0).all() and (df_bowl['lub_20'] > 0).all() and len(df_comp) == 20
     log_test("T24", "Final 10 batters and 10 bowlers satisfy strictly positive LUB20 floors", t24_pass, "All 20 players demonstrate positive downside floors")
     
-    # T25: Final robustness is reproducible
+    # T25: Final robustness is reproducible and conforms to canonical taxonomy
     df_rob = pd.read_parquet(robustness_parquet)
-    t25_pass = len(df_rob) == 20 and (df_rob['specs_supported_out_of_8'] >= 5).all()
-    log_test("T25", "Final selection robustness table verifies multiverse support across all 20 players", t25_pass, "100% robustness verification")
+    canonical_check = (
+        (df_rob['full_performance_specs_total'] == 6).all() and
+        (df_rob['full_performance_specs_supported'] == 6).all() and
+        (df_rob['extended_grid_specs_total'] == 8).all() and
+        (df_rob['extended_grid_specs_supported'] == 8).all() and
+        (df_rob['total_multiverse_specs'] == 15).all() and
+        (df_rob['descriptor_count'] == 3).all()
+    )
+    t25_pass = len(df_rob) == 20 and canonical_check
+    log_test("T25", "Final selection robustness table verifies canonical multiverse support (6/6 performance, 8/8 grid, 15 total)", t25_pass, "100% canonical robustness taxonomy verified")
     
     # T26: No future information enters player evidence
     df_leak = pd.read_csv(leakage_audit_csv)

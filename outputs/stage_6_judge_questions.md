@@ -59,7 +59,7 @@ Expected outcome is the predicted scoring rate for delivery $t$ conditioned on g
 ### Q8: Why Specification B rather than Specification A?
 
 **Defense Response:**  
-Specification A included rolling 12-delivery performance (runs scored and wickets lost in the preceding 2 overs). While predictive, it introduced endogenous self-conditioning (a batter's own recent form predicting their next ball). Spec B removes this, establishing clean causal precedence.
+Specification A included rolling 12-delivery performance (runs scored and wickets lost in the preceding 2 overs). While predictive, it introduced endogenous self-conditioning (a batter's own recent form predicting their next ball). The primary Spec B expectation excludes recent player-specific micro-momentum to avoid endogenous self-conditioning of the opportunity baseline and preserve a cleaner attribution estimand.
 
 ---
 
@@ -80,7 +80,7 @@ K=100 corresponds to the empirical ratio of within-player sampling variance to b
 ### Q11: What is LUB20 and what does it actually measure?
 
 **Defense Response:**  
-LUB20 is the 20th-percentile Empirical Bayes Lower Uncertainty Bound: $\text{LUB}_{20} = \hat{\mu}_{\text{EB}} - 0.842 \cdot \text{SE}_{\text{EB}}$. Under normal conjugate sampling, it represents a conservative downside decision floor that penalizes sample sparsity without distorting rank hierarchies.
+LUB20 is the Empirical-Bayes Lower Uncertainty Bound: $\text{LUB}_{20} = \hat{\mu}_{\text{EB}} - 0.842 \cdot \text{SE}_{\text{EB}}$. It represents a conservative uncertainty-adjusted decision statistic under the specified empirical-Bayes and normal-approximation framework, penalizing sample sparsity without distorting rank hierarchies.
 
 ---
 

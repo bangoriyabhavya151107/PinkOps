@@ -1,0 +1,65 @@
+{
+  "project": "Operation Pink Panther",
+  "brand": "PinkOps",
+  "competition": "Rajasthan Royals SupeRR Selector Season 2 \u2014 Round 1",
+  "timestamp": "2026-11-13T23:10:00+05:30",
+  "environment": {
+    "os": "Windows 11 Enterprise (x86_64)",
+    "python_version": "3.13.7",
+    "random_seed": 42
+  },
+  "reproducibility_classes": {
+    "deterministic_reproducibility": [
+      "Raw data parsing and delivery-level state aggregation (match_state.parquet)",
+      "Super Over isolation and delivery counters (38 balls, 867 matches)",
+      "Empirical Bayes shrinkage calculation given fixed prior parameters (K=100.0)",
+      "LUB20 lower uncertainty bound calculation (z=0.842)",
+      "Candidate filtering through 8 deterministic gate inequalities",
+      "Final 10 Batters and Final 10 Bowlers deterministic role portfolio allocation",
+      "Machine-readable CSV and Markdown submission generation"
+    ],
+    "seeded_reproducibility": [
+      "Monte Carlo LUB coverage simulation truth test (N=14,000 synthetic players, random_seed=42)",
+      "K-fold cross-validation in preliminary baseline tuning (random_seed=42)"
+    ],
+    "analytical_reproducibility": [
+      "Multiverse recomputation across 15 architectural specifications",
+      "Coarsened Exact Matching (CEM) under specified covariate bins",
+      "Information-flow and data leakage audits across 31 telemetry features"
+    ]
+  },
+  "raw_data_sha256": {
+    "ball_by_ball.csv": "01E2B4379EDFBAB6A6E456D304CB3C70F554CB312EF93D9588F3F32A82CB396E",
+    "competitions.csv": "507CEB7189F972D4E4F299DDCFC97F3C3247AF1913F6291106F161FA8353FD9B",
+    "competition_team_player_mapping.csv": "1DED4E42A933618572D6E2C3A521C3257EB1844FAB4456D567D77CBB2D3BBB12",
+    "matches.csv": "BB100AB84B8B9A15160C1F2315CF675210131A30E779EC5079FD5403DCF56EEF",
+    "playing_eleven.csv": "7517C73722A28D5D61C808CCF0CBED315A8780586D02E946EB9A7F5DAF011C27",
+    "teams.csv": "A65E5922A9B3BF49247B24FC9471782E700EFB31F8DCC5042923238B87C50A5D",
+    "Round 1 Problem Statement _ SupeRR Selector Season 2.docx.pdf": "8F7965C616D4A64B779E770A6B2C17DDE6A2D6CCBF7DE12A58B04DB792162489"
+  },
+  "test_suites_verified": [
+    {
+      "suite": "src/stage_4_1_1/test_stage_4_1_1.py",
+      "assertions": 28,
+      "status": "GREEN"
+    },
+    {
+      "suite": "src/stage_5/test_stage_5.py",
+      "assertions": 30,
+      "status": "GREEN"
+    },
+    {
+      "suite": "src/stage_6/test_stage_6.py",
+      "assertions": 35,
+      "status": "GREEN"
+    }
+  ],
+  "final_selections_verified": {
+    "batters": 10,
+    "bowlers": 10,
+    "total_players": 20,
+    "unique_player_ids": 20,
+    "positive_lub20_all": true,
+    "universal_performance_support_all": true
+  }
+}
