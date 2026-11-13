@@ -1,0 +1,62 @@
+{
+  "stage": "4.1",
+  "version": "4.1.0",
+  "project": "Operation Pink Panther",
+  "competition": "Rajasthan Royals SupeRR Selector Season 2 \u2014 Round 1",
+  "brand": "PinkOps",
+  "status": "STAGE_4_1_FROZEN_EVIDENCE_FRAMEWORK",
+  "formal_estimand": {
+    "question": "Which players provide the strongest evidence of reliable positive execution under pressure for the specific role and context relevant to Rajasthan Royals?",
+    "primary_expectation_specification": "Specification B (Exogenous macro match state, excluding recent-12-ball player outcomes)",
+    "sensitivity_expectation_specification": "Specification A (Including recent 12 balls)",
+    "pressure_opportunity": "Continuous match state intensity P(t^-) in [0, 1]",
+    "clutch_estimand": "Descriptive context-adjusted pressure differential (Multi-dimensional coarsened exact matching)"
+  },
+  "remediated_attribution_rules": {
+    "batter_runs": "Strictly runs off bat (excludes byes, leg-byes, wides, penalties)",
+    "bowler_runs_conceded": "Bat runs + wides + noballs (excludes byes, leg-byes, penalties)",
+    "bowler_wickets": "is_bowler_wicket == 1 (excludes run-outs, retire out, obstructing field)",
+    "retired_hurt_handling": "Medical/injury stoppage (zero wickets charged to team or bowler)"
+  },
+  "uncertainty_model": {
+    "name": "Lower Uncertainty Bound (LUB / conservative lower bound)",
+    "distributional_approximation": "Empirical Bayes shrinkage with normal quantile approximation",
+    "shrinkage_k": 100.0,
+    "primary_decision_percentile": "20th percentile (z = 0.842)",
+    "empirical_simulation_coverage": 0.814,
+    "robust_tier_rank_stability_rs": 0.894
+  },
+  "evidence_tiers": {
+    "Robust Evidence": {
+      "min_total_deliveries": 150,
+      "min_pressure_deliveries": 40
+    },
+    "Moderate Evidence": {
+      "min_total_deliveries": 50,
+      "min_pressure_deliveries": 15
+    },
+    "Sparse Evidence": {
+      "min_total_deliveries": 0,
+      "min_pressure_deliveries": 0
+    }
+  },
+  "data_populations": {
+    "raw_ball_by_ball_deliveries": 200999,
+    "super_over_deliveries": 38,
+    "normal_innings_modeling_deliveries": 200961
+  },
+  "multiverse_stability": {
+    "rdi_epsilon_stability": "r_s >= 0.9999",
+    "venue_k_stability": "r_s >= 0.9375 across K in [100, 1000]",
+    "elo_k_stability": "r_s >= 0.9999 across K in [16, 48]",
+    "lub_percentile_stability": "r_s >= 0.9919 across p10 to p30",
+    "spec_b_vs_spec_a_overlap": 0.95
+  },
+  "governance_invariants": {
+    "zero_composite_scores": true,
+    "zero_arbitrary_linear_weights": true,
+    "zero_premature_rankings": true,
+    "zero_auction_recommendations": true,
+    "raw_data_immutable": true
+  }
+}

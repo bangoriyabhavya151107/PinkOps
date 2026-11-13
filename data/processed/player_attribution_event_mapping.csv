@@ -1,0 +1,17 @@
+event_category,event_type,frequency,batter_attribution,bowler_attribution,included_in_batter_va,included_in_bowler_va,rationale
+Dismissal,Caught,7557,Batter Dismissal (Execution Failure),Bowler Wicket (Wicket Credited),True,True,Standard execution dismissal off bat to fielder/keeper
+Dismissal,Bowled,1775,Batter Dismissal (Execution Failure),Bowler Wicket (Wicket Credited),True,True,Stumps broken by legal delivery
+Dismissal,LBW,709,Batter Dismissal (Execution Failure),Bowler Wicket (Wicket Credited),True,True,Leg before wicket; batsman pinned in front
+Dismissal,RunOut,600,Non-Standard (Running / Shared Fault),Team Wicket Only (NOT Bowler Wicket),False,False,"Run outs reflect running mix-up/fielding excellence, not bowler delivery quality"
+Dismissal,Stump,214,Batter Dismissal (Execution Failure),Bowler Wicket (Wicket Credited),True,True,Batsman drawn out of crease by bowler and dismissed by keeper
+Dismissal,Hit Wicket,17,Batter Dismissal (Execution Failure),Bowler Wicket (Wicket Credited),True,True,Batsman breaks stumps during shot or running preparation
+Dismissal,Retire Out,6,Tactical Team Decision (Voluntary Exit),Team Wicket Only (NOT Bowler Wicket),False,False,Tactical retirement to bring in another batsman; not an out on delivery
+Dismissal,Obstructing the field,3,Batsman Infraction / Penalty,Team Wicket Only (NOT Bowler Wicket),False,False,Wilful obstruction by batsman; team dismissal not bowler wicket
+Dismissal,Retired Hurt,12,Medical / Injury Stoppage (NOT Dismissal),No Wicket (NOT Bowler Wicket),False,False,Player leaves field due to injury; zero wickets charged to team or credited to bowler
+Extras,wide,7714,Excluded from Batter Balls Faced (0 Runs),Charged to Bowler Runs Conceded (1 + extras),False,True,Bowler error; delivery is illegal and charged to bowler
+Extras,legbyes,2748,0 Bat Runs Credited (Extras to Team),EXCLUDED from Bowler Runs Conceded,False,False,Deflection off pad; standard cricket law excludes from bowler conceded
+Extras,Overstep,576,Bat Runs Credited to Striker,Charged to Bowler Runs Conceded (Bat Runs + 1),True,True,"No-ball for foot fault; bowler penalized, batter receives runs off bat"
+Extras,byes,529,0 Bat Runs Credited (Extras to Team),EXCLUDED from Bowler Runs Conceded,False,False,Wicketkeeper / fielding lapse; standard cricket law excludes from bowler
+Extras,other,264,Bat Runs Credited to Striker,Charged to Bowler Runs Conceded (Bat Runs + 1),True,True,"Other no-balls (e.g. waist-high full toss, field restriction breach)"
+Extras,Penalty,1,0 Bat Runs Credited,EXCLUDED from Bowler Runs Conceded,False,False,5 penalty runs (e.g. ball hits helmet); team penalty not bowler run
+Standard,None (Legal Play),189167,Bat Runs Credited to Striker,Bat Runs Charged to Bowler Conceded,True,True,Standard legal delivery; runs off bat credited to batter and charged to bowler

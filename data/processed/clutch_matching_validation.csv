@@ -1,0 +1,2 @@
+matching_approach,strata_variables,total_possible_strata,active_matched_strata,unmatched_pressure_deliveries,matched_pressure_deliveries,sample_retention_pct,mean_absolute_smd_raw,mean_absolute_smd_matched,smd_attenuation_pct,causal_classification,governance_status
+Multi-Dimensional Coarsened Exact Matching (CEM),Phase (3) x Wickets (3) x Chase (2) x Pace/Spin (2) x Order (3) x Elo (3),324,69,70773,31972,45.18,0.964,0.3296,65.8,Descriptive Context-Adjusted Pressure Differential (Strictly Non-Causal),APPROVED FOR STAGE 4.1

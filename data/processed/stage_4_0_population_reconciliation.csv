@@ -1,0 +1,9 @@
+population_name,source_file,deliveries,matches,super_overs_included,modeling_status,notes
+Raw Ball-by-Ball Universe,data/raw/6af458274c1e8_data_pack/Data Pack/ball_by_ball.csv,200999,867,True,Immutable Raw Ground Truth,Original competition data pack
+Canonical Match State Parquet,data/processed/match_state.parquet,200999,867,True,Full Validated Delivery Universe,"Preserves all 200,999 deliveries with feature enrichment"
+Normal-Innings Modeling Universe,"data/processed/match_state.parquet (innings in [1, 2])",200961,867,False,"Primary Modeling Universe (Stages 3, 3.1, 4.0, 4.1)","Innings 1 (105,727) + Innings 2 (95,234); exactly 200,961 deliveries"
+Super Over Descriptive Universe,"data/processed/match_state.parquet (innings in [3, 4])",38,6,True,Isolated Qualitative Stress-Test Only,Innings 3 (25) + Innings 4 (13) across 6 matches; extreme 48.0% wicket rate
+Second-Innings Chase Deliveries,data/processed/match_state.parquet (innings == 2),95234,845,False,Chase Pressure Evaluation Subset,All legal and extra balls bowled during 2nd innings run chases
+Valid Required Run Rate Subset,data/processed/match_state.parquet (innings == 2 & RRR not null),95234,845,False,Active Chase Leverage Subset,Deliveries where Target and RRR are computable
+Revised-Overs Matches Subset,data/processed/match_state.parquet (is_overs_revised = true),4433,34,False,Rain/Shortened Match Context,34 rain-affected matches with shortened scheduled overs
+Revised-Target Matches Subset,data/processed/match_state.parquet (is_target_revised = true),3727,23,False,DLS / VJD Target Adjustment Context,23 matches where target was adjusted

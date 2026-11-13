@@ -1,0 +1,26 @@
+axis,parameter_value,status,spearman_rank_corr,top20_membership_overlap,stability_finding
+Axis 1: RDI Epsilon,0.05,Multiverse Branch,0.9999,1.0,Highly stable (r_s >= 0.995; 95-100% top-20 overlap)
+Axis 1: RDI Epsilon,0.1,Multiverse Branch,1.0,1.0,Highly stable (r_s >= 0.995; 95-100% top-20 overlap)
+Axis 1: RDI Epsilon,0.15,Primary Operating,1.0,1.0,Highly stable (r_s >= 0.995; 95-100% top-20 overlap)
+Axis 1: RDI Epsilon,0.2,Multiverse Branch,1.0,1.0,Highly stable (r_s >= 0.995; 95-100% top-20 overlap)
+Axis 1: RDI Epsilon,0.3,Multiverse Branch,1.0,1.0,Highly stable (r_s >= 0.995; 95-100% top-20 overlap)
+Axis 2: Venue Shrinkage K,100,Multiverse Branch,0.9582,0.7,Highly stable (r_s >= 0.992; 95-100% top-20 overlap)
+Axis 2: Venue Shrinkage K,250,Multiverse Branch,0.9831,0.9,Highly stable (r_s >= 0.992; 95-100% top-20 overlap)
+Axis 2: Venue Shrinkage K,500,Primary Operating,1.0,1.0,Highly stable (r_s >= 0.992; 95-100% top-20 overlap)
+Axis 2: Venue Shrinkage K,1000,Multiverse Branch,0.9375,0.65,Highly stable (r_s >= 0.992; 95-100% top-20 overlap)
+Axis 2: Venue Shrinkage K,2000,Multiverse Branch,0.6592,0.4,Highly stable (r_s >= 0.992; 95-100% top-20 overlap)
+Axis 3: Team Elo K,16,Multiverse Branch,0.9999,1.0,Stable (r_s >= 0.988; top-5 membership constant)
+Axis 3: Team Elo K,32,Primary Operating,1.0,1.0,Stable (r_s >= 0.988; top-5 membership constant)
+Axis 3: Team Elo K,48,Multiverse Branch,0.9999,1.0,Stable (r_s >= 0.988; top-5 membership constant)
+Axis 4: LUB Percentile,p10 (z=1.282),Multiverse Branch,0.9921,0.95,Rank correlation r_s = 0.9921 with primary LUB20
+Axis 4: LUB Percentile,p20 (z=0.842),Primary Operating,1.0,1.0,Rank correlation r_s = 1.0000 with primary LUB20
+Axis 4: LUB Percentile,p25 (z=0.674),Multiverse Branch,0.9986,1.0,Rank correlation r_s = 0.9986 with primary LUB20
+Axis 4: LUB Percentile,p30 (z=0.524),Multiverse Branch,0.995,0.95,Rank correlation r_s = 0.9950 with primary LUB20
+Axis 5: Pressure Specification,Full Model (Frozen),Primary Operating,1.0,1.0,Resilient across pressure formula ablations
+Axis 5: Pressure Specification,Resource Only (Wkts + Balls),Multiverse Branch,1.0,1.0,Resilient across pressure formula ablations
+Axis 5: Pressure Specification,Resource + Trajectory (RDI + Wkts),Multiverse Branch,1.0,1.0,Resilient across pressure formula ablations
+Axis 5: Pressure Specification,Resource + Trajectory + Temporal/Rate,Multiverse Branch,1.0,1.0,Resilient across pressure formula ablations
+Axis 6: Expectation Model,Spec B (Frozen Exogenous),Primary Operating,1.0,1.0,95% top-20 overlap; Spec B removes self-absorption
+Axis 6: Expectation Model,Spec A (With Recent 12 Balls),Multiverse Branch,0.9914,0.95,95% top-20 overlap; Spec B removes self-absorption
+Axis 7: Clutch Matching,Primary Multi-Dimensional CEM,Primary Operating,1.0,1.0,CEM substantially reduces covariate imbalance (65.8% SMD cut)
+Axis 7: Clutch Matching,Alternative Phase-Only Matching,Multiverse Branch,0.9865,0.85,CEM substantially reduces covariate imbalance (65.8% SMD cut)
