@@ -1,0 +1,11 @@
+final_rank,player_id,player_name,role,secondary_role,evidence_tier,total_exposure,pressure_exposure,contextual_performance,lub_20,se_eb,pressure_performance,clutch_evidence,match_va_mad,negative_contribution_rate,early_dismissal_rate,robustness_support,role_fit
+1,37052,Naman Dhir,Finisher / Death Specialist,Middle-Overs Accelerator,Robust Evidence,603,291,0.2443,0.1918,0.0623,0.3283,0.1534,0.4059,0.413,0.1739,8,Multi-Phase Versatile
+2,1699,Suryakumar Yadav,Middle-Overs Accelerator,Spin Dominator,Robust Evidence,2848,908,0.1199,0.0893,0.0363,0.1331,0.0476,0.3529,0.4676,0.1655,8,Elite Phase Specialist
+3,6396,Tim David,Finisher / Death Specialist,Middle-Overs Accelerator,Robust Evidence,1293,735,0.1665,0.1326,0.0403,0.1892,0.1474,0.5246,0.4388,0.1939,8,Elite Phase Specialist
+4,6819,Yashasvi Jaiswal,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,Robust Evidence,1936,77,0.1666,0.0795,0.1034,0.3829,0.3126,0.288,0.5843,0.1461,8,Elite Phase Specialist
+5,3916,Jitesh Sharma,Finisher / Death Specialist,Middle-Overs Accelerator,Robust Evidence,926,438,0.1538,0.1103,0.0516,0.1889,0.3346,0.3455,0.5068,0.1781,8,Elite Phase Specialist
+6,2921,Fakhar Zaman,Middle-Overs Accelerator,Top-Order Stabilizer,Robust Evidence,889,295,0.1177,0.0655,0.062,0.1576,0.2665,0.3419,0.617,0.1064,8,Elite Phase Specialist
+7,5039,Rajat Patidar,Middle-Overs Accelerator,Spin Dominator,Robust Evidence,970,237,0.1148,0.0573,0.0682,0.1632,0.2362,0.3657,0.5208,0.125,8,Elite Phase Specialist
+8,24017,Brian Bennett,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,Robust Evidence,815,119,0.1429,0.0674,0.0897,0.263,0.4838,0.3091,0.5455,0.2273,8,Elite Phase Specialist
+9,4369,Shai Hope,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,Robust Evidence,1128,211,0.1037,0.0434,0.0717,0.1529,0.3444,0.3681,0.6379,0.1897,8,Elite Phase Specialist
+10,3125,Nicholas Pooran,Finisher / Death Specialist,Middle-Overs Accelerator,Robust Evidence,2091,789,0.0633,0.0305,0.0389,0.0713,0.0691,0.4837,0.5913,0.1478,8,Elite Phase Specialist

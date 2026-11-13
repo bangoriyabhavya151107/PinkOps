@@ -1,0 +1,889 @@
+player_id,player_name,primary_role,secondary_role,total_deliveries,pressure_deliveries,evidence_tier,eb_shrunk_estimate,lub_20,se_eb,pressure_value,clutch_delta,match_va_mad,negative_contribution_rate,early_dismissal_rate,robustness_support,role_fit,selection_class
+7341,Jake McGurk,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,291,20,Moderate Evidence,0.3141,0.1996,0.136,1.8847,1.7704,0.7206,0.4783,0.3043,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+37052,Naman Dhir,Finisher / Death Specialist,Middle-Overs Accelerator,603,291,Robust Evidence,0.2443,0.1918,0.0623,0.3283,0.1534,0.4059,0.413,0.1739,8,Multi-Phase Versatile,CORE CANDIDATE
+15280,Sayed Monib,Finisher / Death Specialist,Middle-Overs Accelerator,24,15,Sparse Evidence,0.278,0.1599,0.1403,2.1314,,0.7592,0.3333,0.0,8,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6396,Tim David,Finisher / Death Specialist,Middle-Overs Accelerator,1293,735,Robust Evidence,0.1665,0.1326,0.0403,0.1892,0.1474,0.5246,0.4388,0.1939,8,Elite Phase Specialist,CORE CANDIDATE
+4722,Rashid Khan,Finisher / Death Specialist,Middle-Overs Accelerator,540,506,Robust Evidence,0.1706,0.13,0.0482,0.2043,0.3732,0.5574,0.5634,0.2676,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+1318,Andre Russell,Finisher / Death Specialist,Middle-Overs Accelerator,785,542,Robust Evidence,0.158,0.1187,0.0467,0.1872,-0.4411,0.5477,0.5263,0.2105,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+8182,Donovan Ferreira,Finisher / Death Specialist,Middle-Overs Accelerator,354,266,Robust Evidence,0.1701,0.1155,0.0649,0.2341,0.3077,0.3072,0.5667,0.2333,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+3916,Jitesh Sharma,Finisher / Death Specialist,Middle-Overs Accelerator,926,438,Robust Evidence,0.1538,0.1103,0.0516,0.1889,0.3346,0.3455,0.5068,0.1781,8,Elite Phase Specialist,CORE CANDIDATE
+5189,Faheem Ashraf,Finisher / Death Specialist,Pure Death Finisher,210,200,Robust Evidence,0.1539,0.0921,0.0733,0.2308,-0.0674,0.5753,0.4444,0.2963,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+1699,Suryakumar Yadav,Middle-Overs Accelerator,Spin Dominator,2848,908,Robust Evidence,0.1199,0.0893,0.0363,0.1331,0.0476,0.3529,0.4676,0.1655,8,Elite Phase Specialist,CORE CANDIDATE
+25507,Edson Silva,Finisher / Death Specialist,Middle-Overs Accelerator,50,38,Moderate Evidence,0.1852,0.0817,0.123,0.6727,0.323,0.0672,0.0,0.3333,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+6819,Yashasvi Jaiswal,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,1936,77,Robust Evidence,0.1666,0.0795,0.1034,0.3829,0.3126,0.288,0.5843,0.1461,8,Elite Phase Specialist,CORE CANDIDATE
+5553,Phil Salt,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,1700,107,Robust Evidence,0.1537,0.0753,0.0931,0.2974,0.3256,0.3582,0.5238,0.25,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+4842,Shamar Springer,Finisher / Death Specialist,Pure Death Finisher,70,70,Moderate Evidence,0.1633,0.0738,0.1063,0.3966,,0.4648,0.4286,0.0,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+6676,Azmatullah Omarzai,Finisher / Death Specialist,Middle-Overs Accelerator,688,466,Robust Evidence,0.1132,0.071,0.0502,0.1375,-0.0259,0.4126,0.6038,0.2453,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+1107,Mohammad Nabi,Finisher / Death Specialist,Middle-Overs Accelerator,681,490,Robust Evidence,0.1122,0.071,0.049,0.1351,0.3827,0.3453,0.62,0.24,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+4229,George Linde,Finisher / Death Specialist,Middle-Overs Accelerator,147,138,Moderate Evidence,0.1401,0.0685,0.085,0.2416,-0.3299,0.386,0.3077,0.2308,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+24017,Brian Bennett,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,815,119,Robust Evidence,0.1429,0.0674,0.0897,0.263,0.4838,0.3091,0.5455,0.2273,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+46066,Vipraj Nigam,Finisher / Death Specialist,Middle-Overs Accelerator,92,92,Moderate Evidence,0.149,0.0666,0.0979,0.311,,0.5159,0.5,0.1,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+8301,Asif Khan,Finisher / Death Specialist,Middle-Overs Accelerator,207,89,Robust Evidence,0.1494,0.0661,0.0989,0.3173,1.5954,0.3835,0.5385,0.3077,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+2921,Fakhar Zaman,Middle-Overs Accelerator,Top-Order Stabilizer,889,295,Robust Evidence,0.1177,0.0655,0.062,0.1576,0.2665,0.3419,0.617,0.1064,8,Elite Phase Specialist,CORE CANDIDATE
+143,Dinesh Karthik,Finisher / Death Specialist,Middle-Overs Accelerator,683,524,Robust Evidence,0.1026,0.0627,0.0474,0.1222,-0.1738,0.5676,0.5902,0.1475,8,Elite Phase Specialist,CORE CANDIDATE
+2756,Shashank Singh,Finisher / Death Specialist,Middle-Overs Accelerator,588,405,Robust Evidence,0.1064,0.0613,0.0536,0.1327,0.4358,0.4758,0.5714,0.2619,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+838,Glenn Maxwell,Middle-Overs Accelerator,Late-Overs Finisher,1004,360,Robust Evidence,0.1057,0.0581,0.0566,0.1351,0.0307,0.5068,0.56,0.3067,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+2436,Dasun Shanaka,Finisher / Death Specialist,Middle-Overs Accelerator,802,558,Robust Evidence,0.0963,0.0576,0.046,0.1136,0.2274,0.3318,0.541,0.2295,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+5039,Rajat Patidar,Middle-Overs Accelerator,Spin Dominator,970,237,Robust Evidence,0.1148,0.0573,0.0682,0.1632,0.2362,0.3657,0.5208,0.125,8,Elite Phase Specialist,CORE CANDIDATE
+3323,Jimmy Neesham,Finisher / Death Specialist,Middle-Overs Accelerator,441,332,Robust Evidence,0.1051,0.0556,0.0587,0.1367,0.6068,0.4916,0.641,0.1795,8,Elite Phase Specialist,CORE CANDIDATE
+8295,Matthew Forde,Finisher / Death Specialist,Middle-Overs Accelerator,116,100,Moderate Evidence,0.1248,0.0445,0.0953,0.2495,0.5271,0.4973,0.4286,0.3571,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+2639,Marcus Stoinis,Finisher / Death Specialist,Middle-Overs Accelerator,1300,698,Robust Evidence,0.0786,0.0439,0.0413,0.0899,-0.1505,0.4997,0.5506,0.1685,8,Elite Phase Specialist,CORE CANDIDATE
+5379,Mark Adair,Finisher / Death Specialist,Middle-Overs Accelerator,284,272,Robust Evidence,0.0977,0.0436,0.0642,0.1336,-0.052,0.4084,0.4444,0.3333,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+4369,Shai Hope,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,1128,211,Robust Evidence,0.1037,0.0434,0.0717,0.1529,0.3444,0.3681,0.6379,0.1897,8,Elite Phase Specialist,CORE CANDIDATE
+26830,Nishant Kumar Sindhu,Middle-Overs Accelerator,Spin Dominator,67,27,Moderate Evidence,0.1526,0.0427,0.1305,0.7179,2.3115,0.3535,0.4286,0.4286,7,Elite Phase Specialist,CONDITIONAL CANDIDATE
+6272,William Jacks,Middle-Overs Accelerator,Top-Order Stabilizer,715,117,Robust Evidence,0.1173,0.0413,0.0903,0.2176,0.7043,0.3948,0.5636,0.0909,8,Elite Phase Specialist,CORE CANDIDATE
+7741,Gareth Delany,Finisher / Death Specialist,Middle-Overs Accelerator,298,268,Robust Evidence,0.0957,0.0412,0.0647,0.1314,-0.188,0.43,0.6452,0.3548,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+20006,Ramandeep Singh,Finisher / Death Specialist,Middle-Overs Accelerator,298,237,Robust Evidence,0.0912,0.0338,0.0682,0.1297,-0.2115,0.6138,0.5152,0.1818,8,Elite Phase Specialist,CORE CANDIDATE
+2633,Jason Holder,Finisher / Death Specialist,Middle-Overs Accelerator,465,363,Robust Evidence,0.0813,0.0338,0.0564,0.1037,0.5557,0.6123,0.6102,0.2881,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+8101,Ashutosh Sharma,Finisher / Death Specialist,Middle-Overs Accelerator,368,310,Robust Evidence,0.0823,0.0313,0.0606,0.1089,0.141,0.5156,0.5714,0.1786,8,Elite Phase Specialist,CORE CANDIDATE
+25213,Dewald Brevis,Middle-Overs Accelerator,Spin Dominator,658,217,Robust Evidence,0.0902,0.0306,0.0709,0.1318,0.1472,0.5955,0.55,0.175,7,Elite Phase Specialist,CORE CANDIDATE
+3125,Nicholas Pooran,Finisher / Death Specialist,Middle-Overs Accelerator,2091,789,Robust Evidence,0.0633,0.0305,0.0389,0.0713,0.0691,0.4837,0.5913,0.1478,8,Elite Phase Specialist,CORE CANDIDATE
+24779,Ijaz Ahmadzai,Finisher / Death Specialist,Middle-Overs Accelerator,114,114,Moderate Evidence,0.1068,0.0301,0.0911,0.2004,,0.5582,0.5,0.1667,7,Elite Phase Specialist,CONDITIONAL CANDIDATE
+3374,Mark Chapman,Middle-Overs Accelerator,Late-Overs Finisher,906,430,Robust Evidence,0.0725,0.0287,0.0521,0.0894,0.2251,0.3526,0.6226,0.1698,8,Elite Phase Specialist,CORE CANDIDATE
+2984,Sikandar Raza,Middle-Overs Accelerator,Late-Overs Finisher,1047,654,Robust Evidence,0.0615,0.0256,0.0426,0.0709,0.3514,0.3304,0.5614,0.2105,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+4986,Rovman Powell,Finisher / Death Specialist,Middle-Overs Accelerator,1651,990,Robust Evidence,0.0546,0.0253,0.0348,0.0601,0.1332,0.3847,0.6,0.16,8,Elite Phase Specialist,CORE CANDIDATE
+1758,Patrick Cummins,Finisher / Death Specialist,Middle-Overs Accelerator,253,222,Robust Evidence,0.0817,0.0226,0.0702,0.1185,-0.8799,0.564,0.6,0.2571,7,Elite Phase Specialist,CONDITIONAL CANDIDATE
+55747,Benjamin Calitz,Middle-Overs Accelerator,Late-Overs Finisher,81,52,Moderate Evidence,0.1186,0.0218,0.1149,0.3466,-0.5222,0.4243,0.3333,0.0,7,Elite Phase Specialist,CONDITIONAL CANDIDATE
+2334,Dwaine Pretorius,Finisher / Death Specialist,Pure Death Finisher,86,56,Moderate Evidence,0.1133,0.0183,0.1128,0.3157,0.3139,0.6428,0.4545,0.2727,7,Elite Phase Specialist,CONDITIONAL CANDIDATE
+20310,Ahmed Daniyal,Finisher / Death Specialist,Pure Death Finisher,23,23,Sparse Evidence,0.129,0.0166,0.1335,0.69,,0.9372,0.3333,0.0,6,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3276,Gudakesh Motie,Finisher / Death Specialist,Middle-Overs Accelerator,154,146,Robust Evidence,0.0859,0.0159,0.0832,0.1448,0.3482,0.5315,0.6667,0.2381,6,Elite Phase Specialist,CONDITIONAL CANDIDATE
+33114,Milan Rathnayake,Finisher / Death Specialist,Middle-Overs Accelerator,55,52,Moderate Evidence,0.1116,0.0148,0.1149,0.3261,,0.2772,0.6667,0.0,6,Elite Phase Specialist,CONDITIONAL CANDIDATE
+6423,Riyan Parag,Finisher / Death Specialist,Middle-Overs Accelerator,1131,489,Robust Evidence,0.0553,0.014,0.049,0.0666,0.3088,0.3195,0.6377,0.1449,7,Elite Phase Specialist,CORE CANDIDATE
+47370,Aniket Verma,Finisher / Death Specialist,Middle-Overs Accelerator,205,109,Robust Evidence,0.0914,0.0135,0.0925,0.1752,-0.3671,0.7506,0.55,0.2,7,Elite Phase Specialist,CORE CANDIDATE
+4821,Mahipal Lomror,Finisher / Death Specialist,Middle-Overs Accelerator,235,121,Robust Evidence,0.0885,0.0134,0.0892,0.1617,0.4961,0.5264,0.56,0.4,7,Elite Phase Specialist,CONDITIONAL CANDIDATE
+7001,Dilon Heyliger,Finisher / Death Specialist,Pure Death Finisher,20,20,Sparse Evidence,0.1264,0.012,0.136,0.7587,,0.3403,0.0,0.3333,7,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8741,Mohammad Haris,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,418,101,Robust Evidence,0.0914,0.0114,0.0949,0.1818,1.5313,0.4467,0.6176,0.3529,7,Elite Phase Specialist,CONDITIONAL CANDIDATE
+50284,Vaibhav Sooryavanshi,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,714,16,Moderate Evidence,0.1285,0.0111,0.1394,0.9316,0.3594,0.5751,0.3143,0.1429,6,Elite Phase Specialist,CONDITIONAL CANDIDATE
+88,Faf du Plessis,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,1306,142,Robust Evidence,0.0817,0.011,0.0841,0.1393,0.6136,0.2266,0.6667,0.0556,7,Elite Phase Specialist,CORE CANDIDATE
+6726,Romario Shepherd,Finisher / Death Specialist,Middle-Overs Accelerator,727,619,Robust Evidence,0.0438,0.007,0.0438,0.0509,0.0173,0.3823,0.5588,0.2059,6,Elite Phase Specialist,CONDITIONAL CANDIDATE
+7634,Aaron Jones,Middle-Overs Accelerator,Top-Order Stabilizer,40,18,Sparse Evidence,0.1218,0.0059,0.1376,0.7985,1.754,0.4437,0.6667,0.0,6,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6443,Rohail Nazir,Finisher / Death Specialist,Pure Death Finisher,21,19,Sparse Evidence,0.1203,0.0051,0.1368,0.7533,,0.0,0.0,0.0,6,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1101,George Dockrell,Finisher / Death Specialist,Middle-Overs Accelerator,519,379,Robust Evidence,0.0514,0.0049,0.0553,0.065,0.1405,0.4125,0.5,0.1429,6,Elite Phase Specialist,CORE CANDIDATE
+20327,Usman Khan,Middle-Overs Accelerator,Late-Overs Finisher,333,107,Robust Evidence,0.0817,0.0033,0.0931,0.158,-0.097,0.2559,0.6522,0.2174,7,Elite Phase Specialist,CONDITIONAL CANDIDATE
+7625,Suryansh Shedge,Finisher / Death Specialist,Middle-Overs Accelerator,115,97,Moderate Evidence,0.0839,0.0028,0.0962,0.1703,-0.3795,0.3001,0.5833,0.4167,7,Elite Phase Specialist,CONDITIONAL CANDIDATE
+4260,Heinrich Klaasen,Finisher / Death Specialist,Middle-Overs Accelerator,1480,649,Robust Evidence,0.0383,0.0023,0.0428,0.0442,0.1109,0.3378,0.4722,0.1111,6,Elite Phase Specialist,CORE CANDIDATE
+26854,SM Meherob Hasan,Finisher / Death Specialist,Middle-Overs Accelerator,56,55,Moderate Evidence,0.0976,0.0022,0.1133,0.275,,0.3744,0.6667,0.0,6,Elite Phase Specialist,CONDITIONAL CANDIDATE
+35102,Zikria Islam,Finisher / Death Specialist,Middle-Overs Accelerator,42,39,Sparse Evidence,0.1052,0.0022,0.1223,0.3749,,0.3146,0.8,0.4,6,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+24372,Muzahir Raza,Finisher / Death Specialist,Middle-Overs Accelerator,28,28,Sparse Evidence,0.1068,-0.0025,0.1298,0.488,,0.0981,0.6667,0.6667,3,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+19147,Faraz Akram,Finisher / Death Specialist,Pure Death Finisher,61,61,Moderate Evidence,0.0901,-0.0028,0.1104,0.2378,,0.3909,0.4,0.2,3,Elite Phase Specialist,HIGH-RISK
+19902,Tim Pringle,Finisher / Death Specialist,Pure Death Finisher,38,38,Sparse Evidence,0.1008,-0.0028,0.123,0.3659,,0.1138,0.75,0.25,3,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+33969,Tinotenda Maposa,Finisher / Death Specialist,Middle-Overs Accelerator,45,44,Sparse Evidence,0.0971,-0.0033,0.1193,0.3179,,0.734,0.5,0.2,3,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7900,Tanzid Hasan,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,944,48,Robust Evidence,0.0946,-0.0039,0.117,0.2918,0.5311,0.3349,0.7045,0.1818,4,Elite Phase Specialist,HIGH-RISK
+1077,David Miller,Finisher / Death Specialist,Middle-Overs Accelerator,1338,739,Robust Evidence,0.0293,-0.0045,0.0402,0.0333,0.2733,0.4162,0.679,0.0864,3,Elite Phase Specialist,HIGH-RISK
+4773,Jaker Ali Anik,Finisher / Death Specialist,Middle-Overs Accelerator,532,395,Robust Evidence,0.0408,-0.0049,0.0542,0.0511,0.1134,0.3272,0.5294,0.1471,3,Elite Phase Specialist,HIGH-RISK
+22134,Luke Jongwe,Finisher / Death Specialist,Middle-Overs Accelerator,128,120,Moderate Evidence,0.0703,-0.0051,0.0894,0.1288,1.1807,0.3901,0.5294,0.3529,2,Elite Phase Specialist,HIGH-RISK
+38855,Mohammad Saifuddin,Finisher / Death Specialist,Middle-Overs Accelerator,82,73,Moderate Evidence,0.0828,-0.0056,0.1051,0.1963,,0.8916,0.5,0.3333,2,Elite Phase Specialist,HIGH-RISK
+3647,Shreyas Iyer,Middle-Overs Accelerator,Late-Overs Finisher,1935,563,Robust Evidence,0.0327,-0.0059,0.0458,0.0385,0.2224,0.3422,0.5918,0.1429,3,Elite Phase Specialist,HIGH-RISK
+20163,Aasif Sheikh,Middle-Overs Accelerator,Late-Overs Finisher,55,27,Moderate Evidence,0.1029,-0.007,0.1305,0.4838,0.9851,0.1718,0.5,0.5,2,Elite Phase Specialist,HIGH-UPSIDE / HIGH-UNCERTAINTY
+7761,Ravinderpal Singh,Finisher / Death Specialist,Pure Death Finisher,25,21,Sparse Evidence,0.1032,-0.0106,0.1351,0.5948,,0.0845,0.6667,0.6667,2,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6674,Rahmanullah Gurbaz,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,1175,88,Robust Evidence,0.0702,-0.0134,0.0993,0.1499,-0.157,0.3695,0.6812,0.2464,2,Elite Phase Specialist,HIGH-RISK
+34466,Arafat Minhas,Finisher / Death Specialist,Middle-Overs Accelerator,126,125,Moderate Evidence,0.0556,-0.0186,0.0881,0.1001,,0.1109,0.1667,0.0,1,Elite Phase Specialist,HIGH-RISK
+7978,Johnathan Campbell,Middle-Overs Accelerator,Late-Overs Finisher,101,75,Moderate Evidence,0.0682,-0.0195,0.1042,0.1592,-0.1587,0.2957,0.6667,0.2222,1,Elite Phase Specialist,HIGH-RISK
+2671,Liton Das,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,1175,153,Robust Evidence,0.0483,-0.0205,0.0817,0.0799,0.1002,0.243,0.5246,0.1475,1,Elite Phase Specialist,HIGH-RISK
+4686,Joshua Clarkson,Finisher / Death Specialist,Middle-Overs Accelerator,118,118,Moderate Evidence,0.0539,-0.0219,0.09,0.0996,,0.3347,0.5556,0.1111,1,Elite Phase Specialist,HIGH-RISK
+5839,Yasir Ali Chowdhury,Finisher / Death Specialist,Middle-Overs Accelerator,162,127,Robust Evidence,0.0519,-0.0219,0.0876,0.0927,0.4698,0.2891,0.5833,0.0833,1,Elite Phase Specialist,HIGH-RISK
+3653,Avesh Khan,Finisher / Death Specialist,Pure Death Finisher,60,59,Moderate Evidence,0.0708,-0.0229,0.1113,0.1908,,0.7436,0.5789,0.2105,1,Elite Phase Specialist,HIGH-RISK
+2680,Nurul Hasan,Finisher / Death Specialist,Middle-Overs Accelerator,245,180,Robust Evidence,0.0397,-0.0248,0.0766,0.0617,-0.2791,0.4879,0.5455,0.1364,0,Elite Phase Specialist,HIGH-RISK
+5928,Prithvi Shaw,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,408,68,Robust Evidence,0.0645,-0.0257,0.1072,0.1594,0.3937,0.1939,0.6538,0.1538,1,Elite Phase Specialist,HIGH-RISK
+20702,Tristan Stubbs,Finisher / Death Specialist,Middle-Overs Accelerator,1113,682,Robust Evidence,0.0086,-0.0265,0.0418,0.0099,0.1259,0.4329,0.6232,0.1449,0,Elite Phase Specialist,HIGH-RISK
+21790,Tashinga Musekiwa,Finisher / Death Specialist,Middle-Overs Accelerator,213,165,Robust Evidence,0.039,-0.0277,0.0793,0.0627,0.0691,0.2678,0.381,0.2381,0,Elite Phase Specialist,HIGH-RISK
+8652,Mohammad Ishaq,Finisher / Death Specialist,Middle-Overs Accelerator,137,96,Moderate Evidence,0.0524,-0.0289,0.0966,0.1069,0.3639,0.4578,0.5385,0.2308,1,Elite Phase Specialist,HIGH-RISK
+4703,Rishabh Pant,Middle-Overs Accelerator,Late-Overs Finisher,1294,370,Robust Evidence,0.0155,-0.0315,0.0559,0.0197,0.1321,0.3198,0.6438,0.137,0,Elite Phase Specialist,HIGH-RISK
+8647,Sediqullah Atal,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,847,114,Robust Evidence,0.045,-0.0317,0.0911,0.0844,0.2138,0.273,0.6579,0.1316,0,Elite Phase Specialist,HIGH-RISK
+6273,Tom Banton,Middle-Overs Accelerator,Top-Order Stabilizer,285,71,Robust Evidence,0.0573,-0.0318,0.1059,0.1381,0.1187,0.2704,0.5789,0.2632,1,Elite Phase Specialist,HIGH-RISK
+15303,Bilal Tahir,Middle-Overs Accelerator,Top-Order Stabilizer,23,11,Sparse Evidence,0.0893,-0.0319,0.1439,0.9015,1.2474,0.5009,0.3333,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+15629,Shayan Jahangir,Middle-Overs Accelerator,Spin Dominator,47,37,Sparse Evidence,0.072,-0.0321,0.1236,0.2665,0.9644,0.3362,0.3333,0.0,1,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+167,Ajinkya Rahane,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,1057,144,Robust Evidence,0.0378,-0.0326,0.0836,0.064,0.2412,0.2442,0.75,0.0714,0,Elite Phase Specialist,HIGH-RISK
+3645,Sarfaraz Khan,Middle-Overs Accelerator,Late-Overs Finisher,231,114,Robust Evidence,0.0436,-0.0331,0.0911,0.0819,0.6163,0.4535,0.625,0.125,0,Elite Phase Specialist,HIGH-RISK
+22137,Fionn Hand,Finisher / Death Specialist,Middle-Overs Accelerator,37,37,Sparse Evidence,0.0697,-0.0343,0.1236,0.2582,,0.2417,0.7143,0.2857,1,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1596,Moeen Ali,Finisher / Death Specialist,Middle-Overs Accelerator,801,380,Robust Evidence,0.0116,-0.0348,0.0552,0.0147,0.2801,0.4481,0.6226,0.2264,0,Elite Phase Specialist,HIGH-RISK
+4847,Finn Allen,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,871,47,Robust Evidence,0.0642,-0.0348,0.1176,0.2009,0.015,0.4759,0.4615,0.1731,1,Elite Phase Specialist,HIGH-RISK
+5882,Afif Hossain,Finisher / Death Specialist,Middle-Overs Accelerator,375,196,Robust Evidence,0.0273,-0.0349,0.074,0.0413,-0.1735,0.2236,0.7,0.15,0,Elite Phase Specialist,HIGH-RISK
+7903,Shamim Hossain,Finisher / Death Specialist,Middle-Overs Accelerator,457,279,Robust Evidence,0.0183,-0.0352,0.0635,0.0248,-0.0256,0.3443,0.7027,0.3514,0,Elite Phase Specialist,HIGH-RISK
+7201,Haroon Arshad,Finisher / Death Specialist,Middle-Overs Accelerator,18,18,Sparse Evidence,0.0805,-0.0354,0.1376,0.5275,,0.3198,0.0,0.5,1,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4106,Daryl Mitchell,Middle-Overs Accelerator,Late-Overs Finisher,1181,498,Robust Evidence,0.0049,-0.036,0.0486,0.0059,0.1047,0.2799,0.5942,0.087,0,Elite Phase Specialist,HIGH-RISK
+4235,Sisanda Magala,Middle-Overs Accelerator,Spin Dominator,5,5,Sparse Evidence,0.0896,-0.0367,0.15,1.8809,,0.0,0.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+39444,Basil Hameed,Middle-Overs Accelerator,Spin Dominator,34,21,Sparse Evidence,0.0771,-0.0367,0.1351,0.4444,0.28,0.4082,0.3333,0.0,1,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+796,Matthew Wade,Finisher / Death Specialist,Middle-Overs Accelerator,446,251,Robust Evidence,0.0188,-0.0372,0.0666,0.0263,-0.0063,0.2963,0.6667,0.1,0,Elite Phase Specialist,HIGH-RISK
+7094,Curtis Campher,Middle-Overs Accelerator,Late-Overs Finisher,545,347,Robust Evidence,0.0092,-0.0393,0.0576,0.0118,0.033,0.2851,0.6571,0.1714,0,Elite Phase Specialist,HIGH-RISK
+2490,Mohammad Nawaz,Finisher / Death Specialist,Middle-Overs Accelerator,523,360,Robust Evidence,0.0077,-0.04,0.0566,0.0098,-0.7082,0.4798,0.5435,0.2174,0,Elite Phase Specialist,HIGH-RISK
+7699,Abbas Afridi,Finisher / Death Specialist,Middle-Overs Accelerator,119,119,Moderate Evidence,0.0354,-0.0402,0.0897,0.0651,,0.7071,0.5625,0.375,0,Elite Phase Specialist,HIGH-RISK
+3669,Sadeera Samarawickrama,Middle-Overs Accelerator,Late-Overs Finisher,167,45,Robust Evidence,0.0579,-0.0421,0.1187,0.1865,1.2509,0.2783,0.625,0.0,0,Elite Phase Specialist,HIGH-RISK
+1327,Johnson Charles,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,428,42,Robust Evidence,0.0592,-0.0423,0.1205,0.2002,0.1793,0.3599,0.6667,0.2222,0,Elite Phase Specialist,HIGH-RISK
+7052,Dunith Wellalage,Finisher / Death Specialist,Middle-Overs Accelerator,142,84,Moderate Evidence,0.0417,-0.0431,0.1007,0.0914,0.6531,0.5054,0.5,0.2,0,Elite Phase Specialist,HIGH-RISK
+2417,Akeal Hosein,Finisher / Death Specialist,Middle-Overs Accelerator,230,221,Robust Evidence,0.0154,-0.0438,0.0703,0.0223,0.1038,0.4359,0.625,0.2188,0,Elite Phase Specialist,HIGH-RISK
+7473,Akash Deep,Finisher / Death Specialist,Pure Death Finisher,14,14,Sparse Evidence,0.0736,-0.0453,0.1412,0.5991,,1.0975,0.6,0.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4895,Charith Asalanka,Finisher / Death Specialist,Middle-Overs Accelerator,761,264,Robust Evidence,0.0093,-0.0455,0.0651,0.0128,0.1623,0.4392,0.6604,0.2453,0,Elite Phase Specialist,HIGH-RISK
+4639,Wellington Masakadza,Finisher / Death Specialist,Middle-Overs Accelerator,157,146,Robust Evidence,0.0243,-0.0458,0.0832,0.0409,1.059,0.2753,0.619,0.4286,0,Elite Phase Specialist,HIGH-RISK
+19530,Shahnawaz Dhani,Finisher / Death Specialist,Pure Death Finisher,7,7,Sparse Evidence,0.0778,-0.0468,0.1479,1.189,,1.3345,0.5,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3782,M Shahrukh Khan,Finisher / Death Specialist,Middle-Overs Accelerator,433,266,Robust Evidence,0.0074,-0.0472,0.0649,0.0102,0.1893,0.4675,0.4186,0.186,0,Elite Phase Specialist,HIGH-RISK
+2003,Bhanuka Rajapaksa,Middle-Overs Accelerator,Late-Overs Finisher,438,151,Robust Evidence,0.0213,-0.0478,0.0821,0.0354,0.4755,0.3595,0.4839,0.2258,0,Elite Phase Specialist,HIGH-RISK
+26988,Jitenkumar Ramanandi,Finisher / Death Specialist,Middle-Overs Accelerator,14,14,Sparse Evidence,0.0703,-0.0485,0.1412,0.5725,,0.2437,0.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6280,Harry Brook,Finisher / Death Specialist,Middle-Overs Accelerator,938,198,Robust Evidence,0.0132,-0.0488,0.0736,0.0198,0.4139,0.3741,0.6607,0.1786,0,Elite Phase Specialist,HIGH-RISK
+47050,Shamar Joseph,Finisher / Death Specialist,Pure Death Finisher,30,30,Sparse Evidence,0.0592,-0.0489,0.1283,0.2565,,0.5822,0.5714,0.1429,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8729,Haider Shah,Middle-Overs Accelerator,Late-Overs Finisher,68,68,Moderate Evidence,0.0412,-0.049,0.1072,0.1019,,0.0562,0.0,0.0,0,Elite Phase Specialist,HIGH-RISK
+19894,Mitchell Hay,Finisher / Death Specialist,Middle-Overs Accelerator,70,40,Moderate Evidence,0.053,-0.0495,0.1217,0.1854,0.4017,0.403,0.8889,0.4444,0,Elite Phase Specialist,HIGH-RISK
+2463,Ryan Burl,Finisher / Death Specialist,Middle-Overs Accelerator,734,544,Robust Evidence,-0.0114,-0.0506,0.0466,-0.0135,0.1056,0.2198,0.6905,0.1429,0,Elite Phase Specialist,HIGH-RISK
+3415,Matthew Cross,Middle-Overs Accelerator,Late-Overs Finisher,110,53,Moderate Evidence,0.0451,-0.0512,0.1144,0.1301,0.2938,0.1321,0.8,0.0,0,Elite Phase Specialist,HIGH-RISK
+7409,Sundeep Jora,Finisher / Death Specialist,Middle-Overs Accelerator,66,42,Moderate Evidence,0.0497,-0.0517,0.1205,0.1681,1.3243,0.1909,0.3333,0.0,0,Elite Phase Specialist,HIGH-RISK
+29066,Zakary Foulkes,Finisher / Death Specialist,Pure Death Finisher,73,73,Moderate Evidence,0.036,-0.0525,0.1051,0.0853,,0.2971,0.5833,0.3333,0,Elite Phase Specialist,HIGH-RISK
+3297,Shimron Hetmyer,Finisher / Death Specialist,Middle-Overs Accelerator,1306,747,Robust Evidence,-0.0192,-0.0529,0.04,-0.0218,0.0863,0.4682,0.617,0.1064,0,Elite Phase Specialist,HIGH-RISK
+3635,Jason Smith,Middle-Overs Accelerator,Late-Overs Finisher,69,45,Moderate Evidence,0.047,-0.0529,0.1187,0.1516,0.2968,0.369,0.625,0.0,0,Elite Phase Specialist,HIGH-RISK
+43250,Dilpreet Singh Bajwa,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,55,15,Moderate Evidence,0.064,-0.0541,0.1403,0.4909,1.0352,0.4604,0.5,0.0,0,Elite Phase Specialist,HIGH-RISK
+7155,Sahan Arachchige,Finisher / Death Specialist,Middle-Overs Accelerator,194,114,Robust Evidence,0.0225,-0.0542,0.0911,0.0422,-0.3355,0.3163,0.6364,0.2727,0,Elite Phase Specialist,HIGH-RISK
+6574,Alick Athanaze,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,275,27,Moderate Evidence,0.0556,-0.0542,0.1305,0.2617,0.3162,0.4186,0.8,0.2,0,Elite Phase Specialist,HIGH-RISK
+4853,Glenn Phillips,Finisher / Death Specialist,Middle-Overs Accelerator,1121,438,Robust Evidence,-0.011,-0.0545,0.0516,-0.0135,0.1326,0.2907,0.6607,0.1071,0,Elite Phase Specialist,HIGH-RISK
+4755,Shivam Dube,Finisher / Death Specialist,Middle-Overs Accelerator,1638,775,Robust Evidence,-0.0221,-0.0552,0.0393,-0.025,0.1718,0.3608,0.5816,0.1122,0,Elite Phase Specialist,HIGH-RISK
+7446,Abdul Samad,Finisher / Death Specialist,Middle-Overs Accelerator,441,307,Robust Evidence,-0.0041,-0.0553,0.0609,-0.0054,0.1137,0.574,0.6098,0.2683,0,Elite Phase Specialist,HIGH-RISK
+3578,Imad Wasim,Finisher / Death Specialist,Middle-Overs Accelerator,163,142,Robust Evidence,0.0154,-0.0554,0.0841,0.0262,0.1484,0.5026,0.6364,0.1818,0,Elite Phase Specialist,HIGH-RISK
+1924,Sam Billings,Finisher / Death Specialist,Middle-Overs Accelerator,188,107,Robust Evidence,0.023,-0.0554,0.0931,0.0444,0.2828,0.2379,0.5833,0.1667,0,Elite Phase Specialist,HIGH-RISK
+332,Angelo Mathews,Finisher / Death Specialist,Middle-Overs Accelerator,154,142,Robust Evidence,0.0146,-0.0562,0.0841,0.0248,-0.2845,0.106,0.7143,0.1429,0,Elite Phase Specialist,HIGH-RISK
+4926,Shadab Khan,Finisher / Death Specialist,Middle-Overs Accelerator,347,220,Robust Evidence,0.003,-0.0564,0.0704,0.0043,-0.5438,0.4652,0.5172,0.2759,0,Elite Phase Specialist,HIGH-RISK
+4246,Nitish Rana,Middle-Overs Accelerator,Top-Order Stabilizer,896,333,Robust Evidence,-0.008,-0.0574,0.0587,-0.0104,0.2095,0.3219,0.54,0.16,0,Elite Phase Specialist,HIGH-RISK
+1813,Deepak Chahar,Finisher / Death Specialist,Pure Death Finisher,65,65,Moderate Evidence,0.0336,-0.0578,0.1085,0.0853,,0.5986,0.7273,0.2727,0,Elite Phase Specialist,HIGH-RISK
+7690,Saim Ayub,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,921,49,Robust Evidence,0.04,-0.0581,0.1165,0.1216,0.6809,0.3712,0.6207,0.3276,0,Elite Phase Specialist,HIGH-RISK
+7260,Dhruv Jurel,Finisher / Death Specialist,Middle-Overs Accelerator,824,342,Robust Evidence,-0.0094,-0.0582,0.0579,-0.0122,0.2733,0.4444,0.6852,0.2407,0,Elite Phase Specialist,HIGH-RISK
+26843,Maaz Sadaqat,Middle-Overs Accelerator,Top-Order Stabilizer,242,14,Sparse Evidence,0.0606,-0.0583,0.1412,0.4931,0.4565,0.1126,0.25,0.125,0,Multi-Phase Versatile,INSUFFICIENT EVIDENCE
+37879,Khawaja Nafay,Middle-Overs Accelerator,Spin Dominator,39,8,Sparse Evidence,0.0649,-0.0588,0.1469,0.8763,,0.1958,0.25,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+772,Rilee Rossouw,Middle-Overs Accelerator,Late-Overs Finisher,442,111,Robust Evidence,0.0165,-0.0609,0.0919,0.0314,0.5594,0.3261,0.6154,0.3077,0,Elite Phase Specialist,HIGH-RISK
+8654,Cooper Connolly,Middle-Overs Accelerator,Top-Order Stabilizer,379,106,Robust Evidence,0.0171,-0.0616,0.0934,0.0332,0.4654,0.4082,0.619,0.2857,0,Elite Phase Specialist,HIGH-RISK
+25139,Shubham Dubey,Finisher / Death Specialist,Middle-Overs Accelerator,148,135,Moderate Evidence,0.0104,-0.0617,0.0857,0.0181,1.2207,0.52,0.5882,0.1176,0,Elite Phase Specialist,HIGH-RISK
+7912,Vikramjit Singh,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,141,18,Moderate Evidence,0.0517,-0.0642,0.1376,0.3387,0.2904,0.4655,0.6364,0.1818,0,Elite Phase Specialist,HIGH-RISK
+7692,Qasim Akram,Middle-Overs Accelerator,Spin Dominator,111,36,Moderate Evidence,0.0384,-0.0663,0.1243,0.1449,0.3187,0.3369,0.6,0.2,0,Elite Phase Specialist,HIGH-RISK
+49003,Hasan Nawaz,Middle-Overs Accelerator,Late-Overs Finisher,341,100,Robust Evidence,0.0134,-0.0668,0.0953,0.0269,-0.1541,0.6449,0.6667,0.2593,0,Elite Phase Specialist,HIGH-RISK
+395,Karn Sharma,Finisher / Death Specialist,Pure Death Finisher,22,21,Sparse Evidence,0.0468,-0.067,0.1351,0.2694,,0.2151,0.6667,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2382,Jamie Overton,Finisher / Death Specialist,Middle-Overs Accelerator,153,138,Robust Evidence,0.004,-0.0675,0.085,0.0069,0.4049,0.2291,0.7222,0.2222,0,Elite Phase Specialist,HIGH-RISK
+6281,Abhishek Sharma,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,2436,180,Robust Evidence,-0.0038,-0.0683,0.0766,-0.0059,-0.2957,0.4697,0.4851,0.1716,0,Elite Phase Specialist,HIGH-RISK
+5441,Barry McCarthy,Finisher / Death Specialist,Middle-Overs Accelerator,116,116,Moderate Evidence,0.0079,-0.0683,0.0905,0.0147,,0.3529,0.6667,0.4667,0,Elite Phase Specialist,HIGH-RISK
+7894,Tony Munyonga,Finisher / Death Specialist,Middle-Overs Accelerator,144,100,Moderate Evidence,0.0112,-0.069,0.0953,0.0224,0.4008,0.2441,0.6154,0.1538,0,Elite Phase Specialist,HIGH-RISK
+4904,Kamindu Mendis,Finisher / Death Specialist,Middle-Overs Accelerator,615,238,Robust Evidence,-0.0119,-0.0692,0.0681,-0.0169,0.0715,0.204,0.6579,0.2105,0,Elite Phase Specialist,HIGH-RISK
+6651,Towhid Hridoy,Finisher / Death Specialist,Middle-Overs Accelerator,1029,391,Robust Evidence,-0.0235,-0.0694,0.0545,-0.0295,-0.0522,0.1974,0.6038,0.1321,0,Elite Phase Specialist,HIGH-RISK
+22188,Aryan Dutt,Finisher / Death Specialist,Middle-Overs Accelerator,46,46,Sparse Evidence,0.03,-0.0695,0.1182,0.0951,,0.2049,0.4,0.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3285,Abu Haider,Finisher / Death Specialist,Pure Death Finisher,28,26,Sparse Evidence,0.0405,-0.07,0.1312,0.1962,,0.6963,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+535,Ambati Rayudu,Finisher / Death Specialist,Middle-Overs Accelerator,345,159,Robust Evidence,-0.0029,-0.0707,0.0805,-0.0048,-0.0184,0.3507,0.6957,0.087,0,Elite Phase Specialist,HIGH-RISK
+3605,Aiden Markram,Middle-Overs Accelerator,Top-Order Stabilizer,1718,558,Robust Evidence,-0.0329,-0.0717,0.046,-0.0388,0.245,0.2496,0.6702,0.1383,0,Elite Phase Specialist,HIGH-RISK
+27469,Aryansh Sharma,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,150,7,Sparse Evidence,0.0524,-0.0721,0.1479,0.8011,,0.3734,0.5,0.375,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5750,Ehsan Khan,Finisher / Death Specialist,Pure Death Finisher,33,33,Sparse Evidence,0.0321,-0.0742,0.1262,0.1294,,0.2163,0.75,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8005,Zawar Farid,Finisher / Death Specialist,Middle-Overs Accelerator,51,46,Moderate Evidence,0.0251,-0.0744,0.1182,0.0796,-0.1502,0.204,0.8,0.4,0,Elite Phase Specialist,HIGH-RISK
+768,Reeza Hendricks,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,860,223,Robust Evidence,-0.0159,-0.0749,0.07,-0.023,0.19,0.339,0.7059,0.1176,0,Elite Phase Specialist,HIGH-RISK
+7924,Kushal Malla,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,55,31,Moderate Evidence,0.0322,-0.0752,0.1276,0.1362,1.5459,0.3531,0.6667,0.0,0,Elite Phase Specialist,HIGH-RISK
+6922,Abdul Samad,Finisher / Death Specialist,Middle-Overs Accelerator,105,91,Moderate Evidence,0.0075,-0.0752,0.0982,0.0158,1.2075,0.127,0.4444,0.2222,0,Elite Phase Specialist,HIGH-RISK
+19145,Aamer Jamal,Finisher / Death Specialist,Middle-Overs Accelerator,23,23,Sparse Evidence,0.0367,-0.0757,0.1335,0.1964,,0.367,0.3333,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+781,Sunil Narine,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,554,92,Robust Evidence,0.0056,-0.0768,0.0979,0.0117,-0.2154,0.6195,0.6735,0.3265,0,Elite Phase Specialist,HIGH-RISK
+2485,Babar Azam,Middle-Overs Accelerator,Top-Order Stabilizer,1220,177,Robust Evidence,-0.012,-0.0769,0.0771,-0.0188,-0.0369,0.1849,0.7885,0.2115,0,Multi-Phase Versatile,HIGH-RISK
+25048,Umran Malik,Finisher / Death Specialist,Pure Death Finisher,18,18,Sparse Evidence,0.039,-0.0769,0.1376,0.2556,,0.663,0.7143,0.1429,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+22187,Ryan Klein,Finisher / Death Specialist,Pure Death Finisher,66,62,Moderate Evidence,0.0149,-0.0776,0.1099,0.039,0.6114,0.5848,0.6,0.2,0,Elite Phase Specialist,HIGH-RISK
+6433,Darwish Rasooli,Middle-Overs Accelerator,Late-Overs Finisher,441,162,Robust Evidence,-0.0105,-0.0778,0.0799,-0.017,-0.1984,0.5153,0.5926,0.2222,0,Elite Phase Specialist,HIGH-RISK
+1045,David Wiese,Finisher / Death Specialist,Pure Death Finisher,11,11,Sparse Evidence,0.0427,-0.0786,0.1439,0.4304,,0.8269,0.6667,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2367,Travis Head,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,1182,33,Moderate Evidence,0.0273,-0.079,0.1262,0.1099,0.0599,0.4395,0.4848,0.197,0,Elite Phase Specialist,HIGH-RISK
+773,Shadley Van Schalkwyk,Finisher / Death Specialist,Middle-Overs Accelerator,14,8,Sparse Evidence,0.0438,-0.0799,0.1469,0.5914,,0.8454,0.6667,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3281,Mosaddek Hossain,Finisher / Death Specialist,Middle-Overs Accelerator,117,102,Moderate Evidence,-0.001,-0.0806,0.0946,-0.0019,-0.1873,0.2742,0.8182,0.2727,0,Elite Phase Specialist,HIGH-RISK
+8,Mahendra Singh Dhoni,Finisher / Death Specialist,Pure Death Finisher,497,419,Robust Evidence,-0.0367,-0.0811,0.0527,-0.0455,0.5369,0.6581,0.6042,0.1458,0,Elite Phase Specialist,HIGH-RISK
+20175,Nandan Yadav,Finisher / Death Specialist,Pure Death Finisher,2,2,Sparse Evidence,0.0478,-0.0813,0.1533,2.4355,,0.0,0.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+21388,Martin Coetzee,Finisher / Death Specialist,Middle-Overs Accelerator,23,17,Sparse Evidence,0.0343,-0.0823,0.1385,0.2364,,0.2778,0.0,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6881,Scott Edwards,Finisher / Death Specialist,Middle-Overs Accelerator,178,79,Robust Evidence,0.0036,-0.0828,0.1026,0.0082,-0.2006,0.2456,0.5833,0.1667,0,Elite Phase Specialist,HIGH-RISK
+31107,Yasin Patel,Finisher / Death Specialist,Pure Death Finisher,7,3,Sparse Evidence,0.0454,-0.0828,0.1522,1.5572,,0.0,0.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6450,Mujeeb Ur Rahman,Finisher / Death Specialist,Pure Death Finisher,74,74,Moderate Evidence,0.0049,-0.0832,0.1046,0.0115,,0.446,0.7143,0.2143,0,Elite Phase Specialist,HIGH-RISK
+7756,Kaleem Sana,Finisher / Death Specialist,Pure Death Finisher,4,4,Sparse Evidence,0.044,-0.0832,0.1511,1.1429,,0.0,0.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+914,Krishnappa Gowtham,Finisher / Death Specialist,Middle-Overs Accelerator,46,44,Sparse Evidence,0.0171,-0.0834,0.1193,0.0558,1.4479,0.6932,0.625,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4854,Rachin Ravindra,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,604,156,Robust Evidence,-0.0152,-0.0835,0.0811,-0.025,0.1089,0.515,0.6364,0.2273,0,Elite Phase Specialist,HIGH-RISK
+6725,Sherfane Rutherford,Finisher / Death Specialist,Middle-Overs Accelerator,870,471,Robust Evidence,-0.0418,-0.0838,0.0499,-0.0507,0.1167,0.3894,0.7679,0.2857,0,Elite Phase Specialist,HIGH-RISK
+232,Tom Cooper,Middle-Overs Accelerator,Top-Order Stabilizer,22,16,Sparse Evidence,0.0334,-0.0839,0.1394,0.2422,0.5347,0.5786,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1210,James Vince,Middle-Overs Accelerator,Top-Order Stabilizer,86,19,Moderate Evidence,0.0306,-0.0846,0.1368,0.1918,1.1316,0.055,0.6,0.2,0,Elite Phase Specialist,HIGH-RISK
+2214,Gulbadin Naib,Finisher / Death Specialist,Middle-Overs Accelerator,213,92,Robust Evidence,-0.0023,-0.0847,0.0979,-0.0047,0.2658,0.2573,0.7857,0.0714,0,Multi-Phase Versatile,HIGH-RISK
+48575,Sahil Parakh,Middle-Overs Accelerator,Top-Order Stabilizer,33,6,Sparse Evidence,0.0401,-0.0853,0.1489,0.7079,,0.5987,0.5,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2985,Mark Wood,Finisher / Death Specialist,Pure Death Finisher,20,18,Sparse Evidence,0.0305,-0.0854,0.1376,0.2001,,0.6305,0.6667,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+20005,Arshad Khan,Finisher / Death Specialist,Middle-Overs Accelerator,106,97,Moderate Evidence,-0.0049,-0.0859,0.0962,-0.0099,,0.3432,0.7692,0.3846,0,Elite Phase Specialist,HIGH-RISK
+21784,Brad Evans,Finisher / Death Specialist,Middle-Overs Accelerator,128,128,Moderate Evidence,-0.0126,-0.0861,0.0874,-0.0224,,0.4371,0.6471,0.2941,0,Elite Phase Specialist,HIGH-RISK
+1187,Jason Roy,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,401,82,Robust Evidence,-0.0008,-0.0862,0.1015,-0.0017,-0.4949,0.2852,0.6842,0.1053,0,Elite Phase Specialist,HIGH-RISK
+8600,Tadiwanashe Marumani,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,449,88,Robust Evidence,-0.0029,-0.0865,0.0993,-0.0062,0.4952,0.2834,0.625,0.325,0,Elite Phase Specialist,HIGH-RISK
+3056,Iftikhar Ahmed,Finisher / Death Specialist,Middle-Overs Accelerator,475,265,Robust Evidence,-0.033,-0.0878,0.065,-0.0455,-0.182,0.2845,0.6333,0.1,0,Elite Phase Specialist,HIGH-RISK
+29080,Muhammad Khan,Finisher / Death Specialist,Pure Death Finisher,13,12,Sparse Evidence,0.0325,-0.088,0.143,0.3029,,0.2643,0.3333,0.6667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4117,Ishan Kishan,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,2506,337,Robust Evidence,-0.0393,-0.0884,0.0583,-0.051,0.039,0.3874,0.6885,0.1967,0,Elite Phase Specialist,HIGH-RISK
+46137,Kartik Sharma,Middle-Overs Accelerator,Late-Overs Finisher,220,62,Robust Evidence,0.0035,-0.089,0.1099,0.0092,0.1191,0.3532,0.6364,0.1818,0,Elite Phase Specialist,HIGH-RISK
+3648,Deepak Hooda,Middle-Overs Accelerator,Spin Dominator,826,370,Robust Evidence,-0.0423,-0.0893,0.0559,-0.0537,0.3789,0.3153,0.6909,0.2182,0,Elite Phase Specialist,HIGH-RISK
+56830,Madhav Tiwari,Finisher / Death Specialist,Pure Death Finisher,12,8,Sparse Evidence,0.0331,-0.0905,0.1469,0.4474,,0.619,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7897,Namboori Tilak Varma,Finisher / Death Specialist,Middle-Overs Accelerator,2631,1191,Robust Evidence,-0.0639,-0.0907,0.0318,-0.0693,0.029,0.2836,0.7087,0.1339,0,Elite Phase Specialist,HIGH-RISK
+2246,Tom Latham,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,255,40,Robust Evidence,0.0118,-0.0907,0.1217,0.0413,0.58,0.1948,0.8182,0.0909,0,Elite Phase Specialist,HIGH-RISK
+4708,Rinku Singh,Finisher / Death Specialist,Middle-Overs Accelerator,1350,791,Robust Evidence,-0.0584,-0.0911,0.0389,-0.0658,0.1215,0.2937,0.6265,0.0843,0,Elite Phase Specialist,HIGH-RISK
+28185,Kamil Pooran,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,42,18,Sparse Evidence,0.0245,-0.0914,0.1376,0.1603,0.8615,0.3547,0.6667,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2573,Evin Lewis,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,294,44,Robust Evidence,0.0089,-0.0916,0.1193,0.029,0.166,0.4306,0.7368,0.2105,0,Elite Phase Specialist,HIGH-RISK
+8380,Mohammad Rishad Hossain,Finisher / Death Specialist,Middle-Overs Accelerator,177,168,Robust Evidence,-0.026,-0.0923,0.0787,-0.0415,,0.5884,0.5862,0.5517,0,Elite Phase Specialist,HIGH-RISK
+499,Shakib Al Hasan,Finisher / Death Specialist,Middle-Overs Accelerator,337,160,Robust Evidence,-0.0252,-0.0928,0.0803,-0.041,0.0932,0.1824,0.5,0.1667,0,Multi-Phase Versatile,HIGH-RISK
+3272,Fabian Allen,Finisher / Death Specialist,Middle-Overs Accelerator,50,49,Moderate Evidence,0.0051,-0.093,0.1165,0.0155,,0.4454,0.5556,0.3333,0,Elite Phase Specialist,HIGH-RISK
+3330,Hardik Pandya,Finisher / Death Specialist,Middle-Overs Accelerator,1993,876,Robust Evidence,-0.0622,-0.0933,0.037,-0.0693,0.1442,0.3125,0.6864,0.1271,0,Elite Phase Specialist,HIGH-RISK
+2416,Kyle Mayers,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,784,55,Robust Evidence,0.0021,-0.0934,0.1133,0.0058,0.0605,0.4172,0.587,0.1957,0,Elite Phase Specialist,HIGH-RISK
+2847,Shardul Thakur,Finisher / Death Specialist,Middle-Overs Accelerator,228,191,Robust Evidence,-0.0306,-0.0935,0.0747,-0.0466,0.5198,0.4681,0.6667,0.2333,0,Elite Phase Specialist,HIGH-RISK
+6664,Dion Myers,Middle-Overs Accelerator,Top-Order Stabilizer,349,138,Robust Evidence,-0.022,-0.0936,0.085,-0.038,0.259,0.2427,0.8,0.1,0,Multi-Phase Versatile,HIGH-RISK
+7044,Jamie Smith,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,68,3,Sparse Evidence,0.0345,-0.0937,0.1522,1.1832,,0.4082,0.2,0.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6677,Mohammad Hasnain,Finisher / Death Specialist,Pure Death Finisher,13,13,Sparse Evidence,0.0256,-0.094,0.1421,0.2229,,0.4961,0.5,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7216,Prabhsimran Singh,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,1202,133,Robust Evidence,-0.0217,-0.0942,0.0862,-0.038,-0.492,0.2861,0.5079,0.1746,0,Elite Phase Specialist,HIGH-RISK
+25534,Chad Bowes,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,161,20,Moderate Evidence,0.0198,-0.0946,0.136,0.1191,0.3919,0.3096,0.7273,0.1818,0,Elite Phase Specialist,HIGH-RISK
+6683,Mayank Markande,Finisher / Death Specialist,Pure Death Finisher,14,14,Sparse Evidence,0.024,-0.0949,0.1412,0.1954,,0.1525,0.6667,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8221,Nitish Reddy,Finisher / Death Specialist,Middle-Overs Accelerator,704,310,Robust Evidence,-0.0447,-0.0957,0.0606,-0.0591,0.0825,0.3242,0.6,0.1111,0,Elite Phase Specialist,HIGH-RISK
+4901,Asitha Fernando,Finisher / Death Specialist,Pure Death Finisher,6,5,Sparse Evidence,0.0305,-0.0958,0.15,0.6407,,1.067,0.6667,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3673,Ramesh Mendis,Finisher / Death Specialist,Middle-Overs Accelerator,68,54,Moderate Evidence,-0.0004,-0.0962,0.1138,-0.0011,0.8157,0.272,0.8889,0.4444,0,Elite Phase Specialist,HIGH-RISK
+1649,Regis Chakabva,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,55,22,Moderate Evidence,0.0161,-0.097,0.1343,0.0895,0.1596,0.4647,0.4,0.2,0,Elite Phase Specialist,HIGH-RISK
+6512,Michael Bracewell,Finisher / Death Specialist,Middle-Overs Accelerator,369,261,Robust Evidence,-0.0424,-0.0975,0.0654,-0.0587,-0.1684,0.4022,0.6364,0.1818,0,Elite Phase Specialist,HIGH-RISK
+4007,Ryan Rickelton,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,883,104,Robust Evidence,-0.0183,-0.0975,0.094,-0.0359,0.033,0.2827,0.617,0.1489,0,Elite Phase Specialist,HIGH-RISK
+34880,Saad Masood,Finisher / Death Specialist,Middle-Overs Accelerator,60,53,Moderate Evidence,-0.0012,-0.0975,0.1144,-0.0036,,0.4177,0.3333,0.0,0,Elite Phase Specialist,HIGH-RISK
+4102,George Munsey,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,101,6,Sparse Evidence,0.0275,-0.098,0.1489,0.4851,,0.231,0.4,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2373,Ashton Turner,Finisher / Death Specialist,Middle-Overs Accelerator,22,11,Sparse Evidence,0.0226,-0.0986,0.1439,0.2279,1.1707,0.4135,0.6667,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7704,Pavan Rathnayake,Middle-Overs Accelerator,Late-Overs Finisher,151,31,Moderate Evidence,0.0087,-0.0987,0.1276,0.0369,0.2438,0.2648,0.8,0.2,0,Elite Phase Specialist,HIGH-RISK
+19012,Zeeshan Ali,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,162,64,Robust Evidence,-0.0071,-0.0988,0.109,-0.0181,0.3121,0.2594,0.5833,0.1667,0,Elite Phase Specialist,HIGH-RISK
+992,Mayank Agarwal,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,510,75,Robust Evidence,-0.0113,-0.099,0.1042,-0.0263,0.3699,0.3576,0.7333,0.1667,0,Elite Phase Specialist,HIGH-RISK
+50062,Nqobani Mokoena,Finisher / Death Specialist,Pure Death Finisher,21,21,Sparse Evidence,0.0148,-0.099,0.1351,0.0851,,0.5095,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2213,Soumya Sarkar,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,211,66,Robust Evidence,-0.0084,-0.0994,0.1081,-0.0211,0.1207,0.2139,0.6923,0.1538,0,Elite Phase Specialist,HIGH-RISK
+4662,Cole McConchie,Finisher / Death Specialist,Middle-Overs Accelerator,102,102,Moderate Evidence,-0.0204,-0.1001,0.0946,-0.0404,,0.187,0.6667,0.3333,0,Elite Phase Specialist,HIGH-RISK
+250,Aaron Finch,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,367,43,Robust Evidence,0.0006,-0.1004,0.1199,0.002,0.1323,0.358,0.619,0.0952,0,Elite Phase Specialist,HIGH-RISK
+7364,Haris Rauf,Finisher / Death Specialist,Pure Death Finisher,110,110,Moderate Evidence,-0.0228,-0.1005,0.0922,-0.0436,,0.5955,0.6522,0.2609,0,Elite Phase Specialist,HIGH-RISK
+6514,Anil Nidamanuru,Middle-Overs Accelerator,Late-Overs Finisher,43,22,Sparse Evidence,0.0124,-0.1007,0.1343,0.0686,0.4943,0.2738,0.8,0.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3091,Sahibzada Farhan,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,834,67,Robust Evidence,-0.0102,-0.1008,0.1076,-0.0253,-0.1215,0.2035,0.5897,0.1795,0,Elite Phase Specialist,HIGH-RISK
+3550,Sharafuddin Ashraf,Finisher / Death Specialist,Pure Death Finisher,39,22,Sparse Evidence,0.0119,-0.1012,0.1343,0.0658,0.3203,0.3209,0.7143,0.2857,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6900,Michael Jones,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,21,1,Sparse Evidence,0.0284,-0.1016,0.1544,2.8723,,0.1036,0.6667,0.6667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8388,Ahan Wickramasinghe,Finisher / Death Specialist,Middle-Overs Accelerator,75,27,Moderate Evidence,0.0083,-0.1016,0.1305,0.039,0.2053,0.1622,0.8,0.2,0,Multi-Phase Versatile,HIGH-RISK
+7710,Brandon Glover,Finisher / Death Specialist,Pure Death Finisher,1,1,Sparse Evidence,0.0276,-0.1024,0.1544,2.7925,,0.0,0.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+27464,Aayan Afzal Khan,Finisher / Death Specialist,Middle-Overs Accelerator,70,70,Moderate Evidence,-0.0128,-0.1024,0.1063,-0.0312,,0.533,0.6,0.0,0,Elite Phase Specialist,HIGH-RISK
+7355,Tayyab Tahir,Middle-Overs Accelerator,Late-Overs Finisher,108,82,Moderate Evidence,-0.017,-0.1025,0.1015,-0.0378,0.4297,0.549,0.4286,0.0,0,Elite Phase Specialist,HIGH-RISK
+27517,Yasir Khan,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,96,10,Sparse Evidence,0.0194,-0.1026,0.1449,0.2136,-1.0816,0.5358,0.625,0.125,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+818,Mitchell Marsh,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,1792,228,Robust Evidence,-0.0443,-0.1028,0.0694,-0.0638,-0.1068,0.3019,0.6585,0.1829,0,Elite Phase Specialist,HIGH-RISK
+7049,Kamil Mishara,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,422,37,Moderate Evidence,0.0013,-0.1028,0.1236,0.0049,-0.521,0.4877,0.7727,0.1818,0,Elite Phase Specialist,HIGH-RISK
+109,Wriddhiman Saha,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,683,19,Moderate Evidence,0.012,-0.1032,0.1368,0.0752,0.4085,0.2874,0.8378,0.1351,0,Elite Phase Specialist,HIGH-RISK
+26839,Haseebullah Khan,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,30,8,Sparse Evidence,0.0203,-0.1034,0.1469,0.2742,,0.3073,0.6667,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4880,Aarif Sheikh,Finisher / Death Specialist,Pure Death Finisher,3,3,Sparse Evidence,0.0246,-0.1035,0.1522,0.8455,,0.0,0.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+418,Richard Berrington,Middle-Overs Accelerator,Top-Order Stabilizer,82,37,Moderate Evidence,0.0005,-0.1036,0.1236,0.0017,1.1254,0.3915,0.6667,0.1667,0,Elite Phase Specialist,HIGH-RISK
+36153,Syed Haider,Finisher / Death Specialist,Middle-Overs Accelerator,49,23,Sparse Evidence,0.0085,-0.1039,0.1335,0.0457,0.1658,0.0661,0.3333,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4830,Keacy Carty,Finisher / Death Specialist,Middle-Overs Accelerator,73,24,Moderate Evidence,0.0075,-0.1042,0.1328,0.039,0.4854,0.4284,0.6667,0.3333,0,Elite Phase Specialist,HIGH-RISK
+48504,Ayush Mhatre,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,250,17,Moderate Evidence,0.0124,-0.1042,0.1385,0.0853,-0.1469,0.2855,0.4615,0.2308,0,Elite Phase Specialist,HIGH-RISK
+2887,Harmeet Singh,Finisher / Death Specialist,Middle-Overs Accelerator,28,16,Sparse Evidence,0.013,-0.1043,0.1394,0.0943,-0.1643,0.0114,0.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2439,Akila Dananjaya,Finisher / Death Specialist,Pure Death Finisher,1,1,Sparse Evidence,0.0255,-0.1045,0.1544,2.5798,,0.0,0.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3660,Luke Wood,Finisher / Death Specialist,Pure Death Finisher,9,9,Sparse Evidence,0.0176,-0.1053,0.1459,0.2129,,0.3895,0.6667,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+29075,Aadil Ansari,Finisher / Death Specialist,Pure Death Finisher,10,10,Sparse Evidence,0.0166,-0.1054,0.1449,0.1829,,0.7079,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3595,Andy McBrine,Finisher / Death Specialist,Pure Death Finisher,8,8,Sparse Evidence,0.0181,-0.1055,0.1469,0.245,,0.8933,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3954,Andrew Balbirnie,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,580,82,Robust Evidence,-0.0203,-0.1058,0.1015,-0.0451,0.1943,0.1781,0.7931,0.1379,0,Elite Phase Specialist,HIGH-RISK
+8580,Yudhvir Singh,Finisher / Death Specialist,Pure Death Finisher,16,16,Sparse Evidence,0.0115,-0.1058,0.1394,0.0837,,0.6009,0.75,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+15269,Mohammed Aslam,Middle-Overs Accelerator,Late-Overs Finisher,40,38,Sparse Evidence,-0.0024,-0.106,0.123,-0.0088,,0.4895,0.5,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4372,Rony Talukder,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,150,2,Sparse Evidence,0.0229,-0.1061,0.1533,1.1702,,0.2066,0.4444,0.1111,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6203,Surendran Chandramohan,Finisher / Death Specialist,Pure Death Finisher,26,5,Sparse Evidence,0.0202,-0.1061,0.15,0.4246,,0.3359,1.0,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4802,Stephen Doheny,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,21,11,Sparse Evidence,0.0142,-0.1071,0.1439,0.1428,0.5623,0.0629,0.6667,0.6667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+26795,Joel Davies,Finisher / Death Specialist,Pure Death Finisher,14,8,Sparse Evidence,0.0165,-0.1072,0.1469,0.2226,,0.1686,0.5,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7938,Sandeep Goud 1,Finisher / Death Specialist,Pure Death Finisher,2,2,Sparse Evidence,0.0214,-0.1077,0.1533,1.0912,,0.0,0.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8408,Shreyas Movva,Finisher / Death Specialist,Middle-Overs Accelerator,88,66,Moderate Evidence,-0.0167,-0.1077,0.1081,-0.0419,-0.1174,0.0254,0.5,0.0,0,Elite Phase Specialist,HIGH-RISK
+1071,Jaydev Unadkat,Finisher / Death Specialist,Pure Death Finisher,74,67,Moderate Evidence,-0.0173,-0.108,0.1076,-0.0432,0.207,0.5986,0.5833,0.0833,0,Elite Phase Specialist,HIGH-RISK
+4391,Liam Livingstone,Finisher / Death Specialist,Middle-Overs Accelerator,1057,459,Robust Evidence,-0.0656,-0.1081,0.0505,-0.0799,-0.0975,0.429,0.6176,0.2206,0,Elite Phase Specialist,HIGH-RISK
+4882,Kushal Bhurtel,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,45,5,Sparse Evidence,0.0178,-0.1085,0.15,0.3745,,0.1283,0.6667,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2972,Yasim Murtaza,Finisher / Death Specialist,Middle-Overs Accelerator,265,154,Robust Evidence,-0.04,-0.1086,0.0815,-0.0659,0.7274,0.2486,0.7143,0.2143,0,Multi-Phase Versatile,HIGH-RISK
+6440,Omair Yousuf,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,130,32,Moderate Evidence,-0.002,-0.1089,0.1269,-0.0082,0.387,0.4038,0.375,0.125,0,Elite Phase Specialist,HIGH-RISK
+6355,Shaheen Afridi,Finisher / Death Specialist,Middle-Overs Accelerator,193,193,Robust Evidence,-0.0465,-0.1092,0.0744,-0.0706,,0.6432,0.6538,0.3077,0,Elite Phase Specialist,HIGH-RISK
+1195,Ben Stokes,Middle-Overs Accelerator,Late-Overs Finisher,45,15,Sparse Evidence,0.0086,-0.1095,0.1403,0.0656,0.4404,0.0692,0.8,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3871,Aamir Kaleem,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,115,14,Sparse Evidence,0.0089,-0.11,0.1412,0.0723,0.3141,0.1159,0.5,0.1667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2361,Temba Bavuma,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,98,6,Sparse Evidence,0.0152,-0.1102,0.1489,0.2694,,0.5576,0.9,0.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+32401,Akhil Kumar,Finisher / Death Specialist,Pure Death Finisher,12,12,Sparse Evidence,0.0098,-0.1106,0.143,0.0911,,0.2186,0.5,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+45749,Mukul Choudhary,Finisher / Death Specialist,Middle-Overs Accelerator,122,102,Moderate Evidence,-0.031,-0.1107,0.0946,-0.0614,0.7978,0.5136,0.7,0.3,0,Elite Phase Specialist,HIGH-RISK
+26514,Nimesh Vimukthi,Finisher / Death Specialist,Middle-Overs Accelerator,19,19,Sparse Evidence,0.0041,-0.1111,0.1368,0.0254,,0.0,0.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+24767,Ripon Mondol,Finisher / Death Specialist,Pure Death Finisher,10,9,Sparse Evidence,0.0116,-0.1112,0.1459,0.1409,,0.6395,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7406,Rizwan CP,Finisher / Death Specialist,Middle-Overs Accelerator,105,82,Moderate Evidence,-0.0261,-0.1116,0.1015,-0.058,0.5088,0.0806,0.75,0.0,0,Elite Phase Specialist,HIGH-RISK
+8033,Abdul Rahmani,Finisher / Death Specialist,Pure Death Finisher,4,4,Sparse Evidence,0.015,-0.1122,0.1511,0.391,,0.0,0.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+22565,Muhammad Waseem,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,472,14,Sparse Evidence,0.0066,-0.1122,0.1412,0.0541,0.0388,0.3027,0.5,0.1,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6473,Nuwanidu Fernando,Middle-Overs Accelerator,Top-Order Stabilizer,186,32,Moderate Evidence,-0.0053,-0.1122,0.1269,-0.0219,0.2936,0.2966,0.5455,0.0909,0,Elite Phase Specialist,HIGH-RISK
+39640,Sineth Jayawardena,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,49,13,Sparse Evidence,0.0071,-0.1125,0.1421,0.0621,0.435,0.2058,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2750,Alex Carey,Finisher / Death Specialist,Middle-Overs Accelerator,30,19,Sparse Evidence,0.0027,-0.1125,0.1368,0.0168,0.7125,0.4502,0.6667,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+17910,Mohammad Akram,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,10,2,Sparse Evidence,0.0166,-0.1125,0.1533,0.8443,,0.7108,0.3333,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4947,Kasun Rajitha,Finisher / Death Specialist,Pure Death Finisher,11,11,Sparse Evidence,0.0087,-0.1125,0.1439,0.0877,,0.2021,0.6667,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6628,Gerald Coetzee,Finisher / Death Specialist,Middle-Overs Accelerator,106,98,Moderate Evidence,-0.0318,-0.1126,0.0959,-0.0643,0.347,0.6211,0.7222,0.3889,0,Elite Phase Specialist,HIGH-RISK
+24475,Rehan Ahmed,Finisher / Death Specialist,Pure Death Finisher,46,26,Sparse Evidence,-0.0031,-0.1136,0.1312,-0.0149,0.295,0.3218,0.75,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+47314,Wafiullah Tarakhil,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,19,5,Sparse Evidence,0.0124,-0.1139,0.15,0.2611,,0.3003,1.0,0.6667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7120,Rohit Paudel,Middle-Overs Accelerator,Top-Order Stabilizer,65,46,Moderate Evidence,-0.0145,-0.114,0.1182,-0.0459,0.5061,0.139,1.0,0.0,0,Elite Phase Specialist,HIGH-RISK
+3839,Amjad Mahboob,Finisher / Death Specialist,Pure Death Finisher,19,19,Sparse Evidence,0.001,-0.1142,0.1368,0.0062,,0.5566,0.6667,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5738,Xavier Bartlett,Finisher / Death Specialist,Middle-Overs Accelerator,92,72,Moderate Evidence,-0.0254,-0.1142,0.1055,-0.0607,-0.2648,0.6311,0.5714,0.2857,0,Elite Phase Specialist,HIGH-RISK
+20704,Salman Mirza,Finisher / Death Specialist,Pure Death Finisher,5,5,Sparse Evidence,0.0116,-0.1147,0.15,0.2444,,0.4042,0.3333,0.6667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+305,Ravichandran Ashwin,Finisher / Death Specialist,Middle-Overs Accelerator,329,202,Robust Evidence,-0.0534,-0.1149,0.073,-0.0798,0.3454,0.3654,0.7027,0.1622,0,Elite Phase Specialist,HIGH-RISK
+46929,Dian Forrester,Finisher / Death Specialist,Middle-Overs Accelerator,80,27,Moderate Evidence,-0.0051,-0.1149,0.1305,-0.0238,0.2537,0.1089,0.4,0.0,0,Elite Phase Specialist,HIGH-RISK
+813,Jos Buttler,Middle-Overs Accelerator,Top-Order Stabilizer,2920,366,Robust Evidence,-0.0679,-0.1152,0.0562,-0.0865,-0.0602,0.3479,0.6529,0.1322,0,Multi-Phase Versatile,HIGH-RISK
+37572,Shafiq Jan,Finisher / Death Specialist,Pure Death Finisher,3,3,Sparse Evidence,0.0129,-0.1153,0.1522,0.4412,,1.193,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+49268,Sohaib Khan,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,75,59,Moderate Evidence,-0.0217,-0.1154,0.1113,-0.0584,-0.1574,0.3721,0.75,0.0,0,Elite Phase Specialist,HIGH-RISK
+4814,Lorcan Tucker,Middle-Overs Accelerator,Top-Order Stabilizer,682,186,Robust Evidence,-0.0521,-0.1157,0.0756,-0.0801,-0.0042,0.3179,0.7,0.25,0,Elite Phase Specialist,HIGH-RISK
+28021,Saurabh Dubey,Finisher / Death Specialist,Pure Death Finisher,2,2,Sparse Evidence,0.0134,-0.1157,0.1533,0.6823,,0.0,0.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+19781,Mitchell Owen,Middle-Overs Accelerator,Spin Dominator,128,68,Moderate Evidence,-0.0258,-0.1161,0.1072,-0.0638,-1.0529,0.4964,0.5,0.3333,0,Elite Phase Specialist,HIGH-RISK
+8141,Auqib Nabi,Finisher / Death Specialist,Pure Death Finisher,4,2,Sparse Evidence,0.0129,-0.1162,0.1533,0.6573,,1.4066,0.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+470,Mohammad Amir,Finisher / Death Specialist,Pure Death Finisher,4,4,Sparse Evidence,0.0097,-0.1175,0.1511,0.2513,,0.3161,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+26519,Janith Liyanage,Finisher / Death Specialist,Middle-Overs Accelerator,140,77,Moderate Evidence,-0.0309,-0.118,0.1034,-0.071,0.3394,0.1777,0.8,0.2,0,Elite Phase Specialist,HIGH-RISK
+25138,Harsh Dubey,Finisher / Death Specialist,Middle-Overs Accelerator,74,27,Moderate Evidence,-0.0082,-0.1181,0.1305,-0.0387,0.1818,0.8939,0.5714,0.2857,0,Elite Phase Specialist,HIGH-RISK
+8326,Jayden Seales,Finisher / Death Specialist,Pure Death Finisher,6,6,Sparse Evidence,0.0072,-0.1182,0.1489,0.1274,,0.7649,0.3333,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2258,Sanju Samson,Middle-Overs Accelerator,Top-Order Stabilizer,2305,368,Robust Evidence,-0.0719,-0.1191,0.056,-0.0915,-0.042,0.3418,0.6129,0.1694,0,Elite Phase Specialist,HIGH-RISK
+7905,Tanzim Sakib,Finisher / Death Specialist,Middle-Overs Accelerator,166,163,Robust Evidence,-0.0523,-0.1194,0.0797,-0.0844,0.5525,0.3687,0.6471,0.2941,0,Elite Phase Specialist,HIGH-RISK
+27460,Ali Naseer,Finisher / Death Specialist,Middle-Overs Accelerator,15,7,Sparse Evidence,0.0048,-0.1197,0.1479,0.0735,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7344,Shoriful Islam,Finisher / Death Specialist,Pure Death Finisher,80,74,Moderate Evidence,-0.0317,-0.1198,0.1046,-0.0746,-2.1829,0.4851,0.5,0.4375,0,Elite Phase Specialist,HIGH-RISK
+23450,Sai Sudharsan,Middle-Overs Accelerator,Top-Order Stabilizer,1760,209,Robust Evidence,-0.0593,-0.1199,0.072,-0.0877,0.2658,0.1512,0.8246,0.0526,0,Elite Phase Specialist,HIGH-RISK
+27137,Hammad Mirza,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,166,74,Robust Evidence,-0.0324,-0.1205,0.1046,-0.0762,0.3425,0.4694,0.4444,0.1111,0,Elite Phase Specialist,HIGH-RISK
+60700,Ravi Singh,Finisher / Death Specialist,Pure Death Finisher,2,2,Sparse Evidence,0.0086,-0.1205,0.1533,0.4377,,0.0,0.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+21780,Ernest Masuku,Finisher / Death Specialist,Middle-Overs Accelerator,6,6,Sparse Evidence,0.0043,-0.1211,0.1489,0.0761,,0.7665,0.5,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+68410,Rahmatullah Zadran,Middle-Overs Accelerator,Spin Dominator,22,22,Sparse Evidence,-0.0083,-0.1214,0.1343,-0.0462,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3775,Sompal Kami,Finisher / Death Specialist,Pure Death Finisher,9,9,Sparse Evidence,0.001,-0.1218,0.1459,0.0126,,0.0891,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+24346,Mohamed Shafeeq,Finisher / Death Specialist,Pure Death Finisher,6,5,Sparse Evidence,0.0042,-0.1221,0.15,0.0891,,1.4102,0.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+786,Chris Jordan,Finisher / Death Specialist,Pure Death Finisher,134,134,Moderate Evidence,-0.0499,-0.1222,0.0859,-0.0871,,0.4032,0.5789,0.3158,0,Elite Phase Specialist,HIGH-RISK
+2364,Ashton Agar,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,49,3,Sparse Evidence,0.0055,-0.1226,0.1522,0.1887,,0.3418,0.75,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7250,Mukesh Choudhary,Finisher / Death Specialist,Middle-Overs Accelerator,8,8,Sparse Evidence,0.0008,-0.1229,0.1469,0.0103,,0.0046,0.6667,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7808,Marco Jansen,Finisher / Death Specialist,Middle-Overs Accelerator,289,251,Robust Evidence,-0.0672,-0.1233,0.0666,-0.094,0.8292,0.4723,0.7059,0.1765,0,Elite Phase Specialist,HIGH-RISK
+4604,Mitchell Swepson,Finisher / Death Specialist,Pure Death Finisher,1,1,Sparse Evidence,0.0066,-0.1234,0.1544,0.6653,,0.0,0.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+27071,Vinayak Shukla,Middle-Overs Accelerator,Late-Overs Finisher,25,25,Sparse Evidence,-0.0125,-0.1236,0.132,-0.0625,,0.4389,0.6667,0.6667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+24803,Gulshan Jha,Finisher / Death Specialist,Middle-Overs Accelerator,37,30,Sparse Evidence,-0.0156,-0.1237,0.1283,-0.0676,,0.1571,0.6667,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2533,Najibullah Zadran,Finisher / Death Specialist,Middle-Overs Accelerator,327,173,Robust Evidence,-0.0583,-0.1238,0.0778,-0.092,0.0766,0.3427,0.6522,0.2174,0,Elite Phase Specialist,HIGH-RISK
+8093,Nikhil Chaudhary,Finisher / Death Specialist,Middle-Overs Accelerator,19,6,Sparse Evidence,0.0015,-0.1239,0.1489,0.0263,,0.0445,0.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+930,Karun Nair,Middle-Overs Accelerator,Top-Order Stabilizer,158,48,Robust Evidence,-0.0255,-0.124,0.117,-0.0786,-0.1621,0.3296,0.75,0.3333,0,Elite Phase Specialist,HIGH-RISK
+21777,Tafadzwa Tsiga,Finisher / Death Specialist,Middle-Overs Accelerator,25,25,Sparse Evidence,-0.0135,-0.1246,0.132,-0.0674,,0.4554,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4867,Wesley Madhevere,Middle-Overs Accelerator,Top-Order Stabilizer,444,160,Robust Evidence,-0.0578,-0.1254,0.0803,-0.0939,0.2994,0.2142,0.8667,0.2667,0,Multi-Phase Versatile,HIGH-RISK
+48616,Abdul Saqlain,Finisher / Death Specialist,Middle-Overs Accelerator,37,36,Sparse Evidence,-0.0209,-0.1255,0.1243,-0.0789,,0.1064,0.6667,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6097,Brydon Carse,Finisher / Death Specialist,Middle-Overs Accelerator,37,22,Sparse Evidence,-0.0125,-0.1256,0.1343,-0.0693,-0.1334,0.4898,0.875,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6919,Tyrone Kane,Middle-Overs Accelerator,Spin Dominator,11,11,Sparse Evidence,-0.0045,-0.1257,0.1439,-0.0455,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7935,Mohammad Ghazanfar,Middle-Overs Accelerator,Late-Overs Finisher,4,4,Sparse Evidence,0.0013,-0.1259,0.1511,0.0348,,1.2081,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5608,Narayan Jagadeesan,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,124,45,Moderate Evidence,-0.0266,-0.1266,0.1187,-0.0857,1.1115,0.3192,0.875,0.25,0,Elite Phase Specialist,HIGH-RISK
+28655,Muhammad Rohid,Middle-Overs Accelerator,Late-Overs Finisher,5,5,Sparse Evidence,-0.0004,-0.1267,0.15,-0.0084,,0.7459,0.3333,0.6667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+274,Martin Guptill,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,162,26,Moderate Evidence,-0.0164,-0.127,0.1312,-0.0797,-0.1056,0.4331,0.6667,0.0,0,Elite Phase Specialist,HIGH-RISK
+3469,Shreyas Gopal,Finisher / Death Specialist,Pure Death Finisher,7,7,Sparse Evidence,-0.0026,-0.1271,0.1479,-0.0396,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1039,Mandeep Singh,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,40,11,Sparse Evidence,-0.0062,-0.1274,0.1439,-0.0629,0.5645,0.2747,1.0,0.6667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6466,Atharwa Taide,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,188,72,Robust Evidence,-0.0388,-0.1276,0.1055,-0.0927,0.2209,0.2552,0.5,0.2,0,Elite Phase Specialist,HIGH-RISK
+2876,Axar Patel,Finisher / Death Specialist,Middle-Overs Accelerator,1347,1010,Robust Evidence,-0.0986,-0.1277,0.0345,-0.1084,0.0316,0.3493,0.6476,0.2,0,Elite Phase Specialist,HIGH-RISK
+33440,Adwitya Bhargava,Finisher / Death Specialist,Pure Death Finisher,7,7,Sparse Evidence,-0.0032,-0.1278,0.1479,-0.0496,,0.5581,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2681,Taskin Ahmed,Finisher / Death Specialist,Pure Death Finisher,96,92,Moderate Evidence,-0.0455,-0.128,0.0979,-0.095,,0.8405,0.4706,0.3529,0,Elite Phase Specialist,HIGH-RISK
+6795,Terrance Hinds,Finisher / Death Specialist,Pure Death Finisher,4,4,Sparse Evidence,-0.0012,-0.1284,0.1511,-0.0306,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7059,Nehal Wadhera,Middle-Overs Accelerator,Late-Overs Finisher,711,336,Robust Evidence,-0.0795,-0.1286,0.0584,-0.1031,-0.1316,0.3408,0.6444,0.2,0,Elite Phase Specialist,HIGH-RISK
+38050,Isitha Wijesundera,Finisher / Death Specialist,Pure Death Finisher,10,10,Sparse Evidence,-0.0068,-0.1288,0.1449,-0.0751,,0.3077,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2351,Danushka Gunathilaka,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,120,18,Moderate Evidence,-0.013,-0.1288,0.1376,-0.0849,0.4189,0.7175,0.6923,0.4615,0,Elite Phase Specialist,HIGH-RISK
+6460,Ayush Badoni,Finisher / Death Specialist,Middle-Overs Accelerator,948,571,Robust Evidence,-0.0906,-0.129,0.0455,-0.1065,-0.3628,0.3115,0.6833,0.1833,0,Elite Phase Specialist,HIGH-RISK
+49027,Bevon Jacobs,Finisher / Death Specialist,Middle-Overs Accelerator,194,80,Robust Evidence,-0.0429,-0.129,0.1023,-0.0965,-0.0437,0.344,0.6667,0.1667,0,Elite Phase Specialist,HIGH-RISK
+8771,Rubin Hermann,Middle-Overs Accelerator,Spin Dominator,82,27,Moderate Evidence,-0.0195,-0.1294,0.1305,-0.0917,-0.0252,0.1935,0.8,0.0,0,Elite Phase Specialist,HIGH-RISK
+2884,Manan Vohra,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,23,4,Sparse Evidence,-0.0023,-0.1295,0.1511,-0.0591,,0.3348,0.5,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3926,Rahul Tewatia,Finisher / Death Specialist,Middle-Overs Accelerator,562,397,Robust Evidence,-0.0841,-0.1296,0.0541,-0.1053,-0.0519,0.4956,0.614,0.2281,0,Elite Phase Specialist,HIGH-RISK
+6806,Tushar Deshpande,Finisher / Death Specialist,Pure Death Finisher,26,26,Sparse Evidence,-0.0192,-0.1297,0.1312,-0.0929,,0.4258,0.75,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+26646,Rahul Chopra,Middle-Overs Accelerator,Late-Overs Finisher,231,143,Robust Evidence,-0.0592,-0.1298,0.0838,-0.1006,0.2294,0.3482,0.7857,0.2857,0,Elite Phase Specialist,HIGH-RISK
+32705,Faridoon Dawoodzai,Finisher / Death Specialist,Pure Death Finisher,1,1,Sparse Evidence,0.0001,-0.1299,0.1544,0.008,,0.0,0.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+27059,Karan Sonavale,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,63,8,Sparse Evidence,-0.0064,-0.1301,0.1469,-0.0864,-0.9316,0.4131,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6395,Josh Philippe,Middle-Overs Accelerator,Top-Order Stabilizer,47,28,Sparse Evidence,-0.0212,-0.1304,0.1298,-0.0968,0.2289,0.0827,0.8,0.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7914,Clayton Floyd,Finisher / Death Specialist,Pure Death Finisher,1,1,Sparse Evidence,-0.0006,-0.1306,0.1544,-0.0639,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+23467,Gurjapneet Singh,Finisher / Death Specialist,Pure Death Finisher,1,1,Sparse Evidence,-0.0009,-0.1309,0.1544,-0.0944,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4665,Tom Blundell,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,20,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.3133,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+26913,Shaik Rasheed,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,67,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.2733,1.0,0.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3545,Ihsanullah Janat,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,14,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,0.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4486,BR Sharath,Middle-Overs Accelerator,Spin Dominator,5,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+29699,Ibrahim Takahashi,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,3,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,0.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7003,Rayyan Pathan,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,16,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0425,1.0,0.6667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+17937,Zubaid Akbari,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,127,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.3251,0.625,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+46996,Mohammad Faiq,Middle-Overs Accelerator,Spin Dominator,29,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.7056,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7926,Manpreet Singh,Middle-Overs Accelerator,Late-Overs Finisher,15,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2210,Sabbir Rahman,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,39,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.4052,0.75,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2001,Yashodha Lanka,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,93,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0514,0.8,0.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+34929,Lachlan Lake,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,4,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3304,Munim Shahriar,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,19,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.1163,1.0,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+25353,Numan Shah,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,19,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6565,Katene Clarke,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,51,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.2958,0.75,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+35133,Sufyan Yousuf,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,8,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.1117,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3651,Ricky Bhui,Middle-Overs Accelerator,Top-Order Stabilizer,9,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.2699,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+54404,Benjamin Ito,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,8,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+48953,Danish Malewar,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,5,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.1974,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+32399,Aaron Johnson,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,57,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.088,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+60689,Zawad Abrar,Middle-Overs Accelerator,Spin Dominator,76,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.1384,1.0,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+20989,Vivrant Sharma,Middle-Overs Accelerator,Top-Order Stabilizer,49,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6441,Abdullah Shafique,Middle-Overs Accelerator,Top-Order Stabilizer,16,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.133,0.6667,0.6667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2860,KS Bharat,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,7,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.7745,0.5,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7931,Aritra Dutta,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,65,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0755,0.3333,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7925,Rohan Rangarajan,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,11,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7915,Monank Patel,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,37,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.096,0.3333,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+30927,Saiteja Mukkamalla,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,43,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.1959,0.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6035,Chirag Suri,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,107,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.609,0.6,0.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+36551,Zishan Motara,Finisher / Death Specialist,Pure Death Finisher,4,4,Sparse Evidence,-0.0038,-0.131,0.1511,-0.0991,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+27259,Jishan Alam,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,87,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.3731,0.7143,0.1429,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+37201,Jewel Andrew,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,99,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.286,0.6667,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4412,Max ODowd,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,208,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.26,0.7273,0.0909,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4458,Aneurin Donald,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,24,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.3614,0.0,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7981,Imran Mir,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,36,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0887,0.0,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+33675,Mohammad Naeem,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,36,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.1024,0.5,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+42845,Arshin Kulkarni,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,33,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.295,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+42811,Michael Levitt,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,206,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.2983,0.75,0.125,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2321,Olly Stone,Finisher / Death Specialist,Pure Death Finisher,1,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+39638,Vishen Halambage,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,51,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.3558,0.25,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8311,Dan Mousley,Finisher / Death Specialist,Pure Death Finisher,6,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8405,Kanwarpal Tathgur,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,9,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1183,Alex Hales,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,156,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.5831,0.7778,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7911,Oliver Hairs,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,51,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.2844,0.8,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+34928,Kendel Fleming,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,13,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6483,Nishan Madushka,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,46,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0687,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6486,Tanush Kotian,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,32,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+28970,Connor Esterhuizen,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,143,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.4174,0.4,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+25502,Adnan Idrees,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,8,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.2195,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+25501,Meet Bhavsar,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,42,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.3514,0.6667,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+39374,Muhammad Zohaib,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,156,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.1585,1.0,0.1,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6784,Hassan Mohammad,Finisher / Death Specialist,Pure Death Finisher,1,1,Sparse Evidence,-0.0012,-0.1312,0.1544,-0.1235,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+34522,Brandon McMullen,Middle-Overs Accelerator,Top-Order Stabilizer,98,55,Moderate Evidence,-0.0357,-0.1312,0.1133,-0.1007,-0.0523,0.0141,1.0,0.0,0,Elite Phase Specialist,HIGH-RISK
+27504,Dushan Hemantha,Finisher / Death Specialist,Pure Death Finisher,28,19,Sparse Evidence,-0.0163,-0.1314,0.1368,-0.1018,,0.4469,0.6,0.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2379,Ben Duckett,Middle-Overs Accelerator,Top-Order Stabilizer,347,57,Robust Evidence,-0.0369,-0.1315,0.1123,-0.1016,0.1761,0.2628,0.45,0.2,0,Elite Phase Specialist,HIGH-RISK
+6705,Scott McKechnie,Finisher / Death Specialist,Middle-Overs Accelerator,29,29,Sparse Evidence,-0.023,-0.1316,0.129,-0.1023,,0.1787,0.6667,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6931,Pathum Nissanka,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,1689,142,Robust Evidence,-0.0608,-0.1316,0.0841,-0.1037,0.1761,0.2851,0.6,0.0933,0,Elite Phase Specialist,HIGH-RISK
+3280,Nazmul Hossain Shanto,Middle-Overs Accelerator,Top-Order Stabilizer,531,122,Robust Evidence,-0.0569,-0.1318,0.0889,-0.1036,0.1765,0.1967,0.75,0.0357,0,Elite Phase Specialist,HIGH-RISK
+20229,Mohammad Ali,Finisher / Death Specialist,Pure Death Finisher,1,1,Sparse Evidence,-0.0018,-0.1318,0.1544,-0.1817,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+21196,Mohammad Waheed,Finisher / Death Specialist,Pure Death Finisher,1,1,Sparse Evidence,-0.0019,-0.1319,0.1544,-0.1874,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7906,Rakibul Hasan,Finisher / Death Specialist,Middle-Overs Accelerator,26,26,Sparse Evidence,-0.0215,-0.132,0.1312,-0.1043,,0.5913,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1801,Nitish Kumar,Finisher / Death Specialist,Pure Death Finisher,20,17,Sparse Evidence,-0.0156,-0.1322,0.1385,-0.1074,,0.1836,0.6667,0.6667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2523,Will Young,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,183,73,Robust Evidence,-0.0438,-0.1323,0.1051,-0.1039,0.3755,0.2421,0.9167,0.0833,0,Elite Phase Specialist,HIGH-RISK
+6457,Urvil Patel,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,102,11,Sparse Evidence,-0.0111,-0.1323,0.1439,-0.1116,-0.9491,0.6266,0.5,0.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8726,Alishan Sharafu,Middle-Overs Accelerator,Top-Order Stabilizer,270,67,Robust Evidence,-0.0418,-0.1325,0.1076,-0.1043,-0.0742,0.1187,0.9286,0.1429,0,Multi-Phase Versatile,HIGH-RISK
+59045,Jai Moondra,Finisher / Death Specialist,Pure Death Finisher,3,3,Sparse Evidence,-0.0048,-0.1329,0.1522,-0.1641,,0.0896,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+17424,Graham Hume,Finisher / Death Specialist,Middle-Overs Accelerator,32,32,Sparse Evidence,-0.026,-0.1329,0.1269,-0.1073,,0.3841,0.8,0.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+45381,PV Satyanarayan Raju,Finisher / Death Specialist,Pure Death Finisher,1,1,Sparse Evidence,-0.003,-0.133,0.1544,-0.3026,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+46982,Shahid Aziz,Finisher / Death Specialist,Pure Death Finisher,15,15,Sparse Evidence,-0.0153,-0.1334,0.1403,-0.1176,,0.2612,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2996,Stephanus Myburgh,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,31,5,Sparse Evidence,-0.0071,-0.1334,0.15,-0.1487,,0.1442,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6286,Shivam Mavi,Finisher / Death Specialist,Pure Death Finisher,26,26,Sparse Evidence,-0.0231,-0.1336,0.1312,-0.1118,,0.1094,0.8,0.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6697,Shams Mulani,Finisher / Death Specialist,Pure Death Finisher,1,1,Sparse Evidence,-0.0038,-0.1338,0.1544,-0.3838,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+16559,Alexander Patmore,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,4,1,Sparse Evidence,-0.0046,-0.1346,0.1544,-0.4621,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6166,Jack Edwards,Middle-Overs Accelerator,Spin Dominator,6,6,Sparse Evidence,-0.0093,-0.1347,0.1489,-0.1645,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7046,Tinashe Kamunhukamwe,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,79,5,Sparse Evidence,-0.0085,-0.1348,0.15,-0.1784,,0.3531,0.6,0.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5561,Brad Wheal,Finisher / Death Specialist,Pure Death Finisher,12,12,Sparse Evidence,-0.0146,-0.135,0.143,-0.136,,0.631,0.5,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4983,Sikander Zulfiqar,Middle-Overs Accelerator,Spin Dominator,3,3,Sparse Evidence,-0.007,-0.1351,0.1522,-0.2397,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+25030,Zaman Khan,Finisher / Death Specialist,Pure Death Finisher,11,11,Sparse Evidence,-0.0139,-0.1351,0.1439,-0.1398,,0.2284,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+20802,Abdul Basith,Finisher / Death Specialist,Pure Death Finisher,1,1,Sparse Evidence,-0.0054,-0.1354,0.1544,-0.5449,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+25809,Juanoy Drysdale,Finisher / Death Specialist,Pure Death Finisher,2,2,Sparse Evidence,-0.0066,-0.1357,0.1533,-0.3364,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1556,David Payne,Finisher / Death Specialist,Pure Death Finisher,5,5,Sparse Evidence,-0.0097,-0.136,0.15,-0.2042,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+27964,Anshul Kamboj,Finisher / Death Specialist,Pure Death Finisher,59,57,Moderate Evidence,-0.0416,-0.1362,0.1123,-0.1147,-1.1346,0.4445,0.6667,0.25,0,Elite Phase Specialist,HIGH-RISK
+8217,Ansh Tandon,Middle-Overs Accelerator,Spin Dominator,14,2,Sparse Evidence,-0.0073,-0.1364,0.1533,-0.3742,,0.1891,0.5,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6025,Henry Shipley,Finisher / Death Specialist,Pure Death Finisher,2,2,Sparse Evidence,-0.0075,-0.1365,0.1533,-0.3817,,0.0175,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+27516,Ihsanullah Ihsanullah,Finisher / Death Specialist,Pure Death Finisher,8,8,Sparse Evidence,-0.0129,-0.1366,0.1469,-0.1745,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4288,Navdeep Saini,Finisher / Death Specialist,Pure Death Finisher,2,2,Sparse Evidence,-0.0078,-0.1369,0.1533,-0.3976,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5939,Cameron Green,Middle-Overs Accelerator,Late-Overs Finisher,1114,359,Robust Evidence,-0.0895,-0.1372,0.0567,-0.1144,-0.1088,0.3178,0.6032,0.1746,0,Elite Phase Specialist,HIGH-RISK
+8719,Aryan Lakra,Middle-Overs Accelerator,Top-Order Stabilizer,43,13,Sparse Evidence,-0.0177,-0.1373,0.1421,-0.1535,-0.1254,0.3054,0.5,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7060,Arjun Tendulkar,Finisher / Death Specialist,Pure Death Finisher,14,14,Sparse Evidence,-0.0187,-0.1375,0.1412,-0.1522,,0.2919,0.5,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6739,Amir Jangoo,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,138,23,Moderate Evidence,-0.0251,-0.1375,0.1335,-0.1342,-0.1156,0.2439,0.5714,0.1429,0,Elite Phase Specialist,HIGH-RISK
+3771,Vivian Kingma,Finisher / Death Specialist,Pure Death Finisher,1,1,Sparse Evidence,-0.0077,-0.1377,0.1544,-0.7814,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+26848,Ghazi Ghouri,Finisher / Death Specialist,Middle-Overs Accelerator,57,44,Moderate Evidence,-0.0377,-0.1381,0.1193,-0.1233,-0.2386,0.0807,0.6667,0.0,0,Multi-Phase Versatile,HIGH-RISK
+8241,Lokesh Bam,Finisher / Death Specialist,Pure Death Finisher,10,10,Sparse Evidence,-0.0162,-0.1382,0.1449,-0.1779,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+19714,Abishek Porel,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,548,167,Robust Evidence,-0.0719,-0.1383,0.0789,-0.1149,-0.0695,0.4062,0.6667,0.1515,0,Elite Phase Specialist,HIGH-RISK
+25669,Priyansh Arya,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,538,3,Sparse Evidence,-0.0102,-0.1383,0.1522,-0.35,,0.5136,0.5143,0.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1040,Harpreet Bhatia,Finisher / Death Specialist,Middle-Overs Accelerator,93,66,Moderate Evidence,-0.0475,-0.1385,0.1081,-0.1194,1.4203,0.3106,0.6,0.0,0,Multi-Phase Versatile,HIGH-RISK
+7929,Aryaman Sunil Uchil,Finisher / Death Specialist,Middle-Overs Accelerator,18,18,Sparse Evidence,-0.0226,-0.1385,0.1376,-0.1483,,0.4693,0.6667,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7942,Jay Odedara,Middle-Overs Accelerator,Spin Dominator,1,1,Sparse Evidence,-0.0085,-0.1385,0.1544,-0.8541,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7908,Mohammad Akbar Ali,Middle-Overs Accelerator,Spin Dominator,102,2,Sparse Evidence,-0.0097,-0.1388,0.1533,-0.4948,,0.3274,0.7143,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3097,Shan Masood,Finisher / Death Specialist,Middle-Overs Accelerator,185,89,Robust Evidence,-0.0555,-0.1388,0.0989,-0.1178,0.2718,0.349,0.7,0.2,0,Elite Phase Specialist,HIGH-RISK
+27391,Vishnu Sukumaran,Middle-Overs Accelerator,Top-Order Stabilizer,18,1,Sparse Evidence,-0.0088,-0.1389,0.1544,-0.8934,,0.2971,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7227,Nijat Masood,Finisher / Death Specialist,Pure Death Finisher,5,5,Sparse Evidence,-0.0127,-0.139,0.15,-0.2659,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7325,Harpreet Brar,Finisher / Death Specialist,Middle-Overs Accelerator,142,129,Moderate Evidence,-0.0658,-0.1392,0.0871,-0.1168,0.4449,0.4596,0.619,0.3333,0,Elite Phase Specialist,HIGH-RISK
+1100,Dinesh Chandimal,Finisher / Death Specialist,Middle-Overs Accelerator,76,72,Moderate Evidence,-0.0504,-0.1393,0.1055,-0.1205,,0.0989,0.8,0.4,0,Elite Phase Specialist,HIGH-RISK
+15274,Ravija Sandaruwan,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,46,7,Sparse Evidence,-0.0148,-0.1394,0.1479,-0.2268,,0.3644,0.3333,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+20316,Shahab Alam,Finisher / Death Specialist,Pure Death Finisher,1,1,Sparse Evidence,-0.0094,-0.1394,0.1544,-0.952,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8298,Ramon Simmonds,Finisher / Death Specialist,Pure Death Finisher,2,2,Sparse Evidence,-0.011,-0.14,0.1533,-0.5604,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3683,Gavin Main,Finisher / Death Specialist,Pure Death Finisher,1,1,Sparse Evidence,-0.0101,-0.1401,0.1544,-1.0154,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+42810,Noah Croes,Finisher / Death Specialist,Middle-Overs Accelerator,56,50,Moderate Evidence,-0.043,-0.1407,0.116,-0.1291,0.6882,0.1034,0.8,0.2,0,Elite Phase Specialist,HIGH-RISK
+4101,Mitchell Santner,Finisher / Death Specialist,Middle-Overs Accelerator,560,410,Robust Evidence,-0.0959,-0.1408,0.0533,-0.1193,-0.4459,0.3259,0.7544,0.193,0,Elite Phase Specialist,HIGH-RISK
+34485,Sufiyan Muqeem,Finisher / Death Specialist,Pure Death Finisher,33,33,Sparse Evidence,-0.0347,-0.141,0.1262,-0.1397,,0.3496,0.7273,0.1818,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+39637,Garuka Sanketh,Finisher / Death Specialist,Pure Death Finisher,2,2,Sparse Evidence,-0.0122,-0.1412,0.1533,-0.6206,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+24978,Jack Jarvis,Finisher / Death Specialist,Pure Death Finisher,11,11,Sparse Evidence,-0.0203,-0.1415,0.1439,-0.2049,,0.1453,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5029,Prerak Mankad,Middle-Overs Accelerator,Top-Order Stabilizer,75,14,Sparse Evidence,-0.0228,-0.1416,0.1412,-0.1854,-0.0628,0.5715,0.8,0.2,0,Multi-Phase Versatile,INSUFFICIENT EVIDENCE
+985,Brendan Taylor,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,62,15,Moderate Evidence,-0.0235,-0.1416,0.1403,-0.1799,0.1095,0.1198,0.8571,0.2857,0,Elite Phase Specialist,HIGH-RISK
+4684,Dane Cleaver,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,154,3,Sparse Evidence,-0.0137,-0.1418,0.1522,-0.47,,0.3844,0.8,0.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3040,Kashif Daud,Finisher / Death Specialist,Pure Death Finisher,2,2,Sparse Evidence,-0.0131,-0.1421,0.1533,-0.6657,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3361,Michael Leask,Middle-Overs Accelerator,Spin Dominator,62,32,Moderate Evidence,-0.0356,-0.1424,0.1269,-0.1467,0.1887,0.3313,0.5,0.1667,0,Elite Phase Specialist,HIGH-RISK
+988,Graeme Cremer,Finisher / Death Specialist,Pure Death Finisher,4,4,Sparse Evidence,-0.0152,-0.1424,0.1511,-0.396,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3802,Anshuman Rath,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,151,29,Moderate Evidence,-0.0339,-0.1426,0.129,-0.1508,0.3265,0.1467,1.0,0.4444,0,Elite Phase Specialist,HIGH-RISK
+507,Mohammad Mahmudullah,Finisher / Death Specialist,Middle-Overs Accelerator,275,220,Robust Evidence,-0.0834,-0.1427,0.0704,-0.1213,0.4296,0.2756,0.7143,0.1429,0,Elite Phase Specialist,HIGH-RISK
+4840,Odean Smith,Finisher / Death Specialist,Pure Death Finisher,146,134,Moderate Evidence,-0.0703,-0.1427,0.0859,-0.1228,-0.8541,0.4123,0.65,0.3,0,Elite Phase Specialist,HIGH-RISK
+6172,Lasith Croospulle,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,35,2,Sparse Evidence,-0.0136,-0.1427,0.1533,-0.6956,,0.4019,0.8,0.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6448,Ibrahim Zadran,Middle-Overs Accelerator,Top-Order Stabilizer,1164,247,Robust Evidence,-0.0863,-0.1427,0.067,-0.1212,0.1605,0.1602,0.7447,0.0426,0,Multi-Phase Versatile,HIGH-RISK
+6179,Nipun Ransika,Finisher / Death Specialist,Pure Death Finisher,7,7,Sparse Evidence,-0.0183,-0.1428,0.1479,-0.2794,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+757,Sybrand Engelbrecht,Finisher / Death Specialist,Pure Death Finisher,11,5,Sparse Evidence,-0.0166,-0.1429,0.15,-0.3481,,0.1682,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+36983,Mohit Rathee,Finisher / Death Specialist,Pure Death Finisher,2,2,Sparse Evidence,-0.0141,-0.1431,0.1533,-0.7182,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4460,Jeffrey Vandersay,Finisher / Death Specialist,Middle-Overs Accelerator,23,23,Sparse Evidence,-0.0309,-0.1433,0.1335,-0.1651,,0.078,0.3333,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4817,Anmolpreet Singh,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,103,1,Sparse Evidence,-0.0133,-0.1433,0.1544,-1.3407,,0.1478,1.0,0.375,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3995,Donald Tiripano,Finisher / Death Specialist,Middle-Overs Accelerator,3,3,Sparse Evidence,-0.0152,-0.1434,0.1522,-0.5234,,0.2714,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3135,Yannic Cariah,Finisher / Death Specialist,Pure Death Finisher,4,4,Sparse Evidence,-0.0163,-0.1435,0.1511,-0.4236,,0.226,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+198,Manish Pandey,Middle-Overs Accelerator,Spin Dominator,384,197,Robust Evidence,-0.0813,-0.1435,0.0738,-0.1226,0.4354,0.2426,0.9048,0.1905,0,Elite Phase Specialist,HIGH-RISK
+4716,Mayank Dagar,Finisher / Death Specialist,Pure Death Finisher,1,1,Sparse Evidence,-0.0139,-0.1439,0.1544,-1.403,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+286,Kane Richardson,Finisher / Death Specialist,Pure Death Finisher,1,1,Sparse Evidence,-0.0138,-0.1439,0.1544,-1.3986,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6591,KM Asif,Middle-Overs Accelerator,Spin Dominator,2,2,Sparse Evidence,-0.0151,-0.1441,0.1533,-0.7693,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+71727,Razaullah Razaullah,Finisher / Death Specialist,Pure Death Finisher,1,1,Sparse Evidence,-0.0141,-0.1441,0.1544,-1.4219,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6398,Aaron Hardie,Finisher / Death Specialist,Middle-Overs Accelerator,149,56,Moderate Evidence,-0.0492,-0.1442,0.1128,-0.137,-0.4047,0.2624,0.8182,0.0909,0,Elite Phase Specialist,HIGH-RISK
+7152,Hazratullah Zazai,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,259,3,Sparse Evidence,-0.0164,-0.1445,0.1522,-0.564,,0.3269,0.5625,0.125,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3077,Usama Mir,Finisher / Death Specialist,Pure Death Finisher,7,7,Sparse Evidence,-0.02,-0.1445,0.1479,-0.3055,,0.4964,0.75,0.75,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7904,Mohammad Chowdhury,Middle-Overs Accelerator,Spin Dominator,2,2,Sparse Evidence,-0.0154,-0.1445,0.1533,-0.787,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3298,Jofra Archer,Finisher / Death Specialist,Middle-Overs Accelerator,151,136,Robust Evidence,-0.0727,-0.1446,0.0854,-0.1261,0.1743,0.4598,0.7931,0.3103,0,Elite Phase Specialist,HIGH-RISK
+4736,Josh Inglis,Middle-Overs Accelerator,Top-Order Stabilizer,940,117,Robust Evidence,-0.0688,-0.1448,0.0903,-0.1276,-0.3151,0.5043,0.5357,0.1786,0,Elite Phase Specialist,HIGH-RISK
+7702,Chamindu Wickramasinghe,Finisher / Death Specialist,Middle-Overs Accelerator,35,35,Sparse Evidence,-0.0398,-0.1449,0.1249,-0.1534,,0.2526,0.75,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+393,Kedar Jadhav,Finisher / Death Specialist,Pure Death Finisher,10,10,Sparse Evidence,-0.023,-0.145,0.1449,-0.2529,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4265,T Natarajan,Finisher / Death Specialist,Pure Death Finisher,2,2,Sparse Evidence,-0.0162,-0.1453,0.1533,-0.8274,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6489,Darshan Nalkande,Middle-Overs Accelerator,Spin Dominator,12,12,Sparse Evidence,-0.0251,-0.1455,0.143,-0.2341,,0.5969,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2320,Trent Boult,Finisher / Death Specialist,Pure Death Finisher,84,81,Moderate Evidence,-0.06,-0.1457,0.1019,-0.134,,0.4187,0.7619,0.0952,0,Elite Phase Specialist,HIGH-RISK
+24982,Charlie Tear,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,26,12,Sparse Evidence,-0.0255,-0.1459,0.143,-0.2379,0.3113,0.0509,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1233,Gary Ballance,Middle-Overs Accelerator,Top-Order Stabilizer,30,3,Sparse Evidence,-0.0179,-0.146,0.1522,-0.6149,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+19535,Rejaur Rahman Raja,Finisher / Death Specialist,Pure Death Finisher,6,6,Sparse Evidence,-0.0207,-0.1461,0.1489,-0.366,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5547,Nosthush Kenjige,Finisher / Death Specialist,Pure Death Finisher,13,8,Sparse Evidence,-0.0228,-0.1465,0.1469,-0.3074,,0.1065,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1791,Wesley Barresi,Finisher / Death Specialist,Middle-Overs Accelerator,9,2,Sparse Evidence,-0.0175,-0.1465,0.1533,-0.8915,,0.2843,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3544,Usman Ghani,Middle-Overs Accelerator,Top-Order Stabilizer,130,57,Moderate Evidence,-0.0519,-0.1465,0.1123,-0.1429,0.1843,0.2815,1.0,0.1429,0,Elite Phase Specialist,HIGH-RISK
+5977,Khary Pierre,Finisher / Death Specialist,Pure Death Finisher,15,15,Sparse Evidence,-0.0285,-0.1466,0.1403,-0.2185,,0.5626,0.6667,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+45966,Prashant Veer,Finisher / Death Specialist,Middle-Overs Accelerator,72,64,Moderate Evidence,-0.0549,-0.1467,0.109,-0.1407,,0.1959,0.8,0.0,0,Elite Phase Specialist,HIGH-RISK
+443,Paul Stirling,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,557,52,Robust Evidence,-0.0502,-0.1469,0.1149,-0.1467,-0.0729,0.3559,0.4872,0.1795,0,Elite Phase Specialist,HIGH-RISK
+4900,Wanindu Hasaranga,Finisher / Death Specialist,Middle-Overs Accelerator,482,366,Robust Evidence,-0.1001,-0.1474,0.0562,-0.1275,0.028,0.4144,0.7258,0.3065,0,Elite Phase Specialist,HIGH-RISK
+8530,Kartik Tyagi,Finisher / Death Specialist,Pure Death Finisher,16,16,Sparse Evidence,-0.0303,-0.1476,0.1394,-0.2195,,0.4458,0.6,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7304,Sanvir Singh,Finisher / Death Specialist,Pure Death Finisher,22,17,Sparse Evidence,-0.031,-0.1476,0.1385,-0.2135,,0.2527,0.6,0.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6985,Bas de Leede,Finisher / Death Specialist,Middle-Overs Accelerator,169,111,Robust Evidence,-0.0703,-0.1477,0.0919,-0.1336,0.0467,0.0349,1.0,0.0,0,Elite Phase Specialist,HIGH-RISK
+8623,Kristian Clarke,Finisher / Death Specialist,Pure Death Finisher,1,1,Sparse Evidence,-0.0177,-0.1477,0.1544,-1.7859,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+19754,Raja Khan,Finisher / Death Specialist,Pure Death Finisher,2,2,Sparse Evidence,-0.019,-0.148,0.1533,-0.9679,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+34969,Manav Suthar,Finisher / Death Specialist,Pure Death Finisher,2,2,Sparse Evidence,-0.019,-0.148,0.1533,-0.9672,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+24381,Shariz Ahmad,Middle-Overs Accelerator,Spin Dominator,36,36,Sparse Evidence,-0.0437,-0.1483,0.1243,-0.165,,0.2833,0.6667,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+820,Nathan Coulter Nile,Finisher / Death Specialist,Pure Death Finisher,2,2,Sparse Evidence,-0.0194,-0.1484,0.1533,-0.9874,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+21791,J Gumbie,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,53,10,Sparse Evidence,-0.0263,-0.1484,0.1449,-0.2898,0.1669,0.0263,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7709,Ainsley Ndlovu,Finisher / Death Specialist,Pure Death Finisher,32,32,Sparse Evidence,-0.0419,-0.1487,0.1269,-0.1727,,0.0022,0.3333,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4857,Nathan Smith,Finisher / Death Specialist,Pure Death Finisher,7,7,Sparse Evidence,-0.0242,-0.1487,0.1479,-0.3692,,0.6521,0.5,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4658,Nasum Ahmed,Finisher / Death Specialist,Middle-Overs Accelerator,82,69,Moderate Evidence,-0.0591,-0.149,0.1068,-0.1447,0.1956,0.4848,0.7333,0.4667,0,Elite Phase Specialist,HIGH-RISK
+3282,Mehidy Hasan Miraz,Middle-Overs Accelerator,Late-Overs Finisher,273,131,Robust Evidence,-0.0762,-0.1491,0.0866,-0.1343,-0.4337,0.2739,0.6471,0.1765,0,Multi-Phase Versatile,HIGH-RISK
+6503,Zahoor Khan,Finisher / Death Specialist,Pure Death Finisher,2,2,Sparse Evidence,-0.0205,-0.1495,0.1533,-1.043,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+37311,Shiv Mathur,Finisher / Death Specialist,Middle-Overs Accelerator,54,43,Moderate Evidence,-0.0486,-0.1496,0.1199,-0.1616,-0.6142,0.1157,0.3333,0.0,0,Elite Phase Specialist,HIGH-RISK
+3832,Rezza Gaznavi,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,42,2,Sparse Evidence,-0.0206,-0.1496,0.1533,-1.0487,,0.2688,0.6667,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+19020,Ateeq Iqbal,Finisher / Death Specialist,Pure Death Finisher,5,5,Sparse Evidence,-0.0234,-0.1497,0.15,-0.4906,,0.1707,0.6667,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+34527,Jasper John Davidson,Finisher / Death Specialist,Pure Death Finisher,4,4,Sparse Evidence,-0.0225,-0.1497,0.1511,-0.5858,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+22920,Jacob Duffy,Finisher / Death Specialist,Pure Death Finisher,32,32,Sparse Evidence,-0.0429,-0.1497,0.1269,-0.1768,,0.541,0.7,0.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4417,Karan KC,Finisher / Death Specialist,Pure Death Finisher,2,2,Sparse Evidence,-0.0209,-0.1499,0.1533,-1.0647,,0.0418,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+36982,Suyash Sharma,Finisher / Death Specialist,Pure Death Finisher,2,2,Sparse Evidence,-0.0209,-0.15,0.1533,-1.0666,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4793,Dean Foxcroft,Middle-Overs Accelerator,Late-Overs Finisher,104,10,Sparse Evidence,-0.0283,-0.1503,0.1449,-0.3115,-0.0148,0.0981,0.8333,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+27743,DT Doram,Finisher / Death Specialist,Pure Death Finisher,7,7,Sparse Evidence,-0.0259,-0.1504,0.1479,-0.396,,0.6816,0.6667,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4221,Chris Green,Finisher / Death Specialist,Pure Death Finisher,3,3,Sparse Evidence,-0.0225,-0.1507,0.1522,-0.7742,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+15271,Usmangani Ibrahim Patel,Middle-Overs Accelerator,Spin Dominator,38,23,Sparse Evidence,-0.0384,-0.1508,0.1335,-0.2053,-0.5471,0.6053,0.6667,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5577,Sai Kishore,Finisher / Death Specialist,Pure Death Finisher,16,16,Sparse Evidence,-0.0336,-0.151,0.1394,-0.2438,,0.177,0.75,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+47017,Mohammad Jnr,Finisher / Death Specialist,Pure Death Finisher,14,14,Sparse Evidence,-0.0325,-0.1514,0.1412,-0.265,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+28788,Tanish Suri,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,41,12,Sparse Evidence,-0.0312,-0.1516,0.143,-0.2911,-0.5048,0.1154,0.5,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+31513,Ethan Dsouza,Middle-Overs Accelerator,Spin Dominator,38,10,Sparse Evidence,-0.0297,-0.1517,0.1449,-0.3269,-0.0284,0.1384,1.0,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3451,Baba Indrajith,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,31,8,Sparse Evidence,-0.0284,-0.152,0.1469,-0.3828,,0.1258,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6287,Yash Thakur,Finisher / Death Specialist,Pure Death Finisher,4,4,Sparse Evidence,-0.0248,-0.152,0.1511,-0.644,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+35122,Shah Faisal,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,15,15,Sparse Evidence,-0.0342,-0.1523,0.1403,-0.2625,,0.1332,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+41509,Yayin Rai,Finisher / Death Specialist,Middle-Overs Accelerator,40,40,Sparse Evidence,-0.05,-0.1525,0.1217,-0.175,,0.1992,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8664,Victor Nyauchi,Finisher / Death Specialist,Pure Death Finisher,3,3,Sparse Evidence,-0.0246,-0.1528,0.1522,-0.846,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+19309,Lahiru Udara,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,165,32,Moderate Evidence,-0.046,-0.1529,0.1269,-0.1897,-0.1236,0.4259,0.6364,0.1818,0,Elite Phase Specialist,HIGH-RISK
+31836,Aman Desai,Middle-Overs Accelerator,Spin Dominator,27,21,Sparse Evidence,-0.0392,-0.153,0.1351,-0.2258,,0.0222,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+22471,Matthew Humphreys,Finisher / Death Specialist,Pure Death Finisher,11,11,Sparse Evidence,-0.0321,-0.1533,0.1439,-0.3236,,0.3743,0.75,0.75,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+505,Mushfiqur Rahim,Middle-Overs Accelerator,Spin Dominator,9,4,Sparse Evidence,-0.0262,-0.1534,0.1511,-0.682,,0.2109,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6644,Mahidul Ankon,Middle-Overs Accelerator,Spin Dominator,49,3,Sparse Evidence,-0.0253,-0.1534,0.1522,-0.8693,,0.2448,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+28756,Haider Ali,Finisher / Death Specialist,Pure Death Finisher,41,39,Sparse Evidence,-0.0505,-0.1535,0.1223,-0.18,0.513,0.0998,0.8889,0.5556,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+28967,Tim Robinson,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,434,45,Robust Evidence,-0.0537,-0.1536,0.1187,-0.1729,0.0081,0.2122,0.6538,0.2692,0,Elite Phase Specialist,HIGH-RISK
+30925,Bradley Currie,Finisher / Death Specialist,Pure Death Finisher,10,10,Sparse Evidence,-0.0319,-0.1539,0.1449,-0.3511,,0.0986,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+26916,Yasir Mohammad,Finisher / Death Specialist,Middle-Overs Accelerator,9,9,Sparse Evidence,-0.0314,-0.1542,0.1459,-0.38,,0.2726,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+25679,Salil Arora,Finisher / Death Specialist,Middle-Overs Accelerator,106,70,Moderate Evidence,-0.0648,-0.1543,0.1063,-0.1573,0.601,0.3359,0.6364,0.0909,0,Elite Phase Specialist,HIGH-RISK
+8637,Vriitya Aravind,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,106,10,Sparse Evidence,-0.0327,-0.1547,0.1449,-0.3597,-0.3002,0.27,0.625,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4807,Joshua Little,Finisher / Death Specialist,Pure Death Finisher,20,20,Sparse Evidence,-0.0402,-0.1547,0.136,-0.2413,,0.1758,0.8,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5892,Blair Tickner,Middle-Overs Accelerator,Spin Dominator,5,5,Sparse Evidence,-0.0287,-0.155,0.15,-0.6027,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8085,Suyash Prabhudessai,Finisher / Death Specialist,Middle-Overs Accelerator,113,101,Moderate Evidence,-0.0755,-0.1555,0.0949,-0.1503,-0.2471,0.2525,0.7,0.2,0,Elite Phase Specialist,HIGH-RISK
+47371,Zuhaid Zubair,Finisher / Death Specialist,Pure Death Finisher,2,2,Sparse Evidence,-0.0265,-0.1556,0.1533,-1.352,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+25128,Nqabayomzi Peter,Finisher / Death Specialist,Pure Death Finisher,20,20,Sparse Evidence,-0.0412,-0.1557,0.136,-0.2474,,0.2855,0.5,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8639,Kartik Meiyappan,Finisher / Death Specialist,Pure Death Finisher,17,17,Sparse Evidence,-0.0392,-0.1558,0.1385,-0.2696,,0.34,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+21781,Clive Madande,Finisher / Death Specialist,Middle-Overs Accelerator,307,253,Robust Evidence,-0.1001,-0.1559,0.0663,-0.1396,-0.4463,0.3088,0.6087,0.3478,0,Elite Phase Specialist,HIGH-RISK
+3629,Corbin Bosch,Finisher / Death Specialist,Middle-Overs Accelerator,144,143,Moderate Evidence,-0.0854,-0.156,0.0838,-0.1451,,0.4694,0.6,0.3333,0,Elite Phase Specialist,HIGH-RISK
+5665,Sanjay Yadav,Finisher / Death Specialist,Pure Death Finisher,2,2,Sparse Evidence,-0.0275,-0.1565,0.1533,-1.4007,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+37731,Musheer Khan,Middle-Overs Accelerator,Spin Dominator,3,3,Sparse Evidence,-0.0284,-0.1565,0.1522,-0.976,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+43774,Shivam Singh,Finisher / Death Specialist,Pure Death Finisher,3,3,Sparse Evidence,-0.0284,-0.1565,0.1522,-0.974,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3306,Afsar Zazai,Middle-Overs Accelerator,Top-Order Stabilizer,30,9,Sparse Evidence,-0.0337,-0.1566,0.1459,-0.4086,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+17898,Bilal Sami,Finisher / Death Specialist,Pure Death Finisher,3,3,Sparse Evidence,-0.0286,-0.1567,0.1522,-0.9827,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6995,Saad Zafar,Finisher / Death Specialist,Middle-Overs Accelerator,39,39,Sparse Evidence,-0.0537,-0.1567,0.1223,-0.1915,,0.0299,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+64604,Kalhan Challu,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,11,11,Sparse Evidence,-0.0356,-0.1569,0.1439,-0.3597,,0.2992,0.5,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+278,Tim Southee,Finisher / Death Specialist,Pure Death Finisher,52,52,Moderate Evidence,-0.0603,-0.157,0.1149,-0.1763,,0.6949,0.6875,0.4375,0,Elite Phase Specialist,HIGH-RISK
+58135,Tejasvi Dahiya,Finisher / Death Specialist,Pure Death Finisher,15,3,Sparse Evidence,-0.0291,-0.1572,0.1522,-1.0,,0.1624,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7544,Venkatesh Iyer,Middle-Overs Accelerator,Late-Overs Finisher,979,302,Robust Evidence,-0.1058,-0.1574,0.0613,-0.1408,-0.0192,0.4341,0.6182,0.1273,0,Multi-Phase Versatile,HIGH-RISK
+26834,Raj Bawa,Finisher / Death Specialist,Middle-Overs Accelerator,32,18,Sparse Evidence,-0.0416,-0.1575,0.1376,-0.2727,0.0442,0.4232,0.75,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8424,Tanveer Sangha,Finisher / Death Specialist,Pure Death Finisher,4,4,Sparse Evidence,-0.0303,-0.1575,0.1511,-0.7884,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6643,Hasan Mahmud,Finisher / Death Specialist,Pure Death Finisher,47,47,Sparse Evidence,-0.0585,-0.1576,0.1176,-0.1831,,0.5894,0.5714,0.1429,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5562,Richard Gleeson,Finisher / Death Specialist,Pure Death Finisher,6,6,Sparse Evidence,-0.0322,-0.1576,0.1489,-0.5683,,0.1307,1.0,0.6667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+223,Steven Smith,Middle-Overs Accelerator,Late-Overs Finisher,193,58,Robust Evidence,-0.0635,-0.1577,0.1118,-0.1731,0.591,0.1781,0.9231,0.1538,0,Multi-Phase Versatile,HIGH-RISK
+3967,Tom Kohler,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,54,2,Sparse Evidence,-0.0288,-0.1578,0.1533,-1.468,,0.1824,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4784,Tony de Zorzi,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,94,10,Sparse Evidence,-0.0358,-0.1578,0.1449,-0.394,-0.206,0.3203,0.8571,0.1429,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+57747,Charlie Cassell,Finisher / Death Specialist,Pure Death Finisher,3,3,Sparse Evidence,-0.0298,-0.1579,0.1522,-1.0219,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7140,Senuran Muthusamy,Finisher / Death Specialist,Pure Death Finisher,9,9,Sparse Evidence,-0.0355,-0.1584,0.1459,-0.4302,,0.4723,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+722,Liam Dawson,Finisher / Death Specialist,Middle-Overs Accelerator,49,42,Sparse Evidence,-0.0571,-0.1585,0.1205,-0.1929,,0.3708,0.75,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5837,Mahedi Hasan,Finisher / Death Specialist,Middle-Overs Accelerator,264,221,Robust Evidence,-0.0993,-0.1585,0.0703,-0.1442,0.0098,0.4297,0.64,0.24,0,Elite Phase Specialist,HIGH-RISK
+7002,Nicholas Kirton,Middle-Overs Accelerator,Late-Overs Finisher,115,67,Moderate Evidence,-0.068,-0.1586,0.1076,-0.1695,0.6865,0.1012,0.75,0.25,0,Elite Phase Specialist,HIGH-RISK
+2687,Roston Chase,Middle-Overs Accelerator,Late-Overs Finisher,534,263,Robust Evidence,-0.1037,-0.1586,0.0652,-0.1431,0.13,0.2461,0.7222,0.1389,0,Elite Phase Specialist,HIGH-RISK
+16284,Habibur Rahman Sohan,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,139,4,Sparse Evidence,-0.0315,-0.1587,0.1511,-0.8201,,0.5469,0.4,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+29558,Muhammad Arfan,Finisher / Death Specialist,Middle-Overs Accelerator,73,73,Moderate Evidence,-0.0702,-0.1587,0.1051,-0.1664,,0.3709,0.6,0.0,0,Elite Phase Specialist,HIGH-RISK
+2296,Safyaan Sharif,Finisher / Death Specialist,Pure Death Finisher,6,6,Sparse Evidence,-0.0336,-0.159,0.1489,-0.5943,,0.7063,0.5,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1701,Swapnil Singh,Finisher / Death Specialist,Middle-Overs Accelerator,26,21,Sparse Evidence,-0.0453,-0.1591,0.1351,-0.2611,,0.706,0.5,0.1667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+19315,Vijayakanth Viyaskanth,Finisher / Death Specialist,Pure Death Finisher,11,11,Sparse Evidence,-0.0384,-0.1596,0.1439,-0.3875,,0.533,0.6667,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4237,Tabraiz Shamsi,Finisher / Death Specialist,Pure Death Finisher,8,8,Sparse Evidence,-0.0364,-0.16,0.1469,-0.4909,,0.6358,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2418,Justin Greaves,Middle-Overs Accelerator,Top-Order Stabilizer,21,20,Sparse Evidence,-0.0455,-0.16,0.136,-0.2732,,0.354,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2526,Ish Sodhi,Finisher / Death Specialist,Pure Death Finisher,137,137,Moderate Evidence,-0.0888,-0.1606,0.0852,-0.1537,,0.539,0.7037,0.4815,0,Elite Phase Specialist,HIGH-RISK
+28908,Vincent Masekesa,Middle-Overs Accelerator,Spin Dominator,4,4,Sparse Evidence,-0.0335,-0.1607,0.1511,-0.8722,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+19125,Ayush Shukla,Middle-Overs Accelerator,Late-Overs Finisher,8,8,Sparse Evidence,-0.0371,-0.1608,0.1469,-0.5008,,0.0856,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7269,Sushant Mishra,Finisher / Death Specialist,Pure Death Finisher,3,3,Sparse Evidence,-0.0327,-0.1608,0.1522,-1.1236,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+27004,Hassnain Shah,Finisher / Death Specialist,Middle-Overs Accelerator,5,5,Sparse Evidence,-0.0346,-0.1609,0.15,-0.727,,0.3799,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4826,George Garton,Finisher / Death Specialist,Pure Death Finisher,4,4,Sparse Evidence,-0.0341,-0.1613,0.1511,-0.8869,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6772,Chetan Sakariya,Finisher / Death Specialist,Pure Death Finisher,6,6,Sparse Evidence,-0.0361,-0.1615,0.1489,-0.6375,,0.4378,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+67036,Brijesh Sharma,Finisher / Death Specialist,Pure Death Finisher,4,4,Sparse Evidence,-0.0344,-0.1616,0.1511,-0.8937,,0.4279,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+48278,Ubaid Shah,Finisher / Death Specialist,Pure Death Finisher,3,3,Sparse Evidence,-0.0338,-0.1619,0.1522,-1.1602,,0.0186,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+47694,Omid Rahman,Finisher / Death Specialist,Pure Death Finisher,4,4,Sparse Evidence,-0.0347,-0.1619,0.1511,-0.902,,0.0434,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+16498,Sultan Ahmad,Finisher / Death Specialist,Pure Death Finisher,4,4,Sparse Evidence,-0.0347,-0.1619,0.1511,-0.9013,,0.3236,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+32862,Allah Ghazanfar,Finisher / Death Specialist,Middle-Overs Accelerator,15,15,Sparse Evidence,-0.0439,-0.162,0.1403,-0.3363,,0.2174,0.75,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6494,Manoj Bhandage,Middle-Overs Accelerator,Spin Dominator,4,4,Sparse Evidence,-0.0349,-0.1621,0.1511,-0.908,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1205,Jonny Bairstow,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,692,92,Robust Evidence,-0.0804,-0.1628,0.0979,-0.1678,-0.1192,0.3039,0.6061,0.0909,0,Elite Phase Specialist,HIGH-RISK
+4874,Richard Ngarava,Finisher / Death Specialist,Pure Death Finisher,66,57,Moderate Evidence,-0.0684,-0.1629,0.1123,-0.1883,-0.2587,0.5823,0.6842,0.4737,0,Elite Phase Specialist,HIGH-RISK
+1617,Rishi Dhawan,Finisher / Death Specialist,Middle-Overs Accelerator,53,53,Moderate Evidence,-0.0666,-0.1629,0.1144,-0.1922,,0.5051,0.5,0.1667,0,Elite Phase Specialist,HIGH-RISK
+5877,Andries Gous,Middle-Overs Accelerator,Top-Order Stabilizer,59,3,Sparse Evidence,-0.0349,-0.163,0.1522,-1.1983,,0.5625,0.6667,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+161,Dwayne Bravo,Finisher / Death Specialist,Middle-Overs Accelerator,26,26,Sparse Evidence,-0.0527,-0.1632,0.1312,-0.2555,,0.0723,1.0,0.1667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7545,Kuldeep Sen,Finisher / Death Specialist,Pure Death Finisher,3,3,Sparse Evidence,-0.0351,-0.1632,0.1522,-1.2042,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6342,Matthew Breetzke,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,154,34,Moderate Evidence,-0.0576,-0.1633,0.1256,-0.227,-0.3261,0.2765,0.7857,0.3571,0,Elite Phase Specialist,HIGH-RISK
+49265,Ahmed Tariq,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,4,3,Sparse Evidence,-0.0352,-0.1633,0.1522,-1.2093,,0.0374,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6487,Priyam Garg,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,56,18,Moderate Evidence,-0.0475,-0.1634,0.1376,-0.3114,0.0397,0.3418,0.75,0.0,0,Elite Phase Specialist,HIGH-RISK
+25216,Andile Simelane,Finisher / Death Specialist,Middle-Overs Accelerator,36,35,Sparse Evidence,-0.0582,-0.1634,0.1249,-0.2244,,0.5673,0.5,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4505,Jhye Richardson,Finisher / Death Specialist,Middle-Overs Accelerator,22,12,Sparse Evidence,-0.0432,-0.1636,0.143,-0.4031,0.3763,0.0383,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6797,Dominic Drakes,Finisher / Death Specialist,Pure Death Finisher,14,14,Sparse Evidence,-0.045,-0.1638,0.1412,-0.3661,,0.1042,0.6667,0.6667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2650,Raymon Reifer,Middle-Overs Accelerator,Spin Dominator,43,19,Sparse Evidence,-0.0487,-0.1639,0.1368,-0.305,-0.4188,0.1557,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5940,Riley Meredith,Finisher / Death Specialist,Pure Death Finisher,3,3,Sparse Evidence,-0.036,-0.1641,0.1522,-1.2361,,0.1086,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4812,Harry Tector,Middle-Overs Accelerator,Late-Overs Finisher,857,376,Robust Evidence,-0.1175,-0.1642,0.0555,-0.1487,0.0281,0.2898,0.7556,0.1556,0,Elite Phase Specialist,HIGH-RISK
+7928,Vinoth Baskaran,Finisher / Death Specialist,Pure Death Finisher,9,9,Sparse Evidence,-0.0414,-0.1643,0.1459,-0.5015,,0.0337,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5866,Patrick Kruger,Finisher / Death Specialist,Middle-Overs Accelerator,62,60,Moderate Evidence,-0.0712,-0.1645,0.1109,-0.1898,,0.2723,0.8,0.4,0,Elite Phase Specialist,HIGH-RISK
+5808,Karim Janat,Finisher / Death Specialist,Middle-Overs Accelerator,337,190,Robust Evidence,-0.1016,-0.1647,0.0749,-0.1551,0.201,0.284,0.8214,0.2857,0,Elite Phase Specialist,HIGH-RISK
+7327,Rasikh Salam,Finisher / Death Specialist,Middle-Overs Accelerator,40,39,Sparse Evidence,-0.062,-0.165,0.1223,-0.2208,,0.4042,0.7143,0.2857,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1219,David Willey,Finisher / Death Specialist,Middle-Overs Accelerator,100,77,Moderate Evidence,-0.078,-0.1651,0.1034,-0.1793,0.3385,0.7132,0.8,0.2,0,Elite Phase Specialist,HIGH-RISK
+4815,Benjamin White,Finisher / Death Specialist,Pure Death Finisher,14,14,Sparse Evidence,-0.0466,-0.1654,0.1412,-0.3791,,0.1738,0.75,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4790,Lutho Sipamla,Finisher / Death Specialist,Middle-Overs Accelerator,14,14,Sparse Evidence,-0.0466,-0.1655,0.1412,-0.3798,,0.0003,1.0,0.6667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4438,Jasdeep Singh,Finisher / Death Specialist,Middle-Overs Accelerator,20,14,Sparse Evidence,-0.0469,-0.1658,0.1412,-0.3819,,0.0665,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+29833,Bashir Ahmad,Finisher / Death Specialist,Pure Death Finisher,6,6,Sparse Evidence,-0.0404,-0.1658,0.1489,-0.7135,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4837,Obed McCoy,Finisher / Death Specialist,Pure Death Finisher,44,44,Sparse Evidence,-0.0655,-0.166,0.1193,-0.2145,,0.401,0.75,0.125,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+35318,Sakib Hussain,Finisher / Death Specialist,Pure Death Finisher,7,7,Sparse Evidence,-0.0421,-0.1666,0.1479,-0.6433,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6526,Himmat Singh,Finisher / Death Specialist,Middle-Overs Accelerator,74,65,Moderate Evidence,-0.0753,-0.1667,0.1085,-0.1912,,0.281,0.8,0.0,0,Elite Phase Specialist,HIGH-RISK
+6436,Qais Ahmad,Finisher / Death Specialist,Pure Death Finisher,44,21,Sparse Evidence,-0.0532,-0.167,0.1351,-0.3065,0.1092,0.178,0.8333,0.1667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6932,Pramod Madushan,Middle-Overs Accelerator,Late-Overs Finisher,15,15,Sparse Evidence,-0.0494,-0.1675,0.1403,-0.3784,,0.0451,1.0,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4780,Mohammad Saif Hassan,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,514,51,Robust Evidence,-0.0704,-0.1676,0.1154,-0.2085,0.4965,0.2582,0.6154,0.0769,0,Elite Phase Specialist,HIGH-RISK
+6506,Mohammad Imran Randhawa,Middle-Overs Accelerator,Spin Dominator,12,9,Sparse Evidence,-0.045,-0.1678,0.1459,-0.5444,,0.4193,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7566,Ben Curran,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,43,19,Sparse Evidence,-0.0526,-0.1678,0.1368,-0.3293,-0.2452,0.2894,0.75,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3613,Shakeel Ahmed,Finisher / Death Specialist,Middle-Overs Accelerator,41,41,Sparse Evidence,-0.0659,-0.1679,0.1211,-0.2266,,0.3478,0.6667,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8638,Basil Hameed,Finisher / Death Specialist,Middle-Overs Accelerator,146,105,Moderate Evidence,-0.0893,-0.1682,0.0937,-0.1744,0.2338,0.0978,0.8889,0.2222,0,Elite Phase Specialist,HIGH-RISK
+23,Piyush Chawla,Finisher / Death Specialist,Middle-Overs Accelerator,37,37,Sparse Evidence,-0.0648,-0.1689,0.1236,-0.24,,0.4489,0.8,0.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6350,Matthew Kuhnemann,Finisher / Death Specialist,Pure Death Finisher,12,12,Sparse Evidence,-0.0486,-0.169,0.143,-0.4538,,0.0146,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6783,Azam Khan,Finisher / Death Specialist,Middle-Overs Accelerator,61,35,Moderate Evidence,-0.064,-0.1691,0.1249,-0.2467,-0.7359,0.4383,0.7,0.4,0,Elite Phase Specialist,HIGH-RISK
+39991,Parveen Kumar,Middle-Overs Accelerator,Spin Dominator,10,10,Sparse Evidence,-0.0472,-0.1692,0.1449,-0.519,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2892,Asif Ali,Finisher / Death Specialist,Pure Death Finisher,84,63,Moderate Evidence,-0.0775,-0.1697,0.1094,-0.2006,-0.4336,0.4679,0.6923,0.4615,0,Elite Phase Specialist,HIGH-RISK
+4211,Vishnu Vinod,Finisher / Death Specialist,Middle-Overs Accelerator,40,20,Sparse Evidence,-0.0554,-0.1699,0.136,-0.3325,-0.3956,0.5596,0.5,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6515,Benjamin Lister,Finisher / Death Specialist,Pure Death Finisher,6,6,Sparse Evidence,-0.0447,-0.1701,0.1489,-0.7898,,0.1721,1.0,0.6667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+15551,Ackeem Auguste,Middle-Overs Accelerator,Top-Order Stabilizer,128,51,Moderate Evidence,-0.0737,-0.1708,0.1154,-0.2181,-0.3799,0.4119,0.4444,0.1111,0,Elite Phase Specialist,HIGH-RISK
+3033,Usman Qadir,Finisher / Death Specialist,Pure Death Finisher,7,7,Sparse Evidence,-0.0479,-0.1724,0.1479,-0.7321,,0.4158,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4816,Khaleel Ahmed,Finisher / Death Specialist,Pure Death Finisher,5,5,Sparse Evidence,-0.0463,-0.1726,0.15,-0.9724,,0.0543,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3689,Mark Watt,Finisher / Death Specialist,Pure Death Finisher,59,58,Moderate Evidence,-0.0787,-0.1728,0.1118,-0.2143,,0.1502,0.8333,0.1667,0,Elite Phase Specialist,HIGH-RISK
+47403,Newman Nyamhuri,Finisher / Death Specialist,Middle-Overs Accelerator,23,23,Sparse Evidence,-0.0607,-0.1731,0.1335,-0.3245,,0.0886,1.0,0.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+20023,Karan Sharma,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,25,11,Sparse Evidence,-0.0519,-0.1731,0.1439,-0.5236,0.1226,0.1533,1.0,0.6667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2930,Rassie van der Dussen,Middle-Overs Accelerator,Late-Overs Finisher,318,194,Robust Evidence,-0.1108,-0.1733,0.0743,-0.1679,0.1504,0.3662,0.75,0.2,0,Elite Phase Specialist,HIGH-RISK
+6389,Tanvir Islam,Finisher / Death Specialist,Pure Death Finisher,17,17,Sparse Evidence,-0.057,-0.1736,0.1385,-0.392,,0.5933,0.6667,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2534,Rahmat Shah,Middle-Overs Accelerator,Spin Dominator,6,6,Sparse Evidence,-0.0486,-0.174,0.1489,-0.858,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7927,Janak Prakash,Middle-Overs Accelerator,Late-Overs Finisher,82,33,Moderate Evidence,-0.0678,-0.1741,0.1262,-0.2732,-0.0351,0.0596,1.0,0.0,0,Elite Phase Specialist,HIGH-RISK
+31518,Akshat Raghuwanshi,Middle-Overs Accelerator,Spin Dominator,27,3,Sparse Evidence,-0.0461,-0.1742,0.1522,-1.5811,,0.3758,0.5,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+60609,Navin Bidaisee,Finisher / Death Specialist,Middle-Overs Accelerator,32,32,Sparse Evidence,-0.0676,-0.1744,0.1269,-0.2787,,0.2004,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5034,Murugan Ashwin,Finisher / Death Specialist,Pure Death Finisher,14,14,Sparse Evidence,-0.0558,-0.1747,0.1412,-0.4545,,0.4184,0.75,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+28018,Ashok Sharma,Middle-Overs Accelerator,Late-Overs Finisher,5,5,Sparse Evidence,-0.0488,-0.1751,0.15,-1.0256,,0.2777,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8049,Naseem Shah,Finisher / Death Specialist,Pure Death Finisher,51,51,Moderate Evidence,-0.078,-0.1751,0.1154,-0.2308,,0.5835,0.7273,0.4545,0,Elite Phase Specialist,HIGH-RISK
+31529,Robin Minz,Middle-Overs Accelerator,Late-Overs Finisher,20,10,Sparse Evidence,-0.0531,-0.1752,0.1449,-0.5845,0.3623,0.1418,0.75,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+27962,Saurav Chauhan,Finisher / Death Specialist,Pure Death Finisher,16,10,Sparse Evidence,-0.0532,-0.1752,0.1449,-0.5855,,0.2975,1.0,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+15279,Shiraz Khan,Middle-Overs Accelerator,Spin Dominator,14,9,Sparse Evidence,-0.0527,-0.1755,0.1459,-0.6379,,0.1698,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+35120,Narayan Saishiv,Middle-Overs Accelerator,Spin Dominator,49,6,Sparse Evidence,-0.0502,-0.1756,0.1489,-0.8871,,0.1386,1.0,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+46378,Kyle Klein,Finisher / Death Specialist,Middle-Overs Accelerator,39,39,Sparse Evidence,-0.0729,-0.1759,0.1223,-0.2597,,0.1426,0.8,0.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6284,Anukul Roy,Finisher / Death Specialist,Pure Death Finisher,66,50,Moderate Evidence,-0.0787,-0.1764,0.116,-0.2362,0.5391,0.4784,0.8571,0.4286,0,Elite Phase Specialist,HIGH-RISK
+56685,Abdullah Ahmadzai,Finisher / Death Specialist,Middle-Overs Accelerator,14,12,Sparse Evidence,-0.0561,-0.1765,0.143,-0.5232,,0.1623,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3727,Matthew Short,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,437,109,Robust Evidence,-0.0987,-0.1766,0.0925,-0.1892,-0.2056,0.3247,0.5806,0.2258,0,Elite Phase Specialist,HIGH-RISK
+7338,Haider Ali,Finisher / Death Specialist,Middle-Overs Accelerator,126,55,Moderate Evidence,-0.0813,-0.1767,0.1133,-0.2292,-1.0708,0.3052,0.6667,0.1667,0,Elite Phase Specialist,HIGH-RISK
+31835,Akshay Roopak Puri,Finisher / Death Specialist,Pure Death Finisher,6,6,Sparse Evidence,-0.0513,-0.1767,0.1489,-0.9059,,0.0981,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2997,Paul van Meekeren,Finisher / Death Specialist,Middle-Overs Accelerator,18,18,Sparse Evidence,-0.0609,-0.1768,0.1376,-0.399,,0.261,1.0,0.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+37939,Nahid Rana,Finisher / Death Specialist,Pure Death Finisher,5,5,Sparse Evidence,-0.0505,-0.1768,0.15,-1.06,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8040,Ripal Patel,Finisher / Death Specialist,Pure Death Finisher,47,47,Sparse Evidence,-0.0784,-0.1775,0.1176,-0.2453,,0.4904,0.6,0.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+26663,Kwena Maphaka,Finisher / Death Specialist,Pure Death Finisher,26,26,Sparse Evidence,-0.0674,-0.1779,0.1312,-0.3266,,0.3051,0.8333,0.1667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2054,Jason Behrendorff,Finisher / Death Specialist,Pure Death Finisher,11,11,Sparse Evidence,-0.0571,-0.1783,0.1439,-0.5759,,0.0384,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6523,Blessing Muzarabani,Finisher / Death Specialist,Pure Death Finisher,44,43,Sparse Evidence,-0.0782,-0.1791,0.1199,-0.26,,0.2487,0.7333,0.6667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3543,Shahidullah Kamal,Finisher / Death Specialist,Middle-Overs Accelerator,99,70,Moderate Evidence,-0.0896,-0.1791,0.1063,-0.2175,0.1093,0.4421,0.875,0.375,0,Elite Phase Specialist,HIGH-RISK
+4881,Dipendra Airee,Finisher / Death Specialist,Middle-Overs Accelerator,21,21,Sparse Evidence,-0.0653,-0.1791,0.1351,-0.3762,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7498,Abhijeet Tomar,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,8,8,Sparse Evidence,-0.0559,-0.1795,0.1469,-0.7541,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+152,Ravindra Jadeja,Finisher / Death Specialist,Middle-Overs Accelerator,1002,633,Robust Evidence,-0.1436,-0.1801,0.0433,-0.1663,0.1658,0.2974,0.7385,0.1692,0,Elite Phase Specialist,HIGH-RISK
+8251,Kumar Kushagra,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,21,7,Sparse Evidence,-0.0555,-0.1801,0.1479,-0.849,,0.2832,1.0,0.75,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+169,Robin Uthappa,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,181,30,Moderate Evidence,-0.0723,-0.1804,0.1283,-0.3133,-0.1508,0.4752,0.7273,0.1818,0,Elite Phase Specialist,HIGH-RISK
+4871,Brandon Mavuta,Finisher / Death Specialist,Pure Death Finisher,16,16,Sparse Evidence,-0.0633,-0.1806,0.1394,-0.4586,,0.0792,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+26906,Angkrish Raghuvanshi,Middle-Overs Accelerator,Top-Order Stabilizer,628,138,Robust Evidence,-0.1091,-0.1807,0.085,-0.1882,0.1641,0.2327,0.7,0.1667,0,Elite Phase Specialist,HIGH-RISK
+1612,Yuzvendra Chahal,Finisher / Death Specialist,Pure Death Finisher,10,10,Sparse Evidence,-0.0593,-0.1813,0.1449,-0.6524,,0.3695,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3639,Brandon King,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,1164,77,Robust Evidence,-0.0943,-0.1814,0.1034,-0.2167,0.0659,0.2998,0.678,0.2712,0,Elite Phase Specialist,HIGH-RISK
+147,Pradeep Sangwan,Finisher / Death Specialist,Pure Death Finisher,6,6,Sparse Evidence,-0.0561,-0.1815,0.1489,-0.9903,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3622,Hayden Walsh,Finisher / Death Specialist,Pure Death Finisher,16,16,Sparse Evidence,-0.0643,-0.1816,0.1394,-0.466,,0.445,0.6667,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2407,Dhananjaya de Silva,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,211,45,Robust Evidence,-0.0818,-0.1818,0.1187,-0.2637,-0.3998,0.1748,0.8,0.0,0,Elite Phase Specialist,HIGH-RISK
+2877,Vijay Shankar,Finisher / Death Specialist,Middle-Overs Accelerator,405,184,Robust Evidence,-0.118,-0.1819,0.0759,-0.1821,0.2693,0.2638,0.8077,0.0385,0,Multi-Phase Versatile,HIGH-RISK
+3377,Babar Hayat,Middle-Overs Accelerator,Top-Order Stabilizer,385,181,Robust Evidence,-0.118,-0.1823,0.0764,-0.1832,0.2068,0.1626,0.8571,0.2143,0,Elite Phase Specialist,HIGH-RISK
+4487,Vyshak Kumar,Finisher / Death Specialist,Pure Death Finisher,17,17,Sparse Evidence,-0.0657,-0.1823,0.1385,-0.4524,,0.3626,0.8333,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+17419,Tim Tector,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,82,9,Sparse Evidence,-0.0597,-0.1825,0.1459,-0.7231,,0.2725,0.3333,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4219,Krunal Pandya,Finisher / Death Specialist,Middle-Overs Accelerator,686,387,Robust Evidence,-0.1366,-0.1827,0.0547,-0.1719,0.1204,0.2356,0.8148,0.2593,0,Elite Phase Specialist,HIGH-RISK
+6161,Rahul Chahar,Finisher / Death Specialist,Pure Death Finisher,98,98,Moderate Evidence,-0.1019,-0.1827,0.0959,-0.2059,,0.448,0.6923,0.3846,0,Elite Phase Specialist,HIGH-RISK
+4450,Mehran Khan,Finisher / Death Specialist,Pure Death Finisher,9,9,Sparse Evidence,-0.0621,-0.185,0.1459,-0.7526,,0.2923,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8727,Sanchit Sharma,Finisher / Death Specialist,Middle-Overs Accelerator,11,10,Sparse Evidence,-0.0632,-0.1852,0.1449,-0.6948,,0.1515,1.0,0.75,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4409,Sam Curran,Finisher / Death Specialist,Middle-Overs Accelerator,894,551,Robust Evidence,-0.1465,-0.1855,0.0463,-0.1731,0.0769,0.2923,0.7966,0.1695,0,Elite Phase Specialist,HIGH-RISK
+27364,Simranjeet Kang,Finisher / Death Specialist,Middle-Overs Accelerator,9,9,Sparse Evidence,-0.0629,-0.1857,0.1459,-0.7616,,0.1037,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+142,Shikhar Dhawan,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,795,77,Robust Evidence,-0.0994,-0.1865,0.1034,-0.2285,-0.0477,0.1825,0.9,0.1,0,Elite Phase Specialist,HIGH-RISK
+7945,Nasrulla Rana,Finisher / Death Specialist,Pure Death Finisher,15,14,Sparse Evidence,-0.0676,-0.1865,0.1412,-0.5507,,0.4792,0.75,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7312,Nandre Burger,Finisher / Death Specialist,Middle-Overs Accelerator,30,30,Sparse Evidence,-0.0787,-0.1867,0.1283,-0.3409,,0.1781,0.8333,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+27390,Matiullah Khan,Finisher / Death Specialist,Pure Death Finisher,6,5,Sparse Evidence,-0.0607,-0.187,0.15,-1.2743,,0.4891,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7966,Farmanullah Safi,Finisher / Death Specialist,Middle-Overs Accelerator,36,34,Sparse Evidence,-0.0822,-0.1879,0.1256,-0.3239,,0.1836,0.6667,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2411,Sandeep Sharma,Finisher / Death Specialist,Pure Death Finisher,13,13,Sparse Evidence,-0.0686,-0.1882,0.1421,-0.596,,0.0437,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+58246,Prince Yadav,Finisher / Death Specialist,Middle-Overs Accelerator,41,41,Sparse Evidence,-0.0862,-0.1882,0.1211,-0.2966,,0.9782,0.6667,0.1111,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+26909,Yash Dhull,Middle-Overs Accelerator,Top-Order Stabilizer,23,19,Sparse Evidence,-0.0735,-0.1887,0.1368,-0.4604,,0.2246,1.0,0.6667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3382,Nizakat Khan,Middle-Overs Accelerator,Late-Overs Finisher,289,92,Robust Evidence,-0.1063,-0.1888,0.0979,-0.2219,-0.3829,0.2514,0.8462,0.2308,0,Elite Phase Specialist,HIGH-RISK
+4838,Keemo Paul,Finisher / Death Specialist,Pure Death Finisher,31,31,Sparse Evidence,-0.0814,-0.1889,0.1276,-0.344,,0.2291,1.0,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+43798,Lhuan Pretorius,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,78,6,Sparse Evidence,-0.0636,-0.189,0.1489,-1.123,,0.5501,0.7778,0.4444,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3539,Ben McDermott,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,139,14,Sparse Evidence,-0.0704,-0.1893,0.1412,-0.5735,-0.1619,0.2582,0.8571,0.1429,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4692,Lockie Ferguson,Finisher / Death Specialist,Middle-Overs Accelerator,30,30,Sparse Evidence,-0.0815,-0.1895,0.1283,-0.3531,,0.4882,0.6923,0.6154,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2790,Praveen Dubey,Finisher / Death Specialist,Middle-Overs Accelerator,20,20,Sparse Evidence,-0.0753,-0.1898,0.136,-0.4519,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+35071,Kunal Rathore,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,5,5,Sparse Evidence,-0.0635,-0.1898,0.15,-1.3343,,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+403,Umesh Yadav,Finisher / Death Specialist,Pure Death Finisher,99,99,Moderate Evidence,-0.1093,-0.1898,0.0956,-0.2197,,0.3032,0.8,0.2667,0,Elite Phase Specialist,HIGH-RISK
+28915,Trevor Gwandu,Finisher / Death Specialist,Pure Death Finisher,27,26,Sparse Evidence,-0.0798,-0.1903,0.1312,-0.3869,,0.2084,1.0,0.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7744,Jordan Cox,Middle-Overs Accelerator,Top-Order Stabilizer,74,18,Moderate Evidence,-0.0749,-0.1908,0.1376,-0.4909,-0.5625,0.4622,0.6,0.2,0,Elite Phase Specialist,HIGH-RISK
+8009,Junaid Siddique,Finisher / Death Specialist,Pure Death Finisher,40,40,Sparse Evidence,-0.0887,-0.1912,0.1217,-0.3104,,0.2838,0.7,0.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8634,Ashwani Kumar,Finisher / Death Specialist,Pure Death Finisher,6,6,Sparse Evidence,-0.066,-0.1914,0.1489,-1.1655,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+25132,Praful Hinge,Finisher / Death Specialist,Middle-Overs Accelerator,9,9,Sparse Evidence,-0.0688,-0.1916,0.1459,-0.8327,,0.3557,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8177,Akash Madhwal,Finisher / Death Specialist,Middle-Overs Accelerator,14,14,Sparse Evidence,-0.0731,-0.192,0.1412,-0.5954,,0.0584,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+27959,Hrithik Shokeen,Finisher / Death Specialist,Middle-Overs Accelerator,67,52,Moderate Evidence,-0.0953,-0.1921,0.1149,-0.2787,-0.1717,0.2141,0.8,0.2,0,Elite Phase Specialist,HIGH-RISK
+3383,Kinchit Shah,Finisher / Death Specialist,Middle-Overs Accelerator,116,88,Moderate Evidence,-0.1087,-0.1923,0.0993,-0.2323,0.0189,0.141,0.8889,0.2222,0,Multi-Phase Versatile,HIGH-RISK
+8014,Avi Dixit,Finisher / Death Specialist,Middle-Overs Accelerator,33,28,Sparse Evidence,-0.0842,-0.1935,0.1298,-0.3849,-0.0561,0.1241,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6645,Mohammad Sheikh,Middle-Overs Accelerator,Top-Order Stabilizer,78,34,Moderate Evidence,-0.0879,-0.1936,0.1256,-0.3464,0.0898,0.1781,1.0,0.0,0,Multi-Phase Versatile,HIGH-RISK
+6354,Spencer Johnson,Finisher / Death Specialist,Pure Death Finisher,13,13,Sparse Evidence,-0.0743,-0.1939,0.1421,-0.6456,,0.3712,1.0,0.2857,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+35506,Quentin Sampson,Finisher / Death Specialist,Middle-Overs Accelerator,53,53,Moderate Evidence,-0.0976,-0.1939,0.1144,-0.2817,,0.1281,0.75,0.25,0,Elite Phase Specialist,HIGH-RISK
+25341,Mahfuzur Rabby,Finisher / Death Specialist,Middle-Overs Accelerator,31,15,Sparse Evidence,-0.0763,-0.1944,0.1403,-0.5852,-0.0212,0.1068,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6297,Matthew Parkinson,Finisher / Death Specialist,Pure Death Finisher,6,6,Sparse Evidence,-0.0694,-0.1948,0.1489,-1.2258,,0.0828,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1541,Sean Williams,Middle-Overs Accelerator,Top-Order Stabilizer,159,35,Moderate Evidence,-0.0898,-0.195,0.1249,-0.3463,-0.4576,0.486,0.5714,0.2857,0,Elite Phase Specialist,HIGH-RISK
+3858,Jatinder Singh,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,134,12,Sparse Evidence,-0.0746,-0.195,0.143,-0.696,0.0464,0.2309,0.8333,0.1667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1440,Rahul Tripathi,Middle-Overs Accelerator,Top-Order Stabilizer,734,168,Robust Evidence,-0.1288,-0.1951,0.0787,-0.2055,-0.0772,0.3473,0.5581,0.186,0,Elite Phase Specialist,HIGH-RISK
+3038,Hussain Talat,Finisher / Death Specialist,Middle-Overs Accelerator,56,13,Sparse Evidence,-0.0755,-0.1952,0.1421,-0.6566,-0.4422,0.1876,1.0,0.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7574,Kumar Kartikeya Singh,Finisher / Death Specialist,Middle-Overs Accelerator,18,18,Sparse Evidence,-0.0793,-0.1952,0.1376,-0.5197,,0.0421,1.0,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+27465,Nilansh Keswani,Finisher / Death Specialist,Pure Death Finisher,27,12,Sparse Evidence,-0.0751,-0.1955,0.143,-0.7012,-0.6088,0.213,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+66103,Noor Rahman,Middle-Overs Accelerator,Top-Order Stabilizer,22,18,Sparse Evidence,-0.0797,-0.1955,0.1376,-0.5222,,0.2839,1.0,0.6667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7322,Yash Dayal,Finisher / Death Specialist,Pure Death Finisher,9,9,Sparse Evidence,-0.0734,-0.1963,0.1459,-0.8892,,0.202,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7472,Shahbaz Ahmed,Finisher / Death Specialist,Middle-Overs Accelerator,460,330,Robust Evidence,-0.1471,-0.1967,0.0589,-0.1917,-0.0291,0.3314,0.7812,0.2188,0,Elite Phase Specialist,HIGH-RISK
+3697,Kyle Jamieson,Finisher / Death Specialist,Middle-Overs Accelerator,69,69,Moderate Evidence,-0.1071,-0.1969,0.1068,-0.2622,,0.5375,0.7143,0.4286,0,Elite Phase Specialist,HIGH-RISK
+2531,Joe Root,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,15,15,Sparse Evidence,-0.079,-0.197,0.1403,-0.6053,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3623,Hasan Ali,Finisher / Death Specialist,Pure Death Finisher,24,24,Sparse Evidence,-0.0855,-0.1973,0.1328,-0.4416,,0.1976,1.0,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4695,Nick Kelly,Middle-Overs Accelerator,Spin Dominator,92,36,Moderate Evidence,-0.0935,-0.1981,0.1243,-0.3533,-0.3031,0.2566,0.8571,0.1429,0,Elite Phase Specialist,HIGH-RISK
+7696,Mohammad Wasim,Finisher / Death Specialist,Middle-Overs Accelerator,35,35,Sparse Evidence,-0.0929,-0.1981,0.1249,-0.3583,,0.2946,0.8571,0.1429,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3986,Matthew Renshaw,Finisher / Death Specialist,Middle-Overs Accelerator,111,39,Moderate Evidence,-0.0951,-0.1982,0.1223,-0.3391,-0.58,0.3731,0.6667,0.1667,0,Elite Phase Specialist,HIGH-RISK
+344,Sheldon Jackson,Finisher / Death Specialist,Middle-Overs Accelerator,26,19,Sparse Evidence,-0.083,-0.1982,0.1368,-0.52,,0.2392,1.0,0.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7533,Simarjeet Singh,Finisher / Death Specialist,Pure Death Finisher,15,15,Sparse Evidence,-0.0804,-0.1985,0.1403,-0.6165,,0.2407,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3700,Tim Seifert,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,789,75,Robust Evidence,-0.1116,-0.1994,0.1042,-0.2605,-0.18,0.2889,0.6047,0.2326,0,Elite Phase Specialist,HIGH-RISK
+25011,Liam Mccarthy,Finisher / Death Specialist,Pure Death Finisher,24,24,Sparse Evidence,-0.0879,-0.1997,0.1328,-0.4542,,0.272,0.6667,0.6667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+45457,Zach Lion Cachet,Middle-Overs Accelerator,Spin Dominator,48,18,Sparse Evidence,-0.0844,-0.2003,0.1376,-0.5531,-0.0789,0.1586,1.0,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2218,Anamul Haque,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,97,21,Moderate Evidence,-0.0866,-0.2003,0.1351,-0.4987,-0.232,0.1915,0.8571,0.1429,0,Elite Phase Specialist,HIGH-RISK
+2852,Jagadeesha Suchith,Middle-Overs Accelerator,Late-Overs Finisher,8,8,Sparse Evidence,-0.0773,-0.201,0.1469,-1.0438,,0.2241,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+17432,Ross Adair,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,297,42,Robust Evidence,-0.1,-0.2015,0.1205,-0.3382,-0.3059,0.3495,0.625,0.1875,0,Elite Phase Specialist,HIGH-RISK
+47724,Jahandad Khan,Finisher / Death Specialist,Middle-Overs Accelerator,34,34,Sparse Evidence,-0.0958,-0.2015,0.1256,-0.3775,,0.4187,0.8,0.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5979,Abrar Ahmed,Finisher / Death Specialist,Pure Death Finisher,12,12,Sparse Evidence,-0.0813,-0.2017,0.143,-0.759,,0.1294,1.0,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3628,Kagiso Rabada,Finisher / Death Specialist,Pure Death Finisher,153,150,Robust Evidence,-0.1329,-0.2022,0.0823,-0.2215,1.1583,0.4124,0.72,0.32,0,Elite Phase Specialist,HIGH-RISK
+4373,Mustafizur Rahman,Finisher / Death Specialist,Pure Death Finisher,62,62,Moderate Evidence,-0.11,-0.2025,0.1099,-0.2874,,0.3633,0.6923,0.2308,0,Elite Phase Specialist,HIGH-RISK
+27960,Mayank Yadav,Finisher / Death Specialist,Pure Death Finisher,13,13,Sparse Evidence,-0.0835,-0.2031,0.1421,-0.7258,,0.4058,1.0,0.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4823,Washington Sundar,Finisher / Death Specialist,Middle-Overs Accelerator,671,385,Robust Evidence,-0.1575,-0.2037,0.0549,-0.1984,-0.3666,0.359,0.6875,0.1667,0,Elite Phase Specialist,HIGH-RISK
+25231,Samay Shrivastava,Finisher / Death Specialist,Middle-Overs Accelerator,28,27,Sparse Evidence,-0.0939,-0.2038,0.1305,-0.4419,,0.1952,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2315,Reece Topley,Finisher / Death Specialist,Pure Death Finisher,21,21,Sparse Evidence,-0.0907,-0.2045,0.1351,-0.5227,,0.0498,1.0,0.1667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+24887,Innocent Kaia,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,176,26,Moderate Evidence,-0.0942,-0.2047,0.1312,-0.4567,-0.2572,0.2872,0.6,0.3,0,Elite Phase Specialist,HIGH-RISK
+8739,Muhammad Irfan,Finisher / Death Specialist,Middle-Overs Accelerator,195,115,Robust Evidence,-0.1283,-0.2048,0.0908,-0.2399,-0.882,0.2685,0.7143,0.1429,0,Elite Phase Specialist,HIGH-RISK
+4636,Bjorn Fortuin,Finisher / Death Specialist,Middle-Overs Accelerator,63,57,Moderate Evidence,-0.1108,-0.2053,0.1123,-0.3051,,0.5908,0.8,0.4,0,Elite Phase Specialist,HIGH-RISK
+34546,Aryan Bisht,Finisher / Death Specialist,Middle-Overs Accelerator,77,41,Moderate Evidence,-0.1035,-0.2054,0.1211,-0.3558,0.5118,0.031,1.0,0.5,0,Elite Phase Specialist,HIGH-RISK
+58134,Digvesh Rathi,Finisher / Death Specialist,Pure Death Finisher,9,9,Sparse Evidence,-0.0843,-0.2072,0.1459,-1.0211,,0.2962,1.0,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6669,Mohsin Khan,Finisher / Death Specialist,Pure Death Finisher,31,31,Sparse Evidence,-0.1,-0.2075,0.1276,-0.4227,,0.6953,0.7143,0.4286,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3876,Sufyan Mehmood,Finisher / Death Specialist,Pure Death Finisher,31,25,Sparse Evidence,-0.0963,-0.2075,0.132,-0.4816,,0.0181,0.8,0.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3772,Logan van Beek,Finisher / Death Specialist,Middle-Overs Accelerator,34,34,Sparse Evidence,-0.1019,-0.2076,0.1256,-0.4016,,0.123,1.0,0.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1159,Tendai Chatara,Finisher / Death Specialist,Pure Death Finisher,25,25,Sparse Evidence,-0.0966,-0.2077,0.132,-0.4828,,0.3698,0.8,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4902,Avishka Fernando,Finisher / Death Specialist,Middle-Overs Accelerator,62,14,Sparse Evidence,-0.0895,-0.2083,0.1412,-0.7286,-0.3077,0.4374,0.6667,0.4444,0,Multi-Phase Versatile,INSUFFICIENT EVIDENCE
+56817,Shivang Kumar,Finisher / Death Specialist,Middle-Overs Accelerator,50,50,Moderate Evidence,-0.1115,-0.2091,0.116,-0.3345,,0.1454,0.8333,0.5,0,Elite Phase Specialist,HIGH-RISK
+1566,Mohammed Shami,Finisher / Death Specialist,Pure Death Finisher,51,51,Moderate Evidence,-0.1128,-0.21,0.1154,-0.3339,,0.6412,0.6667,0.5333,0,Elite Phase Specialist,HIGH-RISK
+3024,Mohammad Rizwan,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,1190,194,Robust Evidence,-0.1477,-0.2103,0.0743,-0.2239,-0.0298,0.2568,0.8649,0.1081,0,Elite Phase Specialist,HIGH-RISK
+3686,CB Sole,Finisher / Death Specialist,Pure Death Finisher,22,22,Sparse Evidence,-0.0976,-0.2107,0.1343,-0.5413,,0.4976,0.8,0.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2304,Tymal Mills,Finisher / Death Specialist,Pure Death Finisher,15,15,Sparse Evidence,-0.0929,-0.211,0.1403,-0.7122,,0.1007,1.0,0.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+28,Ishant Sharma,Finisher / Death Specialist,Pure Death Finisher,9,9,Sparse Evidence,-0.0882,-0.2111,0.1459,-1.0688,,0.4343,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1481,Kusal Perera,Middle-Overs Accelerator,Spin Dominator,596,48,Robust Evidence,-0.1129,-0.2115,0.117,-0.3481,-0.2501,0.2854,0.6875,0.2188,0,Elite Phase Specialist,HIGH-RISK
+23311,Jacob Bethell,Middle-Overs Accelerator,Late-Overs Finisher,468,119,Robust Evidence,-0.1369,-0.2125,0.0897,-0.252,-0.3065,0.375,0.5758,0.1212,0,Multi-Phase Versatile,HIGH-RISK
+20894,Aman Khan,Finisher / Death Specialist,Middle-Overs Accelerator,109,107,Moderate Evidence,-0.1346,-0.213,0.0931,-0.2604,,0.5417,0.7,0.4,0,Elite Phase Specialist,HIGH-RISK
+26530,Treveen Mathew,Finisher / Death Specialist,Pure Death Finisher,14,14,Sparse Evidence,-0.0943,-0.2131,0.1412,-0.7676,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6160,Chamika Karunaratne,Finisher / Death Specialist,Pure Death Finisher,154,151,Robust Evidence,-0.145,-0.2142,0.0821,-0.2411,-1.122,0.513,0.7059,0.3529,0,Elite Phase Specialist,HIGH-RISK
+492,Andre Fletcher,Middle-Overs Accelerator,Top-Order Stabilizer,40,14,Sparse Evidence,-0.0955,-0.2144,0.1412,-0.7779,-0.647,0.1422,0.8,0.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+36553,Jediah Blades,Finisher / Death Specialist,Pure Death Finisher,13,13,Sparse Evidence,-0.0955,-0.2151,0.1421,-0.8301,,0.0389,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+479,Adil Rashid,Finisher / Death Specialist,Pure Death Finisher,126,125,Moderate Evidence,-0.1425,-0.2167,0.0881,-0.2565,,0.3165,0.7619,0.1905,0,Elite Phase Specialist,HIGH-RISK
+1810,Devon Thomas,Finisher / Death Specialist,Pure Death Finisher,50,16,Moderate Evidence,-0.0994,-0.2168,0.1394,-0.721,-0.5872,0.2799,0.8333,0.5,0,Elite Phase Specialist,HIGH-RISK
+3641,Ben Dwarshuis,Finisher / Death Specialist,Middle-Overs Accelerator,74,43,Moderate Evidence,-0.1162,-0.2171,0.1199,-0.3863,0.2552,0.3345,0.8889,0.2222,0,Elite Phase Specialist,HIGH-RISK
+8661,Matheesha Pathirana,Finisher / Death Specialist,Middle-Overs Accelerator,32,32,Sparse Evidence,-0.1113,-0.2182,0.1269,-0.4592,,0.3836,0.8889,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+778,Darren Bravo,Finisher / Death Specialist,Middle-Overs Accelerator,28,23,Sparse Evidence,-0.1059,-0.2184,0.1335,-0.5665,,0.5456,1.0,0.0,0,Multi-Phase Versatile,INSUFFICIENT EVIDENCE
+4779,Pieter Willem Mulder,Finisher / Death Specialist,Middle-Overs Accelerator,117,55,Moderate Evidence,-0.1234,-0.2188,0.1133,-0.3477,0.0711,0.3505,0.9,0.4,0,Multi-Phase Versatile,HIGH-RISK
+3489,Salman Agha,Middle-Overs Accelerator,Spin Dominator,717,378,Robust Evidence,-0.1732,-0.2198,0.0553,-0.219,-0.5046,0.2876,0.6667,0.1905,0,Elite Phase Specialist,HIGH-RISK
+42548,Muhammad Jawadullah,Finisher / Death Specialist,Pure Death Finisher,26,26,Sparse Evidence,-0.1094,-0.22,0.1312,-0.5304,,0.2569,0.75,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4201,Fareed Malik,Finisher / Death Specialist,Middle-Overs Accelerator,21,21,Sparse Evidence,-0.107,-0.2208,0.1351,-0.6163,,0.07,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6467,Anuj Rawat,Finisher / Death Specialist,Middle-Overs Accelerator,286,142,Robust Evidence,-0.1513,-0.222,0.0841,-0.2578,0.1944,0.3679,0.7619,0.2857,0,Multi-Phase Versatile,HIGH-RISK
+1568,Kane Williamson,Middle-Overs Accelerator,Top-Order Stabilizer,546,85,Robust Evidence,-0.1383,-0.2229,0.1004,-0.3011,0.1414,0.2138,0.875,0.0833,0,Elite Phase Specialist,HIGH-RISK
+8238,Sameer Rizvi,Finisher / Death Specialist,Middle-Overs Accelerator,304,167,Robust Evidence,-0.1574,-0.2239,0.0789,-0.2517,0.1241,0.4074,0.7778,0.3333,0,Elite Phase Specialist,HIGH-RISK
+4489,Prasidh Krishna,Finisher / Death Specialist,Pure Death Finisher,22,22,Sparse Evidence,-0.1134,-0.2265,0.1343,-0.6286,,0.1278,1.0,0.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4876,Milton Shumba,Finisher / Death Specialist,Middle-Overs Accelerator,64,56,Moderate Evidence,-0.1329,-0.2279,0.1128,-0.3701,,0.1015,1.0,0.0,0,Elite Phase Specialist,HIGH-RISK
+6671,Lalit Yadav,Finisher / Death Specialist,Middle-Overs Accelerator,226,150,Robust Evidence,-0.1596,-0.2289,0.0823,-0.266,-0.3354,0.3986,0.8125,0.375,0,Elite Phase Specialist,HIGH-RISK
+29888,Harshit Rana,Finisher / Death Specialist,Middle-Overs Accelerator,154,154,Robust Evidence,-0.1605,-0.2292,0.0815,-0.2648,,0.4823,0.7778,0.2222,0,Elite Phase Specialist,HIGH-RISK
+7689,Dilshan Madushanka,Finisher / Death Specialist,Pure Death Finisher,12,12,Sparse Evidence,-0.1089,-0.2293,0.143,-1.0164,,0.2193,1.0,0.8,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1487,Adam Milne,Finisher / Death Specialist,Pure Death Finisher,59,58,Moderate Evidence,-0.1355,-0.2297,0.1118,-0.3692,,0.4115,0.9231,0.3077,0,Elite Phase Specialist,HIGH-RISK
+6059,Ruturaj Gaikwad,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,1889,169,Robust Evidence,-0.164,-0.2301,0.0786,-0.261,0.186,0.2856,0.7792,0.1558,0,Elite Phase Specialist,HIGH-RISK
+7755,Harsh Thaker,Finisher / Death Specialist,Middle-Overs Accelerator,57,39,Moderate Evidence,-0.1287,-0.2317,0.1223,-0.4587,0.0501,0.0631,1.0,0.0,0,Multi-Phase Versatile,HIGH-RISK
+3260,Hashmatullah Shahidi,Middle-Overs Accelerator,Top-Order Stabilizer,58,35,Moderate Evidence,-0.1275,-0.2327,0.1249,-0.4917,-0.0799,0.0771,1.0,0.0,0,Elite Phase Specialist,HIGH-RISK
+1941,Devon Conway,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,1529,56,Robust Evidence,-0.1385,-0.2335,0.1128,-0.3859,-0.0693,0.2681,0.8033,0.1803,0,Elite Phase Specialist,HIGH-RISK
+6518,Daniel Sams,Finisher / Death Specialist,Pure Death Finisher,82,64,Moderate Evidence,-0.1422,-0.234,0.109,-0.3644,-2.1376,0.8407,0.7692,0.3846,0,Elite Phase Specialist,HIGH-RISK
+7901,Parvez Emon,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,606,57,Robust Evidence,-0.1398,-0.2344,0.1123,-0.3852,-0.9001,0.5042,0.6667,0.3077,0,Elite Phase Specialist,HIGH-RISK
+3664,Binura Fernando,Finisher / Death Specialist,Pure Death Finisher,27,27,Sparse Evidence,-0.1261,-0.236,0.1305,-0.5933,,0.4753,1.0,0.1429,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6314,Devdutt Padikkal,Middle-Overs Accelerator,Top-Order Stabilizer,1039,158,Robust Evidence,-0.169,-0.2369,0.0807,-0.276,-0.0741,0.332,0.6667,0.1667,0,Elite Phase Specialist,HIGH-RISK
+6288,Shubman Gill,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,2804,216,Robust Evidence,-0.1774,-0.2372,0.071,-0.2595,-0.0859,0.2457,0.7232,0.1518,0,Elite Phase Specialist,HIGH-RISK
+2483,Lizaad Williams,Finisher / Death Specialist,Pure Death Finisher,21,21,Sparse Evidence,-0.1239,-0.2377,0.1351,-0.7138,,0.2878,0.8889,0.5556,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+17413,Neil Rock,Finisher / Death Specialist,Middle-Overs Accelerator,61,22,Moderate Evidence,-0.1248,-0.2379,0.1343,-0.6919,0.7006,0.1893,1.0,0.5,0,Elite Phase Specialist,HIGH-RISK
+1389,Sean Abbott,Finisher / Death Specialist,Pure Death Finisher,38,23,Sparse Evidence,-0.1266,-0.2391,0.1335,-0.6772,-0.8737,0.463,0.7273,0.4545,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3174,Matt Henry,Finisher / Death Specialist,Pure Death Finisher,29,29,Sparse Evidence,-0.1305,-0.2392,0.129,-0.5807,,0.1784,0.9,0.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1116,Craig Ervine,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,253,46,Robust Evidence,-0.1414,-0.2409,0.1182,-0.4488,-0.3568,0.1964,0.9333,0.3333,0,Elite Phase Specialist,HIGH-RISK
+953,Lokesh Rahul,Middle-Overs Accelerator,Top-Order Stabilizer,2083,404,Robust Evidence,-0.1961,-0.2412,0.0536,-0.2446,0.1892,0.2534,0.7297,0.1081,0,Multi-Phase Versatile,HIGH-RISK
+17911,Nangeyalia Kharote,Finisher / Death Specialist,Middle-Overs Accelerator,38,21,Sparse Evidence,-0.1295,-0.2433,0.1351,-0.7462,-0.1997,0.2398,1.0,0.6667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+19307,Tharindu Rathnayake,Finisher / Death Specialist,Pure Death Finisher,15,15,Sparse Evidence,-0.1263,-0.2444,0.1403,-0.968,,0.0976,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5041,Mukesh Kumar,Finisher / Death Specialist,Pure Death Finisher,25,25,Sparse Evidence,-0.1372,-0.2483,0.132,-0.6858,,0.4927,0.875,0.125,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4499,Saqib Mahmood,Finisher / Death Specialist,Pure Death Finisher,35,35,Sparse Evidence,-0.1459,-0.2511,0.1249,-0.5627,,0.1006,0.8,0.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+24812,Chris Greaves,Finisher / Death Specialist,Pure Death Finisher,34,34,Sparse Evidence,-0.1456,-0.2513,0.1256,-0.5737,,0.1229,1.0,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4111,Khushdil Shah,Finisher / Death Specialist,Middle-Overs Accelerator,219,182,Robust Evidence,-0.1872,-0.2514,0.0762,-0.2901,0.0358,0.3465,0.8333,0.2778,0,Elite Phase Specialist,HIGH-RISK
+3720,Craig Young,Finisher / Death Specialist,Pure Death Finisher,31,31,Sparse Evidence,-0.1439,-0.2514,0.1276,-0.6082,,0.3254,0.875,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4641,Lungi Ngidi,Finisher / Death Specialist,Pure Death Finisher,63,63,Moderate Evidence,-0.1602,-0.2524,0.1094,-0.4146,,0.2101,0.8,0.1333,0,Elite Phase Specialist,HIGH-RISK
+158,Amit Mishra,Finisher / Death Specialist,Middle-Overs Accelerator,30,30,Sparse Evidence,-0.1444,-0.2524,0.1283,-0.6256,,0.0,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+33067,Ravichandran Smaran,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,25,19,Sparse Evidence,-0.1378,-0.2529,0.1368,-0.8628,,0.3763,0.75,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+728,Dawid Malan,Middle-Overs Accelerator,Top-Order Stabilizer,479,98,Robust Evidence,-0.1724,-0.2531,0.0959,-0.3483,-0.1537,0.2977,0.7727,0.1364,0,Elite Phase Specialist,HIGH-RISK
+8723,Mohammed Faraazuddin,Finisher / Death Specialist,Middle-Overs Accelerator,35,35,Sparse Evidence,-0.1493,-0.2545,0.1249,-0.5758,,0.1891,1.0,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4856,Benjamin Sears,Finisher / Death Specialist,Pure Death Finisher,37,37,Sparse Evidence,-0.1517,-0.2558,0.1236,-0.5618,,0.3913,0.75,0.25,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+27373,Muhammad Farooq,Finisher / Death Specialist,Middle-Overs Accelerator,31,31,Sparse Evidence,-0.1495,-0.2569,0.1276,-0.6317,,0.041,1.0,0.3333,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8266,Sumit Kumar 1,Finisher / Death Specialist,Middle-Overs Accelerator,26,20,Sparse Evidence,-0.1426,-0.2571,0.136,-0.8555,,0.0983,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+19312,Nuwan Thushara,Finisher / Death Specialist,Pure Death Finisher,20,20,Sparse Evidence,-0.1455,-0.26,0.136,-0.8731,,0.1827,0.7143,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7008,Gus Atkinson,Finisher / Death Specialist,Pure Death Finisher,23,23,Sparse Evidence,-0.1481,-0.2605,0.1335,-0.7918,,0.3685,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2933,Jasprit Bumrah,Finisher / Death Specialist,Pure Death Finisher,33,33,Sparse Evidence,-0.1544,-0.2607,0.1262,-0.6222,,0.3585,0.7692,0.2308,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2261,Harshal Patel,Finisher / Death Specialist,Middle-Overs Accelerator,151,141,Robust Evidence,-0.1903,-0.2613,0.0843,-0.3253,0.8544,0.5857,0.7241,0.2759,0,Elite Phase Specialist,HIGH-RISK
+3672,Kusal Mendis,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,1376,123,Robust Evidence,-0.1869,-0.2615,0.0887,-0.3388,0.1666,0.3769,0.6567,0.194,0,Elite Phase Specialist,HIGH-RISK
+1171,Chris Woakes,Finisher / Death Specialist,Pure Death Finisher,49,49,Sparse Evidence,-0.1648,-0.2629,0.1165,-0.5012,,0.2321,0.75,0.375,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+27466,Dhruv Parashar,Finisher / Death Specialist,Middle-Overs Accelerator,101,78,Moderate Evidence,-0.1778,-0.2645,0.103,-0.4057,-0.2462,0.2743,0.9,0.1,0,Elite Phase Specialist,HIGH-RISK
+39657,Eshan Malinga,Finisher / Death Specialist,Pure Death Finisher,40,40,Sparse Evidence,-0.1625,-0.265,0.1217,-0.5688,,0.3464,0.8182,0.0909,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+126,Rohit Sharma,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,1685,152,Robust Evidence,-0.198,-0.267,0.0819,-0.3283,-0.2924,0.3801,0.7033,0.1868,0,Elite Phase Specialist,HIGH-RISK
+47,Virat Kohli,Middle-Overs Accelerator,Top-Order Stabilizer,2545,152,Robust Evidence,-0.1984,-0.2673,0.0819,-0.3289,-0.1648,0.245,0.7609,0.1413,0,Multi-Phase Versatile,HIGH-RISK
+830,Josh Hazlewood,Finisher / Death Specialist,Middle-Overs Accelerator,40,40,Sparse Evidence,-0.1654,-0.2679,0.1217,-0.5789,,0.3469,0.9167,0.1667,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7503,Ravi Bishnoi,Finisher / Death Specialist,Pure Death Finisher,108,102,Moderate Evidence,-0.1884,-0.2681,0.0946,-0.3732,-0.3934,0.6318,0.75,0.4286,0,Elite Phase Specialist,HIGH-RISK
+494,Kieron Pollard,Finisher / Death Specialist,Middle-Overs Accelerator,230,164,Robust Evidence,-0.2018,-0.2687,0.0795,-0.3248,0.3787,0.2937,0.7222,0.1111,0,Elite Phase Specialist,HIGH-RISK
+1944,Keshav Maharaj,Finisher / Death Specialist,Middle-Overs Accelerator,91,89,Moderate Evidence,-0.187,-0.2703,0.0989,-0.3971,,0.2386,0.9167,0.4167,0,Elite Phase Specialist,HIGH-RISK
+43917,Krish Bhagat,Finisher / Death Specialist,Pure Death Finisher,21,21,Sparse Evidence,-0.1573,-0.2711,0.1351,-0.9062,,0.0704,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2399,Dushmantha Chameera,Finisher / Death Specialist,Pure Death Finisher,105,102,Moderate Evidence,-0.1923,-0.272,0.0946,-0.3809,0.7601,0.4169,0.7586,0.4138,0,Elite Phase Specialist,HIGH-RISK
+478,Eoin Morgan,Finisher / Death Specialist,Middle-Overs Accelerator,46,45,Sparse Evidence,-0.1723,-0.2723,0.1187,-0.5552,,0.0689,1.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7270,Anrich Nortje,Finisher / Death Specialist,Pure Death Finisher,70,70,Moderate Evidence,-0.1835,-0.273,0.1063,-0.4456,,0.489,0.8235,0.4118,0,Elite Phase Specialist,HIGH-RISK
+829,Mitchell Starc,Finisher / Death Specialist,Pure Death Finisher,31,29,Sparse Evidence,-0.1657,-0.2744,0.129,-0.7372,,0.4725,0.8462,0.4615,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+27380,Harshit Kaushik,Finisher / Death Specialist,Middle-Overs Accelerator,62,49,Moderate Evidence,-0.1783,-0.2764,0.1165,-0.5421,-0.9824,0.2391,0.8,0.5,0,Elite Phase Specialist,HIGH-RISK
+3275,Alzarri Joseph,Finisher / Death Specialist,Pure Death Finisher,135,130,Moderate Evidence,-0.2033,-0.2764,0.0869,-0.3596,-1.2623,0.2725,0.8,0.2,0,Elite Phase Specialist,HIGH-RISK
+2661,Shamarh Brooks,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,157,44,Robust Evidence,-0.1768,-0.2773,0.1193,-0.5787,-0.118,0.3887,0.7143,0.2857,0,Elite Phase Specialist,HIGH-RISK
+2636,Adam Zampa,Finisher / Death Specialist,Pure Death Finisher,53,52,Moderate Evidence,-0.1819,-0.2786,0.1149,-0.5317,,0.3307,0.8,0.4667,0,Elite Phase Specialist,HIGH-RISK
+8805,Ottneil Baartman,Finisher / Death Specialist,Pure Death Finisher,36,36,Sparse Evidence,-0.1741,-0.2787,0.1243,-0.6577,,0.1827,1.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3627,Andile Phehlukwayo,Finisher / Death Specialist,Middle-Overs Accelerator,42,38,Sparse Evidence,-0.1757,-0.2792,0.123,-0.638,,0.3021,0.8,0.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7967,Noor Ahmad,Finisher / Death Specialist,Middle-Overs Accelerator,115,109,Moderate Evidence,-0.202,-0.2799,0.0925,-0.3874,0.3813,0.5959,0.6538,0.3846,0,Elite Phase Specialist,HIGH-RISK
+5809,Naveen ul Haq,Finisher / Death Specialist,Pure Death Finisher,70,70,Moderate Evidence,-0.1915,-0.281,0.1063,-0.465,,0.2394,1.0,0.1818,0,Elite Phase Specialist,HIGH-RISK
+5944,Mohammed Siraj,Finisher / Death Specialist,Pure Death Finisher,75,75,Moderate Evidence,-0.1956,-0.2834,0.1042,-0.4564,,0.3684,0.7692,0.3846,0,Elite Phase Specialist,HIGH-RISK
+4974,Mohammad Nadeem,Finisher / Death Specialist,Middle-Overs Accelerator,81,65,Moderate Evidence,-0.1936,-0.285,0.1085,-0.4914,-0.2242,0.0815,1.0,0.0,0,Elite Phase Specialist,HIGH-RISK
+2878,Mohit Sharma,Finisher / Death Specialist,Middle-Overs Accelerator,20,20,Sparse Evidence,-0.173,-0.2874,0.136,-1.0378,,0.1136,1.0,0.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2101,Quinton de Kock,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,1326,154,Robust Evidence,-0.2215,-0.2901,0.0815,-0.3654,-0.2072,0.3336,0.7424,0.2879,0,Elite Phase Specialist,HIGH-RISK
+41110,Mayank Kumar,Top-Order Anchor / Powerplay Batter,Powerplay Enforcer,58,25,Moderate Evidence,-0.1866,-0.2978,0.132,-0.9332,-1.9236,0.5054,0.6667,0.3333,0,Elite Phase Specialist,HIGH-RISK
+8746,Vaibhav Arora,Finisher / Death Specialist,Pure Death Finisher,28,28,Sparse Evidence,-0.192,-0.3013,0.1298,-0.8779,,0.4351,0.9091,0.1818,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+220,David Warner,Top-Order Anchor / Powerplay Batter,Middle-Overs Anchor,1161,211,Robust Evidence,-0.248,-0.3084,0.0717,-0.3655,-0.244,0.2998,0.6889,0.1111,0,Elite Phase Specialist,HIGH-RISK
+7937,Wasim Ali,Middle-Overs Accelerator,Late-Overs Finisher,160,95,Robust Evidence,-0.228,-0.3096,0.0969,-0.468,-0.089,0.0988,1.0,0.1429,0,Elite Phase Specialist,HIGH-RISK
+6256,Varun Chakravarthy,Finisher / Death Specialist,Pure Death Finisher,51,51,Moderate Evidence,-0.2202,-0.3174,0.1154,-0.6519,,0.3892,1.0,0.2857,0,Elite Phase Specialist,HIGH-RISK
+4494,Abhinav Manohar,Finisher / Death Specialist,Middle-Overs Accelerator,243,155,Robust Evidence,-0.2507,-0.3191,0.0813,-0.4124,-0.3653,0.503,0.7,0.35,0,Elite Phase Specialist,HIGH-RISK
+6464,Arshdeep Singh,Finisher / Death Specialist,Pure Death Finisher,141,138,Moderate Evidence,-0.2507,-0.3222,0.085,-0.4323,-2.269,0.3546,0.8205,0.3846,0,Elite Phase Specialist,HIGH-RISK
+3373,Aizaz Khan,Finisher / Death Specialist,Middle-Overs Accelerator,79,79,Moderate Evidence,-0.2364,-0.3229,0.1026,-0.5357,,0.2064,1.0,0.1818,0,Elite Phase Specialist,HIGH-RISK
+7240,FazalHaq Farooqi,Finisher / Death Specialist,Pure Death Finisher,48,48,Sparse Evidence,-0.227,-0.3256,0.117,-0.7,,0.2946,0.9167,0.0833,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+295,Wayne Parnell,Finisher / Death Specialist,Middle-Overs Accelerator,79,75,Moderate Evidence,-0.2638,-0.3516,0.1042,-0.6156,0.2631,0.1308,1.0,0.2857,0,Elite Phase Specialist,HIGH-RISK
+7920,Nathan Ellis,Finisher / Death Specialist,Pure Death Finisher,58,56,Moderate Evidence,-0.264,-0.359,0.1128,-0.7354,0.5023,0.1877,1.0,0.5455,0,Elite Phase Specialist,HIGH-RISK
+360,Bhuvneshwar Kumar,Finisher / Death Specialist,Pure Death Finisher,177,176,Robust Evidence,-0.3062,-0.3712,0.0773,-0.4801,,0.2986,0.8182,0.2727,0,Elite Phase Specialist,HIGH-RISK
+19316,Maheesh Theekshana,Finisher / Death Specialist,Pure Death Finisher,205,192,Robust Evidence,-0.3806,-0.4434,0.0746,-0.5788,-0.0398,0.2954,0.9189,0.4054,0,Elite Phase Specialist,HIGH-RISK
+3644,Kuldeep Yadav,Finisher / Death Specialist,Pure Death Finisher,210,210,Robust Evidence,-0.3837,-0.4442,0.0718,-0.5664,,0.4617,0.8919,0.2162,0,Elite Phase Specialist,HIGH-RISK

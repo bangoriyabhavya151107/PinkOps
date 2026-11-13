@@ -1,0 +1,648 @@
+player_id,player_name,primary_role,secondary_role,total_deliveries,pressure_deliveries,evidence_tier,eb_shrunk_estimate,lub_20,se_eb,pressure_value,clutch_delta,match_va_mad,negative_contribution_rate,blowout_rate,wicket_value,run_prevention,robustness_support,role_fit,selection_class
+781,Sunil Narine,Middle Enforcer (Spin),Middle Over Containment (Spin),1553,579,Robust Evidence,0.3228,0.2848,0.0452,0.3786,0.0932,0.2257,0.209,0.08,64.0,450.7,8,Elite Phase Specialist,CORE CANDIDATE
+2933,Jasprit Bumrah,Death Specialist (Pace),Powerplay Containment (Pace),1780,697,Robust Evidence,0.3196,0.2848,0.0413,0.3655,-0.1247,0.2434,0.1733,0.0926,85.0,642.5,8,Multi-Phase Versatile,CORE CANDIDATE
+5979,Abrar Ahmed,Middle Enforcer (Spin),Death Phase Option (Spin),776,359,Robust Evidence,0.2033,0.1556,0.0567,0.2599,0.0407,0.3285,0.4,0.0541,46.0,76.4,8,Elite Phase Specialist,CORE CANDIDATE
+8661,Matheesha Pathirana,Death Specialist (Pace),Middle Overs Enforcer (Pace),1279,698,Robust Evidence,0.1797,0.1449,0.0413,0.2054,-0.2846,0.3043,0.2593,0.1923,82.0,278.8,8,Elite Phase Specialist,CORE CANDIDATE
+2382,Jamie Overton,Death Specialist (Pace),Middle Overs Enforcer (Pace),525,269,Robust Evidence,0.1941,0.1398,0.0646,0.2663,-0.621,0.4396,0.4667,0.1724,36.0,63.5,8,Elite Phase Specialist,CORE CANDIDATE
+35318,Sakib Hussain,Death Specialist (Pace),Middle Overs Enforcer (Pace),274,142,Robust Evidence,0.2088,0.1381,0.0841,0.3559,0.2324,0.1698,0.2727,0.1579,15.0,53.8,8,Elite Phase Specialist,CORE CANDIDATE
+4373,Mustafizur Rahman,Death Specialist (Pace),Middle Overs Enforcer (Pace),1646,772,Robust Evidence,0.1681,0.135,0.0393,0.1899,-0.1452,0.2848,0.3099,0.2155,79.0,269.7,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+360,Bhuvneshwar Kumar,Death Specialist (Pace),Powerplay Containment (Pace),2314,733,Robust Evidence,0.1483,0.1143,0.0403,0.1685,0.0052,0.2772,0.2673,0.2248,115.0,471.2,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+34485,Sufiyan Muqeem,Middle Enforcer (Spin),Middle Over Containment (Spin),525,256,Robust Evidence,0.167,0.1114,0.066,0.2322,0.0576,0.2522,0.24,0.1875,39.0,81.0,8,Elite Phase Specialist,CORE CANDIDATE
+7920,Nathan Ellis,Death Specialist (Pace),Middle Overs Enforcer (Pace),959,461,Robust Evidence,0.1457,0.1032,0.0504,0.1773,-0.0046,0.2619,0.2791,0.2121,58.0,214.9,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+6669,Mohsin Khan,Death Specialist (Pace),Powerplay Containment (Pace),678,217,Robust Evidence,0.1623,0.1026,0.0709,0.2371,0.3101,0.3655,0.4333,0.2353,38.0,117.8,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+4692,Lockie Ferguson,Death Specialist (Pace),Powerplay Containment (Pace),1138,454,Robust Evidence,0.1409,0.0981,0.0508,0.1719,0.1095,0.3132,0.4151,0.2742,59.0,92.0,8,Multi-Phase Versatile,CONDITIONAL CANDIDATE
+2417,Akeal Hosein,Powerplay Specialist (Spin),Middle Overs Restrictor (Spin),1734,455,Robust Evidence,0.1331,0.0904,0.0507,0.1624,-0.0706,0.2122,0.3544,0.0,79.0,153.1,8,Elite Phase Specialist,CORE CANDIDATE
+830,Josh Hazlewood,Death Specialist (Pace),Powerplay Containment (Pace),1515,641,Robust Evidence,0.1255,0.0893,0.043,0.1451,-0.1778,0.2754,0.3077,0.1772,98.0,222.0,8,Elite Phase Specialist,CORE CANDIDATE
+4101,Mitchell Santner,Middle Enforcer (Spin),Middle Over Containment (Spin),1793,767,Robust Evidence,0.1215,0.0882,0.0395,0.1373,-0.1182,0.2687,0.3976,0.1277,87.0,212.1,8,Elite Phase Specialist,CORE CANDIDATE
+5577,Sai Kishore,Middle Enforcer (Spin),Death Phase Option (Spin),501,193,Robust Evidence,0.1492,0.0865,0.0744,0.2265,0.8301,0.2883,0.4643,0.1364,34.0,21.4,8,Elite Phase Specialist,CORE CANDIDATE
+5944,Mohammed Siraj,Powerplay Specialist (Pace),Death Closer (Pace),1925,656,Robust Evidence,0.1188,0.0829,0.0426,0.1369,-0.1515,0.2617,0.3735,0.2471,86.0,246.9,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+6464,Arshdeep Singh,Death Specialist (Pace),Powerplay Containment (Pace),3426,1318,Robust Evidence,0.1074,0.0819,0.0302,0.1155,-0.0438,0.2298,0.3333,0.2358,192.0,364.5,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+20310,Ahmed Daniyal,Death Specialist (Pace),Middle Overs Enforcer (Pace),177,144,Robust Evidence,0.152,0.0816,0.0836,0.2575,-0.7073,0.2739,0.25,0.0769,10.0,45.5,8,Elite Phase Specialist,CORE CANDIDATE
+3628,Kagiso Rabada,Powerplay Specialist (Pace),Death Closer (Pace),1616,445,Robust Evidence,0.1221,0.0789,0.0513,0.1495,0.0084,0.2299,0.4203,0.2576,86.0,130.5,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+3697,Kyle Jamieson,Powerplay Specialist (Pace),Death Closer (Pace),668,206,Robust Evidence,0.1363,0.0753,0.0724,0.2024,0.6029,0.3087,0.6333,0.129,34.0,-49.7,8,Elite Phase Specialist,CORE CANDIDATE
+24473,Sonny Baker,Death Specialist (Pace),Powerplay Containment (Pace),98,42,Moderate Evidence,0.1748,0.0734,0.1205,0.5911,0.2312,0.1179,0.25,0.1667,6.0,45.0,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+23467,Gurjapneet Singh,Death Specialist (Pace),Powerplay Containment (Pace),257,128,Robust Evidence,0.1462,0.0726,0.0874,0.2604,0.5586,0.1819,0.5,0.1333,11.0,32.0,8,Multi-Phase Versatile,CORE CANDIDATE
+7808,Marco Jansen,Powerplay Specialist (Pace),Death Closer (Pace),1399,487,Robust Evidence,0.11,0.0687,0.0491,0.1326,0.1747,0.2793,0.4167,0.193,58.0,50.0,8,Elite Phase Specialist,CORE CANDIDATE
+2972,Yasim Murtaza,Middle Enforcer (Spin),Middle Over Containment (Spin),311,95,Robust Evidence,0.1501,0.0686,0.0969,0.3082,0.4156,0.3358,0.3571,0.1429,7.0,7.8,8,Elite Phase Specialist,CORE CANDIDATE
+2261,Harshal Patel,Death Specialist (Pace),Middle Overs Enforcer (Pace),1748,866,Robust Evidence,0.0954,0.0641,0.0372,0.1064,-0.1324,0.2369,0.4177,0.2205,96.0,175.9,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+58246,Prince Yadav,Death Specialist (Pace),Powerplay Containment (Pace),747,257,Robust Evidence,0.1186,0.0632,0.0659,0.1648,-0.1999,0.2973,0.3438,0.119,31.0,136.4,8,Multi-Phase Versatile,CORE CANDIDATE
+20704,Salman Mirza,Powerplay Specialist (Pace),Death Closer (Pace),339,152,Robust Evidence,0.1321,0.0631,0.0819,0.219,0.1734,0.2458,0.3333,0.1176,21.0,42.0,8,Elite Phase Specialist,CORE CANDIDATE
+4265,T Natarajan,Death Specialist (Pace),Middle Overs Enforcer (Pace),1110,455,Robust Evidence,0.103,0.0603,0.0507,0.1256,0.0887,0.2556,0.3469,0.2471,53.0,113.3,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+2364,Ashton Agar,Middle Enforcer (Spin),Middle Over Containment (Spin),145,77,Moderate Evidence,0.1463,0.0592,0.1034,0.3362,-0.3796,0.1035,0.0,0.0,4.0,49.1,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+6256,Varun Chakravarthy,Middle Enforcer (Spin),Death Phase Option (Spin),2182,967,Robust Evidence,0.0875,0.0578,0.0352,0.0965,-0.3103,0.2219,0.3684,0.1184,135.0,198.5,8,Elite Phase Specialist,CORE CANDIDATE
+3644,Kuldeep Yadav,Middle Enforcer (Spin),Death Phase Option (Spin),1965,807,Robust Evidence,0.0895,0.0571,0.0385,0.1006,-0.238,0.2668,0.3371,0.0845,118.0,229.2,8,Elite Phase Specialist,CORE CANDIDATE
+2876,Axar Patel,Middle Enforcer (Spin),Middle Over Containment (Spin),2707,1075,Robust Evidence,0.0842,0.056,0.0334,0.092,-0.2475,0.2957,0.3971,0.1053,120.0,244.8,8,Elite Phase Specialist,CORE CANDIDATE
+305,Ravichandran Ashwin,Middle Enforcer (Spin),Middle Over Containment (Spin),1462,493,Robust Evidence,0.0959,0.0547,0.0488,0.1153,-0.0871,0.185,0.3115,0.1429,47.0,198.6,8,Elite Phase Specialist,CORE CANDIDATE
+7967,Noor Ahmad,Middle Enforcer (Spin),Death Phase Option (Spin),1537,583,Robust Evidence,0.0901,0.0521,0.0451,0.1055,0.1845,0.3713,0.4714,0.1091,85.0,157.8,8,Elite Phase Specialist,CORE CANDIDATE
+27964,Anshul Kamboj,Powerplay Specialist (Pace),Death Closer (Pace),567,155,Robust Evidence,0.1177,0.0493,0.0813,0.1937,0.2984,0.2795,0.5,0.36,35.0,-34.7,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+6355,Shaheen Afridi,Death Specialist (Pace),Powerplay Containment (Pace),1036,347,Robust Evidence,0.0961,0.0476,0.0576,0.1238,-0.1802,0.2551,0.3617,0.0877,65.0,90.4,8,Elite Phase Specialist,CORE CANDIDATE
+2878,Mohit Sharma,Death Specialist (Pace),Middle Overs Enforcer (Pace),676,325,Robust Evidence,0.0959,0.046,0.0593,0.1254,0.9624,0.3559,0.3939,0.2414,42.0,48.6,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+2985,Mark Wood,Death Specialist (Pace),Powerplay Containment (Pace),299,130,Robust Evidence,0.119,0.0458,0.0869,0.2105,-0.1531,0.195,0.2308,0.25,27.0,52.3,8,Multi-Phase Versatile,CONDITIONAL CANDIDATE
+67036,Brijesh Sharma,Death Specialist (Pace),Middle Overs Enforcer (Pace),297,102,Robust Evidence,0.1239,0.0442,0.0946,0.2454,0.5826,0.1348,0.3846,0.2105,14.0,31.9,8,Multi-Phase Versatile,CONDITIONAL CANDIDATE
+39657,Eshan Malinga,Death Specialist (Pace),Middle Overs Enforcer (Pace),989,385,Robust Evidence,0.0881,0.0419,0.0549,0.111,-0.1651,0.2854,0.3182,0.1186,55.0,113.1,8,Multi-Phase Versatile,CORE CANDIDATE
+4856,Benjamin Sears,Death Specialist (Pace),Middle Overs Enforcer (Pace),463,199,Robust Evidence,0.1014,0.0395,0.0735,0.1523,-0.2876,0.2982,0.4545,0.12,30.0,18.3,8,Multi-Phase Versatile,CORE CANDIDATE
+6354,Spencer Johnson,Powerplay Specialist (Pace),Death Closer (Pace),466,172,Robust Evidence,0.1049,0.0392,0.078,0.1659,0.5833,0.2542,0.4348,0.1579,24.0,10.0,8,Elite Phase Specialist,CORE CANDIDATE
+6398,Aaron Hardie,Powerplay Specialist (Pace),Middle Overs Restrictor (Pace),286,98,Robust Evidence,0.1154,0.0347,0.0959,0.2332,0.2316,0.252,0.4,0.4444,15.0,28.4,7,Multi-Phase Versatile,CONDITIONAL CANDIDATE
+5837,Mahedi Hasan,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),935,322,Robust Evidence,0.0843,0.0342,0.0596,0.1105,0.5886,0.1816,0.4878,0.1176,50.0,-23.3,8,Elite Phase Specialist,CORE CANDIDATE
+7696,Mohammad Wasim,Death Specialist (Pace),Powerplay Containment (Pace),374,128,Robust Evidence,0.1066,0.033,0.0874,0.1899,-0.5018,0.194,0.4118,0.1667,17.0,11.3,7,Multi-Phase Versatile,CORE CANDIDATE
+4641,Lungi Ngidi,Death Specialist (Pace),Powerplay Containment (Pace),829,279,Robust Evidence,0.086,0.0325,0.0635,0.1168,-0.3104,0.3191,0.3077,0.1633,47.0,114.4,8,Multi-Phase Versatile,CORE CANDIDATE
+4219,Krunal Pandya,Middle Enforcer (Spin),Middle Over Containment (Spin),1286,399,Robust Evidence,0.0778,0.0324,0.054,0.0973,-0.192,0.3136,0.4091,0.16,56.0,182.2,8,Elite Phase Specialist,CORE CANDIDATE
+34466,Arafat Minhas,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),134,50,Moderate Evidence,0.1276,0.03,0.116,0.3828,0.1498,0.1725,0.25,0.0,7.0,37.0,7,Elite Phase Specialist,CONDITIONAL CANDIDATE
+3298,Jofra Archer,Death Specialist (Pace),Powerplay Containment (Pace),1320,386,Robust Evidence,0.0755,0.0294,0.0548,0.0951,-0.1161,0.2302,0.3929,0.2239,71.0,118.5,8,Elite Phase Specialist,CONDITIONAL CANDIDATE
+25030,Zaman Khan,Death Specialist (Pace),Powerplay Containment (Pace),243,87,Robust Evidence,0.1118,0.0278,0.0997,0.2402,0.3823,0.2424,0.25,0.2857,10.0,41.7,7,Elite Phase Specialist,CONDITIONAL CANDIDATE
+6628,Gerald Coetzee,Death Specialist (Pace),Powerplay Containment (Pace),647,210,Robust Evidence,0.0875,0.027,0.0718,0.1292,0.3597,0.2805,0.4483,0.1081,35.0,44.8,7,Multi-Phase Versatile,CORE CANDIDATE
+19315,Vijayakanth Viyaskanth,Middle Enforcer (Spin),Middle Over Containment (Spin),157,60,Robust Evidence,0.1197,0.0264,0.1109,0.3192,-0.0799,0.1164,0.1429,0.0,7.0,27.9,7,Elite Phase Specialist,CORE CANDIDATE
+6643,Hasan Mahmud,Middle Enforcer (Pace),Death Phase Option (Pace),412,168,Robust Evidence,0.0886,0.0223,0.0787,0.1413,0.1162,0.2077,0.3,0.05,22.0,43.2,7,Multi-Phase Versatile,CORE CANDIDATE
+6518,Daniel Sams,Powerplay Specialist (Pace),Death Closer (Pace),377,96,Robust Evidence,0.1021,0.0208,0.0966,0.2084,0.3932,0.1938,0.2941,0.0625,16.0,22.7,6,Elite Phase Specialist,CORE CANDIDATE
+7240,FazalHaq Farooqi,Death Specialist (Pace),Powerplay Containment (Pace),1063,304,Robust Evidence,0.0721,0.0206,0.0611,0.0958,0.1287,0.2379,0.4,0.1639,46.0,33.6,7,Elite Phase Specialist,CORE CANDIDATE
+5738,Xavier Bartlett,Powerplay Specialist (Pace),Death Closer (Pace),641,192,Robust Evidence,0.0832,0.0204,0.0746,0.1266,0.0728,0.2709,0.3548,0.2143,29.0,-3.5,7,Elite Phase Specialist,CONDITIONAL CANDIDATE
+3056,Iftikhar Ahmed,Middle Enforcer (Spin),Middle Over Containment (Spin),189,102,Robust Evidence,0.0985,0.0188,0.0946,0.195,0.2742,0.2683,0.4286,0.3333,6.0,26.5,7,Elite Phase Specialist,CONDITIONAL CANDIDATE
+36982,Suyash Sharma,Middle Enforcer (Spin),Death Phase Option (Spin),925,376,Robust Evidence,0.0653,0.0186,0.0555,0.0827,0.0507,0.2786,0.4884,0.0968,31.0,12.8,7,Elite Phase Specialist,CORE CANDIDATE
+4489,Prasidh Krishna,Death Specialist (Pace),Powerplay Containment (Pace),1234,525,Robust Evidence,0.0575,0.0176,0.0474,0.0685,-0.0239,0.3136,0.4615,0.3333,69.0,97.2,7,Multi-Phase Versatile,CONDITIONAL CANDIDATE
+28018,Ashok Sharma,Death Specialist (Pace),Middle Overs Enforcer (Pace),187,106,Robust Evidence,0.0923,0.0137,0.0934,0.1794,0.5201,0.2198,0.375,0.3,7.0,2.6,7,Elite Phase Specialist,CONDITIONAL CANDIDATE
+5939,Cameron Green,Middle Enforcer (Pace),Death Phase Option (Pace),799,273,Robust Evidence,0.0618,0.0078,0.0641,0.0845,0.1125,0.3003,0.4902,0.2258,34.0,9.1,6,Elite Phase Specialist,CONDITIONAL CANDIDATE
+1101,George Dockrell,Middle Enforcer (Spin),Death Phase Option (Spin),190,68,Robust Evidence,0.0976,0.0073,0.1072,0.2411,0.4784,0.2725,0.3333,0.1667,8.0,35.4,6,Elite Phase Specialist,CORE CANDIDATE
+22471,Matthew Humphreys,Powerplay Specialist (Spin),Middle Overs Restrictor (Spin),315,100,Robust Evidence,0.0867,0.0065,0.0953,0.1735,0.6479,0.2122,0.4286,0.0,20.0,32.5,6,Multi-Phase Versatile,CORE CANDIDATE
+25341,Mahfuzur Rabby,Middle Enforcer (Spin),Middle Over Containment (Spin),67,43,Moderate Evidence,0.1071,0.0061,0.1199,0.3561,-0.0953,0.0498,0.0,0.0,2.0,26.1,6,Elite Phase Specialist,CONDITIONAL CANDIDATE
+2687,Roston Chase,Middle Enforcer (Spin),Middle Over Containment (Spin),862,213,Robust Evidence,0.0659,0.0057,0.0714,0.0968,0.0804,0.2612,0.4,0.0667,35.0,116.4,6,Elite Phase Specialist,CORE CANDIDATE
+6179,Nipun Ransika,Death Specialist (Pace),Powerplay Containment (Pace),92,37,Moderate Evidence,0.1096,0.0055,0.1236,0.4058,0.5048,0.1061,0.2,0.0,6.0,9.6,6,Elite Phase Specialist,CONDITIONAL CANDIDATE
+3629,Corbin Bosch,Death Specialist (Pace),Middle Overs Enforcer (Pace),384,179,Robust Evidence,0.0699,0.0053,0.0768,0.109,0.2027,0.2653,0.4211,0.25,33.0,39.3,7,Elite Phase Specialist,CONDITIONAL CANDIDATE
+6506,Mohammad Imran Randhawa,Powerplay Specialist (Pace),Middle Overs Restrictor (Pace),76,22,Moderate Evidence,0.1175,0.0044,0.1343,0.6517,0.1093,0.0864,0.0,0.0,6.0,43.6,6,Elite Phase Specialist,CONDITIONAL CANDIDATE
+19316,Maheesh Theekshana,Middle Enforcer (Spin),Death Phase Option (Spin),2321,800,Robust Evidence,0.037,0.0044,0.0387,0.0416,-0.1886,0.2084,0.3939,0.0515,93.0,157.3,7,Multi-Phase Versatile,CORE CANDIDATE
+29888,Harshit Rana,Powerplay Specialist (Pace),Death Closer (Pace),940,406,Robust Evidence,0.049,0.004,0.0535,0.0611,-0.2415,0.2245,0.4318,0.2,56.0,-15.6,7,Multi-Phase Versatile,CORE CANDIDATE
+3627,Andile Phehlukwayo,Death Specialist (Pace),Middle Overs Enforcer (Pace),152,46,Robust Evidence,0.1025,0.003,0.1182,0.3253,0.7612,0.3964,0.7143,0.2857,10.0,-31.2,6,Elite Phase Specialist,CONDITIONAL CANDIDATE
+25128,Nqabayomzi Peter,Middle Enforcer (Spin),Middle Over Containment (Spin),170,67,Robust Evidence,0.0934,0.0028,0.1076,0.2329,0.0208,0.4184,0.5556,0.0,7.0,-19.1,6,Elite Phase Specialist,CORE CANDIDATE
+7327,Rasikh Salam,Death Specialist (Pace),Middle Overs Enforcer (Pace),571,277,Robust Evidence,0.0555,0.0019,0.0637,0.0756,-0.1255,0.2652,0.5,0.1714,38.0,28.4,7,Multi-Phase Versatile,CORE CANDIDATE
+2407,Dhananjaya de Silva,Middle Enforcer (Spin),Middle Over Containment (Spin),82,32,Moderate Evidence,0.1045,-0.0024,0.1269,0.4311,0.5847,0.3451,0.25,0.0,5.0,14.0,3,Elite Phase Specialist,HIGH-UPSIDE / HIGH-UNCERTAINTY
+22920,Jacob Duffy,Powerplay Specialist (Pace),Death Closer (Pace),933,369,Robust Evidence,0.0441,-0.003,0.0559,0.056,-0.1336,0.3247,0.4762,0.2564,62.0,73.7,4,Elite Phase Specialist,HIGH-RISK
+8424,Tanveer Sangha,Middle Enforcer (Spin),Death Phase Option (Spin),171,68,Robust Evidence,0.0851,-0.0051,0.1072,0.2103,0.4129,0.2053,0.4286,0.0,10.0,0.8,2,Elite Phase Specialist,HIGH-RISK
+2887,Harmeet Singh,Middle Enforcer (Spin),Middle Over Containment (Spin),98,28,Moderate Evidence,0.1037,-0.0055,0.1298,0.4742,0.4756,0.105,0.0,0.0,4.0,38.8,2,Elite Phase Specialist,HIGH-UPSIDE / HIGH-UNCERTAINTY
+1159,Tendai Chatara,Death Specialist (Pace),Powerplay Containment (Pace),223,70,Robust Evidence,0.0833,-0.0062,0.1063,0.2023,0.1756,0.1126,0.3,0.1538,11.0,25.2,2,Elite Phase Specialist,HIGH-RISK
+19124,Anas Khan,Death Specialist (Spin),Middle Overs Enforcer (Spin),23,21,Sparse Evidence,0.1073,-0.0065,0.1351,0.6183,,0.0,0.0,0.0,6.0,16.0,2,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2847,Shardul Thakur,Death Specialist (Pace),Powerplay Containment (Pace),1047,355,Robust Evidence,0.0408,-0.0072,0.057,0.0523,0.0734,0.3013,0.54,0.2537,54.0,-45.6,3,Elite Phase Specialist,HIGH-RISK
+278,Tim Southee,Death Specialist (Pace),Powerplay Containment (Pace),861,296,Robust Evidence,0.0434,-0.0087,0.0619,0.058,-0.6651,0.239,0.4444,0.18,55.0,60.1,2,Elite Phase Specialist,HIGH-RISK
+47050,Shamar Joseph,Death Specialist (Pace),Powerplay Containment (Pace),515,181,Robust Evidence,0.0555,-0.0089,0.0764,0.0861,0.2725,0.2696,0.5417,0.1724,31.0,-27.7,2,Multi-Phase Versatile,HIGH-RISK
+2411,Sandeep Sharma,Death Specialist (Pace),Powerplay Containment (Pace),1018,401,Robust Evidence,0.0346,-0.0107,0.0538,0.0432,0.1,0.361,0.3953,0.3115,39.0,140.0,1,Multi-Phase Versatile,HIGH-RISK
+6523,Blessing Muzarabani,Death Specialist (Pace),Powerplay Containment (Pace),846,236,Robust Evidence,0.046,-0.0116,0.0684,0.0655,-0.1419,0.2882,0.3514,0.22,46.0,89.1,1,Elite Phase Specialist,HIGH-RISK
+4722,Rashid Khan,Middle Enforcer (Spin),Death Phase Option (Spin),2780,1192,Robust Evidence,0.012,-0.0148,0.0318,0.013,0.1072,0.2478,0.3443,0.1345,153.0,276.9,0,Elite Phase Specialist,HIGH-RISK
+25011,Liam Mccarthy,Middle Enforcer (Pace),Middle Over Containment (Pace),70,31,Moderate Evidence,0.0914,-0.0161,0.1276,0.3862,1.4718,0.5876,0.6667,0.5,1.0,-30.4,2,Elite Phase Specialist,HIGH-RISK
+152,Ravindra Jadeja,Middle Enforcer (Spin),Middle Over Containment (Spin),1423,554,Robust Evidence,0.022,-0.0169,0.0462,0.026,0.1908,0.2938,0.4189,0.15,58.0,117.9,0,Elite Phase Specialist,HIGH-RISK
+3720,Craig Young,Middle Enforcer (Pace),Death Phase Option (Pace),480,113,Robust Evidence,0.0597,-0.0172,0.0914,0.1126,-0.1304,0.2434,0.3913,0.087,36.0,16.5,1,Multi-Phase Versatile,HIGH-RISK
+8634,Ashwani Kumar,Death Specialist (Pace),Middle Overs Enforcer (Pace),196,96,Robust Evidence,0.0636,-0.0177,0.0966,0.1299,0.3311,0.462,0.5,0.2,17.0,-22.2,1,Elite Phase Specialist,HIGH-RISK
+4487,Vyshak Kumar,Death Specialist (Pace),Middle Overs Enforcer (Pace),603,194,Robust Evidence,0.0439,-0.0186,0.0743,0.0666,-0.0333,0.3848,0.5185,0.2667,27.0,-20.0,1,Elite Phase Specialist,HIGH-RISK
+3281,Mosaddek Hossain,Middle Enforcer (Spin),Middle Over Containment (Spin),163,52,Robust Evidence,0.0781,-0.0186,0.1149,0.2283,0.2457,0.1534,0.2727,0.0,11.0,21.3,2,Elite Phase Specialist,HIGH-RISK
+5809,Naveen ul Haq,Death Specialist (Pace),Powerplay Containment (Pace),824,391,Robust Evidence,0.0264,-0.0194,0.0545,0.0332,0.0558,0.2596,0.5135,0.2419,52.0,-6.6,0,Elite Phase Specialist,HIGH-RISK
+48616,Abdul Saqlain,Death Specialist (Pace),Middle Overs Enforcer (Pace),185,102,Robust Evidence,0.0598,-0.0198,0.0946,0.1185,1.4329,0.1685,0.25,0.0833,9.0,4.1,1,Elite Phase Specialist,HIGH-RISK
+2633,Jason Holder,Death Specialist (Pace),Powerplay Containment (Pace),2032,854,Robust Evidence,0.0112,-0.0203,0.0374,0.0125,-0.3309,0.2504,0.3864,0.2439,109.0,162.1,0,Multi-Phase Versatile,HIGH-RISK
+1758,Patrick Cummins,Death Specialist (Pace),Powerplay Containment (Pace),1269,461,Robust Evidence,0.0215,-0.0209,0.0504,0.0262,-0.0395,0.2689,0.3519,0.2812,61.0,104.6,0,Multi-Phase Versatile,HIGH-RISK
+27960,Mayank Yadav,Middle Enforcer (Pace),Death Phase Option (Pace),526,271,Robust Evidence,0.0328,-0.0214,0.0643,0.0449,-0.6898,0.3626,0.4545,0.2,26.0,35.5,0,Multi-Phase Versatile,HIGH-RISK
+4807,Joshua Little,Middle Enforcer (Pace),Death Phase Option (Pace),815,333,Robust Evidence,0.0278,-0.0215,0.0587,0.0362,-0.3741,0.2771,0.3889,0.2121,45.0,43.8,0,Multi-Phase Versatile,HIGH-RISK
+28021,Saurabh Dubey,Death Specialist (Pace),Powerplay Containment (Pace),87,33,Moderate Evidence,0.084,-0.0223,0.1262,0.3385,-0.0627,0.2979,0.25,0.4,5.0,32.8,1,Elite Phase Specialist,HIGH-RISK
+1612,Yuzvendra Chahal,Middle Enforcer (Spin),Death Phase Option (Spin),2218,875,Robust Evidence,0.0085,-0.0226,0.037,0.0095,-0.2208,0.2745,0.449,0.0968,124.0,82.6,0,Elite Phase Specialist,HIGH-RISK
+3648,Deepak Hooda,Middle Enforcer (Spin),Middle Over Containment (Spin),133,91,Moderate Evidence,0.0598,-0.0229,0.0982,0.1255,0.1373,0.3138,0.3077,0.0,7.0,21.5,1,Elite Phase Specialist,HIGH-RISK
+6806,Tushar Deshpande,Death Specialist (Pace),Powerplay Containment (Pace),1121,421,Robust Evidence,0.0197,-0.0246,0.0526,0.0244,-0.065,0.2376,0.52,0.3333,54.0,42.2,0,Elite Phase Specialist,HIGH-RISK
+4229,George Linde,Middle Enforcer (Spin),Middle Over Containment (Spin),295,98,Robust Evidence,0.0557,-0.025,0.0959,0.1126,-0.3751,0.3022,0.4118,0.0,15.0,29.9,1,Elite Phase Specialist,HIGH-RISK
+7322,Yash Dayal,Powerplay Specialist (Pace),Death Closer (Pace),920,336,Robust Evidence,0.0237,-0.0254,0.0584,0.0308,-0.3205,0.3396,0.5116,0.3333,41.0,34.2,0,Elite Phase Specialist,HIGH-RISK
+499,Shakib Al Hasan,Middle Enforcer (Spin),Death Phase Option (Spin),344,122,Robust Evidence,0.0476,-0.0272,0.0889,0.0867,0.1939,0.2268,0.3529,0.1538,20.0,48.3,1,Multi-Phase Versatile,HIGH-RISK
+4926,Shadab Khan,Middle Enforcer (Spin),Middle Over Containment (Spin),848,344,Robust Evidence,0.0213,-0.0273,0.0578,0.0275,0.0019,0.2214,0.5476,0.0,36.0,-45.5,0,Elite Phase Specialist,HIGH-RISK
+2636,Adam Zampa,Middle Enforcer (Spin),Death Phase Option (Spin),1175,520,Robust Evidence,0.0124,-0.0277,0.0476,0.0148,0.3736,0.2771,0.4423,0.0962,71.0,5.6,0,Elite Phase Specialist,HIGH-RISK
+19902,Tim Pringle,Middle Enforcer (Spin),Death Phase Option (Spin),134,68,Moderate Evidence,0.0616,-0.0286,0.1072,0.1522,-0.2162,0.3244,0.5714,0.0,8.0,6.0,1,Elite Phase Specialist,HIGH-RISK
+6515,Benjamin Lister,Death Specialist (Pace),Powerplay Containment (Pace),258,56,Robust Evidence,0.066,-0.029,0.1128,0.1839,-1.0004,0.1741,0.5,0.0714,11.0,27.3,1,Elite Phase Specialist,HIGH-RISK
+6196,Josh Tongue,Powerplay Specialist (Pace),Death Closer (Pace),126,75,Moderate Evidence,0.0581,-0.0297,0.1042,0.1356,0.2718,0.2082,0.4,0.25,8.0,1.0,1,Elite Phase Specialist,HIGH-RISK
+6161,Rahul Chahar,Middle Enforcer (Spin),Death Phase Option (Spin),887,306,Robust Evidence,0.0207,-0.0307,0.0609,0.0274,-0.0259,0.2658,0.4524,0.1667,32.0,33.6,0,Elite Phase Specialist,HIGH-RISK
+8530,Kartik Tyagi,Death Specialist (Pace),Middle Overs Enforcer (Pace),441,148,Robust Evidence,0.0381,-0.0315,0.0827,0.0639,-0.1844,0.2977,0.4737,0.2069,20.0,-3.2,0,Elite Phase Specialist,HIGH-RISK
+8805,Ottneil Baartman,Death Specialist (Pace),Powerplay Containment (Pace),343,137,Robust Evidence,0.0393,-0.0324,0.0852,0.068,0.5778,0.2877,0.5,0.3,23.0,15.9,0,Multi-Phase Versatile,HIGH-RISK
+7906,Rakibul Hasan,Middle Enforcer (Spin),Middle Over Containment (Spin),182,104,Robust Evidence,0.0467,-0.0325,0.094,0.0916,-0.1954,0.3197,0.5,0.2,9.0,14.8,0,Elite Phase Specialist,HIGH-RISK
+158,Amit Mishra,Middle Enforcer (Spin),Death Phase Option (Spin),127,68,Moderate Evidence,0.0545,-0.0358,0.1072,0.1346,0.0074,0.3854,0.375,0.0,8.0,18.9,0,Elite Phase Specialist,HIGH-RISK
+161,Dwayne Bravo,Death Specialist (Pace),Middle Overs Enforcer (Pace),229,112,Robust Evidence,0.0408,-0.0363,0.0917,0.0773,-0.274,0.212,0.3,0.1111,16.0,44.4,0,Elite Phase Specialist,HIGH-RISK
+2399,Dushmantha Chameera,Death Specialist (Pace),Powerplay Containment (Pace),1204,390,Robust Evidence,0.0092,-0.0367,0.0545,0.0116,0.1788,0.3319,0.4151,0.2769,59.0,0.0,0,Multi-Phase Versatile,HIGH-RISK
+27464,Aayan Afzal Khan,Powerplay Specialist (Spin),Middle Overs Restrictor (Spin),144,41,Moderate Evidence,0.064,-0.038,0.1211,0.2201,0.3041,0.0752,0.4286,0.0,8.0,-18.0,1,Elite Phase Specialist,HIGH-RISK
+2320,Trent Boult,Powerplay Specialist (Pace),Death Closer (Pace),1605,493,Robust Evidence,0.003,-0.0381,0.0488,0.0036,-0.1408,0.2515,0.4286,0.194,73.0,196.9,0,Elite Phase Specialist,HIGH-RISK
+24767,Ripon Mondol,Death Specialist (Pace),Powerplay Containment (Pace),236,95,Robust Evidence,0.0433,-0.0383,0.0969,0.0888,-0.6051,0.232,0.5,0.25,19.0,25.8,0,Elite Phase Specialist,HIGH-RISK
+19530,Shahnawaz Dhani,Powerplay Specialist (Pace),Death Closer (Pace),244,47,Robust Evidence,0.0602,-0.0388,0.1176,0.1884,-0.0548,0.3287,0.5,0.1,12.0,11.9,0,Elite Phase Specialist,HIGH-RISK
+8743,Muhammad Shehzad,Death Specialist (Pace),Middle Overs Enforcer (Pace),13,13,Sparse Evidence,0.0799,-0.0397,0.1421,0.6947,,0.0,0.0,0.0,1.0,9.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8614,William ORourke,Powerplay Specialist (Pace),Middle Overs Restrictor (Pace),195,78,Robust Evidence,0.0461,-0.0406,0.103,0.1053,1.6059,0.2188,0.375,0.1429,11.0,0.7,0,Elite Phase Specialist,HIGH-RISK
+6284,Anukul Roy,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),336,86,Robust Evidence,0.0436,-0.0407,0.1,0.0942,-0.132,0.2198,0.4762,0.1,14.0,19.4,0,Elite Phase Specialist,HIGH-RISK
+507,Mohammad Mahmudullah,Middle Enforcer (Spin),Middle Over Containment (Spin),41,18,Sparse Evidence,0.0749,-0.041,0.1376,0.4911,1.0076,0.575,0.6,0.0,3.0,-3.0,1,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2681,Taskin Ahmed,Death Specialist (Pace),Powerplay Containment (Pace),1083,432,Robust Evidence,0.0019,-0.0418,0.052,0.0024,0.1414,0.2569,0.4783,0.1818,67.0,17.2,0,Elite Phase Specialist,HIGH-RISK
+7690,Saim Ayub,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),523,177,Robust Evidence,0.0222,-0.0427,0.0771,0.0348,-0.0147,0.2685,0.5,0.0,26.0,12.9,0,Elite Phase Specialist,HIGH-RISK
+3673,Ramesh Mendis,Middle Enforcer (Spin),Middle Over Containment (Spin),155,94,Robust Evidence,0.0392,-0.0427,0.0972,0.0809,1.2891,0.1663,0.5,0.0,2.0,11.0,0,Elite Phase Specialist,HIGH-RISK
+7533,Simarjeet Singh,Middle Enforcer (Pace),Death Phase Option (Pace),256,83,Robust Evidence,0.0424,-0.0428,0.1011,0.0934,-0.1219,0.5071,0.5714,0.2222,11.0,-19.4,0,Multi-Phase Versatile,HIGH-RISK
+67864,Matt Hollard,Middle Enforcer (Pace),Powerplay Strike Bowler (Pace),52,45,Moderate Evidence,0.0569,-0.0431,0.1187,0.1834,,0.0343,0.0,0.0,6.0,7.2,0,Elite Phase Specialist,HIGH-RISK
+19145,Aamer Jamal,Middle Enforcer (Pace),Death Phase Option (Pace),77,14,Sparse Evidence,0.075,-0.0439,0.1412,0.6104,1.1397,0.3593,0.75,0.3333,2.0,-24.8,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+32862,Allah Ghazanfar,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),467,107,Robust Evidence,0.0343,-0.0441,0.0931,0.0664,-0.0357,0.3468,0.5,0.0714,28.0,-3.9,0,Multi-Phase Versatile,HIGH-RISK
+7094,Curtis Campher,Middle Enforcer (Pace),Death Phase Option (Pace),414,171,Robust Evidence,0.0213,-0.0446,0.0782,0.0337,-0.1722,0.3067,0.4828,0.125,9.0,-8.8,0,Elite Phase Specialist,HIGH-RISK
+3772,Logan van Beek,Death Specialist (Pace),Powerplay Containment (Pace),138,77,Moderate Evidence,0.0418,-0.0453,0.1034,0.0961,-0.1644,0.1238,0.3333,0.125,10.0,23.3,0,Multi-Phase Versatile,HIGH-RISK
+7937,Wasim Ali,Middle Enforcer (Spin),Middle Over Containment (Spin),89,37,Moderate Evidence,0.0587,-0.0454,0.1236,0.2173,1.1968,0.1699,0.25,0.0,4.0,-0.4,0,Elite Phase Specialist,HIGH-RISK
+36553,Jediah Blades,Death Specialist (Pace),Powerplay Containment (Pace),131,29,Moderate Evidence,0.0629,-0.0458,0.129,0.2797,-0.1865,0.3003,0.5,0.0,6.0,5.6,0,Multi-Phase Versatile,HIGH-RISK
+15279,Shiraz Khan,Death Specialist (Spin),Middle Overs Enforcer (Spin),68,24,Moderate Evidence,0.0656,-0.0462,0.1328,0.3388,0.0527,0.012,0.0,0.0,4.0,20.7,0,Elite Phase Specialist,HIGH-RISK
+17918,Abdullah Tarakhail,Middle Enforcer (Pace),Powerplay Strike Bowler (Pace),21,21,Sparse Evidence,0.0674,-0.0464,0.1351,0.3881,,0.0,0.0,0.0,2.0,8.1,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3275,Alzarri Joseph,Death Specialist (Pace),Powerplay Containment (Pace),1214,448,Robust Evidence,-0.0041,-0.0471,0.0511,-0.005,0.0189,0.2067,0.4717,0.1806,58.0,-45.2,0,Multi-Phase Versatile,HIGH-RISK
+1171,Chris Woakes,Powerplay Specialist (Pace),Death Closer (Pace),166,60,Robust Evidence,0.0453,-0.048,0.1109,0.1209,-0.1185,0.3002,0.4545,0.0,11.0,8.0,0,Elite Phase Specialist,HIGH-RISK
+6995,Saad Zafar,Middle Enforcer (Spin),Death Phase Option (Spin),73,19,Moderate Evidence,0.0657,-0.0495,0.1368,0.4116,0.1555,0.021,0.0,0.0,6.0,21.7,0,Elite Phase Specialist,HIGH-RISK
+38855,Mohammad Saifuddin,Death Specialist (Pace),Middle Overs Enforcer (Pace),475,219,Robust Evidence,0.0098,-0.0496,0.0706,0.0143,0.3547,0.2606,0.5714,0.2188,26.0,-36.1,0,Elite Phase Specialist,HIGH-RISK
+3653,Avesh Khan,Death Specialist (Pace),Powerplay Containment (Pace),1745,786,Robust Evidence,-0.0172,-0.05,0.039,-0.0194,-0.0741,0.2887,0.4557,0.2414,86.0,-21.2,0,Elite Phase Specialist,HIGH-RISK
+6460,Ayush Badoni,Middle Enforcer (Spin),Death Phase Option (Spin),78,26,Moderate Evidence,0.0603,-0.0503,0.1312,0.292,0.0878,0.5221,0.3,0.0,4.0,3.0,0,Elite Phase Specialist,HIGH-RISK
+4417,Karan KC,Powerplay Specialist (Pace),Death Closer (Pace),42,10,Sparse Evidence,0.0707,-0.0513,0.1449,0.778,0.7645,0.5819,0.3333,0.0,2.0,8.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+15269,Mohammed Aslam,Middle Enforcer (Spin),Middle Over Containment (Spin),48,24,Sparse Evidence,0.0604,-0.0514,0.1328,0.312,0.6357,0.3038,0.3333,0.0,0.0,-0.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+470,Mohammad Amir,Death Specialist (Pace),Powerplay Containment (Pace),157,71,Robust Evidence,0.0374,-0.0518,0.1059,0.0901,-0.0376,0.341,0.4286,0.1818,5.0,2.5,0,Elite Phase Specialist,HIGH-RISK
+6797,Dominic Drakes,Death Specialist (Pace),Powerplay Containment (Pace),131,45,Moderate Evidence,0.0477,-0.0523,0.1187,0.1536,0.9699,0.1589,0.2857,0.1111,4.0,15.4,0,Elite Phase Specialist,HIGH-RISK
+4838,Keemo Paul,Middle Enforcer (Pace),Powerplay Strike Bowler (Pace),105,50,Moderate Evidence,0.0452,-0.0524,0.116,0.1356,0.3735,0.2704,0.6667,0.0,9.0,-6.3,0,Elite Phase Specialist,HIGH-RISK
+20006,Ramandeep Singh,Death Specialist (Pace),Middle Overs Enforcer (Pace),167,90,Robust Evidence,0.0304,-0.0526,0.0986,0.0642,-0.6847,0.2206,0.4615,0.0,13.0,4.9,0,Elite Phase Specialist,HIGH-RISK
+26843,Maaz Sadaqat,Middle Enforcer (Spin),Middle Over Containment (Spin),72,41,Moderate Evidence,0.0492,-0.0528,0.1211,0.1692,-0.6687,0.0581,0.0,0.0,7.0,19.2,0,Elite Phase Specialist,HIGH-RISK
+1389,Sean Abbott,Death Specialist (Pace),Powerplay Containment (Pace),476,155,Robust Evidence,0.015,-0.0534,0.0813,0.0247,-0.0794,0.1505,0.381,0.1667,30.0,-3.1,0,Multi-Phase Versatile,HIGH-RISK
+6512,Michael Bracewell,Middle Enforcer (Spin),Middle Over Containment (Spin),701,279,Robust Evidence,-0.0004,-0.0539,0.0635,-0.0005,-0.0454,0.3135,0.5366,0.1,39.0,-10.3,0,Elite Phase Specialist,HIGH-RISK
+22137,Fionn Hand,Middle Enforcer (Pace),Powerplay Strike Bowler (Pace),143,39,Moderate Evidence,0.0485,-0.0545,0.1223,0.173,0.3735,0.3955,0.5,0.0,6.0,-14.1,0,Elite Phase Specialist,HIGH-RISK
+6287,Yash Thakur,Death Specialist (Pace),Middle Overs Enforcer (Pace),607,268,Robust Evidence,-0.0011,-0.0555,0.0647,-0.0015,0.9549,0.2331,0.5556,0.3158,34.0,-33.9,0,Multi-Phase Versatile,HIGH-RISK
+28,Ishant Sharma,Powerplay Specialist (Pace),Death Closer (Pace),456,196,Robust Evidence,0.0066,-0.0556,0.074,0.01,-0.2498,0.328,0.4167,0.25,24.0,9.6,0,Elite Phase Specialist,HIGH-RISK
+4237,Tabraiz Shamsi,Middle Enforcer (Spin),Middle Over Containment (Spin),321,135,Robust Evidence,0.0164,-0.0557,0.0857,0.0286,0.0597,0.2168,0.6875,0.375,17.0,-38.9,0,Elite Phase Specialist,HIGH-RISK
+38044,Mahli Beardman,Death Specialist (Pace),Middle Overs Enforcer (Pace),26,14,Sparse Evidence,0.0629,-0.0559,0.1412,0.5124,1.0003,0.0,0.0,0.0,2.0,1.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+28756,Haider Ali,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),273,94,Robust Evidence,0.0252,-0.0567,0.0972,0.052,-0.0526,0.257,0.4167,0.0,15.0,26.5,0,Elite Phase Specialist,HIGH-RISK
+4686,Joshua Clarkson,Middle Enforcer (Pace),Middle Over Containment (Pace),51,13,Sparse Evidence,0.0629,-0.0567,0.1421,0.5467,0.4502,0.1522,0.25,0.0,6.0,10.8,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1813,Deepak Chahar,Powerplay Specialist (Pace),Death Closer (Pace),964,304,Robust Evidence,-0.0053,-0.0567,0.0611,-0.007,-0.1542,0.2294,0.5,0.3333,45.0,33.8,0,Elite Phase Specialist,HIGH-RISK
+3689,Mark Watt,Middle Enforcer (Spin),Death Phase Option (Spin),128,22,Moderate Evidence,0.0563,-0.0568,0.1343,0.3123,0.0832,0.2859,0.5,0.0,7.0,-1.1,0,Elite Phase Specialist,HIGH-RISK
+494,Kieron Pollard,Middle Enforcer (Pace),Death Phase Option (Pace),197,59,Robust Evidence,0.0365,-0.0572,0.1113,0.0984,-0.13,0.301,0.25,0.1111,8.0,42.5,0,Elite Phase Specialist,HIGH-RISK
+7503,Ravi Bishnoi,Middle Enforcer (Spin),Death Phase Option (Spin),2429,1201,Robust Evidence,-0.0313,-0.0579,0.0316,-0.0339,-0.0856,0.2928,0.4679,0.1461,124.0,70.3,0,Elite Phase Specialist,HIGH-RISK
+2214,Gulbadin Naib,Death Specialist (Pace),Middle Overs Enforcer (Pace),56,44,Moderate Evidence,0.0424,-0.0581,0.1193,0.1386,1.0805,0.2605,0.8571,0.0,2.0,-5.2,0,Elite Phase Specialist,HIGH-RISK
+988,Graeme Cremer,Death Specialist (Spin),Middle Overs Enforcer (Spin),42,33,Sparse Evidence,0.0477,-0.0586,0.1262,0.1921,,0.297,0.5,0.0,2.0,0.1,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3330,Hardik Pandya,Middle Enforcer (Pace),Powerplay Strike Bowler (Pace),1930,726,Robust Evidence,-0.0247,-0.0588,0.0405,-0.0281,-0.0038,0.3377,0.5225,0.2373,84.0,56.9,0,Multi-Phase Versatile,HIGH-RISK
+3605,Aiden Markram,Middle Enforcer (Spin),Middle Over Containment (Spin),408,72,Robust Evidence,0.0289,-0.0599,0.1055,0.069,0.1839,0.4063,0.5714,0.25,13.0,-69.5,0,Elite Phase Specialist,HIGH-RISK
+8049,Naseem Shah,Death Specialist (Pace),Powerplay Containment (Pace),608,186,Robust Evidence,0.0036,-0.06,0.0756,0.0056,0.0107,0.3086,0.5185,0.1111,26.0,-23.2,0,Elite Phase Specialist,HIGH-RISK
+5940,Riley Meredith,Death Specialist (Pace),Powerplay Containment (Pace),331,161,Robust Evidence,0.0075,-0.06,0.0801,0.0121,0.1287,0.2663,0.5,0.3333,16.0,19.7,0,Elite Phase Specialist,HIGH-RISK
+46066,Vipraj Nigam,Middle Enforcer (Spin),Middle Over Containment (Spin),301,93,Robust Evidence,0.0218,-0.0604,0.0976,0.0452,-1.0461,0.2905,0.6667,0.0,13.0,-27.6,0,Elite Phase Specialist,HIGH-RISK
+2490,Mohammad Nawaz,Middle Enforcer (Spin),Middle Over Containment (Spin),1017,334,Robust Evidence,-0.0117,-0.061,0.0586,-0.0152,-0.3566,0.3143,0.4808,0.0,66.0,11.9,0,Elite Phase Specialist,HIGH-RISK
+48278,Ubaid Shah,Powerplay Specialist (Pace),Death Closer (Pace),81,31,Moderate Evidence,0.046,-0.0614,0.1276,0.1945,0.4516,0.1963,0.5,0.0,5.0,-6.8,0,Elite Phase Specialist,HIGH-RISK
+45457,Zach Lion Cachet,Middle Enforcer (Spin),Death Phase Option (Spin),70,53,Moderate Evidence,0.0338,-0.0625,0.1144,0.0976,0.2061,0.203,0.25,0.0,4.0,-5.8,0,Elite Phase Specialist,HIGH-RISK
+3550,Sharafuddin Ashraf,Middle Enforcer (Spin),Death Phase Option (Spin),190,106,Robust Evidence,0.0145,-0.0642,0.0934,0.0281,-0.485,0.2724,0.3636,0.0,9.0,23.4,0,Elite Phase Specialist,HIGH-RISK
+7059,Nehal Wadhera,Death Specialist (Spin),Middle Overs Enforcer (Spin),28,11,Sparse Evidence,0.0567,-0.0645,0.1439,0.5721,0.3627,0.1635,0.25,0.0,1.0,9.9,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1219,David Willey,Powerplay Specialist (Pace),Death Closer (Pace),396,121,Robust Evidence,0.0101,-0.065,0.0892,0.0184,0.1393,0.3468,0.3684,0.0,17.0,82.6,0,Elite Phase Specialist,HIGH-RISK
+29558,Muhammad Arfan,Death Specialist (Pace),Middle Overs Enforcer (Pace),109,24,Moderate Evidence,0.0465,-0.0653,0.1328,0.24,0.1959,0.5153,0.4,0.1667,5.0,9.5,0,Multi-Phase Versatile,HIGH-RISK
+52338,Usman Tariq,Middle Enforcer (Spin),Death Phase Option (Spin),66,66,Moderate Evidence,0.0248,-0.0661,0.1081,0.0625,,0.01,0.0,0.0,8.0,4.1,0,Elite Phase Specialist,HIGH-RISK
+24381,Shariz Ahmad,Middle Enforcer (Spin),Middle Over Containment (Spin),36,18,Sparse Evidence,0.049,-0.0669,0.1376,0.3212,1.2932,0.3126,0.6667,0.0,2.0,-11.7,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7709,Ainsley Ndlovu,Middle Enforcer (Spin),Death Phase Option (Spin),68,12,Sparse Evidence,0.0525,-0.068,0.143,0.4896,0.9567,0.4556,0.8,0.0,2.0,-20.3,0,Multi-Phase Versatile,INSUFFICIENT EVIDENCE
+7929,Aryaman Sunil Uchil,Death Specialist (Pace),Powerplay Containment (Pace),45,27,Sparse Evidence,0.0415,-0.0684,0.1305,0.1952,0.5096,0.0666,0.5,0.0,1.0,-0.4,0,Multi-Phase Versatile,INSUFFICIENT EVIDENCE
+1566,Mohammed Shami,Powerplay Specialist (Pace),Death Closer (Pace),1329,417,Robust Evidence,-0.0248,-0.0693,0.0528,-0.0307,-0.1057,0.3006,0.5088,0.3182,69.0,77.4,0,Elite Phase Specialist,HIGH-RISK
+26854,SM Meherob Hasan,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),123,76,Moderate Evidence,0.0177,-0.0697,0.1038,0.041,-0.3055,0.0307,0.8,0.0,5.0,-2.5,0,Elite Phase Specialist,HIGH-RISK
+4276,Basil Thampi,Powerplay Specialist (Pace),Death Closer (Pace),102,23,Moderate Evidence,0.0425,-0.0699,0.1335,0.2274,0.3273,0.3327,0.4,0.5,5.0,-2.7,0,Elite Phase Specialist,HIGH-RISK
+7903,Shamim Hossain,Death Specialist (Spin),Middle Overs Enforcer (Spin),104,40,Moderate Evidence,0.0322,-0.0703,0.1217,0.1127,0.2638,0.3161,0.5,0.1667,3.0,-5.2,0,Elite Phase Specialist,HIGH-RISK
+56830,Madhav Tiwari,Middle Enforcer (Pace),Middle Over Containment (Pace),75,11,Sparse Evidence,0.0507,-0.0705,0.1439,0.5121,0.1942,0.2063,0.25,0.5,4.0,26.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5866,Patrick Kruger,Middle Enforcer (Pace),Death Phase Option (Pace),127,22,Moderate Evidence,0.0424,-0.0707,0.1343,0.2351,-0.118,0.1344,0.1429,0.0,8.0,20.6,0,Elite Phase Specialist,HIGH-RISK
+30925,Bradley Currie,Powerplay Specialist (Pace),Death Closer (Pace),112,25,Moderate Evidence,0.0401,-0.071,0.132,0.2007,-0.1682,0.1203,0.0,0.3333,8.0,28.8,0,Elite Phase Specialist,HIGH-RISK
+3578,Imad Wasim,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),254,72,Robust Evidence,0.0172,-0.0716,0.1055,0.0412,-0.5412,0.1378,0.1429,0.0,15.0,70.4,0,Elite Phase Specialist,HIGH-RISK
+786,Chris Jordan,Death Specialist (Pace),Middle Overs Enforcer (Pace),574,281,Robust Evidence,-0.0184,-0.0717,0.0633,-0.0249,0.2784,0.2514,0.4815,0.3191,19.0,-23.2,0,Elite Phase Specialist,HIGH-RISK
+8177,Akash Madhwal,Death Specialist (Pace),Middle Overs Enforcer (Pace),376,139,Robust Evidence,-0.0008,-0.0721,0.0847,-0.0013,-0.2649,0.4225,0.5294,0.2222,23.0,15.7,0,Elite Phase Specialist,HIGH-RISK
+4823,Washington Sundar,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),802,311,Robust Evidence,-0.0215,-0.0724,0.0605,-0.0284,-0.3048,0.3849,0.4314,0.1538,39.0,19.3,0,Elite Phase Specialist,HIGH-RISK
+19754,Raja Khan,Death Specialist (Pace),Powerplay Containment (Pace),51,25,Moderate Evidence,0.0388,-0.0724,0.132,0.1938,0.8744,0.2974,0.5,0.5,1.0,-12.9,0,Elite Phase Specialist,HIGH-RISK
+15280,Sayed Monib,Death Specialist (Pace),Powerplay Containment (Pace),72,13,Sparse Evidence,0.0473,-0.0724,0.1421,0.4108,0.2282,0.2333,0.3333,0.2,3.0,16.1,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+27373,Muhammad Farooq,Middle Enforcer (Spin),Middle Over Containment (Spin),103,6,Sparse Evidence,0.0527,-0.0727,0.1489,0.9313,,0.2136,0.6,0.0,8.0,4.7,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7364,Haris Rauf,Death Specialist (Pace),Powerplay Containment (Pace),1063,407,Robust Evidence,-0.0279,-0.0729,0.0535,-0.0347,-0.3337,0.2635,0.3958,0.1831,76.0,35.6,0,Elite Phase Specialist,HIGH-RISK
+7912,Vikramjit Singh,Death Specialist (Pace),Middle Overs Enforcer (Pace),46,43,Sparse Evidence,0.0275,-0.0735,0.1199,0.0915,3.0485,0.1277,0.5,0.0,4.0,-5.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+17424,Graham Hume,Death Specialist (Pace),Powerplay Containment (Pace),200,46,Robust Evidence,0.0259,-0.0736,0.1182,0.0822,-0.2015,0.3977,0.6,0.1818,11.0,-12.1,0,Multi-Phase Versatile,HIGH-RISK
+7966,Farmanullah Safi,Middle Enforcer (Pace),Middle Over Containment (Pace),37,6,Sparse Evidence,0.0511,-0.0743,0.1489,0.9027,,0.4627,0.5,0.0,1.0,8.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4499,Saqib Mahmood,Powerplay Specialist (Pace),Death Closer (Pace),243,104,Robust Evidence,0.0045,-0.0747,0.094,0.0088,0.0461,0.3258,0.4545,0.1,17.0,27.9,0,Elite Phase Specialist,HIGH-RISK
+2359,Prenelan Subrayen,Middle Enforcer (Spin),Middle Over Containment (Spin),42,18,Sparse Evidence,0.0407,-0.0751,0.1376,0.2671,-0.142,0.0802,0.0,0.0,2.0,10.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7403,Lalit Rajbanshi,Death Specialist (Spin),Middle Overs Enforcer (Spin),31,20,Sparse Evidence,0.0391,-0.0753,0.136,0.2348,-0.1648,0.1129,0.0,0.0,2.0,9.1,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2315,Reece Topley,Death Specialist (Pace),Powerplay Containment (Pace),639,249,Robust Evidence,-0.0201,-0.0764,0.0668,-0.0282,-0.5645,0.3547,0.3448,0.2424,31.0,63.4,0,Elite Phase Specialist,HIGH-RISK
+4882,Kushal Bhurtel,Middle Enforcer (Spin),Death Phase Option (Spin),50,38,Moderate Evidence,0.0257,-0.0778,0.123,0.0934,0.1374,0.3103,0.6667,0.0,5.0,3.0,0,Elite Phase Specialist,HIGH-RISK
+5750,Ehsan Khan,Death Specialist (Spin),Powerplay Containment (Spin),331,112,Robust Evidence,-0.0015,-0.0786,0.0917,-0.0028,0.3119,0.1602,0.2857,0.2083,19.0,39.3,0,Elite Phase Specialist,HIGH-RISK
+24017,Brian Bennett,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),137,26,Moderate Evidence,0.0317,-0.0788,0.1312,0.1538,0.3941,0.4658,0.625,0.0,7.0,-22.7,0,Multi-Phase Versatile,HIGH-RISK
+3282,Mehidy Hasan Miraz,Middle Enforcer (Spin),Middle Over Containment (Spin),236,98,Robust Evidence,0.0012,-0.0795,0.0959,0.0025,1.2413,0.3337,0.5294,0.0,14.0,-20.5,0,Elite Phase Specialist,HIGH-RISK
+6286,Shivam Mavi,Death Specialist (Pace),Powerplay Containment (Pace),232,113,Robust Evidence,-0.0027,-0.0796,0.0914,-0.0051,0.6404,0.2492,0.4167,0.2667,12.0,-20.0,0,Elite Phase Specialist,HIGH-RISK
+39991,Parveen Kumar,Middle Enforcer (Spin),Middle Over Containment (Spin),49,9,Sparse Evidence,0.0429,-0.0799,0.1459,0.5196,0.0889,0.1812,0.0,0.0,2.0,23.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4816,Khaleel Ahmed,Death Specialist (Pace),Powerplay Containment (Pace),1267,356,Robust Evidence,-0.0326,-0.0804,0.0569,-0.0417,-0.0731,0.2801,0.375,0.3167,62.0,97.5,0,Elite Phase Specialist,HIGH-RISK
+25132,Praful Hinge,Death Specialist (Pace),Powerplay Containment (Pace),168,66,Robust Evidence,0.0101,-0.0809,0.1081,0.0254,-0.4494,0.1654,0.7143,0.2222,14.0,-40.7,0,Multi-Phase Versatile,HIGH-RISK
+479,Adil Rashid,Middle Enforcer (Spin),Death Phase Option (Spin),1347,600,Robust Evidence,-0.0439,-0.0813,0.0444,-0.0512,0.0031,0.3098,0.4426,0.1087,72.0,69.4,0,Elite Phase Specialist,HIGH-RISK
+6450,Mujeeb Ur Rahman,Powerplay Specialist (Spin),Middle Overs Restrictor (Spin),849,258,Robust Evidence,-0.0262,-0.0815,0.0658,-0.0363,-0.0999,0.2246,0.3421,0.0,48.0,45.1,0,Elite Phase Specialist,HIGH-RISK
+6784,Hassan Mohammad,Powerplay Specialist (Pace),Death Closer (Pace),26,6,Sparse Evidence,0.0436,-0.0818,0.1489,0.7697,,0.0,0.0,0.0,3.0,2.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+54404,Benjamin Ito,Powerplay Specialist (Spin),Death Closer (Spin),6,6,Sparse Evidence,0.0434,-0.082,0.1489,0.7673,,0.0,0.0,0.0,1.0,4.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+27364,Simranjeet Kang,Middle Enforcer (Spin),Death Phase Option (Spin),58,24,Moderate Evidence,0.0297,-0.082,0.1328,0.1537,-0.2191,0.3325,0.3333,0.0,4.0,17.7,0,Elite Phase Specialist,HIGH-RISK
+8639,Kartik Meiyappan,Middle Enforcer (Spin),Middle Over Containment (Spin),100,41,Moderate Evidence,0.0197,-0.0823,0.1211,0.0678,-0.271,0.2997,0.25,0.0,6.0,22.8,0,Elite Phase Specialist,HIGH-RISK
+29075,Aadil Ansari,Middle Enforcer (Pace),Middle Over Containment (Pace),38,26,Sparse Evidence,0.0268,-0.0837,0.1312,0.1299,0.7786,0.3893,0.5,0.0,4.0,-4.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7325,Harpreet Brar,Middle Enforcer (Spin),Middle Over Containment (Spin),679,161,Robust Evidence,-0.0174,-0.0848,0.0801,-0.0282,0.2679,0.3121,0.4474,0.1579,32.0,61.1,0,Elite Phase Specialist,HIGH-RISK
+2367,Travis Head,Death Specialist (Spin),Middle Overs Enforcer (Spin),16,6,Sparse Evidence,0.04,-0.0854,0.1489,0.7062,,1.1401,0.5,0.0,1.0,-11.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6591,KM Asif,Death Specialist (Pace),Powerplay Containment (Pace),91,34,Moderate Evidence,0.0202,-0.0855,0.1256,0.0796,-0.0083,0.1964,0.25,0.4,3.0,7.7,0,Multi-Phase Versatile,HIGH-RISK
+4881,Dipendra Airee,Powerplay Specialist (Spin),Death Closer (Spin),36,12,Sparse Evidence,0.0343,-0.0861,0.143,0.3198,-0.0551,0.4423,0.5,0.0,2.0,12.8,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5231,Oshane Thomas,Middle Enforcer (Pace),Death Phase Option (Pace),24,12,Sparse Evidence,0.0342,-0.0862,0.143,0.3193,0.7364,0.0,1.0,0.0,0.0,-1.2,0,Multi-Phase Versatile,INSUFFICIENT EVIDENCE
+3276,Gudakesh Motie,Middle Enforcer (Spin),Middle Over Containment (Spin),753,251,Robust Evidence,-0.0306,-0.0866,0.0666,-0.0428,-0.138,0.2423,0.4474,0.1304,34.0,59.2,0,Elite Phase Specialist,HIGH-RISK
+3174,Matt Henry,Powerplay Specialist (Pace),Death Closer (Pace),636,161,Robust Evidence,-0.0193,-0.0867,0.0801,-0.0313,0.4123,0.3041,0.4667,0.2083,27.0,-2.5,0,Elite Phase Specialist,HIGH-RISK
+4412,Max ODowd,Middle Enforcer (Spin),Middle Over Containment (Spin),31,6,Sparse Evidence,0.0378,-0.0876,0.1489,0.6679,,0.5568,0.5,0.0,1.0,1.9,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+403,Umesh Yadav,Powerplay Specialist (Pace),Death Closer (Pace),572,116,Robust Evidence,-0.0118,-0.088,0.0905,-0.022,-0.0115,0.2788,0.4483,0.2727,28.0,28.4,0,Elite Phase Specialist,HIGH-RISK
+50062,Nqobani Mokoena,Middle Enforcer (Pace),Death Phase Option (Pace),67,24,Moderate Evidence,0.0229,-0.0889,0.1328,0.1181,-0.1423,0.2017,0.3333,0.0,3.0,14.0,0,Multi-Phase Versatile,HIGH-RISK
+1487,Adam Milne,Death Specialist (Pace),Powerplay Containment (Pace),581,191,Robust Evidence,-0.027,-0.09,0.0747,-0.0412,0.039,0.3553,0.5385,0.1562,35.0,-5.2,0,Elite Phase Specialist,HIGH-RISK
+4874,Richard Ngarava,Death Specialist (Pace),Powerplay Containment (Pace),889,227,Robust Evidence,-0.0317,-0.0903,0.0695,-0.0457,0.064,0.1585,0.4359,0.2143,41.0,24.7,0,Elite Phase Specialist,HIGH-RISK
+45381,PV Satyanarayan Raju,Death Specialist (Pace),Powerplay Containment (Pace),29,8,Sparse Evidence,0.0333,-0.0904,0.1469,0.4493,,0.1067,1.0,0.5,1.0,-3.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7756,Kaleem Sana,Death Specialist (Pace),Powerplay Containment (Pace),67,18,Moderate Evidence,0.0252,-0.0907,0.1376,0.1653,-0.2023,0.3192,0.0,0.0,4.0,21.0,0,Elite Phase Specialist,HIGH-RISK
+47017,Mohammad Jnr,Death Specialist (Pace),Powerplay Containment (Pace),68,21,Moderate Evidence,0.0225,-0.0913,0.1351,0.1295,1.9772,0.0389,0.6667,0.4,2.0,-5.3,0,Elite Phase Specialist,HIGH-RISK
+2334,Dwaine Pretorius,Death Specialist (Pace),Middle Overs Enforcer (Pace),336,217,Robust Evidence,-0.032,-0.0917,0.0709,-0.0468,-0.4963,0.2274,0.6429,0.3462,17.0,5.4,0,Elite Phase Specialist,HIGH-RISK
+4409,Sam Curran,Death Specialist (Pace),Powerplay Containment (Pace),1423,476,Robust Evidence,-0.0503,-0.0921,0.0497,-0.0609,-0.3034,0.3457,0.4932,0.2532,62.0,39.1,0,Multi-Phase Versatile,HIGH-RISK
+19312,Nuwan Thushara,Death Specialist (Pace),Powerplay Containment (Pace),824,258,Robust Evidence,-0.0385,-0.0939,0.0658,-0.0534,0.2305,0.3095,0.5263,0.3256,36.0,-0.3,0,Elite Phase Specialist,HIGH-RISK
+7140,Senuran Muthusamy,Middle Enforcer (Spin),Middle Over Containment (Spin),43,28,Sparse Evidence,0.0149,-0.0943,0.1298,0.0683,0.4317,0.2898,0.5,0.0,1.0,-3.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+829,Mitchell Starc,Powerplay Specialist (Pace),Death Closer (Pace),860,302,Robust Evidence,-0.0433,-0.0949,0.0613,-0.0576,-0.2139,0.2433,0.5641,0.3077,53.0,-41.6,0,Elite Phase Specialist,HIGH-RISK
+4246,Nitish Rana,Death Specialist (Spin),Middle Overs Enforcer (Spin),104,12,Sparse Evidence,0.0252,-0.0952,0.143,0.2352,0.3892,0.4585,0.4545,0.1667,3.0,-11.3,0,Multi-Phase Versatile,INSUFFICIENT EVIDENCE
+27743,DT Doram,Middle Enforcer (Spin),Middle Over Containment (Spin),192,108,Robust Evidence,-0.0171,-0.0953,0.0928,-0.033,-0.6312,0.2702,0.6667,0.0,9.0,-20.3,0,Elite Phase Specialist,HIGH-RISK
+6272,William Jacks,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),431,133,Robust Evidence,-0.0227,-0.0953,0.0862,-0.0398,-0.0522,0.4509,0.4571,0.0,23.0,11.5,0,Elite Phase Specialist,HIGH-RISK
+3135,Yannic Cariah,Middle Enforcer (Spin),Middle Over Containment (Spin),36,14,Sparse Evidence,0.0234,-0.0954,0.1412,0.1908,0.4082,0.768,0.5,0.0,1.0,-2.1,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+47,Virat Kohli,Death Specialist (Pace),Middle Overs Enforcer (Pace),6,6,Sparse Evidence,0.0299,-0.0956,0.1489,0.5274,,0.0,0.0,0.0,0.0,3.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3272,Fabian Allen,Middle Enforcer (Spin),Death Phase Option (Spin),180,104,Robust Evidence,-0.0169,-0.096,0.094,-0.0331,-0.396,0.4676,0.6667,0.2222,5.0,-40.7,0,Elite Phase Specialist,HIGH-RISK
+6984,Saqib Zulfiqar,Death Specialist (Spin),Middle Overs Enforcer (Spin),12,12,Sparse Evidence,0.0241,-0.0963,0.143,0.2254,,0.0,0.0,0.0,0.0,2.7,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8005,Zawar Farid,Death Specialist (Pace),Powerplay Containment (Pace),80,27,Moderate Evidence,0.0129,-0.097,0.1305,0.0606,-0.0214,0.0499,0.5,0.1667,2.0,6.0,0,Elite Phase Specialist,HIGH-RISK
+6350,Matthew Kuhnemann,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),123,25,Moderate Evidence,0.014,-0.0971,0.132,0.07,0.1532,0.1556,0.3333,0.0,2.0,-6.4,0,Multi-Phase Versatile,HIGH-RISK
+8009,Junaid Siddique,Death Specialist (Pace),Powerplay Containment (Pace),354,146,Robust Evidence,-0.0273,-0.0973,0.0832,-0.046,-0.8825,0.2353,0.5333,0.16,27.0,-22.7,0,Elite Phase Specialist,HIGH-RISK
+24887,Innocent Kaia,Middle Enforcer (Pace),Middle Over Containment (Pace),6,6,Sparse Evidence,0.0278,-0.0976,0.1489,0.4919,,0.0,0.0,0.0,0.0,3.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3637,Dayyaan Galiem,Middle Enforcer (Pace),Death Phase Option (Pace),27,6,Sparse Evidence,0.0277,-0.0978,0.1489,0.4885,,0.0,0.0,0.0,2.0,22.9,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+24812,Chris Greaves,Middle Enforcer (Spin),Middle Over Containment (Spin),54,17,Moderate Evidence,0.0188,-0.0978,0.1385,0.1294,0.5376,0.2362,0.75,0.0,3.0,-12.9,0,Elite Phase Specialist,HIGH-RISK
+4900,Wanindu Hasaranga,Middle Enforcer (Spin),Death Phase Option (Spin),2053,833,Robust Evidence,-0.0661,-0.098,0.0379,-0.074,-0.1064,0.2586,0.5055,0.0441,133.0,-17.6,0,Elite Phase Specialist,HIGH-RISK
+1195,Ben Stokes,Powerplay Specialist (Pace),Middle Overs Restrictor (Pace),33,13,Sparse Evidence,0.0216,-0.098,0.1421,0.1876,0.2251,0.4063,0.3333,0.0,1.0,1.7,0,Multi-Phase Versatile,INSUFFICIENT EVIDENCE
+4947,Kasun Rajitha,Death Specialist (Pace),Powerplay Containment (Pace),116,44,Moderate Evidence,0.002,-0.0984,0.1193,0.0067,-0.1817,0.3679,0.4,0.3333,4.0,13.9,0,Elite Phase Specialist,HIGH-RISK
+35072,Ramakrishna Ghosh,Death Specialist (Pace),Middle Overs Enforcer (Pace),18,6,Sparse Evidence,0.0268,-0.0986,0.1489,0.4743,,0.0,0.0,0.0,1.0,3.7,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3613,Shakeel Ahmed,Powerplay Specialist (Spin),Death Closer (Spin),82,7,Sparse Evidence,0.0258,-0.0987,0.1479,0.3945,,0.5246,0.5,0.0,1.0,-9.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2984,Sikandar Raza,Middle Enforcer (Spin),Middle Over Containment (Spin),1116,444,Robust Evidence,-0.0559,-0.0991,0.0513,-0.0685,-0.3421,0.3057,0.5577,0.0741,43.0,43.7,0,Elite Phase Specialist,HIGH-RISK
+21786,Tanaka Chivanga,Death Specialist (Pace),Powerplay Containment (Pace),31,11,Sparse Evidence,0.0221,-0.0991,0.1439,0.223,0.7724,0.1032,1.0,0.0,0.0,-8.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7270,Anrich Nortje,Death Specialist (Pace),Powerplay Containment (Pace),878,314,Robust Evidence,-0.049,-0.0997,0.0602,-0.0646,-0.2029,0.2057,0.5385,0.2545,36.0,-64.9,0,Multi-Phase Versatile,HIGH-RISK
+7312,Nandre Burger,Powerplay Specialist (Pace),Death Closer (Pace),468,190,Robust Evidence,-0.0368,-0.0998,0.0749,-0.0561,0.3225,0.2343,0.5,0.1176,22.0,-13.0,0,Elite Phase Specialist,HIGH-RISK
+914,Krishnappa Gowtham,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),185,78,Robust Evidence,-0.0135,-0.1003,0.103,-0.0309,-0.4415,0.3514,0.4545,0.0,8.0,-3.1,0,Elite Phase Specialist,HIGH-RISK
+6932,Pramod Madushan,Death Specialist (Pace),Powerplay Containment (Pace),157,53,Robust Evidence,-0.0043,-0.1006,0.1144,-0.0125,-0.2557,0.0546,0.1429,0.1111,13.0,9.8,0,Multi-Phase Versatile,HIGH-RISK
+35122,Shah Faisal,Death Specialist (Pace),Powerplay Containment (Pace),78,24,Moderate Evidence,0.0101,-0.1017,0.1328,0.0522,0.0057,0.0531,0.6667,0.1667,5.0,3.8,0,Elite Phase Specialist,HIGH-RISK
+31513,Ethan Dsouza,Death Specialist (Spin),Middle Overs Enforcer (Spin),25,6,Sparse Evidence,0.0237,-0.1017,0.1489,0.4186,,0.3865,0.5,0.0,1.0,-4.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+35102,Zikria Islam,Middle Enforcer (Spin),Middle Over Containment (Spin),31,6,Sparse Evidence,0.0236,-0.1018,0.1489,0.4166,,0.4449,1.0,0.0,0.0,-14.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5441,Barry McCarthy,Death Specialist (Pace),Powerplay Containment (Pace),662,274,Robust Evidence,-0.048,-0.1019,0.064,-0.0655,0.3501,0.1811,0.4828,0.1944,26.0,-4.2,0,Multi-Phase Versatile,HIGH-RISK
+7755,Harsh Thaker,Middle Enforcer (Spin),Death Phase Option (Spin),48,18,Sparse Evidence,0.0138,-0.1021,0.1376,0.0904,0.5286,0.2991,0.6667,0.0,2.0,-11.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7354,Al Alis,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),25,4,Sparse Evidence,0.0247,-0.1025,0.1511,0.6418,,0.0,1.0,0.0,2.0,-1.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4842,Shamar Springer,Death Specialist (Pace),Middle Overs Enforcer (Pace),212,88,Robust Evidence,-0.0189,-0.1025,0.0993,-0.0404,-0.073,0.2118,0.6364,0.2143,16.0,10.2,0,Elite Phase Specialist,HIGH-RISK
+17937,Zubaid Akbari,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),25,12,Sparse Evidence,0.0163,-0.1042,0.143,0.1517,0.1505,0.0753,0.0,0.0,0.0,1.8,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7699,Abbas Afridi,Death Specialist (Pace),Middle Overs Enforcer (Pace),474,138,Robust Evidence,-0.0328,-0.1044,0.085,-0.0566,-0.4273,0.2777,0.4,0.0833,40.0,44.0,0,Elite Phase Specialist,HIGH-RISK
+232,Tom Cooper,Death Specialist (Spin),Middle Overs Enforcer (Spin),12,6,Sparse Evidence,0.0207,-0.1047,0.1489,0.3658,,0.182,0.0,0.0,0.0,2.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6297,Matthew Parkinson,Death Specialist (Spin),Middle Overs Enforcer (Spin),40,13,Sparse Evidence,0.0148,-0.1048,0.1421,0.1288,0.6465,0.1257,1.0,0.5,1.0,-12.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+818,Mitchell Marsh,Middle Enforcer (Pace),Death Phase Option (Pace),320,119,Robust Evidence,-0.0295,-0.105,0.0897,-0.0543,-0.3433,0.3885,0.3158,0.3571,19.0,45.8,0,Elite Phase Specialist,HIGH-RISK
+8298,Ramon Simmonds,Death Specialist (Pace),Middle Overs Enforcer (Pace),81,39,Moderate Evidence,-0.0022,-0.1052,0.1223,-0.0077,0.0691,0.2823,0.5,0.0,6.0,-1.5,0,Multi-Phase Versatile,HIGH-RISK
+7702,Chamindu Wickramasinghe,Powerplay Specialist (Pace),Death Closer (Pace),43,13,Sparse Evidence,0.0144,-0.1052,0.1421,0.1254,0.2463,0.2669,0.6667,0.0,1.0,-2.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5808,Karim Janat,Death Specialist (Pace),Middle Overs Enforcer (Pace),266,149,Robust Evidence,-0.0367,-0.1062,0.0825,-0.0613,0.8522,0.2614,0.4706,0.2222,10.0,-31.1,0,Elite Phase Specialist,HIGH-RISK
+6726,Romario Shepherd,Death Specialist (Pace),Middle Overs Enforcer (Pace),1657,640,Robust Evidence,-0.0704,-0.1067,0.0431,-0.0814,0.1029,0.4089,0.587,0.2442,85.0,-135.9,0,Elite Phase Specialist,HIGH-RISK
+46929,Dian Forrester,Middle Enforcer (Pace),Middle Over Containment (Pace),6,6,Sparse Evidence,0.0187,-0.1067,0.1489,0.3308,,0.0,0.0,0.0,0.0,2.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+16498,Sultan Ahmad,Powerplay Specialist (Pace),Death Closer (Pace),45,3,Sparse Evidence,0.0213,-0.1068,0.1522,0.7307,,0.0488,0.0,0.0,1.0,24.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+31107,Yasin Patel,Powerplay Specialist (Pace),Middle Overs Restrictor (Pace),72,15,Moderate Evidence,0.0107,-0.1073,0.1403,0.0824,-0.176,0.0305,0.0,0.0,4.0,16.0,0,Elite Phase Specialist,HIGH-RISK
+26530,Treveen Mathew,Powerplay Specialist (Spin),Death Closer (Spin),77,17,Moderate Evidence,0.009,-0.1076,0.1385,0.0617,-0.1777,0.059,0.0,0.0,7.0,15.4,0,Elite Phase Specialist,HIGH-RISK
+33114,Milan Rathnayake,Powerplay Specialist (Pace),Death Closer (Pace),81,32,Moderate Evidence,-0.001,-0.1078,0.1269,-0.004,1.0062,0.2334,0.75,0.0,4.0,-17.4,0,Elite Phase Specialist,HIGH-RISK
+25809,Juanoy Drysdale,Death Specialist (Pace),Powerplay Containment (Pace),63,6,Sparse Evidence,0.0173,-0.1081,0.1489,0.3057,,0.3239,0.3333,0.0,2.0,6.3,0,Multi-Phase Versatile,INSUFFICIENT EVIDENCE
+29699,Ibrahim Takahashi,Powerplay Specialist (Spin),Death Closer (Spin),13,13,Sparse Evidence,0.0109,-0.1087,0.1421,0.0948,,0.0,0.0,0.0,1.0,1.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+838,Glenn Maxwell,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),657,168,Robust Evidence,-0.0427,-0.109,0.0787,-0.0681,-0.1367,0.3414,0.4808,0.1429,29.0,-24.9,0,Elite Phase Specialist,HIGH-RISK
+6676,Azmatullah Omarzai,Powerplay Specialist (Pace),Death Closer (Pace),1118,373,Robust Evidence,-0.0625,-0.1093,0.0557,-0.0792,0.1119,0.2435,0.4923,0.1905,55.0,-24.2,0,Elite Phase Specialist,HIGH-RISK
+28664,Zahid Ali,Powerplay Specialist (Pace),Middle Overs Restrictor (Pace),18,4,Sparse Evidence,0.0176,-0.1096,0.1511,0.4586,,0.0,1.0,0.0,0.0,-6.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1107,Mohammad Nabi,Middle Enforcer (Spin),Middle Over Containment (Spin),693,266,Robust Evidence,-0.0553,-0.1099,0.0649,-0.0761,-0.1409,0.2733,0.5909,0.0,29.0,-119.3,0,Elite Phase Specialist,HIGH-RISK
+3641,Ben Dwarshuis,Death Specialist (Pace),Powerplay Containment (Pace),334,120,Robust Evidence,-0.035,-0.1103,0.0894,-0.0641,-0.3773,0.1232,0.5714,0.2353,23.0,3.3,0,Multi-Phase Versatile,HIGH-RISK
+43917,Krish Bhagat,Death Specialist (Pace),Powerplay Containment (Pace),36,24,Sparse Evidence,0.0008,-0.111,0.1328,0.0039,-0.0274,0.508,0.3333,0.3333,0.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7269,Sushant Mishra,Middle Enforcer (Pace),Death Phase Option (Pace),47,17,Sparse Evidence,0.0054,-0.1112,0.1385,0.0374,-0.2019,0.1009,0.0,0.0,2.0,7.8,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+23311,Jacob Bethell,Death Specialist (Spin),Middle Overs Enforcer (Spin),90,29,Moderate Evidence,-0.0028,-0.1114,0.129,-0.0123,-0.6558,0.2738,0.6,0.0,8.0,0.9,0,Elite Phase Specialist,HIGH-RISK
+25048,Umran Malik,Middle Enforcer (Pace),Death Phase Option (Pace),600,258,Robust Evidence,-0.0571,-0.1125,0.0658,-0.0793,-0.4002,0.4418,0.5806,0.1818,38.0,-57.6,0,Elite Phase Specialist,HIGH-RISK
+46378,Kyle Klein,Powerplay Specialist (Pace),Death Closer (Pace),173,62,Robust Evidence,-0.0202,-0.1128,0.1099,-0.0529,0.5746,0.2773,0.625,0.5,14.0,-17.7,0,Elite Phase Specialist,HIGH-RISK
+7692,Qasim Akram,Death Specialist (Spin),Middle Overs Enforcer (Spin),44,8,Sparse Evidence,0.0107,-0.1129,0.1469,0.145,,0.1364,0.3333,0.0,2.0,10.1,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8763,Duan Jansen,Death Specialist (Pace),Powerplay Containment (Pace),28,15,Sparse Evidence,0.005,-0.1131,0.1403,0.0383,0.7386,0.0,1.0,0.5,1.0,-8.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+295,Wayne Parnell,Powerplay Specialist (Pace),Death Closer (Pace),418,168,Robust Evidence,-0.0484,-0.1147,0.0787,-0.0772,-0.7206,0.2719,0.4444,0.2222,22.0,17.2,0,Elite Phase Specialist,HIGH-RISK
+19892,Theo van Woerkom,Middle Enforcer (Spin),Middle Over Containment (Spin),7,5,Sparse Evidence,0.0116,-0.1147,0.15,0.2427,,0.0,1.0,0.0,0.0,-4.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8664,Victor Nyauchi,Death Specialist (Pace),Powerplay Containment (Pace),24,13,Sparse Evidence,0.0046,-0.115,0.1421,0.0402,-0.072,0.0,0.0,0.0,3.0,1.8,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8221,Nitish Reddy,Death Specialist (Pace),Middle Overs Enforcer (Pace),595,270,Robust Evidence,-0.0614,-0.1157,0.0645,-0.0842,-0.7599,0.2298,0.3846,0.2069,27.0,-21.4,0,Elite Phase Specialist,HIGH-RISK
+29080,Muhammad Khan,Death Specialist (Pace),Middle Overs Enforcer (Pace),107,39,Moderate Evidence,-0.0133,-0.1163,0.1223,-0.0475,0.2024,0.2699,0.75,0.3333,9.0,-18.9,0,Elite Phase Specialist,HIGH-RISK
+7927,Janak Prakash,Death Specialist (Pace),Powerplay Containment (Pace),59,37,Moderate Evidence,-0.0123,-0.1164,0.1236,-0.0457,0.2661,0.0029,1.0,0.4,5.0,-8.6,0,Elite Phase Specialist,HIGH-RISK
+3782,M Shahrukh Khan,Death Specialist (Spin),Middle Overs Enforcer (Spin),18,6,Sparse Evidence,0.0091,-0.1164,0.1489,0.16,,0.1466,0.3333,0.0,1.0,-1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7227,Nijat Masood,Death Specialist (Pace),Powerplay Containment (Pace),71,37,Moderate Evidence,-0.0137,-0.1178,0.1236,-0.0508,0.2341,0.126,0.6667,0.25,4.0,-11.6,0,Elite Phase Specialist,HIGH-RISK
+8311,Dan Mousley,Death Specialist (Spin),Middle Overs Enforcer (Spin),55,32,Moderate Evidence,-0.0111,-0.1179,0.1269,-0.0456,0.1252,0.2045,0.75,0.4,2.0,-5.4,0,Elite Phase Specialist,HIGH-RISK
+4779,Pieter Willem Mulder,Powerplay Specialist (Pace),Death Closer (Pace),122,26,Moderate Evidence,-0.0078,-0.1183,0.1312,-0.0379,0.1189,0.3188,0.6,0.2,8.0,-16.0,0,Elite Phase Specialist,HIGH-RISK
+8654,Cooper Connolly,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),118,7,Sparse Evidence,0.0061,-0.1185,0.1479,0.0927,,0.0624,0.8571,0.5,3.0,-22.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+27504,Dushan Hemantha,Death Specialist (Spin),Middle Overs Enforcer (Spin),190,57,Robust Evidence,-0.0243,-0.1189,0.1123,-0.067,0.1676,0.213,0.375,0.0833,19.0,22.5,0,Elite Phase Specialist,HIGH-RISK
+6489,Darshan Nalkande,Death Specialist (Pace),Middle Overs Enforcer (Pace),89,17,Moderate Evidence,-0.0032,-0.1198,0.1385,-0.0218,0.119,0.2286,0.5,0.0,6.0,-10.5,0,Multi-Phase Versatile,HIGH-RISK
+7916,Karima Gore,Middle Enforcer (Spin),Middle Over Containment (Spin),20,20,Sparse Evidence,-0.0055,-0.12,0.136,-0.033,,0.0,1.0,0.0,0.0,-0.7,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+21196,Mohammad Waheed,Powerplay Specialist (Pace),Death Closer (Pace),24,12,Sparse Evidence,-0.0003,-0.1207,0.143,-0.0025,0.0324,0.0,1.0,0.0,2.0,-0.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4821,Mahipal Lomror,Middle Enforcer (Spin),Middle Over Containment (Spin),33,18,Sparse Evidence,-0.005,-0.1209,0.1376,-0.0327,0.4179,0.2839,0.6,0.0,0.0,-7.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4853,Glenn Phillips,Middle Enforcer (Spin),Death Phase Option (Spin),115,22,Moderate Evidence,-0.0079,-0.121,0.1343,-0.0439,0.1588,0.5207,0.6154,0.0,5.0,0.2,0,Elite Phase Specialist,HIGH-RISK
+4438,Jasdeep Singh,Death Specialist (Pace),Powerplay Containment (Pace),94,37,Moderate Evidence,-0.017,-0.1211,0.1236,-0.063,0.238,0.4005,0.5,0.2857,4.0,-19.5,0,Elite Phase Specialist,HIGH-RISK
+2531,Joe Root,Middle Enforcer (Spin),Middle Over Containment (Spin),12,11,Sparse Evidence,-0.0001,-0.1213,0.1439,-0.0013,,0.0,0.0,0.0,0.0,1.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+22134,Luke Jongwe,Death Specialist (Pace),Middle Overs Enforcer (Pace),354,172,Robust Evidence,-0.0571,-0.1228,0.078,-0.0903,-0.1203,0.1908,0.5556,0.32,19.0,-43.8,0,Elite Phase Specialist,HIGH-RISK
+3986,Matthew Renshaw,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),36,12,Sparse Evidence,-0.0027,-0.1231,0.143,-0.0255,0.1036,0.2118,0.3333,0.0,3.0,-3.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+19535,Rejaur Rahman Raja,Death Specialist (Pace),Middle Overs Enforcer (Pace),49,24,Sparse Evidence,-0.0117,-0.1235,0.1328,-0.0607,0.6667,0.0413,0.5,0.0,3.0,-0.9,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7634,Aaron Jones,Death Specialist (Spin),Middle Overs Enforcer (Spin),18,16,Sparse Evidence,-0.0062,-0.1236,0.1394,-0.0452,,0.7677,0.5,0.0,2.0,1.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7935,Mohammad Ghazanfar,Middle Enforcer (Spin),Middle Over Containment (Spin),108,48,Moderate Evidence,-0.0251,-0.1237,0.117,-0.0775,-0.1779,0.1058,0.6,0.0,4.0,2.3,0,Elite Phase Specialist,HIGH-RISK
+26988,Jitenkumar Ramanandi,Death Specialist (Pace),Middle Overs Enforcer (Pace),49,13,Sparse Evidence,-0.0041,-0.1237,0.1421,-0.0358,-0.4195,0.2796,0.5,0.3333,4.0,13.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+26830,Nishant Kumar Sindhu,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),36,27,Sparse Evidence,-0.0139,-0.1238,0.1305,-0.0655,,0.3416,0.6667,0.0,3.0,-5.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2877,Vijay Shankar,Death Specialist (Pace),Middle Overs Enforcer (Pace),10,5,Sparse Evidence,0.0023,-0.124,0.15,0.0487,,0.7455,0.5,0.0,0.0,-1.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6359,Raghu Sharma,Middle Enforcer (Spin),Death Phase Option (Spin),90,18,Moderate Evidence,-0.0082,-0.1241,0.1376,-0.0536,-0.0642,0.1948,0.8,0.3333,1.0,-0.2,0,Elite Phase Specialist,HIGH-RISK
+4815,Benjamin White,Middle Enforcer (Spin),Middle Over Containment (Spin),404,99,Robust Evidence,-0.0445,-0.125,0.0956,-0.0895,-0.0209,0.1321,0.85,0.0,18.0,-62.1,0,Elite Phase Specialist,HIGH-RISK
+7008,Gus Atkinson,Powerplay Specialist (Pace),Death Closer (Pace),67,13,Sparse Evidence,-0.006,-0.1256,0.1421,-0.0522,0.3561,0.797,0.5,0.0,6.0,-22.7,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+20702,Tristan Stubbs,Middle Enforcer (Spin),Death Phase Option (Spin),50,13,Sparse Evidence,-0.006,-0.1256,0.1421,-0.0518,0.8818,0.8962,0.7143,0.0,4.0,-35.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3489,Salman Agha,Middle Enforcer (Spin),Middle Over Containment (Spin),111,43,Moderate Evidence,-0.0247,-0.1257,0.1199,-0.0823,0.2188,0.2603,0.6923,0.0,5.0,-22.3,0,Elite Phase Specialist,HIGH-RISK
+7120,Rohit Paudel,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),43,24,Sparse Evidence,-0.0143,-0.1261,0.1328,-0.0739,0.317,0.1152,0.6667,0.0,1.0,-7.1,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+32705,Faridoon Dawoodzai,Death Specialist (Pace),Powerplay Containment (Pace),78,18,Moderate Evidence,-0.0104,-0.1263,0.1376,-0.0684,-0.0073,0.1007,0.5,0.2,5.0,-4.9,0,Elite Phase Specialist,HIGH-RISK
+47542,Charles Hinze,Powerplay Specialist (Spin),Death Closer (Spin),13,7,Sparse Evidence,-0.002,-0.1265,0.1479,-0.0307,,0.0,1.0,0.0,2.0,-1.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+34522,Brandon McMullen,Powerplay Specialist (Pace),Death Closer (Pace),52,3,Sparse Evidence,0.0014,-0.1267,0.1522,0.0496,,0.1693,0.3333,0.0,1.0,3.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+19125,Ayush Shukla,Powerplay Specialist (Pace),Death Closer (Pace),193,25,Moderate Evidence,-0.0157,-0.1268,0.132,-0.0784,0.2549,0.1466,0.8,0.8,10.0,-40.0,0,Elite Phase Specialist,HIGH-RISK
+2639,Marcus Stoinis,Middle Enforcer (Pace),Death Phase Option (Pace),794,354,Robust Evidence,-0.079,-0.127,0.057,-0.1013,-0.2994,0.3957,0.5636,0.3548,44.0,-14.7,0,Elite Phase Specialist,HIGH-RISK
+7250,Mukesh Choudhary,Powerplay Specialist (Pace),Death Closer (Pace),512,115,Robust Evidence,-0.0506,-0.1271,0.0908,-0.0946,0.4783,0.2681,0.5,0.3125,25.0,-23.1,0,Elite Phase Specialist,HIGH-RISK
+4460,Jeffrey Vandersay,Middle Enforcer (Spin),Death Phase Option (Spin),122,35,Moderate Evidence,-0.0227,-0.1279,0.1249,-0.0877,-0.0359,0.2761,0.6,0.0,2.0,-14.3,0,Elite Phase Specialist,HIGH-RISK
+42548,Muhammad Jawadullah,Death Specialist (Pace),Powerplay Containment (Pace),285,103,Robust Evidence,-0.0485,-0.1279,0.0943,-0.0956,-0.0135,0.366,0.6154,0.3158,16.0,-27.5,0,Elite Phase Specialist,HIGH-RISK
+28908,Vincent Masekesa,Middle Enforcer (Spin),Middle Over Containment (Spin),19,18,Sparse Evidence,-0.0124,-0.1283,0.1376,-0.0815,,2.4053,1.0,0.0,1.0,-6.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4876,Milton Shumba,Middle Enforcer (Spin),Middle Over Containment (Spin),12,3,Sparse Evidence,-0.0008,-0.1289,0.1522,-0.0258,,0.2903,0.5,0.0,1.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8326,Jayden Seales,Death Specialist (Pace),Powerplay Containment (Pace),186,36,Moderate Evidence,-0.0244,-0.1291,0.1243,-0.0923,0.1335,0.4352,0.6667,0.1,7.0,-37.2,0,Elite Phase Specialist,HIGH-RISK
+47403,Newman Nyamhuri,Powerplay Specialist (Pace),Middle Overs Restrictor (Pace),96,18,Moderate Evidence,-0.0133,-0.1292,0.1376,-0.0873,-0.0487,0.0114,0.2,0.3333,5.0,-4.6,0,Multi-Phase Versatile,HIGH-RISK
+8746,Vaibhav Arora,Powerplay Specialist (Pace),Death Closer (Pace),964,314,Robust Evidence,-0.0786,-0.1293,0.0602,-0.1036,-0.1974,0.2634,0.4545,0.2273,48.0,9.5,0,Elite Phase Specialist,HIGH-RISK
+7741,Gareth Delany,Middle Enforcer (Spin),Death Phase Option (Spin),566,203,Robust Evidence,-0.068,-0.1294,0.0729,-0.1015,0.1315,0.248,0.4286,0.0526,30.0,14.6,0,Elite Phase Specialist,HIGH-RISK
+39637,Garuka Sanketh,Death Specialist (Pace),Middle Overs Enforcer (Pace),87,52,Moderate Evidence,-0.0326,-0.1294,0.1149,-0.0954,0.2839,0.1231,0.5,0.25,2.0,-3.1,0,Elite Phase Specialist,HIGH-RISK
+37572,Shafiq Jan,Death Specialist (Pace),Powerplay Containment (Pace),75,18,Moderate Evidence,-0.0138,-0.1297,0.1376,-0.0902,-0.0735,0.0675,0.6667,0.5,4.0,-2.6,0,Elite Phase Specialist,HIGH-RISK
+1071,Jaydev Unadkat,Death Specialist (Pace),Powerplay Containment (Pace),599,201,Robust Evidence,-0.0682,-0.1298,0.0732,-0.1021,-0.2302,0.2639,0.4,0.2812,29.0,29.5,0,Multi-Phase Versatile,HIGH-RISK
+1541,Sean Williams,Middle Enforcer (Spin),Middle Over Containment (Spin),165,102,Robust Evidence,-0.0504,-0.1301,0.0946,-0.0998,-0.3619,0.2238,0.5,0.0,5.0,0.8,0,Elite Phase Specialist,HIGH-RISK
+4235,Sisanda Magala,Death Specialist (Pace),Middle Overs Enforcer (Pace),73,30,Moderate Evidence,-0.0225,-0.1306,0.1283,-0.0976,0.3347,0.2502,0.75,0.25,4.0,-21.5,0,Elite Phase Specialist,HIGH-RISK
+28911,John Masara,Middle Enforcer (Spin),Middle Over Containment (Spin),6,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,0.0,0.0,0.0,1.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6356,Khaled Ahmed,Middle Enforcer (Pace),Death Phase Option (Pace),24,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,0.0,0.0,0.0,1.2,0,Multi-Phase Versatile,INSUFFICIENT EVIDENCE
+2321,Olly Stone,Middle Enforcer (Pace),Death Phase Option (Pace),25,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,0.0,0.0,0.0,7.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2296,Safyaan Sharif,Middle Enforcer (Pace),Death Phase Option (Pace),35,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0393,0.0,0.0,0.0,3.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8266,Sumit Kumar 1,Middle Enforcer (Pace),Middle Over Containment (Pace),22,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.1236,1.0,0.0,0.0,-3.9,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+57747,Charlie Cassell,Powerplay Specialist (Pace),Death Closer (Pace),6,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-10.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3255,Ahmed Raza 1,Middle Enforcer (Spin),Middle Over Containment (Spin),12,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,1.0,-6.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+19307,Tharindu Rathnayake,Powerplay Specialist (Spin),Middle Overs Restrictor (Spin),26,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0438,1.0,0.0,2.0,-17.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+20316,Shahab Alam,Middle Enforcer (Spin),Middle Over Containment (Spin),13,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-4.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+20894,Aman Khan,Middle Enforcer (Pace),Middle Over Containment (Pace),6,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-5.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7942,Jay Odedara,Powerplay Specialist (Spin),Death Closer (Spin),54,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.7542,0.6667,0.0,3.0,-12.7,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+20989,Vivrant Sharma,Middle Enforcer (Spin),Middle Over Containment (Spin),21,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.6029,0.5,0.0,0.0,-3.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+20175,Nandan Yadav,Powerplay Specialist (Pace),Death Closer (Pace),8,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,0.0,0.0,1.0,3.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3374,Mark Chapman,Death Specialist (Spin),Middle Overs Enforcer (Spin),6,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,0.0,0.0,0.0,4.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8141,Auqib Nabi,Powerplay Specialist (Pace),Death Closer (Pace),84,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.449,0.6,0.0,0.0,-17.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+20229,Mohammad Ali,Powerplay Specialist (Pace),Death Closer (Pace),44,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.1109,0.6667,0.0,1.0,-18.9,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+34527,Jasper John Davidson,Middle Enforcer (Pace),Middle Over Containment (Pace),6,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-7.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+33009,John Turner,Powerplay Specialist (Pace),Death Closer (Pace),37,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0441,1.0,0.0,1.0,-8.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+36981,Himanshu Sharma,Middle Enforcer (Spin),Middle Over Containment (Spin),30,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.3405,1.0,0.0,0.0,-10.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+35120,Narayan Saishiv,Death Specialist (Spin),Middle Overs Enforcer (Spin),6,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,1.0,0.0,-10.9,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+33440,Adwitya Bhargava,Powerplay Specialist (Pace),Death Closer (Pace),13,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,0.0,0.0,1.0,1.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4604,Mitchell Swepson,Middle Enforcer (Spin),Middle Over Containment (Spin),12,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-11.9,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4826,George Garton,Powerplay Specialist (Pace),Death Closer (Pace),25,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,1.0,1.0,-18.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+39638,Vishen Halambage,Middle Enforcer (Spin),Middle Over Containment (Spin),7,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,0.0,0.0,0.0,0.8,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+36983,Mohit Rathee,Death Specialist (Spin),Middle Overs Enforcer (Spin),12,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-8.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+36984,Raghav Goyal,Middle Enforcer (Spin),Middle Over Containment (Spin),24,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,0.0,0.0,0.0,0.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5665,Sanjay Yadav,Powerplay Specialist (Spin),Middle Overs Restrictor (Spin),14,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-4.8,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5561,Brad Wheal,Death Specialist (Pace),Middle Overs Enforcer (Pace),36,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.6322,1.0,0.5,0.0,-36.5,0,Multi-Phase Versatile,INSUFFICIENT EVIDENCE
+6725,Sherfane Rutherford,Middle Enforcer (Pace),Middle Over Containment (Pace),21,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,1.315,0.5,0.0,1.0,-4.7,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6697,Shams Mulani,Middle Enforcer (Spin),Death Phase Option (Spin),33,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.3843,0.5,1.0,0.0,-6.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2213,Soumya Sarkar,Death Specialist (Pace),Middle Overs Enforcer (Pace),45,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.3965,0.3333,0.0,2.0,14.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+27391,Vishnu Sukumaran,Middle Enforcer (Spin),Middle Over Containment (Spin),14,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,0.0,0.0,1.0,4.9,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+147,Pradeep Sangwan,Middle Enforcer (Pace),Powerplay Strike Bowler (Pace),56,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.3555,0.3333,0.0,3.0,13.1,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+39444,Basil Hameed,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),30,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.6822,1.0,0.0,0.0,-20.7,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+768,Reeza Hendricks,Middle Enforcer (Spin),Middle Over Containment (Spin),24,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.1178,0.5,0.0,0.0,-1.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+37731,Musheer Khan,Middle Enforcer (Spin),Middle Over Containment (Spin),12,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,1.0,-9.8,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+29833,Bashir Ahmad,Death Specialist (Pace),Powerplay Containment (Pace),20,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-11.6,0,Multi-Phase Versatile,INSUFFICIENT EVIDENCE
+27970,Gurnoor Brar,Powerplay Specialist (Pace),Middle Overs Restrictor (Pace),21,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-12.8,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+34546,Aryan Bisht,Death Specialist (Spin),Middle Overs Enforcer (Spin),23,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,0.0,0.0,1.0,8.1,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+31227,Vidhwath Kaverappa,Powerplay Specialist (Pace),Death Closer (Pace),24,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,2.0,-1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6396,Tim David,Middle Enforcer (Spin),Middle Over Containment (Spin),6,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-8.8,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6466,Atharwa Taide,Death Specialist (Spin),Middle Overs Enforcer (Spin),1,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-2.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+32244,Tripurana Vijay,Powerplay Specialist (Spin),Middle Overs Restrictor (Spin),12,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-11.1,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6285,Kamlesh Nagarkoti,Powerplay Specialist (Pace),Middle Overs Restrictor (Pace),13,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-9.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6651,Towhid Hridoy,Death Specialist (Spin),Middle Overs Enforcer (Spin),2,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-1.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+27465,Nilansh Keswani,Powerplay Specialist (Spin),Death Closer (Spin),24,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,1.0,-2.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7002,Nicholas Kirton,Middle Enforcer (Spin),Middle Over Containment (Spin),6,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-10.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6574,Alick Athanaze,Middle Enforcer (Spin),Middle Over Containment (Spin),7,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-7.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+45966,Prashant Veer,Powerplay Specialist (Spin),Middle Overs Restrictor (Spin),12,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-8.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8719,Aryan Lakra,Powerplay Specialist (Spin),Death Closer (Spin),18,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,0.0,0.0,1.0,5.9,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3320,Jayant Yadav,Powerplay Specialist (Spin),Death Closer (Spin),24,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,0.0,0.0,0.0,12.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1045,David Wiese,Death Specialist (Pace),Powerplay Containment (Pace),18,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-9.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3337,Jeremy Gordon,Powerplay Specialist (Pace),Death Closer (Pace),20,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-1.1,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+17430,Conor Olphert,Middle Enforcer (Pace),Middle Over Containment (Pace),37,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.1562,0.5,0.0,0.0,1.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6795,Terrance Hinds,Death Specialist (Pace),Middle Overs Enforcer (Pace),31,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.103,1.0,0.0,1.0,-6.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2351,Danushka Gunathilaka,Death Specialist (Spin),Middle Overs Enforcer (Spin),5,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-1.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3858,Jatinder Singh,Death Specialist (Spin),Middle Overs Enforcer (Spin),2,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-4.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+25213,Dewald Brevis,Death Specialist (Spin),Middle Overs Enforcer (Spin),3,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,1.0,-3.1,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+26519,Janith Liyanage,Death Specialist (Pace),Middle Overs Enforcer (Pace),8,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-6.1,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+25507,Edson Silva,Death Specialist (Pace),Middle Overs Enforcer (Pace),18,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.4384,1.0,0.0,0.0,-7.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3647,Shreyas Iyer,Death Specialist (Spin),Middle Overs Enforcer (Spin),8,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0729,0.0,0.0,0.0,2.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+24978,Jack Jarvis,Middle Enforcer (Pace),Powerplay Strike Bowler (Pace),22,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,1.3756,1.0,0.0,1.0,-34.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+25502,Adnan Idrees,Middle Enforcer (Spin),Middle Over Containment (Spin),12,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,1.0,-0.9,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7704,Pavan Rathnayake,Death Specialist (Spin),Middle Overs Enforcer (Spin),12,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,0.0,0.0,2.0,6.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3802,Anshuman Rath,Death Specialist (Spin),Middle Overs Enforcer (Spin),20,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.1349,0.5,0.0,1.0,-1.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6819,Yashasvi Jaiswal,Death Specialist (Spin),Middle Overs Enforcer (Spin),7,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,2.3223,0.5,0.0,0.0,-4.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4117,Ishan Kishan,Death Specialist (Spin),Middle Overs Enforcer (Spin),1,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-2.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7049,Kamil Mishara,Middle Enforcer (Spin),Middle Over Containment (Spin),6,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-2.7,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2418,Justin Greaves,Middle Enforcer (Pace),Middle Over Containment (Pace),6,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,0.0,-4.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+27059,Karan Sonavale,Powerplay Specialist (Spin),Death Closer (Spin),6,0,Sparse Evidence,0.0,-0.131,0.1556,0.0,,0.0,1.0,0.0,1.0,-1.9,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+24346,Mohamed Shafeeq,Death Specialist (Pace),Powerplay Containment (Pace),69,12,Sparse Evidence,-0.0109,-0.1313,0.143,-0.1018,-0.35,0.1183,0.0,0.0,2.0,12.9,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+22188,Aryan Dutt,Powerplay Specialist (Spin),Death Closer (Spin),142,27,Moderate Evidence,-0.0216,-0.1315,0.1305,-0.1018,-0.6852,0.1467,0.2857,0.0,5.0,22.5,0,Elite Phase Specialist,HIGH-RISK
+27466,Dhruv Parashar,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),217,72,Robust Evidence,-0.0428,-0.1316,0.1055,-0.1023,-0.402,0.0885,0.8182,0.0,4.0,-37.4,0,Elite Phase Specialist,HIGH-RISK
+3323,Jimmy Neesham,Death Specialist (Pace),Middle Overs Enforcer (Pace),546,252,Robust Evidence,-0.0759,-0.1318,0.0664,-0.106,0.1084,0.2735,0.5405,0.2759,34.0,-44.6,0,Elite Phase Specialist,HIGH-RISK
+4505,Jhye Richardson,Death Specialist (Pace),Powerplay Containment (Pace),124,51,Moderate Evidence,-0.0359,-0.133,0.1154,-0.1062,-1.0345,0.1446,0.4,0.1111,6.0,3.1,0,Elite Phase Specialist,HIGH-RISK
+1556,David Payne,Powerplay Specialist (Pace),Middle Overs Restrictor (Pace),31,6,Sparse Evidence,-0.0078,-0.1332,0.1489,-0.1375,,0.6076,1.0,0.0,2.0,-21.1,0,Multi-Phase Versatile,INSUFFICIENT EVIDENCE
+27259,Jishan Alam,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),18,12,Sparse Evidence,-0.0131,-0.1335,0.143,-0.1222,,0.6464,0.6667,0.0,1.0,-8.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4708,Rinku Singh,Death Specialist (Spin),Middle Overs Enforcer (Spin),10,4,Sparse Evidence,-0.008,-0.1352,0.1511,-0.2075,,0.622,0.5,0.0,3.0,5.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5034,Murugan Ashwin,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),204,41,Robust Evidence,-0.0339,-0.1359,0.1211,-0.1166,-0.5778,0.1278,0.5,0.0,9.0,0.5,0,Elite Phase Specialist,HIGH-RISK
+8093,Nikhil Chaudhary,Middle Enforcer (Spin),Death Phase Option (Spin),44,36,Sparse Evidence,-0.0313,-0.1359,0.1243,-0.1182,-0.5252,0.09,0.3333,0.0,2.0,-1.1,0,Multi-Phase Versatile,INSUFFICIENT EVIDENCE
+60609,Navin Bidaisee,Death Specialist (Spin),Middle Overs Enforcer (Spin),53,43,Moderate Evidence,-0.035,-0.136,0.1199,-0.1165,-0.5663,0.0527,0.3333,0.0,3.0,-1.9,0,Elite Phase Specialist,HIGH-RISK
+286,Kane Richardson,Death Specialist (Pace),Powerplay Containment (Pace),207,100,Robust Evidence,-0.0562,-0.1365,0.0953,-0.1125,-0.3886,0.2909,0.6667,0.2,15.0,-25.6,0,Elite Phase Specialist,HIGH-RISK
+29066,Zakary Foulkes,Middle Enforcer (Pace),Death Phase Option (Pace),401,139,Robust Evidence,-0.0657,-0.1371,0.0847,-0.113,-0.5307,0.2246,0.4444,0.1053,20.0,-18.0,0,Multi-Phase Versatile,HIGH-RISK
+4867,Wesley Madhevere,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),99,20,Moderate Evidence,-0.023,-0.1375,0.136,-0.1379,-0.0041,0.3381,0.6667,0.0,4.0,-13.3,0,Elite Phase Specialist,HIGH-RISK
+2436,Dasun Shanaka,Middle Enforcer (Pace),Death Phase Option (Pace),557,253,Robust Evidence,-0.0816,-0.1375,0.0663,-0.1139,-0.6326,0.3245,0.4884,0.1111,27.0,2.8,0,Elite Phase Specialist,HIGH-RISK
+7446,Abdul Samad,Death Specialist (Spin),Middle Overs Enforcer (Spin),9,6,Sparse Evidence,-0.0124,-0.1379,0.1489,-0.2198,,0.8688,1.0,0.0,0.0,-7.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2756,Shashank Singh,Middle Enforcer (Pace),Death Phase Option (Pace),93,20,Moderate Evidence,-0.0235,-0.138,0.136,-0.1411,-0.4502,0.2575,0.25,0.25,5.0,19.7,0,Elite Phase Specialist,HIGH-RISK
+6162,Kulwant Khejroliya,Death Specialist (Pace),Middle Overs Enforcer (Pace),62,19,Moderate Evidence,-0.0231,-0.1383,0.1368,-0.1448,0.3943,0.1749,1.0,0.5,3.0,-25.9,0,Elite Phase Specialist,HIGH-RISK
+2790,Praveen Dubey,Middle Enforcer (Spin),Middle Over Containment (Spin),31,18,Sparse Evidence,-0.023,-0.1389,0.1376,-0.1506,-0.6279,0.315,0.5,0.0,2.0,3.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2863,Sandeep Warrier,Powerplay Specialist (Pace),Death Closer (Pace),70,19,Moderate Evidence,-0.0237,-0.1389,0.1368,-0.1485,1.4184,0.4014,0.8,0.0,6.0,-20.0,0,Elite Phase Specialist,HIGH-RISK
+17911,Nangeyalia Kharote,Middle Enforcer (Spin),Middle Over Containment (Spin),140,37,Moderate Evidence,-0.0351,-0.1391,0.1236,-0.1298,-1.1829,0.158,0.4286,0.0,5.0,0.4,0,Elite Phase Specialist,HIGH-RISK
+7689,Dilshan Madushanka,Powerplay Specialist (Pace),Death Closer (Pace),397,128,Robust Evidence,-0.0659,-0.1394,0.0874,-0.1173,0.2987,0.283,0.5263,0.2667,16.0,-49.7,0,Elite Phase Specialist,HIGH-RISK
+22187,Ryan Klein,Middle Enforcer (Pace),Middle Over Containment (Pace),24,12,Sparse Evidence,-0.019,-0.1394,0.143,-0.1772,0.6914,0.3457,1.0,0.0,1.0,-12.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+47694,Omid Rahman,Death Specialist (Pace),Powerplay Containment (Pace),60,9,Sparse Evidence,-0.0169,-0.1397,0.1459,-0.2046,,0.3966,0.6667,0.3333,2.0,-25.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3926,Rahul Tewatia,Middle Enforcer (Spin),Death Phase Option (Spin),50,19,Moderate Evidence,-0.0248,-0.14,0.1368,-0.1553,0.5213,0.3438,0.7143,0.0,0.0,-23.9,0,Elite Phase Specialist,HIGH-RISK
+26916,Yasir Mohammad,Middle Enforcer (Spin),Middle Over Containment (Spin),48,14,Sparse Evidence,-0.0212,-0.1401,0.1412,-0.1729,0.5832,0.5892,0.6667,0.0,1.0,-20.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+25138,Harsh Dubey,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),273,80,Robust Evidence,-0.0541,-0.1402,0.1023,-0.1217,-0.3978,0.2281,0.4667,0.2,17.0,-15.9,0,Elite Phase Specialist,HIGH-RISK
+3995,Donald Tiripano,Powerplay Specialist (Pace),Death Closer (Pace),35,3,Sparse Evidence,-0.0126,-0.1407,0.1522,-0.4332,,0.0146,1.0,1.0,1.0,-12.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6566,Matthew John Fisher,Middle Enforcer (Pace),Death Phase Option (Pace),62,25,Moderate Evidence,-0.0296,-0.1407,0.132,-0.148,0.3556,0.2447,1.0,0.5,3.0,-22.3,0,Multi-Phase Versatile,HIGH-RISK
+27460,Ali Naseer,Death Specialist (Pace),Powerplay Containment (Pace),37,18,Sparse Evidence,-0.0254,-0.1413,0.1376,-0.1667,0.498,0.4521,0.5,0.3333,1.0,-15.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8389,Jayden Lennox,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),18,12,Sparse Evidence,-0.021,-0.1414,0.143,-0.1961,,0.0,1.0,0.0,1.0,-6.8,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+37939,Nahid Rana,Death Specialist (Pace),Powerplay Containment (Pace),101,37,Moderate Evidence,-0.0374,-0.1415,0.1236,-0.1384,-0.08,0.2563,0.4,0.2,8.0,-8.9,0,Multi-Phase Versatile,HIGH-RISK
+1699,Suryakumar Yadav,Death Specialist (Spin),Middle Overs Enforcer (Spin),6,3,Sparse Evidence,-0.0138,-0.1419,0.1522,-0.4724,,0.0,0.0,0.0,2.0,2.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4824,Zeeshan Ansari,Middle Enforcer (Spin),Middle Over Containment (Spin),209,31,Moderate Evidence,-0.0345,-0.142,0.1276,-0.1458,-0.0634,0.1306,0.8,0.1429,6.0,-19.2,0,Elite Phase Specialist,HIGH-RISK
+56685,Abdullah Ahmadzai,Death Specialist (Pace),Middle Overs Enforcer (Pace),235,148,Robust Evidence,-0.0723,-0.142,0.0827,-0.1212,0.4067,0.1751,0.75,0.1538,16.0,-37.7,0,Elite Phase Specialist,HIGH-RISK
+3373,Aizaz Khan,Middle Enforcer (Pace),Death Phase Option (Pace),207,59,Robust Evidence,-0.0483,-0.1421,0.1113,-0.1302,0.8891,0.2489,0.6667,0.375,8.0,-27.1,0,Elite Phase Specialist,HIGH-RISK
+25216,Andile Simelane,Middle Enforcer (Pace),Death Phase Option (Pace),114,34,Moderate Evidence,-0.0376,-0.1434,0.1256,-0.1483,0.2563,0.2771,0.6667,0.2,5.0,-15.4,0,Multi-Phase Versatile,HIGH-RISK
+6097,Brydon Carse,Death Specialist (Pace),Powerplay Containment (Pace),283,150,Robust Evidence,-0.0743,-0.1436,0.0823,-0.1238,-0.1966,0.2501,0.3077,0.1429,20.0,4.5,0,Multi-Phase Versatile,HIGH-RISK
+27390,Matiullah Khan,Death Specialist (Pace),Powerplay Containment (Pace),67,33,Moderate Evidence,-0.0373,-0.1436,0.1262,-0.1505,0.377,0.3332,1.0,0.5,3.0,-22.9,0,Elite Phase Specialist,HIGH-RISK
+26795,Joel Davies,Middle Enforcer (Spin),Middle Over Containment (Spin),50,33,Moderate Evidence,-0.0376,-0.1439,0.1262,-0.1517,-0.2331,0.0476,0.3333,1.0,4.0,-3.6,0,Elite Phase Specialist,HIGH-RISK
+71727,Razaullah Razaullah,Death Specialist (Pace),Powerplay Containment (Pace),39,17,Sparse Evidence,-0.0275,-0.1441,0.1385,-0.1893,-0.0528,0.1665,0.5,0.0,1.0,-6.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6926,Matty Potts,Death Specialist (Pace),Middle Overs Enforcer (Pace),33,25,Sparse Evidence,-0.033,-0.1441,0.132,-0.1648,-1.4286,0.0,0.0,0.5,2.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7897,Namboori Tilak Varma,Middle Enforcer (Spin),Middle Over Containment (Spin),88,37,Moderate Evidence,-0.0407,-0.1448,0.1236,-0.1507,-0.4452,0.2346,0.3333,0.0,3.0,9.5,0,Elite Phase Specialist,HIGH-RISK
+4840,Odean Smith,Middle Enforcer (Pace),Death Phase Option (Pace),414,148,Robust Evidence,-0.0755,-0.1452,0.0827,-0.1265,0.0225,0.3019,0.625,0.2353,25.0,-77.1,0,Elite Phase Specialist,HIGH-RISK
+59045,Jai Moondra,Death Specialist (Pace),Powerplay Containment (Pace),50,34,Moderate Evidence,-0.0396,-0.1453,0.1256,-0.1561,-0.995,0.2084,0.5,0.3333,5.0,1.9,0,Elite Phase Specialist,HIGH-RISK
+2526,Ish Sodhi,Middle Enforcer (Spin),Middle Over Containment (Spin),1206,581,Robust Evidence,-0.1075,-0.1455,0.0451,-0.126,0.1341,0.2707,0.661,0.0741,63.0,-150.7,0,Elite Phase Specialist,HIGH-RISK
+6449,Wafadar Momand,Powerplay Specialist (Pace),Death Closer (Pace),34,7,Sparse Evidence,-0.021,-0.1455,0.1479,-0.3203,,0.2071,1.0,0.5,0.0,-16.7,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3299,Andrew Tye,Death Specialist (Pace),Powerplay Containment (Pace),69,28,Moderate Evidence,-0.0364,-0.1457,0.1298,-0.1664,-1.0649,0.0261,0.6667,0.0,2.0,-5.4,0,Elite Phase Specialist,HIGH-RISK
+3664,Binura Fernando,Powerplay Specialist (Pace),Death Closer (Pace),356,136,Robust Evidence,-0.0743,-0.1462,0.0854,-0.1289,-0.5658,0.1865,0.5,0.375,14.0,5.7,0,Elite Phase Specialist,HIGH-RISK
+20005,Arshad Khan,Powerplay Specialist (Pace),Death Closer (Pace),413,109,Robust Evidence,-0.0688,-0.1467,0.0925,-0.1319,0.0553,0.3645,0.64,0.3333,18.0,-51.7,0,Elite Phase Specialist,HIGH-RISK
+8726,Alishan Sharafu,Death Specialist (Pace),Middle Overs Enforcer (Pace),1,1,Sparse Evidence,-0.0171,-0.1471,0.1544,-1.7273,,0.0,1.0,0.0,0.0,-1.7,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+24779,Ijaz Ahmadzai,Death Specialist (Pace),Middle Overs Enforcer (Pace),7,7,Sparse Evidence,-0.0228,-0.1473,0.1479,-0.348,,0.0,1.0,1.0,0.0,-2.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2852,Jagadeesha Suchith,Middle Enforcer (Spin),Middle Over Containment (Spin),115,49,Moderate Evidence,-0.0497,-0.1477,0.1165,-0.151,0.3335,0.1529,0.6,1.0,7.0,-3.8,0,Elite Phase Specialist,HIGH-RISK
+2997,Paul van Meekeren,Middle Enforcer (Pace),Middle Over Containment (Pace),196,128,Robust Evidence,-0.0743,-0.1479,0.0874,-0.1324,-0.3506,0.1278,0.6,0.1429,11.0,-12.9,0,Elite Phase Specialist,HIGH-RISK
+32401,Akhil Kumar,Death Specialist (Pace),Middle Overs Enforcer (Pace),24,12,Sparse Evidence,-0.0274,-0.1479,0.143,-0.2562,-0.9707,0.0552,0.0,0.0,0.0,5.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5041,Mukesh Kumar,Death Specialist (Pace),Powerplay Containment (Pace),1227,475,Robust Evidence,-0.1069,-0.1487,0.0497,-0.1294,0.0538,0.2869,0.4237,0.3026,62.0,-28.0,0,Multi-Phase Versatile,HIGH-RISK
+7201,Haroon Arshad,Death Specialist (Pace),Powerplay Containment (Pace),79,19,Moderate Evidence,-0.0341,-0.1493,0.1368,-0.2137,0.3894,0.2877,0.8,0.2,1.0,-40.2,0,Elite Phase Specialist,HIGH-RISK
+1318,Andre Russell,Death Specialist (Pace),Middle Overs Enforcer (Pace),792,311,Robust Evidence,-0.0984,-0.1493,0.0605,-0.13,0.3453,0.3922,0.6491,0.2632,62.0,-127.3,0,Elite Phase Specialist,HIGH-RISK
+2483,Lizaad Williams,Death Specialist (Pace),Powerplay Containment (Pace),280,65,Robust Evidence,-0.0583,-0.1496,0.1085,-0.1479,-0.9537,0.2292,0.6429,0.2,16.0,-36.6,0,Elite Phase Specialist,HIGH-RISK
+19781,Mitchell Owen,Death Specialist (Pace),Middle Overs Enforcer (Pace),33,14,Sparse Evidence,-0.0308,-0.1497,0.1412,-0.2512,-0.1313,0.3636,0.5,0.0,2.0,-5.8,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6683,Mayank Markande,Middle Enforcer (Spin),Middle Over Containment (Spin),445,191,Robust Evidence,-0.0873,-0.1502,0.0747,-0.133,-0.2478,0.3054,0.6364,0.1667,21.0,-54.5,0,Elite Phase Specialist,HIGH-RISK
+4658,Nasum Ahmed,Powerplay Specialist (Spin),Middle Overs Restrictor (Spin),607,159,Robust Evidence,-0.0831,-0.1509,0.0805,-0.1354,0.3047,0.3206,0.5862,0.0,25.0,-48.8,0,Elite Phase Specialist,HIGH-RISK
+46982,Shahid Aziz,Death Specialist (Pace),Powerplay Containment (Pace),84,46,Moderate Evidence,-0.0515,-0.151,0.1182,-0.1635,0.0824,0.2288,0.75,0.3333,5.0,-16.9,0,Elite Phase Specialist,HIGH-RISK
+26834,Raj Bawa,Death Specialist (Pace),Middle Overs Enforcer (Pace),32,13,Sparse Evidence,-0.032,-0.1517,0.1421,-0.2784,-0.4302,0.0961,0.5,1.0,2.0,0.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7155,Sahan Arachchige,Powerplay Specialist (Spin),Middle Overs Restrictor (Spin),78,12,Sparse Evidence,-0.0315,-0.1519,0.143,-0.2937,-0.485,0.0889,0.2857,0.0,3.0,9.1,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8033,Abdul Rahmani,Death Specialist (Pace),Middle Overs Enforcer (Pace),63,44,Moderate Evidence,-0.0515,-0.152,0.1193,-0.1686,0.4208,0.3304,0.3333,0.25,5.0,-0.6,0,Elite Phase Specialist,HIGH-RISK
+6436,Qais Ahmad,Middle Enforcer (Spin),Death Phase Option (Spin),195,102,Robust Evidence,-0.0725,-0.1521,0.0946,-0.1435,0.1322,0.2966,0.4,0.0,7.0,6.5,0,Elite Phase Specialist,HIGH-RISK
+2054,Jason Behrendorff,Powerplay Specialist (Pace),Death Closer (Pace),455,162,Robust Evidence,-0.0857,-0.153,0.0799,-0.1386,-0.1105,0.2289,0.4,0.4211,25.0,47.6,0,Elite Phase Specialist,HIGH-RISK
+4111,Khushdil Shah,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),63,30,Moderate Evidence,-0.0453,-0.1534,0.1283,-0.1965,-0.1577,0.6033,0.6667,0.5,3.0,-7.2,0,Elite Phase Specialist,HIGH-RISK
+3361,Michael Leask,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),32,6,Sparse Evidence,-0.0285,-0.1539,0.1489,-0.5039,,0.1156,0.3333,0.0,2.0,0.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+17919,Mohammad Saleem Safi,Death Specialist (Pace),Middle Overs Enforcer (Pace),22,22,Sparse Evidence,-0.041,-0.1541,0.1343,-0.2275,,0.0,1.0,0.0,0.0,-5.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5844,Ebadot Hossain,Death Specialist (Pace),Middle Overs Enforcer (Pace),83,42,Moderate Evidence,-0.0527,-0.1541,0.1205,-0.1781,-0.2988,0.3111,0.6667,0.25,6.0,-2.5,0,Elite Phase Specialist,HIGH-RISK
+33443,Sabir Ali,Powerplay Specialist (Pace),Death Closer (Pace),52,7,Sparse Evidence,-0.0296,-0.1542,0.1479,-0.453,,0.2952,0.6667,0.0,3.0,-7.8,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8580,Yudhvir Singh,Powerplay Specialist (Pace),Death Closer (Pace),145,36,Moderate Evidence,-0.05,-0.1546,0.1243,-0.1887,0.3909,0.1791,0.6667,0.3333,8.0,-36.5,0,Elite Phase Specialist,HIGH-RISK
+3683,Gavin Main,Middle Enforcer (Pace),Middle Over Containment (Pace),41,18,Sparse Evidence,-0.0389,-0.1548,0.1376,-0.2548,0.3668,0.461,0.5,0.0,2.0,3.9,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4904,Kamindu Mendis,Middle Enforcer (Spin),Middle Over Containment (Spin),154,49,Robust Evidence,-0.057,-0.1551,0.1165,-0.1734,0.2329,0.2696,0.7143,0.0,5.0,-12.2,0,Elite Phase Specialist,HIGH-RISK
+34880,Saad Masood,Middle Enforcer (Spin),Middle Over Containment (Spin),93,54,Moderate Evidence,-0.0598,-0.1556,0.1138,-0.1704,-0.0647,0.1968,0.75,0.0,8.0,-13.3,0,Elite Phase Specialist,HIGH-RISK
+2439,Akila Dananjaya,Middle Enforcer (Spin),Middle Over Containment (Spin),37,13,Sparse Evidence,-0.0369,-0.1565,0.1421,-0.3207,-0.1601,0.08,1.0,0.0,2.0,-8.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3839,Amjad Mahboob,Death Specialist (Pace),Powerplay Containment (Pace),56,23,Moderate Evidence,-0.0444,-0.1569,0.1335,-0.2377,-0.0019,0.1407,0.6667,0.0,2.0,-13.2,0,Elite Phase Specialist,HIGH-RISK
+21784,Brad Evans,Death Specialist (Pace),Powerplay Containment (Pace),457,157,Robust Evidence,-0.0893,-0.1573,0.0809,-0.1461,0.1382,0.2688,0.5238,0.2759,31.0,-36.9,0,Multi-Phase Versatile,HIGH-RISK
+8632,Aaqib Khan,Death Specialist (Pace),Powerplay Containment (Pace),50,12,Sparse Evidence,-0.0379,-0.1583,0.143,-0.354,-0.078,0.2289,1.0,0.25,2.0,-14.7,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6985,Bas de Leede,Death Specialist (Pace),Middle Overs Enforcer (Pace),78,49,Moderate Evidence,-0.0606,-0.1587,0.1165,-0.1842,0.341,0.2156,0.5,0.5,4.0,-8.6,0,Elite Phase Specialist,HIGH-RISK
+8623,Kristian Clarke,Middle Enforcer (Pace),Death Phase Option (Pace),24,6,Sparse Evidence,-0.0336,-0.159,0.1489,-0.593,,0.0,1.0,1.0,1.0,-1.0,0,Multi-Phase Versatile,INSUFFICIENT EVIDENCE
+5547,Nosthush Kenjige,Powerplay Specialist (Spin),Middle Overs Restrictor (Spin),79,17,Moderate Evidence,-0.044,-0.1606,0.1385,-0.3026,-0.0304,0.2647,0.5,0.0,2.0,-22.0,0,Elite Phase Specialist,HIGH-RISK
+3871,Aamir Kaleem,Middle Enforcer (Spin),Death Phase Option (Spin),109,28,Moderate Evidence,-0.0514,-0.1607,0.1298,-0.235,-0.2648,0.2921,0.5,0.0,8.0,-4.2,0,Elite Phase Specialist,HIGH-RISK
+332,Angelo Mathews,Powerplay Specialist (Pace),Death Closer (Pace),114,20,Moderate Evidence,-0.0464,-0.1608,0.136,-0.2781,-0.2924,0.3853,0.4444,0.5,7.0,-4.3,0,Elite Phase Specialist,HIGH-RISK
+25231,Samay Shrivastava,Middle Enforcer (Spin),Middle Over Containment (Spin),158,24,Moderate Evidence,-0.05,-0.1618,0.1328,-0.2582,-0.4377,0.4725,0.6667,0.0,3.0,-27.3,0,Elite Phase Specialist,HIGH-RISK
+7710,Brandon Glover,Middle Enforcer (Pace),Middle Over Containment (Pace),19,19,Sparse Evidence,-0.0467,-0.1619,0.1368,-0.2928,,0.0,1.0,0.0,0.0,-5.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+26514,Nimesh Vimukthi,Powerplay Specialist (Spin),Middle Overs Restrictor (Spin),103,22,Moderate Evidence,-0.049,-0.1621,0.1343,-0.2715,-0.3771,0.037,1.0,0.5,1.0,-17.3,0,Elite Phase Specialist,HIGH-RISK
+47371,Zuhaid Zubair,Death Specialist (Spin),Middle Overs Enforcer (Spin),19,7,Sparse Evidence,-0.0376,-0.1622,0.1479,-0.5754,,0.0,1.0,0.0,1.0,-9.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4793,Dean Foxcroft,Powerplay Specialist (Spin),Middle Overs Restrictor (Spin),12,6,Sparse Evidence,-0.037,-0.1624,0.1489,-0.6542,,0.0,1.0,0.0,0.0,-2.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2210,Sabbir Rahman,Middle Enforcer (Spin),Middle Over Containment (Spin),6,6,Sparse Evidence,-0.0378,-0.1633,0.1489,-0.6686,,0.0,1.0,0.0,0.0,-4.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+41503,Yash Punja,Middle Enforcer (Spin),Middle Over Containment (Spin),186,75,Robust Evidence,-0.0756,-0.1634,0.1042,-0.1765,-0.312,0.2886,0.5,0.0,9.0,1.8,0,Elite Phase Specialist,HIGH-RISK
+8611,Adithya Ashok,Middle Enforcer (Spin),Middle Over Containment (Spin),25,19,Sparse Evidence,-0.0486,-0.1638,0.1368,-0.3046,,0.0,1.0,0.0,1.0,-3.7,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6423,Riyan Parag,Middle Enforcer (Spin),Middle Over Containment (Spin),273,61,Robust Evidence,-0.071,-0.1639,0.1104,-0.1873,-1.1034,0.3365,0.4167,0.1667,10.0,22.6,0,Elite Phase Specialist,HIGH-RISK
+3622,Hayden Walsh,Middle Enforcer (Spin),Middle Over Containment (Spin),189,74,Robust Evidence,-0.0766,-0.1647,0.1046,-0.1801,-0.7428,0.1675,0.5556,0.0,7.0,-8.4,0,Elite Phase Specialist,HIGH-RISK
+4837,Obed McCoy,Death Specialist (Pace),Powerplay Containment (Pace),692,319,Robust Evidence,-0.1144,-0.1647,0.0598,-0.1502,-0.3611,0.3107,0.5,0.2083,40.0,-28.3,0,Elite Phase Specialist,HIGH-RISK
+27956,Prashant Solanki,Death Specialist (Spin),Middle Overs Enforcer (Spin),36,5,Sparse Evidence,-0.0386,-0.1649,0.15,-0.8103,,0.484,0.5,0.0,2.0,18.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6671,Lalit Yadav,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),210,48,Robust Evidence,-0.0674,-0.1659,0.117,-0.2078,0.2937,0.4871,0.5,0.2,6.0,-26.9,0,Multi-Phase Versatile,HIGH-RISK
+19998,Rajvardhan Hangargekar,Death Specialist (Pace),Middle Overs Enforcer (Pace),43,17,Sparse Evidence,-0.05,-0.1666,0.1385,-0.3442,-0.8055,0.2278,0.5,0.0,3.0,6.1,0,Multi-Phase Versatile,INSUFFICIENT EVIDENCE
+24372,Muzahir Raza,Powerplay Specialist (Pace),Death Closer (Pace),96,21,Moderate Evidence,-0.0528,-0.1666,0.1351,-0.3045,1.4421,0.2419,0.6,0.6667,5.0,-7.4,0,Elite Phase Specialist,HIGH-RISK
+8723,Mohammed Faraazuddin,Middle Enforcer (Spin),Middle Over Containment (Spin),78,42,Moderate Evidence,-0.0652,-0.1667,0.1205,-0.2206,1.2231,0.3365,0.8,0.0,3.0,-61.2,0,Elite Phase Specialist,HIGH-RISK
+33969,Tinotenda Maposa,Middle Enforcer (Pace),Powerplay Strike Bowler (Pace),187,39,Moderate Evidence,-0.0639,-0.1669,0.1223,-0.2278,0.0331,0.4185,0.75,0.2,4.0,-47.5,0,Elite Phase Specialist,HIGH-RISK
+6025,Henry Shipley,Death Specialist (Pace),Powerplay Containment (Pace),83,25,Moderate Evidence,-0.0569,-0.168,0.132,-0.2845,-0.1488,0.1175,0.75,0.2,2.0,-15.0,0,Elite Phase Specialist,HIGH-RISK
+17898,Bilal Sami,Death Specialist (Pace),Powerplay Containment (Pace),148,69,Moderate Evidence,-0.0786,-0.1685,0.1068,-0.1925,0.6124,0.2221,0.4286,0.4,12.0,-14.4,0,Elite Phase Specialist,HIGH-RISK
+1617,Rishi Dhawan,Middle Enforcer (Pace),Powerplay Strike Bowler (Pace),180,85,Robust Evidence,-0.085,-0.1695,0.1004,-0.185,-0.5115,0.2881,0.5455,0.5,7.0,-2.8,0,Elite Phase Specialist,HIGH-RISK
+722,Liam Dawson,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),424,172,Robust Evidence,-0.1041,-0.1698,0.078,-0.1646,-0.0973,0.1096,0.5,0.1111,25.0,39.2,0,Elite Phase Specialist,HIGH-RISK
+27004,Hassnain Shah,Middle Enforcer (Pace),Death Phase Option (Pace),43,8,Sparse Evidence,-0.0464,-0.1701,0.1469,-0.6267,,0.2409,0.5,0.5,1.0,-2.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6166,Jack Edwards,Death Specialist (Pace),Powerplay Containment (Pace),12,6,Sparse Evidence,-0.0448,-0.1702,0.1489,-0.7921,,0.0,1.0,0.0,0.0,-8.7,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+2304,Tymal Mills,Death Specialist (Pace),Middle Overs Enforcer (Pace),242,78,Robust Evidence,-0.0836,-0.1703,0.103,-0.1907,0.2545,0.4554,0.5833,0.2667,10.0,-50.7,0,Multi-Phase Versatile,HIGH-RISK
+2416,Kyle Mayers,Powerplay Specialist (Pace),Death Closer (Pace),146,21,Moderate Evidence,-0.0578,-0.1716,0.1351,-0.3328,0.5004,0.2966,0.4706,0.5,2.0,-4.5,0,Elite Phase Specialist,HIGH-RISK
+7545,Kuldeep Sen,Middle Enforcer (Pace),Death Phase Option (Pace),255,96,Robust Evidence,-0.0909,-0.1722,0.0966,-0.1855,-0.2113,0.1723,0.5833,0.2857,14.0,-6.0,0,Elite Phase Specialist,HIGH-RISK
+20693,Kuldip Yadav,Death Specialist (Pace),Powerplay Containment (Pace),42,18,Sparse Evidence,-0.0575,-0.1734,0.1376,-0.3772,-0.6161,0.5501,0.5,0.3333,2.0,-1.1,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4221,Chris Green,Middle Enforcer (Spin),Death Phase Option (Spin),24,6,Sparse Evidence,-0.0486,-0.174,0.1489,-0.8589,,0.0,1.0,0.0,0.0,-1.3,0,Multi-Phase Versatile,INSUFFICIENT EVIDENCE
+58134,Digvesh Rathi,Middle Enforcer (Spin),Death Phase Option (Spin),561,181,Robust Evidence,-0.1103,-0.1747,0.0764,-0.1713,-0.2915,0.3593,0.4783,0.1053,19.0,3.2,0,Elite Phase Specialist,HIGH-RISK
+7344,Shoriful Islam,Powerplay Specialist (Pace),Death Closer (Pace),823,257,Robust Evidence,-0.1192,-0.1747,0.0659,-0.1656,-0.0181,0.2828,0.5128,0.2308,41.0,-14.1,0,Elite Phase Specialist,HIGH-RISK
+27380,Harshit Kaushik,Death Specialist (Spin),Middle Overs Enforcer (Spin),68,32,Moderate Evidence,-0.0696,-0.1765,0.1269,-0.2873,0.6755,0.4395,0.8333,0.25,0.0,-43.9,0,Elite Phase Specialist,HIGH-RISK
+5562,Richard Gleeson,Death Specialist (Pace),Powerplay Containment (Pace),203,110,Robust Evidence,-0.0988,-0.1765,0.0922,-0.1887,-0.576,0.2706,0.5556,0.0,11.0,9.4,0,Multi-Phase Versatile,HIGH-RISK
+6503,Zahoor Khan,Death Specialist (Pace),Middle Overs Enforcer (Pace),123,72,Moderate Evidence,-0.0877,-0.1765,0.1055,-0.2096,-0.5449,0.1998,0.6,0.0909,4.0,-11.1,0,Elite Phase Specialist,HIGH-RISK
+2872,Siddarth Kaul,Death Specialist (Pace),Powerplay Containment (Pace),24,12,Sparse Evidence,-0.0568,-0.1772,0.143,-0.5297,-0.5625,0.0,1.0,0.5,0.0,-6.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3040,Kashif Daud,Death Specialist (Pace),Powerplay Containment (Pace),11,1,Sparse Evidence,-0.0478,-0.1778,0.1544,-4.8232,,0.0,1.0,0.0,0.0,-7.7,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+26663,Kwena Maphaka,Death Specialist (Pace),Powerplay Containment (Pace),333,132,Robust Evidence,-0.1051,-0.1779,0.0864,-0.1848,-0.5937,0.4476,0.5625,0.3125,15.0,-14.7,0,Multi-Phase Versatile,HIGH-RISK
+6764,Bukkapatnam Siddharth,Death Specialist (Spin),Middle Overs Enforcer (Spin),6,6,Sparse Evidence,-0.0524,-0.1779,0.1489,-0.9266,,0.0,1.0,1.0,0.0,-5.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6664,Dion Myers,Middle Enforcer (Pace),Middle Over Containment (Pace),14,1,Sparse Evidence,-0.0483,-0.1783,0.1544,-4.8792,,0.7916,1.0,0.0,0.0,-23.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7896,Akash Singh,Powerplay Specialist (Pace),Death Closer (Pace),232,63,Robust Evidence,-0.0863,-0.1785,0.1094,-0.2234,0.237,0.3691,0.6364,0.0,13.0,-31.9,0,Elite Phase Specialist,HIGH-RISK
+1772,Sheldon Cottrell,Powerplay Specialist (Pace),Death Closer (Pace),229,72,Robust Evidence,-0.0905,-0.1793,0.1055,-0.2161,-0.4332,0.1431,0.2727,0.1,10.0,7.8,0,Elite Phase Specialist,HIGH-RISK
+4391,Liam Livingstone,Middle Enforcer (Spin),Middle Over Containment (Spin),619,240,Robust Evidence,-0.1244,-0.1816,0.0679,-0.1763,-0.214,0.4774,0.5918,0.1,32.0,-103.6,0,Elite Phase Specialist,HIGH-RISK
+2650,Raymon Reifer,Death Specialist (Pace),Middle Overs Enforcer (Pace),32,6,Sparse Evidence,-0.0564,-0.1818,0.1489,-0.9969,,0.7269,0.5,0.6667,1.0,5.9,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5882,Afif Hossain,Middle Enforcer (Spin),Death Phase Option (Spin),32,19,Sparse Evidence,-0.0675,-0.1827,0.1368,-0.4226,-0.564,0.2071,0.4,0.0,1.0,-6.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+58727,Abhinandan Singh,Death Specialist (Pace),Middle Overs Enforcer (Pace),60,31,Moderate Evidence,-0.0757,-0.1831,0.1276,-0.3198,0.5186,0.4763,1.0,0.0,3.0,-34.2,0,Elite Phase Specialist,HIGH-RISK
+5189,Faheem Ashraf,Middle Enforcer (Pace),Death Phase Option (Pace),452,221,Robust Evidence,-0.1247,-0.1839,0.0703,-0.1811,0.0623,0.2937,0.6562,0.1905,26.0,-35.5,0,Multi-Phase Versatile,HIGH-RISK
+2463,Ryan Burl,Middle Enforcer (Spin),Middle Over Containment (Spin),325,138,Robust Evidence,-0.1124,-0.184,0.085,-0.1939,-0.3405,0.2678,0.5909,0.0,18.0,-39.4,0,Elite Phase Specialist,HIGH-RISK
+3077,Usama Mir,Middle Enforcer (Spin),Middle Over Containment (Spin),123,23,Moderate Evidence,-0.0716,-0.1841,0.1335,-0.383,-0.3667,0.3867,0.6,0.0,5.0,-10.4,0,Elite Phase Specialist,HIGH-RISK
+3543,Shahidullah Kamal,Death Specialist (Spin),Middle Overs Enforcer (Spin),31,25,Sparse Evidence,-0.0735,-0.1846,0.132,-0.3674,,0.1784,0.75,0.0,2.0,-14.8,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+56817,Shivang Kumar,Middle Enforcer (Spin),Middle Over Containment (Spin),240,105,Robust Evidence,-0.1066,-0.1855,0.0937,-0.2082,-0.45,0.3158,0.5385,0.5,9.0,-20.3,0,Elite Phase Specialist,HIGH-RISK
+4903,Lahiru Kumara,Middle Enforcer (Pace),Powerplay Strike Bowler (Pace),78,19,Moderate Evidence,-0.0708,-0.186,0.1368,-0.4436,-0.7353,0.219,0.3333,0.5,7.0,8.8,0,Elite Phase Specialist,HIGH-RISK
+7945,Nasrulla Rana,Middle Enforcer (Pace),Death Phase Option (Pace),80,6,Sparse Evidence,-0.0611,-0.1865,0.1489,-1.0792,,0.1867,0.8,0.3333,2.0,-23.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+8182,Donovan Ferreira,Middle Enforcer (Spin),Death Phase Option (Spin),115,23,Moderate Evidence,-0.0749,-0.1873,0.1335,-0.4003,-1.0483,0.2243,0.6667,0.5,3.0,-14.1,0,Elite Phase Specialist,HIGH-RISK
+4450,Mehran Khan,Death Specialist (Pace),Powerplay Containment (Pace),31,10,Sparse Evidence,-0.066,-0.188,0.1449,-0.7262,-0.7796,0.7488,0.5,0.0,2.0,-6.1,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5379,Mark Adair,Death Specialist (Pace),Powerplay Containment (Pace),906,302,Robust Evidence,-0.1369,-0.1885,0.0613,-0.1822,-0.1929,0.2788,0.6,0.3333,56.0,32.6,0,Elite Phase Specialist,HIGH-RISK
+1028,Varun Aaron,Powerplay Specialist (Pace),Middle Overs Restrictor (Pace),33,24,Sparse Evidence,-0.078,-0.1898,0.1328,-0.4031,,0.1627,0.5,0.0,2.0,-6.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7241,Ziaur Rahman,Death Specialist (Pace),Powerplay Containment (Pace),50,32,Moderate Evidence,-0.0831,-0.1899,0.1269,-0.3426,0.0563,0.117,1.0,0.5,5.0,-18.1,0,Elite Phase Specialist,HIGH-RISK
+3660,Luke Wood,Powerplay Specialist (Pace),Death Closer (Pace),336,107,Robust Evidence,-0.1115,-0.1899,0.0931,-0.2158,-0.1182,0.3261,0.4118,0.3333,19.0,-0.7,0,Elite Phase Specialist,HIGH-RISK
+8295,Matthew Forde,Powerplay Specialist (Pace),Death Closer (Pace),427,96,Robust Evidence,-0.1088,-0.1901,0.0966,-0.2222,0.7642,0.2553,0.5238,0.25,20.0,-11.3,0,Elite Phase Specialist,HIGH-RISK
+34969,Manav Suthar,Death Specialist (Spin),Powerplay Containment (Spin),50,26,Moderate Evidence,-0.0806,-0.1911,0.1312,-0.3905,-0.0505,0.522,0.75,0.6667,2.0,-18.3,0,Multi-Phase Versatile,HIGH-RISK
+6281,Abhishek Sharma,Middle Enforcer (Spin),Middle Over Containment (Spin),463,241,Robust Evidence,-0.1342,-0.1912,0.0677,-0.1899,-0.1226,0.4091,0.5435,0.1429,14.0,-62.5,0,Elite Phase Specialist,HIGH-RISK
+1596,Moeen Ali,Middle Enforcer (Spin),Middle Over Containment (Spin),821,313,Robust Evidence,-0.1413,-0.1921,0.0603,-0.1864,-0.5237,0.3451,0.5345,0.0714,45.0,-17.3,0,Elite Phase Specialist,HIGH-RISK
+36551,Zishan Motara,Middle Enforcer (Spin),Middle Over Containment (Spin),6,6,Sparse Evidence,-0.0673,-0.1927,0.1489,-1.1885,,0.0,1.0,0.0,0.0,-7.1,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4636,Bjorn Fortuin,Powerplay Specialist (Spin),Middle Overs Restrictor (Spin),217,14,Sparse Evidence,-0.0745,-0.1934,0.1412,-0.6067,-0.4922,0.3138,0.6154,0.0,8.0,-31.8,0,Multi-Phase Versatile,INSUFFICIENT EVIDENCE
+1701,Swapnil Singh,Powerplay Specialist (Spin),Middle Overs Restrictor (Spin),104,48,Moderate Evidence,-0.095,-0.1936,0.117,-0.293,0.3388,0.3911,0.5556,0.0,6.0,-8.6,0,Elite Phase Specialist,HIGH-RISK
+6237,Manimaran Siddharth,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),193,63,Robust Evidence,-0.1015,-0.1936,0.1094,-0.2625,-1.048,0.327,0.5556,0.2,9.0,-0.1,0,Multi-Phase Versatile,HIGH-RISK
+38050,Isitha Wijesundera,Powerplay Specialist (Pace),Death Closer (Pace),32,3,Sparse Evidence,-0.066,-0.1941,0.1522,-2.2665,,0.2354,1.0,0.0,1.0,-19.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6160,Chamika Karunaratne,Middle Enforcer (Pace),Death Phase Option (Pace),351,140,Robust Evidence,-0.1239,-0.1951,0.0845,-0.2124,-0.4549,0.2858,0.5,0.0714,13.0,-22.8,0,Elite Phase Specialist,HIGH-RISK
+5892,Blair Tickner,Death Specialist (Pace),Powerplay Containment (Pace),225,64,Robust Evidence,-0.1033,-0.1951,0.109,-0.2647,0.1497,0.2375,0.5455,0.2667,16.0,-14.2,0,Multi-Phase Versatile,HIGH-RISK
+6180,Praveen Jayawickrama,Middle Enforcer (Spin),Middle Over Containment (Spin),48,30,Sparse Evidence,-0.0873,-0.1954,0.1283,-0.3784,-0.0587,0.197,1.0,0.0,2.0,-17.1,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+143,Dinesh Karthik,Death Specialist (Spin),Middle Overs Enforcer (Spin),6,6,Sparse Evidence,-0.0752,-0.2006,0.1489,-1.3285,,0.0,1.0,1.0,0.0,-8.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3038,Hussain Talat,Death Specialist (Pace),Middle Overs Enforcer (Pace),39,37,Sparse Evidence,-0.0969,-0.201,0.1236,-0.3587,,0.4404,0.5,0.0,3.0,-11.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4716,Mayank Dagar,Middle Enforcer (Spin),Middle Over Containment (Spin),138,6,Sparse Evidence,-0.0761,-0.2015,0.1489,-1.3445,,0.4261,0.5,0.0,2.0,12.9,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+37052,Naman Dhir,Middle Enforcer (Spin),Death Phase Option (Spin),169,87,Robust Evidence,-0.1189,-0.2028,0.0997,-0.2556,-0.1049,0.5007,0.7333,0.1429,7.0,-42.7,0,Elite Phase Specialist,HIGH-RISK
+4755,Shivam Dube,Middle Enforcer (Pace),Death Phase Option (Pace),491,282,Robust Evidence,-0.1496,-0.2029,0.0632,-0.2027,0.1457,0.3357,0.6,0.3684,29.0,-70.7,0,Elite Phase Specialist,HIGH-RISK
+6389,Tanvir Islam,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),103,19,Moderate Evidence,-0.0882,-0.2034,0.1368,-0.5526,-0.4849,0.1813,0.8333,0.0,4.0,-16.2,0,Elite Phase Specialist,HIGH-RISK
+4974,Mohammad Nadeem,Death Specialist (Pace),Powerplay Containment (Pace),64,16,Moderate Evidence,-0.088,-0.2053,0.1394,-0.6377,-0.5919,0.274,0.6,0.6667,2.0,-12.4,0,Multi-Phase Versatile,HIGH-RISK
+8727,Sanchit Sharma,Middle Enforcer (Pace),Powerplay Strike Bowler (Pace),36,6,Sparse Evidence,-0.0806,-0.206,0.1489,-1.4239,,0.3407,0.6667,1.0,0.0,-8.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+1944,Keshav Maharaj,Middle Enforcer (Spin),Middle Over Containment (Spin),611,263,Robust Evidence,-0.1514,-0.2063,0.0652,-0.209,-0.2578,0.3587,0.4667,0.1538,32.0,-38.9,0,Elite Phase Specialist,HIGH-RISK
+3686,CB Sole,Death Specialist (Pace),Powerplay Containment (Pace),97,16,Moderate Evidence,-0.0899,-0.2073,0.1394,-0.6519,-0.8194,0.5202,0.4,0.0,8.0,3.1,0,Elite Phase Specialist,HIGH-RISK
+4854,Rachin Ravindra,Middle Enforcer (Spin),Middle Over Containment (Spin),136,41,Moderate Evidence,-0.1059,-0.2078,0.1211,-0.3641,-0.0659,0.3362,0.6667,0.0,5.0,-8.6,0,Elite Phase Specialist,HIGH-RISK
+3876,Sufyan Mehmood,Middle Enforcer (Pace),Death Phase Option (Pace),74,26,Moderate Evidence,-0.0983,-0.2088,0.1312,-0.4763,-0.2747,0.0487,0.8,0.3333,2.0,-21.1,0,Elite Phase Specialist,HIGH-RISK
+27516,Ihsanullah Ihsanullah,Death Specialist (Pace),Powerplay Containment (Pace),96,34,Moderate Evidence,-0.105,-0.2108,0.1256,-0.4139,-0.7895,0.12,0.25,0.0,6.0,6.4,0,Multi-Phase Versatile,HIGH-RISK
+3033,Usman Qadir,Middle Enforcer (Spin),Middle Over Containment (Spin),98,7,Sparse Evidence,-0.0867,-0.2112,0.1479,-1.325,,0.0715,1.0,0.0,5.0,-32.5,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4871,Brandon Mavuta,Middle Enforcer (Spin),Middle Over Containment (Spin),44,23,Sparse Evidence,-0.099,-0.2115,0.1335,-0.5296,-0.2111,0.1946,0.5,0.0,2.0,-8.7,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7905,Tanzim Sakib,Middle Enforcer (Pace),Death Phase Option (Pace),705,341,Robust Evidence,-0.1628,-0.2117,0.058,-0.2106,-0.2264,0.2529,0.5484,0.2424,36.0,-91.9,0,Multi-Phase Versatile,HIGH-RISK
+27959,Hrithik Shokeen,Middle Enforcer (Spin),Middle Over Containment (Spin),213,91,Robust Evidence,-0.1294,-0.2122,0.0982,-0.2717,-0.6052,0.2647,0.6154,0.0,5.0,-35.1,0,Elite Phase Specialist,HIGH-RISK
+6677,Mohammad Hasnain,Death Specialist (Pace),Powerplay Containment (Pace),238,71,Robust Evidence,-0.1232,-0.2124,0.1059,-0.2968,0.3499,0.2277,0.6,0.4286,8.0,-21.9,0,Elite Phase Specialist,HIGH-RISK
+773,Shadley Van Schalkwyk,Death Specialist (Pace),Middle Overs Enforcer (Pace),91,47,Moderate Evidence,-0.1135,-0.2125,0.1176,-0.355,-0.3489,0.0251,1.0,0.125,7.0,-17.0,0,Elite Phase Specialist,HIGH-RISK
+3469,Shreyas Gopal,Middle Enforcer (Spin),Middle Over Containment (Spin),60,18,Moderate Evidence,-0.0972,-0.2131,0.1376,-0.6374,-0.381,0.3749,0.75,0.0,4.0,-22.2,0,Elite Phase Specialist,HIGH-RISK
+28655,Muhammad Rohid,Powerplay Specialist (Pace),Death Closer (Pace),189,35,Moderate Evidence,-0.1086,-0.2138,0.1249,-0.4188,0.3682,0.2634,0.5556,0.25,8.0,-17.7,0,Elite Phase Specialist,HIGH-RISK
+3595,Andy McBrine,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),74,25,Moderate Evidence,-0.1044,-0.2155,0.132,-0.522,0.8247,0.4328,0.8333,0.0,2.0,-31.0,0,Elite Phase Specialist,HIGH-RISK
+48557,Vignesh Puthur,Middle Enforcer (Spin),Death Phase Option (Spin),73,25,Moderate Evidence,-0.1049,-0.216,0.132,-0.5243,-0.6718,0.349,0.6,0.3333,6.0,-6.0,0,Elite Phase Specialist,HIGH-RISK
+4986,Rovman Powell,Middle Enforcer (Pace),Middle Over Containment (Pace),82,15,Moderate Evidence,-0.0987,-0.2168,0.1403,-0.7565,-0.8177,0.5349,0.5455,0.3333,2.0,-4.8,0,Elite Phase Specialist,HIGH-RISK
+4857,Nathan Smith,Death Specialist (Pace),Powerplay Containment (Pace),109,49,Moderate Evidence,-0.1224,-0.2205,0.1165,-0.3721,0.2502,0.2069,0.5,0.2857,6.0,-10.0,0,Elite Phase Specialist,HIGH-RISK
+4639,Wellington Masakadza,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),486,198,Robust Evidence,-0.1611,-0.2231,0.0736,-0.2425,-0.2234,0.2109,0.7407,0.0,15.0,-39.1,0,Elite Phase Specialist,HIGH-RISK
+4870,Kundai Matigimu,Death Specialist (Pace),Powerplay Containment (Pace),26,26,Sparse Evidence,-0.1142,-0.2247,0.1312,-0.5535,,0.0,1.0,0.5,2.0,-14.4,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+19147,Faraz Akram,Middle Enforcer (Pace),Powerplay Strike Bowler (Pace),112,39,Moderate Evidence,-0.123,-0.226,0.1223,-0.4385,-0.6295,0.0686,1.0,0.6667,1.0,-29.2,0,Elite Phase Specialist,HIGH-RISK
+7574,Kumar Kartikeya Singh,Middle Enforcer (Spin),Middle Over Containment (Spin),290,75,Robust Evidence,-0.1385,-0.2262,0.1042,-0.3231,0.2252,0.2728,0.5,0.2857,12.0,4.9,0,Elite Phase Specialist,HIGH-RISK
+4662,Cole McConchie,Middle Enforcer (Spin),Middle Over Containment (Spin),121,25,Moderate Evidence,-0.1174,-0.2286,0.132,-0.5872,-0.3891,0.4463,0.625,0.5,3.0,-33.7,0,Elite Phase Specialist,HIGH-RISK
+4288,Navdeep Saini,Middle Enforcer (Pace),Death Phase Option (Pace),98,51,Moderate Evidence,-0.1315,-0.2287,0.1154,-0.3894,0.0308,0.1594,1.0,0.25,6.0,-39.6,0,Elite Phase Specialist,HIGH-RISK
+19020,Ateeq Iqbal,Powerplay Specialist (Pace),Death Closer (Pace),163,8,Sparse Evidence,-0.1071,-0.2308,0.1469,-1.446,,0.2963,0.3333,0.3333,7.0,5.1,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4895,Charith Asalanka,Middle Enforcer (Spin),Middle Over Containment (Spin),164,76,Robust Evidence,-0.1434,-0.2309,0.1038,-0.3322,-0.876,0.2873,0.6429,0.0,7.0,-21.5,0,Elite Phase Specialist,HIGH-RISK
+8380,Mohammad Rishad Hossain,Middle Enforcer (Spin),Death Phase Option (Spin),1033,504,Robust Evidence,-0.1913,-0.232,0.0483,-0.2293,-0.1499,0.337,0.6327,0.1282,61.0,-214.0,0,Elite Phase Specialist,HIGH-RISK
+3280,Nazmul Hossain Shanto,Middle Enforcer (Spin),Middle Over Containment (Spin),12,10,Sparse Evidence,-0.1104,-0.2324,0.1449,-1.2144,,0.5298,1.0,0.0,0.0,-12.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4901,Asitha Fernando,Death Specialist (Pace),Powerplay Containment (Pace),124,39,Moderate Evidence,-0.1316,-0.2347,0.1223,-0.4692,-0.2317,0.3422,0.6667,0.1429,4.0,-38.5,0,Elite Phase Specialist,HIGH-RISK
+7060,Arjun Tendulkar,Powerplay Specialist (Pace),Death Closer (Pace),107,14,Sparse Evidence,-0.1177,-0.2366,0.1412,-0.9588,-1.2027,0.2284,0.1667,0.0,4.0,9.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+5977,Khary Pierre,Middle Enforcer (Spin),Death Phase Option (Spin),124,35,Moderate Evidence,-0.1317,-0.2369,0.1249,-0.5081,-0.588,0.1658,0.5,0.0,4.0,-12.7,0,Elite Phase Specialist,HIGH-RISK
+23,Piyush Chawla,Middle Enforcer (Spin),Middle Over Containment (Spin),586,140,Robust Evidence,-0.1657,-0.2369,0.0845,-0.2841,-0.3387,0.2779,0.4074,0.0,35.0,4.1,0,Elite Phase Specialist,HIGH-RISK
+4106,Daryl Mitchell,Middle Enforcer (Pace),Death Phase Option (Pace),86,31,Moderate Evidence,-0.1301,-0.2375,0.1276,-0.5497,0.8284,0.7832,0.5,0.25,4.0,-16.1,0,Elite Phase Specialist,HIGH-RISK
+6772,Chetan Sakariya,Death Specialist (Pace),Powerplay Containment (Pace),145,30,Moderate Evidence,-0.1305,-0.2386,0.1283,-0.5656,-0.9462,0.3471,0.3333,0.4286,6.0,18.5,0,Multi-Phase Versatile,HIGH-RISK
+8638,Basil Hameed,Middle Enforcer (Spin),Middle Over Containment (Spin),140,69,Moderate Evidence,-0.1487,-0.2386,0.1068,-0.3642,-0.308,0.2015,0.75,0.25,7.0,-29.1,0,Elite Phase Specialist,HIGH-RISK
+7914,Clayton Floyd,Powerplay Specialist (Spin),Death Closer (Spin),36,11,Sparse Evidence,-0.1178,-0.239,0.1439,-1.1891,-1.2499,0.0813,1.0,1.0,1.0,-11.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3623,Hasan Ali,Death Specialist (Pace),Powerplay Containment (Pace),168,60,Robust Evidence,-0.1465,-0.2399,0.1109,-0.3907,-0.8258,0.3072,0.75,0.2727,12.0,-49.3,0,Elite Phase Specialist,HIGH-RISK
+21780,Ernest Masuku,Powerplay Specialist (Pace),Middle Overs Restrictor (Pace),63,47,Moderate Evidence,-0.1411,-0.2401,0.1176,-0.4413,-0.3395,0.016,1.0,1.0,5.0,-22.4,0,Multi-Phase Versatile,HIGH-RISK
+47724,Jahandad Khan,Powerplay Specialist (Pace),Death Closer (Pace),111,23,Moderate Evidence,-0.1285,-0.2409,0.1335,-0.6871,-0.7197,0.5174,0.875,0.0,7.0,-59.2,0,Elite Phase Specialist,HIGH-RISK
+7928,Vinoth Baskaran,Middle Enforcer (Spin),Middle Over Containment (Spin),65,19,Moderate Evidence,-0.1264,-0.2416,0.1368,-0.7918,-0.5971,0.2583,0.6667,0.0,6.0,-22.0,0,Elite Phase Specialist,HIGH-RISK
+69806,Mohammad Salman,Death Specialist (Pace),Powerplay Containment (Pace),18,12,Sparse Evidence,-0.1223,-0.2427,0.143,-1.1414,,0.0,1.0,1.0,0.0,-9.6,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+4812,Harry Tector,Middle Enforcer (Spin),Middle Over Containment (Spin),248,80,Robust Evidence,-0.1588,-0.2449,0.1023,-0.3574,-0.2523,0.2588,0.4375,1.0,11.0,14.4,0,Elite Phase Specialist,HIGH-RISK
+3775,Sompal Kami,Middle Enforcer (Pace),Death Phase Option (Pace),47,25,Sparse Evidence,-0.1345,-0.2456,0.132,-0.6725,-0.7959,0.1995,0.6667,0.5,0.0,-14.1,0,Multi-Phase Versatile,INSUFFICIENT EVIDENCE
+4780,Mohammad Saif Hassan,Middle Enforcer (Spin),Death Phase Option (Spin),125,65,Moderate Evidence,-0.1545,-0.2459,0.1085,-0.3923,-0.4388,0.3278,0.5385,0.0,4.0,-14.1,0,Elite Phase Specialist,HIGH-RISK
+28915,Trevor Gwandu,Middle Enforcer (Pace),Death Phase Option (Pace),162,55,Robust Evidence,-0.1516,-0.247,0.1133,-0.4271,-0.5189,0.3812,0.75,0.25,9.0,-34.2,0,Elite Phase Specialist,HIGH-RISK
+22565,Muhammad Waseem,Death Specialist (Pace),Middle Overs Enforcer (Pace),19,7,Sparse Evidence,-0.1302,-0.2548,0.1479,-1.9907,,0.8755,1.0,0.5,0.0,-16.8,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3253,Rohan Mustafa,Death Specialist (Spin),Powerplay Containment (Spin),26,9,Sparse Evidence,-0.1335,-0.2564,0.1459,-1.6172,,0.0,1.0,0.0,1.0,-11.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+6188,Simi Singh,Middle Enforcer (Pace),Middle Over Containment (Pace),12,12,Sparse Evidence,-0.136,-0.2564,0.143,-1.2692,,0.7083,1.0,0.0,0.0,-15.2,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+3383,Kinchit Shah,Death Specialist (Spin),Middle Overs Enforcer (Spin),60,22,Moderate Evidence,-0.1457,-0.2588,0.1343,-0.8078,-0.2202,0.3491,1.0,0.25,3.0,-40.1,0,Elite Phase Specialist,HIGH-RISK
+3285,Abu Haider,Death Specialist (Pace),Powerplay Containment (Pace),158,85,Robust Evidence,-0.1751,-0.2596,0.1004,-0.3811,0.9191,0.1,1.0,0.4,6.0,-60.3,0,Multi-Phase Versatile,HIGH-RISK
+7001,Dilon Heyliger,Death Specialist (Pace),Powerplay Containment (Pace),58,19,Moderate Evidence,-0.1488,-0.264,0.1368,-0.9319,-0.4539,0.1129,1.0,0.6667,3.0,-36.3,0,Elite Phase Specialist,HIGH-RISK
+4790,Lutho Sipamla,Death Specialist (Pace),Powerplay Containment (Pace),113,45,Moderate Evidence,-0.1695,-0.2695,0.1187,-0.5462,-0.3651,0.0649,1.0,0.6667,6.0,-36.9,0,Multi-Phase Versatile,HIGH-RISK
+7625,Suryansh Shedge,Middle Enforcer (Pace),Middle Over Containment (Pace),65,32,Moderate Evidence,-0.1628,-0.2697,0.1269,-0.6716,-1.0226,0.2278,0.75,0.0,0.0,-18.2,0,Elite Phase Specialist,HIGH-RISK
+31835,Akshay Roopak Puri,Middle Enforcer (Spin),Middle Over Containment (Spin),60,20,Moderate Evidence,-0.1743,-0.2888,0.136,-1.0457,-1.3056,0.5099,0.6667,0.0,4.0,-10.5,0,Elite Phase Specialist,HIGH-RISK
+3771,Vivian Kingma,Powerplay Specialist (Pace),Death Closer (Pace),106,31,Moderate Evidence,-0.1858,-0.2932,0.1276,-0.7851,-1.4086,0.4084,0.4,0.25,6.0,7.3,0,Elite Phase Specialist,HIGH-RISK
+4201,Fareed Malik,Middle Enforcer (Pace),Death Phase Option (Pace),316,143,Robust Evidence,-0.2311,-0.3017,0.0838,-0.3927,-0.3691,0.3486,0.7059,0.2857,23.0,-87.8,0,Multi-Phase Versatile,HIGH-RISK
+820,Nathan Coulter Nile,Death Specialist (Pace),Middle Overs Enforcer (Pace),20,20,Sparse Evidence,-0.191,-0.3055,0.136,-1.1462,,0.0,1.0,0.5,0.0,-22.9,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7544,Venkatesh Iyer,Middle Enforcer (Pace),Death Phase Option (Pace),49,27,Sparse Evidence,-0.1958,-0.3056,0.1305,-0.9208,-0.5494,0.3627,0.7143,0.5,2.0,-33.0,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7052,Dunith Wellalage,Middle Enforcer (Spin),Powerplay Strike Bowler (Spin),339,179,Robust Evidence,-0.2426,-0.3073,0.0768,-0.3782,-0.2868,0.2896,0.75,0.1818,20.0,-53.9,0,Elite Phase Specialist,HIGH-RISK
+3727,Matthew Short,Powerplay Specialist (Spin),Middle Overs Restrictor (Spin),161,37,Moderate Evidence,-0.2039,-0.3079,0.1236,-0.7548,-0.4673,0.3337,0.6667,0.4,9.0,-41.7,0,Elite Phase Specialist,HIGH-RISK
+19969,Mubasir Khan,Death Specialist (Spin),Middle Overs Enforcer (Spin),18,18,Sparse Evidence,-0.1979,-0.3138,0.1376,-1.2971,,0.0,1.0,0.0,0.0,-23.3,0,Elite Phase Specialist,INSUFFICIENT EVIDENCE
+7472,Shahbaz Ahmed,Middle Enforcer (Spin),Middle Over Containment (Spin),554,217,Robust Evidence,-0.2559,-0.3155,0.0709,-0.3738,0.061,0.3804,0.7143,0.0769,18.0,-164.9,0,Elite Phase Specialist,HIGH-RISK
+395,Karn Sharma,Middle Enforcer (Spin),Middle Over Containment (Spin),372,227,Robust Evidence,-0.2584,-0.317,0.0695,-0.3723,-0.9037,0.4452,0.6667,0.0,24.0,-111.4,0,Elite Phase Specialist,HIGH-RISK
+24475,Rehan Ahmed,Middle Enforcer (Spin),Middle Over Containment (Spin),211,73,Robust Evidence,-0.2481,-0.3366,0.1051,-0.588,-0.2224,0.2364,0.6364,0.25,13.0,-49.4,0,Elite Phase Specialist,HIGH-RISK
+7473,Akash Deep,Middle Enforcer (Pace),Death Phase Option (Pace),302,90,Robust Evidence,-0.2607,-0.3437,0.0986,-0.5503,-0.2371,0.2554,0.8571,0.1818,10.0,-91.3,0,Multi-Phase Versatile,HIGH-RISK
