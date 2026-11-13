@@ -13,7 +13,8 @@
 > - **Stage 4.0 (Completed & Remediated)**: Reliability architecture, estimand freeze (Spec B), player attribution audit, and lower uncertainty bound derivation.
 > - **Stage 4.1 (Completed & Verified)**: Multi-dimensional uncollapsed player evidence profiling across tactical roles and 6 reliability archetypes.
 > - **Stage 4.1.1 (Completed, Hardened & Reconciled)**: Independent reproduction, mathematical derivation of uncertainty bounds, genuine 15-branch methodological multiverse recomputation, strengthened clutch CEM matching, end-to-end data leakage provenance audit, and a comprehensive 28-point automated test suite (T01–T28, 100% pass rate).
-> - **STAGE 5: NOT YET EXECUTED (ABSOLUTE STOP CONDITION)**. In strict compliance with competition governance, **NO final player rankings, NO Top 10 lists, NO auction recommendations, NO bid prices, NO purse allocations, and NO composite scalar scores** have been generated.
+> - **Stage 5 (Completed & Verified)**: Candidate selection across 8 selection gates, tactical role portfolios, Final 10 Batters and Final 10 Bowlers, 20 analytical target dossiers, strategic auction board (MUST TARGET, TARGET, VALUE TARGET, BACKUP), and a 30-assertion automated test suite (T01–T30, 100% pass rate). Zero fabricated prices or single-score collapse.
+> - **Stage 6 (Final Competition Delivery & Submission Package)**: Repository truth reconciliation, player evidence defense dossiers, master evidence ledger, competition strategy narrative, judge defense briefs, provenance mapping, and a 35-assertion final verification gate.
 
 ---
 
@@ -135,6 +136,33 @@ python src/stage_4_1_1/leakage_audit.py
 python src/stage_4_1_1/test_stage_4_1_1.py
 ```
 
+### Step 7: Stage 5 Squad Assembly & Final Player Selection
+```bash
+# Enrich player evidence with 75 contextual dimensions
+python src/stage_5/build_stage_5_evidence.py
+
+# Execute selection gates, candidate pools, and final 10+10 selections
+python src/stage_5/candidate_selection.py
+
+# Generate 20 in-depth analytical player target dossiers
+python src/stage_5/generate_target_files.py
+
+# Generate auction board and strategic mission brief
+python src/stage_5/auction_strategy.py
+
+# Execute the 30-point Stage 5 automated test suite (T01 - T30)
+python src/stage_5/test_stage_5.py
+```
+
+### Step 8: Stage 6 Final Competition Delivery & Defense Package
+```bash
+# Execute Stage 6 evidence defense, provenance mapping, and submission compilation
+python src/stage_6/build_stage_6_defense.py
+
+# Execute the 35-point comprehensive Stage 6 verification suite (T01 - T35)
+python src/stage_6/test_stage_6.py
+```
+
 ---
 
 ## 4. Key Governance Invariants
@@ -143,7 +171,7 @@ python src/stage_4_1_1/test_stage_4_1_1.py
 2. **Zero Single-Score Collapse:** Player reliability is fundamentally multi-dimensional; no scalar "PinkOps Score" is computed.
 3. **Frequentist Lower Uncertainty Bound:** $\text{LUB}_{20} = \hat{\mu}_{\text{EB}} - 0.842 \cdot \text{SE}_{\text{EB}}$ acts as a conservative downside risk floor, penalizing small samples without distorting player ranks.
 4. **Isolated Super Overs:** Super Over deliveries (38 balls across 6 matches) are isolated in a dedicated stress register and excluded from regular 20-over expectation models.
-5. **No Final Selection:** Stage 5 (Squad Assembly, Role Portfolios, and Auction Strategy) will only be executed after formal gate approval.
+5. **Audited Selection & Zero Price Fabrication:** Final 10 Batters and Final 10 Bowlers are selected across 8 multidimensional gates. PinkOps strictly adheres to official competition rules and never fabricates artificial auction prices or purse limits.
 
 ---
 
