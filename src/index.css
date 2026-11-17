@@ -1,0 +1,73 @@
+@import './styles/tokens.css';
+@import './styles/cultural.css';
+@import './styles/animations.css';
+@import './styles/layout.css';
+
+/* Modern CSS Reset & Core Styling */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background-color: var(--color-parchment);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Accessible Focus States */
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 3px;
+}
+
+/* Headings Typography Base */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-maroon);
+  font-family: var(--font-decorative);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+p {
+  color: var(--color-ink-muted);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Utility Helpers */
+.text-center { text-align: center; }
+.text-maroon { color: var(--color-maroon); }
+.text-gold { color: var(--color-gold); }
+.text-peacock { color: var(--color-peacock); }
+.text-rani-pink { color: var(--color-rani-pink); }
+.text-saffron { color: var(--color-saffron); }
+
+.bg-parchment { background-color: var(--color-parchment); }
+.bg-parchment-light { background-color: var(--color-parchment-light); }
+.bg-maroon { background-color: var(--color-maroon); }
+.bg-maroon-dark { background-color: var(--color-maroon-dark); }
+.bg-peacock { background-color: var(--color-peacock); }
+
+.relative { position: relative; }
+.overflow-hidden { overflow: hidden; }
+
+/* Section Spacing */
+.section-py {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  .section-py {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+}

@@ -23,6 +23,10 @@ htmlcov/
 .env.local
 *.local
 
+# Dependencies
+node_modules/
+.pnpm-store/
+
 # IDEs
 .vscode/
 .idea/
