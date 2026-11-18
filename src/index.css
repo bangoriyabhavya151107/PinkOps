@@ -12,8 +12,8 @@
 
 body {
   font-family: var(--font-body);
-  color: var(--color-ink);
-  background-color: var(--color-parchment);
+  color: var(--color-text-main);
+  background-color: var(--color-void);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -21,20 +21,20 @@ body {
 
 /* Accessible Focus States */
 :focus-visible {
-  outline: 2px solid var(--color-gold);
+  outline: 2px solid var(--color-pinkops);
   outline-offset: 3px;
 }
 
 /* Headings Typography Base */
 h1, h2, h3, h4, h5, h6 {
-  color: var(--color-maroon);
+  color: var(--color-text-bright);
   font-family: var(--font-decorative);
   font-weight: 700;
   line-height: 1.25;
 }
 
 p {
-  color: var(--color-ink-muted);
+  color: var(--color-text-muted);
 }
 
 img {
@@ -42,19 +42,11 @@ img {
   display: block;
 }
 
-/* Utility Helpers */
+/* Tactical Utility Classes */
 .text-center { text-align: center; }
-.text-maroon { color: var(--color-maroon); }
+.text-pinkops { color: var(--color-pinkops); }
 .text-gold { color: var(--color-gold); }
-.text-peacock { color: var(--color-peacock); }
-.text-rani-pink { color: var(--color-rani-pink); }
-.text-saffron { color: var(--color-saffron); }
-
-.bg-parchment { background-color: var(--color-parchment); }
-.bg-parchment-light { background-color: var(--color-parchment-light); }
-.bg-maroon { background-color: var(--color-maroon); }
-.bg-maroon-dark { background-color: var(--color-maroon-dark); }
-.bg-peacock { background-color: var(--color-peacock); }
+.text-icevein { color: var(--color-icevein); }
 
 .relative { position: relative; }
 .overflow-hidden { overflow: hidden; }

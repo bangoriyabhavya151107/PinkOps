@@ -1,4 +1,5 @@
 import React from 'react';
+import { Shield, Lock, Activity, ExternalLink, Award, FileCode } from 'lucide-react';
 
 export default function Footer({ onNavigate }) {
   const currentYear = new Date().getFullYear();
@@ -17,138 +18,172 @@ export default function Footer({ onNavigate }) {
   };
 
   return (
-    <footer className="site-footer pt-16 pb-12">
+    <footer className="site-footer bg-[#070409] border-t border-dark-border/80 pt-16 pb-12 text-text-muted">
       <div className="site-container">
         
         {/* Main Footer Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-gold/20">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-dark-border/60">
           
           {/* Brand Column */}
           <div className="md:col-span-5">
             <div className="flex items-center gap-3 mb-4">
-              <span className="text-3xl">🦚</span>
+              <div className="w-10 h-10 rounded-lg bg-pinkops/15 border border-pinkops/40 flex items-center justify-center p-1.5 shadow-sm">
+                <img
+                  src="/images/761671355755999843.jpeg"
+                  alt="Rajasthan Royals Crest"
+                  className="w-full h-full object-contain rounded"
+                />
+              </div>
               <div>
-                <span className="font-heading-royal text-xl font-bold text-[#FFFDF9] block">
-                  RAJASTHAN
+                <span className="font-heading-royal text-xl font-bold text-white block tracking-wide">
+                  PINKOPS
                 </span>
-                <span className="text-xs font-semibold tracking-widest text-gold uppercase block">
-                  Cultural Dashboard Experience
+                <span className="font-mono text-xs font-semibold tracking-widest text-pinkops uppercase block">
+                  OPERATION PINK PANTHER
                 </span>
               </div>
             </div>
-            <p className="text-sm text-[#D8CAB5] leading-relaxed max-w-sm mb-6">
-              A bespoke digital celebration of Rajasthan’s royal architecture, living desert folklore, master craft guilds, and vibrant folk music traditions.
+
+            <p className="text-sm text-text-muted leading-relaxed max-w-sm mb-6">
+              Official advanced analytics platform engineered for the <strong className="text-white">Rajasthan Royals SupeRR Selector Season 2 (Round 1)</strong>. Objective: Identifying the 10 most pressure-reliable batters and bowlers from 200,999 competition deliveries.
             </p>
-            <div className="p-3 rounded-lg bg-black/20 border border-gold/20 text-xs text-[#E8DCC8]">
-              <span className="font-devanagari font-bold text-gold text-sm block mb-1">
-                अतिथि देवो भव • ATITHI DEVO BHAVA
-              </span>
-              <span>The guest is truly divine. A tribute to royal Rajasthani hospitality.</span>
+
+            <div className="p-3.5 rounded-lg bg-dark-card/60 border border-dark-border text-xs text-text-muted space-y-1">
+              <div className="flex items-center gap-2 text-pinkops font-mono font-bold tracking-wider text-[11px]">
+                <Activity className="w-3.5 h-3.5 animate-pulse" />
+                <span>ZERO CHOKE. ALL SMOKE.</span>
+              </div>
+              <p className="text-[11px] text-text-faint">
+                Tagline: <em className="text-white">Finding the Next Legend</em> • Powered by Choke Detector™, IceVein Score™, Pressure Lens™, and Smoke Test™.
+              </p>
             </div>
           </div>
 
-          {/* Quick Navigation Links */}
+          {/* Quick Tactical Navigation */}
           <div className="md:col-span-3 sm:col-span-6">
-            <h4 className="text-sm font-bold uppercase tracking-wider text-gold mb-4 font-body">
-              Heritage Navigation
+            <h4 className="text-xs font-mono font-bold uppercase tracking-widest text-white mb-4 flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-pinkops" />
+              <span>War Room Navigation</span>
             </h4>
             <ul className="flex flex-col gap-2.5 text-sm list-none p-0 m-0">
               <li>
                 <button
-                  onClick={() => handleLink('/', 'hero')}
-                  className="bg-transparent border-0 text-[#E0D5C1] hover:text-gold cursor-pointer p-0 text-left"
+                  onClick={() => handleLink('/', 'mission')}
+                  className="bg-transparent border-0 text-text-muted hover:text-pinkops transition-colors cursor-pointer p-0 text-left font-body"
                 >
-                  Royal Welcome
+                  The Mission & 7 Criteria
                 </button>
               </li>
               <li>
                 <button
-                  onClick={() => handleLink('/', 'story')}
-                  className="bg-transparent border-0 text-[#E0D5C1] hover:text-gold cursor-pointer p-0 text-left"
+                  onClick={() => handleLink('/', 'pressure')}
+                  className="bg-transparent border-0 text-text-muted hover:text-pinkops transition-colors cursor-pointer p-0 text-left font-body"
                 >
-                  Visual Chronicles
+                  Live Pressure Simulator
                 </button>
               </li>
               <li>
                 <button
-                  onClick={() => handleLink('/', 'craft')}
-                  className="bg-transparent border-0 text-[#E0D5C1] hover:text-gold cursor-pointer p-0 text-left"
+                  onClick={() => handleLink('/', 'intelligence')}
+                  className="bg-transparent border-0 text-text-muted hover:text-pinkops transition-colors cursor-pointer p-0 text-left font-body"
                 >
-                  Three Craft Acts
+                  4 Analytical Pillars
                 </button>
               </li>
               <li>
                 <button
-                  onClick={() => handleLink('/', 'dashboard')}
-                  className="bg-transparent border-0 text-[#E0D5C1] hover:text-gold cursor-pointer p-0 text-left"
+                  onClick={() => handleLink('/', 'methodology')}
+                  className="bg-transparent border-0 text-text-muted hover:text-pinkops transition-colors cursor-pointer p-0 text-left font-body"
                 >
-                  Cultural Dashboard
+                  8-Stage Pipeline & Data Audit
                 </button>
               </li>
               <li>
                 <button
-                  onClick={() => handleLink('/', 'gallery')}
-                  className="bg-transparent border-0 text-[#E0D5C1] hover:text-gold cursor-pointer p-0 text-left"
+                  onClick={() => handleLink('/', 'board')}
+                  className="bg-transparent border-0 text-text-muted hover:text-pinkops transition-colors cursor-pointer p-0 text-left font-body"
                 >
-                  28 Artifact Archive
+                  The PinkOps Board (Top 10)
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => handleLink('/', 'rr-context')}
+                  className="bg-transparent border-0 text-text-muted hover:text-pinkops transition-colors cursor-pointer p-0 text-left font-body"
+                >
+                  RR 2027 Squad Context
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => handleLink('/', 'brief')}
+                  className="bg-transparent border-0 text-text-muted hover:text-pinkops transition-colors cursor-pointer p-0 text-left font-body"
+                >
+                  Mission Brief & Synthesis
                 </button>
               </li>
             </ul>
           </div>
 
-          {/* Legal & Governance */}
+          {/* Governance & Confidentiality */}
           <div className="md:col-span-4 sm:col-span-6">
-            <h4 className="text-sm font-bold uppercase tracking-wider text-gold mb-4 font-body">
-              Platform & Legal
+            <h4 className="text-xs font-mono font-bold uppercase tracking-widest text-white mb-4 flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-icevein" />
+              <span>Governance & Data Rigor</span>
             </h4>
-            <ul className="flex flex-col gap-2.5 text-sm list-none p-0 m-0 mb-6">
+            <ul className="flex flex-col gap-2.5 text-sm list-none p-0 m-0 mb-5">
               <li>
                 <button
                   onClick={() => handleLink('/privacy')}
-                  className="bg-transparent border-0 text-[#E0D5C1] hover:text-gold cursor-pointer p-0 text-left flex items-center gap-1.5"
+                  className="bg-transparent border-0 text-text-muted hover:text-icevein transition-colors cursor-pointer p-0 text-left flex items-center gap-1.5 font-body"
                 >
-                  <span>Privacy Policy</span>
-                  <span className="text-xs text-gold">↗</span>
+                  <Lock className="w-3.5 h-3.5 text-icevein" />
+                  <span>Confidentiality & Data Privacy</span>
                 </button>
               </li>
               <li>
                 <button
                   onClick={() => handleLink('/terms')}
-                  className="bg-transparent border-0 text-[#E0D5C1] hover:text-gold cursor-pointer p-0 text-left flex items-center gap-1.5"
+                  className="bg-transparent border-0 text-text-muted hover:text-icevein transition-colors cursor-pointer p-0 text-left flex items-center gap-1.5 font-body"
                 >
-                  <span>Terms & Conditions</span>
-                  <span className="text-xs text-gold">↗</span>
+                  <Shield className="w-3.5 h-3.5 text-icevein" />
+                  <span>Competition Terms & IP Stewardship</span>
                 </button>
               </li>
             </ul>
 
-            <div className="text-xs text-[#C2B5A0] leading-normal border-t border-gold/10 pt-4">
-              <span className="font-semibold text-gold block mb-1">Authentic Project Disclosure</span>
-              This dashboard is an interactive frontend cultural showcase. It does not perform commercial booking or collect personal payment data.
+            <div className="text-xs text-text-faint leading-relaxed border-t border-dark-border/40 pt-4 space-y-2">
+              <div className="flex items-center gap-1.5 text-sandstone font-mono font-semibold">
+                <Award className="w-3.5 h-3.5" />
+                <span>Proprietary Dataset Protection</span>
+              </div>
+              <p>
+                Evaluated against the official competition dataset (200,999 balls, 883 matches, 1,217 players, 6 Super Overs). No raw ball-by-ball microdata is harvested, exposed, or downloaded.
+              </p>
             </div>
           </div>
 
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-[#C4B6A2] gap-4">
-          <p>© {currentYear} Rajasthan Cultural Heritage Dashboard • PinkOps Project. All rights reserved.</p>
-          <div className="flex items-center gap-6">
+        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-text-faint gap-4 font-mono">
+          <p>© {currentYear} PinkOps • Operation Pink Panther • Rajasthan Royals SupeRR Selector S2 R1.</p>
+          <div className="flex items-center gap-5">
             <button
               onClick={() => handleLink('/privacy')}
-              className="bg-transparent border-0 text-[#C4B6A2] hover:text-gold cursor-pointer p-0"
+              className="bg-transparent border-0 text-text-faint hover:text-pinkops transition-colors cursor-pointer p-0"
             >
               Privacy
             </button>
-            <span className="text-gold/40">•</span>
+            <span className="text-dark-border">•</span>
             <button
               onClick={() => handleLink('/terms')}
-              className="bg-transparent border-0 text-[#C4B6A2] hover:text-gold cursor-pointer p-0"
+              className="bg-transparent border-0 text-text-faint hover:text-pinkops transition-colors cursor-pointer p-0"
             >
               Terms
             </button>
-            <span className="text-gold/40">•</span>
-            <span className="text-gold">खम्मा घणी सा</span>
+            <span className="text-dark-border">•</span>
+            <span className="text-pinkops font-bold">HALLA BOL! ⚡</span>
           </div>
         </div>
 

@@ -1,269 +1,244 @@
-/* Cultural Visual Language & Reusable Decorative Motifs */
+/* Tactical War-Room Styling & PinkOps Visual Language */
 
-/* Subtle paper texture overlay */
-.bg-parchment-texture {
-  background-color: var(--color-parchment);
+/* Dark Tactical Grid & Radar Overlay */
+.bg-tactical-grid {
+  background-color: var(--color-void);
   background-image: 
-    radial-gradient(circle at 10% 20%, rgba(212, 160, 23, 0.03) 0%, transparent 20%),
-    radial-gradient(circle at 90% 80%, rgba(227, 28, 121, 0.03) 0%, transparent 25%),
-    radial-gradient(circle at 50% 50%, rgba(0, 130, 114, 0.02) 0%, transparent 40%);
+    linear-gradient(to right, rgba(255, 42, 133, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 42, 133, 0.04) 1px, transparent 1px),
+    radial-gradient(circle at 50% 0%, rgba(227, 28, 121, 0.12) 0%, transparent 60%);
+  background-size: 40px 40px, 40px 40px, 100% 100%;
   background-attachment: fixed;
 }
 
-/* Regal Heading Styles */
-.font-heading-royal {
-  font-family: var(--font-decorative);
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.font-editorial-story {
-  font-family: var(--font-editorial);
-  letter-spacing: 0.01em;
-}
-
-.font-devanagari-script {
-  font-family: var(--font-devanagari);
-}
-
-/* Jharokha Arch SVG & Shape Utilities */
-.jharokha-frame {
+/* Tactical HUD Panels */
+.hud-panel {
+  background: rgba(18, 12, 23, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--color-dark-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-tactical);
   position: relative;
-  background: var(--color-card-bg);
-  border: 1px solid var(--color-card-border);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-parchment);
-  transition: transform var(--transition-normal), box-shadow var(--transition-normal), border-color var(--transition-normal);
+  transition: transform var(--transition-normal), border-color var(--transition-normal), box-shadow var(--transition-normal);
 }
 
-.jharokha-frame:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-parchment-hover);
-  border-color: var(--color-card-border-hover);
+.hud-panel:hover {
+  border-color: var(--color-dark-border-hover);
+  box-shadow: var(--shadow-tactical-hover);
 }
 
-/* Traditional Ornamental Divider */
-.ornamental-divider {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  margin: 2rem auto;
-  width: 100%;
-  max-width: 480px;
-}
-
-.ornamental-line {
-  flex: 1;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
-}
-
-.ornamental-motif {
-  color: var(--color-maroon);
-  font-size: 1.25rem;
-  line-height: 1;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Golden Border Accents */
-.border-gold-accent {
-  border: 1px solid rgba(212, 160, 23, 0.35);
-}
-
-.border-maroon-accent {
-  border: 1px solid rgba(92, 19, 36, 0.2);
-}
-
-/* Traditional Indian Corner Flourish */
-.corner-flourish {
+/* Cyber / HUD Corner Brackets */
+.hud-bracket,
+.corner-bracket {
   position: absolute;
-  width: 24px;
-  height: 24px;
+  width: 12px;
+  height: 12px;
   pointer-events: none;
-  border-color: var(--color-gold);
+  border-color: var(--color-pinkops);
 }
 
-.corner-tl {
-  top: 10px;
-  left: 10px;
+.bracket-tl {
+  top: -1px;
+  left: -1px;
   border-top: 2px solid;
   border-left: 2px solid;
 }
 
-.corner-tr {
-  top: 10px;
-  right: 10px;
+.bracket-tr {
+  top: -1px;
+  right: -1px;
   border-top: 2px solid;
   border-right: 2px solid;
 }
 
-.corner-bl {
-  bottom: 10px;
-  left: 10px;
+.bracket-bl {
+  bottom: -1px;
+  left: -1px;
   border-bottom: 2px solid;
   border-left: 2px solid;
 }
 
-.corner-br {
-  bottom: 10px;
-  right: 10px;
+.bracket-br {
+  bottom: -1px;
+  right: -1px;
   border-bottom: 2px solid;
   border-right: 2px solid;
 }
 
-/* Animated Hover Underline */
-.nav-link-animated {
+/* Neon Glow Typography */
+.neon-pink-text {
+  color: var(--color-pinkops);
+  text-shadow: 0 0 12px var(--color-pinkops-glow), 0 0 24px rgba(255, 42, 133, 0.25);
+}
+
+.neon-cyan-text {
+  color: var(--color-icevein);
+  text-shadow: 0 0 10px var(--color-icevein-glow);
+}
+
+.neon-gold-text {
+  color: var(--color-gold-light);
+  text-shadow: 0 0 10px var(--color-gold-glow);
+}
+
+/* Tactical Navigation Links */
+.nav-link-tactical {
   position: relative;
-  display: inline-block;
-  color: var(--color-maroon);
+  color: var(--color-text-muted);
   font-family: var(--font-body);
   font-weight: 600;
-  font-size: 0.95rem;
-  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   text-decoration: none;
-  padding: 0.35rem 0.15rem;
+  padding: 0.5rem 0.25rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
   transition: color var(--transition-fast);
 }
 
-.nav-link-animated::after {
+.nav-link-tactical:hover {
+  color: var(--color-text-bright);
+}
+
+.nav-link-tactical.active {
+  color: var(--color-pinkops);
+}
+
+.nav-link-tactical::after {
   content: '';
   position: absolute;
   bottom: 0;
   left: 0;
   width: 0%;
   height: 2px;
-  background: linear-gradient(90deg, var(--color-saffron), var(--color-rani-pink));
-  border-radius: 2px;
+  background: linear-gradient(90deg, var(--color-pinkops), var(--color-gold));
   transition: width var(--transition-normal);
 }
 
-.nav-link-animated:hover::after,
-.nav-link-animated.active::after {
+.nav-link-tactical:hover::after,
+.nav-link-tactical.active::after {
   width: 100%;
 }
 
-.nav-link-animated.active {
-  color: var(--color-rani-pink);
-}
-
-/* Buttons */
-.btn-royal-primary {
+/* Action Buttons */
+.btn-pinkops-primary {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 0.6rem;
-  background: var(--color-maroon);
-  color: #FFFDF9;
-  font-family: var(--font-body);
-  font-weight: 600;
-  font-size: 0.95rem;
-  letter-spacing: 0.05em;
-  padding: 0.75rem 1.6rem;
-  border-radius: var(--radius-sm);
-  border: 1px solid rgba(212, 160, 23, 0.4);
-  box-shadow: 0 4px 14px rgba(92, 19, 36, 0.25);
-  cursor: pointer;
-  text-decoration: none;
-  transition: transform var(--transition-normal), box-shadow var(--transition-normal), background-color var(--transition-normal);
-}
-
-.btn-royal-primary:hover {
-  background: var(--color-maroon-light);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 22px rgba(92, 19, 36, 0.35), var(--shadow-gold-glow);
-}
-
-.btn-royal-secondary {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.6rem;
-  background: rgba(255, 252, 247, 0.85);
-  color: var(--color-maroon);
-  font-family: var(--font-body);
-  font-weight: 600;
-  font-size: 0.95rem;
-  letter-spacing: 0.05em;
-  padding: 0.75rem 1.6rem;
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--color-maroon);
-  cursor: pointer;
-  text-decoration: none;
-  transition: transform var(--transition-normal), background-color var(--transition-normal), color var(--transition-normal);
-}
-
-.btn-royal-secondary:hover {
-  background: var(--color-maroon);
-  color: #FFFDF9;
-  transform: translateY(-2px);
-}
-
-/* Tag / Category Pills */
-.category-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  padding: 0.45rem 1rem;
-  font-size: 0.85rem;
-  font-weight: 600;
-  letter-spacing: 0.03em;
-  border-radius: var(--radius-full);
-  border: 1px solid rgba(92, 19, 36, 0.15);
-  background: rgba(255, 253, 249, 0.85);
-  color: var(--color-ink-muted);
-  cursor: pointer;
-  transition: all var(--transition-normal);
-}
-
-.category-pill:hover,
-.category-pill.active {
-  background: var(--color-maroon);
+  background: linear-gradient(135deg, var(--color-pinkops) 0%, #C2185B 100%);
   color: #FFFFFF;
-  border-color: var(--color-maroon);
-  box-shadow: 0 2px 10px rgba(92, 19, 36, 0.2);
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.75rem 1.75rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 16px rgba(255, 42, 133, 0.35);
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
 }
 
-/* Subtle image frame treatment */
-.cultural-image-frame {
-  position: relative;
-  overflow: hidden;
-  border-radius: var(--radius-md);
-  background: #FDFBF7;
+.btn-pinkops-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 42, 133, 0.55);
 }
 
-.cultural-image-frame img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  transition: transform 0.6s var(--ease-smooth);
-}
-
-.cultural-image-frame:hover img {
-  transform: scale(1.03);
-}
-
-/* Parchment Card */
-.parchment-card {
-  background: var(--color-card-bg);
-  border: 1px solid var(--color-card-border);
-  border-radius: var(--radius-md);
-  padding: 1.75rem;
-  box-shadow: var(--shadow-parchment);
-  position: relative;
+.btn-pinkops-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  background: rgba(27, 18, 34, 0.8);
+  color: var(--color-text-main);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.75rem 1.6rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 42, 133, 0.3);
+  cursor: pointer;
+  text-decoration: none;
   transition: all var(--transition-normal);
 }
 
-.parchment-card:hover {
-  border-color: var(--color-card-border-hover);
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-parchment-hover);
+.btn-pinkops-secondary:hover {
+  background: rgba(255, 42, 133, 0.15);
+  border-color: var(--color-pinkops);
+  color: #FFFFFF;
+  transform: translateY(-2px);
 }
 
-/* Neon Halla Bol script effect */
-.neon-pink-text {
-  color: var(--color-rani-pink);
-  text-shadow: 0 0 10px rgba(227, 28, 121, 0.6), 0 0 25px rgba(227, 28, 121, 0.35);
+/* Auction Strategy Badges */
+.badge-must-target {
+  background: rgba(255, 42, 133, 0.2);
+  color: var(--color-pinkops);
+  border: 1px solid rgba(255, 42, 133, 0.5);
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-xs);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.badge-target {
+  background: rgba(0, 229, 255, 0.15);
+  color: var(--color-icevein);
+  border: 1px solid rgba(0, 229, 255, 0.4);
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-xs);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.badge-value-target {
+  background: rgba(212, 160, 23, 0.18);
+  color: var(--color-gold-light);
+  border: 1px solid rgba(212, 160, 23, 0.45);
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-xs);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.badge-backup {
+  background: rgba(168, 156, 176, 0.15);
+  color: var(--color-text-muted);
+  border: 1px solid rgba(168, 156, 176, 0.3);
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-xs);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Live Pressure Intensity Meter */
+.pressure-meter-track {
+  width: 100%;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.pressure-meter-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #00E5FF 0%, #FFAB00 50%, #FF2A85 100%);
+  border-radius: 5px;
+  transition: width 0.4s var(--ease-tactical);
 }

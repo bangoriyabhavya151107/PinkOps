@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import StorySection from './components/StorySection';
-import StickyStorySection from './components/StickyStorySection';
-import DashboardArea from './components/DashboardArea';
-import HorizontalShowcase from './components/HorizontalShowcase';
-import GallerySection from './components/GallerySection';
-import CTASection from './components/CTASection';
+import PinkOpsHeader from './components/PinkOpsHeader';
+import HeroWarRoom from './components/HeroWarRoom';
+import MissionSection from './components/MissionSection';
+import PressureEngineSection from './components/PressureEngineSection';
+import AnalyticsPillarsSection from './components/AnalyticsPillarsSection';
+import InteractiveMethodology from './components/InteractiveMethodology';
+import PinkOpsBoard from './components/PinkOpsBoard';
+import RRSquadContext from './components/RRSquadContext';
+import MissionBriefFinal from './components/MissionBriefFinal';
 import Footer from './components/Footer';
-import LightboxModal from './components/LightboxModal';
+import TargetFileModal from './components/TargetFileModal';
 import CustomCursor from './components/CustomCursor';
 import PrivacyPage from './pages/PrivacyPage';
 import TermsPage from './pages/TermsPage';
-import { IMAGES_DATA } from './assets/imagesData';
 
 export default function App() {
   const [currentRoute, setCurrentRoute] = useState(() => {
@@ -23,7 +23,7 @@ export default function App() {
 
   const [activeSection, setActiveSection] = useState('hero');
   const [scrollProgress, setScrollProgress] = useState(0);
-  const [selectedImageId, setSelectedImageId] = useState(null);
+  const [selectedPlayer, setSelectedPlayer] = useState(null);
 
   // Sync route with browser history (Back / Forward buttons)
   useEffect(() => {
@@ -48,7 +48,7 @@ export default function App() {
     }
   };
 
-  // Track scroll progress and active section
+  // Track scroll progress and active section spy
   useEffect(() => {
     if (currentRoute !== '/') return;
 
@@ -59,12 +59,12 @@ export default function App() {
       setScrollProgress(scrolled);
 
       // Section spy
-      const sections = ['hero', 'story', 'craft', 'dashboard', 'gallery'];
+      const sections = ['hero', 'mission', 'pressure', 'intelligence', 'methodology', 'board', 'rr-context', 'brief'];
       for (const sectionId of sections) {
         const el = document.getElementById(sectionId);
         if (el) {
           const rect = el.getBoundingClientRect();
-          if (rect.top <= 200 && rect.bottom >= 200) {
+          if (rect.top <= 240 && rect.bottom >= 100) {
             setActiveSection(sectionId);
             break;
           }
@@ -82,46 +82,30 @@ export default function App() {
       setTimeout(() => {
         const el = document.getElementById(sectionId);
         if (el) el.scrollIntoView({ behavior: 'smooth' });
-      }, 100);
+      }, 120);
     } else {
       const el = document.getElementById(sectionId);
       if (el) el.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
-  // Lightbox Modal helpers
-  const currentImageIndex = IMAGES_DATA.findIndex(img => img.id === selectedImageId);
-  const currentImage = currentImageIndex !== -1 ? IMAGES_DATA[currentImageIndex] : null;
-
-  const handlePrevImage = () => {
-    if (currentImageIndex > 0) {
-      setSelectedImageId(IMAGES_DATA[currentImageIndex - 1].id);
-    }
-  };
-
-  const handleNextImage = () => {
-    if (currentImageIndex < IMAGES_DATA.length - 1) {
-      setSelectedImageId(IMAGES_DATA[currentImageIndex + 1].id);
-    }
-  };
-
   return (
-    <div className="relative min-h-screen bg-parchment text-ink selection:bg-gold/30 selection:text-maroon">
+    <div className="relative min-h-screen bg-[#09060B] text-text-main selection:bg-pinkops/30 selection:text-white font-body">
       {/* Scroll Progress Bar */}
-      <div className="scroll-progress-container">
+      <div className="scroll-progress-container" aria-hidden="true">
         <div 
           className="scroll-progress-bar"
           style={{ width: `${scrollProgress}%` }}
         />
       </div>
 
-      {/* Subtle Custom Cursor (Desktop Only) */}
+      {/* Subtle Tactical Cursor (Desktop Only) */}
       <CustomCursor />
 
-      {/* Dedicated Legal Route: Privacy Policy */}
+      {/* Dedicated Legal Route: Confidentiality & Privacy */}
       {currentRoute === '/privacy' && (
         <>
-          <Header currentRoute="/privacy" onNavigate={navigate} />
+          <PinkOpsHeader currentRoute="/privacy" onNavigate={navigate} />
           <main>
             <PrivacyPage onNavigate={navigate} />
           </main>
@@ -129,10 +113,10 @@ export default function App() {
         </>
       )}
 
-      {/* Dedicated Legal Route: Terms & Conditions */}
+      {/* Dedicated Legal Route: Terms & Governance */}
       {currentRoute === '/terms' && (
         <>
-          <Header currentRoute="/terms" onNavigate={navigate} />
+          <PinkOpsHeader currentRoute="/terms" onNavigate={navigate} />
           <main>
             <TermsPage onNavigate={navigate} />
           </main>
@@ -140,44 +124,51 @@ export default function App() {
         </>
       )}
 
-      {/* Main Interactive Rajasthani Dashboard Experience */}
+      {/* Main War Room Presentation Layer */}
       {currentRoute === '/' && (
         <>
-          <Header
+          <PinkOpsHeader
             currentRoute="/"
             onNavigate={navigate}
             activeSection={activeSection}
           />
           <main>
-            <Hero
-              onExploreStory={() => scrollToSection('story')}
-              onExploreGallery={() => scrollToSection('gallery')}
+            {/* Hero War Room & Strategic Question */}
+            <HeroWarRoom
+              onExploreMission={() => scrollToSection('mission')}
+              onExploreBoard={() => scrollToSection('board')}
             />
-            <StorySection onSelectImage={setSelectedImageId} />
-            <StickyStorySection onSelectImage={setSelectedImageId} />
-            <DashboardArea onSelectImage={setSelectedImageId} />
-            <HorizontalShowcase onSelectImage={setSelectedImageId} />
-            <GallerySection onSelectImage={setSelectedImageId} />
-            <CTASection
-              onScrollToTop={() => scrollToSection('hero')}
-              onExploreDashboard={() => scrollToSection('dashboard')}
-            />
+
+            {/* The Mission & 7 Non-Negotiable Criteria */}
+            <MissionSection />
+
+            {/* Live Interactive Pressure Engine Simulator */}
+            <PressureEngineSection />
+
+            {/* 4 Proprietary Analytics Pillars */}
+            <AnalyticsPillarsSection />
+
+            {/* 8-Stage Methodology Pipeline & Data Integrity Audit */}
+            <InteractiveMethodology />
+
+            {/* The PinkOps Board: Final 10 Batters & Final 10 Bowlers */}
+            <PinkOpsBoard onSelectPlayer={(player) => setSelectedPlayer(player)} />
+
+            {/* Rajasthan Royals IPL 2027 Context */}
+            <RRSquadContext onSelectPlayer={(player) => setSelectedPlayer(player)} />
+
+            {/* Executive Synthesis: Key Findings & Tactical Takeaways */}
+            <MissionBriefFinal onSelectPlayer={(player) => setSelectedPlayer(player)} />
           </main>
           <Footer onNavigate={navigate} />
         </>
       )}
 
-      {/* Accessible Lightbox Modal */}
-      {currentImage && (
-        <LightboxModal
-          item={currentImage}
-          onClose={() => setSelectedImageId(null)}
-          onPrev={handlePrevImage}
-          onNext={handleNextImage}
-          hasPrev={currentImageIndex > 0}
-          hasNext={currentImageIndex < IMAGES_DATA.length - 1}
-          currentIndex={currentImageIndex}
-          totalCount={IMAGES_DATA.length}
+      {/* Interactive Target File Dossier Modal */}
+      {selectedPlayer && (
+        <TargetFileModal
+          player={selectedPlayer}
+          onClose={() => setSelectedPlayer(null)}
         />
       )}
     </div>

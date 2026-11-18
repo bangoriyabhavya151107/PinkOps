@@ -1,69 +1,63 @@
 :root {
-  /* Royal Rajasthani Color System */
-  --color-parchment: #FAF6EE;
-  --color-parchment-light: #FDFBF7;
-  --color-parchment-dark: #F2E8D7;
-  --color-sand: #EADBC8;
+  /* Tactical PinkOps Dark War-Room Color System */
+  --color-void: #09060B;
+  --color-dark-surface: #120C17;
+  --color-dark-elevated: #1B1222;
+  --color-dark-border: rgba(255, 42, 133, 0.18);
+  --color-dark-border-hover: rgba(255, 42, 133, 0.5);
   
-  --color-maroon: #5C1324;
-  --color-maroon-dark: #3F0C18;
-  --color-maroon-light: #7E1E34;
+  /* Brand PinkOps & Rajasthan Royals */
+  --color-pinkops: #FF2A85;
+  --color-pinkops-glow: rgba(255, 42, 133, 0.4);
+  --color-rr-pink: #E31C79;
+  --color-rr-pink-deep: #A00F4E;
   
-  --color-peacock: #008272;
-  --color-peacock-light: #0E8388;
-  --color-peacock-dark: #00564C;
-  
-  --color-saffron: #E65C00;
-  --color-saffron-light: #F57C20;
-  --color-marigold: #F4B400;
-  
+  /* Sovereign Sandstone Gold */
   --color-gold: #D4A017;
-  --color-gold-light: #E8B938;
-  --color-gold-foil: linear-gradient(135deg, #D4A017 0%, #FFD700 50%, #B8860B 100%);
+  --color-gold-light: #F4B400;
+  --color-gold-glow: rgba(212, 160, 23, 0.35);
   
-  --color-rani-pink: #E31C79;
-  --color-rani-pink-light: #FF449B;
-  --color-peach: #FFB8B2;
-  --color-peach-light: #FFE3E0;
+  /* Tactical IceVein Cyan */
+  --color-icevein: #00E5FF;
+  --color-icevein-dim: #0E8388;
+  --color-icevein-glow: rgba(0, 229, 255, 0.35);
   
-  --color-ink: #241E1C;
-  --color-ink-muted: #5E524D;
-  --color-ink-subtle: #877771;
-  --color-white: #FFFFFF;
+  /* Status Colors */
+  --color-status-green: #00E676;
+  --color-status-red: #FF3D00;
+  --color-status-amber: #FFAB00;
   
-  /* Background Card & Surfaces */
-  --color-card-bg: rgba(255, 252, 247, 0.94);
-  --color-card-border: rgba(92, 19, 36, 0.12);
-  --color-card-border-hover: rgba(212, 160, 23, 0.55);
-
+  /* Text Contrast Hierarchy */
+  --color-text-bright: #FFFFFF;
+  --color-text-main: #F3EDF7;
+  --color-text-muted: #A89CB0;
+  --color-text-faint: #6E6178;
+  
   /* Typography System */
   --font-display: 'Cinzel', serif;
   --font-decorative: 'Cinzel Decorative', 'Cinzel', serif;
   --font-editorial: 'Cormorant Garamond', Georgia, serif;
   --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
-  --font-devanagari: 'Rozha One', 'Yatra One', cursive;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
 
-  /* Shadows & Depth */
-  --shadow-sm: 0 2px 8px -1px rgba(92, 19, 36, 0.06);
-  --shadow-parchment: 0 8px 24px -4px rgba(92, 19, 36, 0.08), 0 2px 6px -1px rgba(92, 19, 36, 0.04);
-  --shadow-parchment-hover: 0 16px 36px -6px rgba(92, 19, 36, 0.16), 0 4px 12px -2px rgba(92, 19, 36, 0.08);
-  --shadow-gold-glow: 0 0 25px rgba(212, 160, 23, 0.35);
-  --shadow-pink-glow: 0 0 30px rgba(227, 28, 121, 0.4);
+  /* Shadows & Tactical Glows */
+  --shadow-tactical: 0 4px 20px -2px rgba(0, 0, 0, 0.6), 0 0 15px rgba(255, 42, 133, 0.08);
+  --shadow-tactical-hover: 0 12px 32px -4px rgba(0, 0, 0, 0.8), 0 0 25px rgba(255, 42, 133, 0.25);
+  --shadow-icevein-glow: 0 0 25px rgba(0, 229, 255, 0.3);
+  --shadow-gold-glow: 0 0 20px rgba(212, 160, 23, 0.3);
 
   /* Border Radii */
-  --radius-xs: 4px;
-  --radius-sm: 8px;
-  --radius-md: 14px;
-  --radius-lg: 22px;
-  --radius-xl: 32px;
+  --radius-xs: 3px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
   --radius-full: 9999px;
 
   /* Animation Easing */
-  --ease-smooth: cubic-bezier(0.16, 1, 0.3, 1);
-  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
-  --transition-fast: 0.2s var(--ease-smooth);
-  --transition-normal: 0.35s var(--ease-smooth);
-  --transition-slow: 0.6s var(--ease-smooth);
+  --ease-tactical: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 0.15s var(--ease-tactical);
+  --transition-normal: 0.3s var(--ease-tactical);
+  --transition-slow: 0.5s var(--ease-tactical);
 
   /* Z-Index Hierarchy */
   --z-base: 1;

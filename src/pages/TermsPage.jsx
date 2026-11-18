@@ -1,134 +1,131 @@
 import React, { useEffect } from 'react';
-import OrnamentalDivider from '../components/OrnamentalDivider';
-import { ArrowLeft, BookOpen, Scale, AlertCircle, FileCheck, CheckCircle2 } from 'lucide-react';
+import { ArrowLeft, BookOpen, Scale, AlertCircle, FileCheck, Award, Zap } from 'lucide-react';
 
 export default function TermsPage({ onNavigate }) {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
-    document.title = 'Terms & Conditions — Rajasthan Heritage Dashboard';
+    document.title = 'Competition Terms & Governance — PinkOps War Room';
   }, []);
 
   return (
-    <div className="min-h-screen bg-parchment-texture py-12">
+    <div className="min-h-screen bg-[#09060B] py-12 text-text-main">
       <div className="site-container max-w-4xl mx-auto">
         
         {/* Navigation Back */}
         <div className="mb-8">
           <button
             onClick={() => onNavigate('/')}
-            className="inline-flex items-center gap-2 text-sm font-bold text-maroon hover:text-gold transition-colors bg-transparent border-0 cursor-pointer"
+            className="inline-flex items-center gap-2 text-sm font-mono font-bold text-pinkops hover:text-white transition-colors bg-transparent border-0 cursor-pointer"
           >
             <ArrowLeft className="w-4 h-4" />
-            <span>Return to Rajasthan Cultural Dashboard</span>
+            <span>RETURN TO WAR ROOM</span>
           </button>
         </div>
 
-        {/* Regal Cultural Header Banner */}
-        <div className="jharokha-frame p-8 sm:p-12 text-center bg-gradient-to-b from-[#FFFDF9] to-[#FAF4E8] mb-12">
-          <div className="corner-flourish corner-tl" />
-          <div className="corner-flourish corner-tr" />
-          <div className="corner-flourish corner-bl" />
-          <div className="corner-flourish corner-br" />
+        {/* War Room Header Banner */}
+        <div className="hud-panel p-8 sm:p-12 text-center bg-gradient-to-b from-[#140E1B] to-[#0D0813] mb-12 border border-pinkops/30">
+          <div className="corner-bracket bracket-tl" />
+          <div className="corner-bracket bracket-tr" />
+          <div className="corner-bracket bracket-bl" />
+          <div className="corner-bracket bracket-br" />
 
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-gold/15 text-maroon text-xs font-bold uppercase tracking-wider mb-4 border border-gold/40">
-            <Scale className="w-3.5 h-3.5 text-gold" />
-            <span>Platform Terms & Cultural Stewardship</span>
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-icevein/15 text-icevein text-xs font-mono font-bold uppercase tracking-wider mb-4 border border-icevein/30">
+            <Scale className="w-3.5 h-3.5" />
+            <span>TERMS & COMPETITION GOVERNANCE</span>
           </div>
 
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-maroon mb-4">
-            Terms & Conditions
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mb-4 tracking-tight">
+            Terms of Use & Analytical Integrity
           </h1>
 
-          <p className="text-sm sm:text-base text-ink-muted max-w-xl mx-auto font-editorial text-lg italic">
-            Governance guidelines, intellectual property stewardship, and terms of use for the Rajasthan Cultural Heritage Dashboard.
+          <p className="text-sm sm:text-base text-text-muted max-w-xl mx-auto font-mono text-xs uppercase tracking-widest text-text-faint">
+            Rajasthan Royals SupeRR Selector Season 2 • Round 1 Competition Governance
           </p>
-
-          <OrnamentalDivider motif="✦" className="mt-6" />
         </div>
 
         {/* Terms Content Container */}
-        <div className="parchment-card p-6 sm:p-10 space-y-8 text-ink">
+        <div className="space-y-8">
           
           {/* Section 1 */}
-          <section className="space-y-3">
-            <div className="flex items-center gap-2 text-maroon">
-              <FileCheck className="w-5 h-5 text-gold shrink-0" />
-              <h2 className="text-xl sm:text-2xl font-bold font-body">1. Agreement to Terms</h2>
+          <div className="hud-panel p-6 sm:p-8 bg-dark-card border border-dark-border space-y-3">
+            <div className="flex items-center gap-2 text-white">
+              <FileCheck className="w-5 h-5 text-pinkops shrink-0" />
+              <h2 className="text-xl font-bold font-heading-royal">1. Competition Purpose & Framework</h2>
             </div>
-            <p className="text-sm sm:text-base text-ink-muted leading-relaxed">
-              By accessing and interacting with the Rajasthan Cultural Heritage Dashboard ("the Platform"), you acknowledge and agree to comply with these Terms and Conditions. If you do not agree with any part of these terms, please discontinue use of the Platform immediately.
+            <p className="text-sm sm:text-base text-text-muted leading-relaxed">
+              This interactive dashboard is the presentation artifact of <strong className="text-white">Operation Pink Panther (PinkOps)</strong>, created specifically for the <strong className="text-white">Rajasthan Royals SupeRR Selector Season 2 — Round 1</strong>. By exploring this interface, you acknowledge that all evaluations represent analytical methodologies developed to solve the competition objective: determining the 10 most reliable batters and bowlers under high-leverage pressure.
             </p>
-          </section>
+          </div>
 
           {/* Section 2 */}
-          <section className="space-y-3">
-            <div className="flex items-center gap-2 text-maroon">
-              <BookOpen className="w-5 h-5 text-gold shrink-0" />
-              <h2 className="text-xl sm:text-2xl font-bold font-body">2. Cultural Stewardship & Intellectual Property</h2>
+          <div className="hud-panel p-6 sm:p-8 bg-dark-card border border-dark-border space-y-3">
+            <div className="flex items-center gap-2 text-white">
+              <Zap className="w-5 h-5 text-icevein shrink-0" />
+              <h2 className="text-xl font-bold font-heading-royal">2. Proprietary Methodology & Intellectual Property</h2>
             </div>
-            <p className="text-sm sm:text-base text-ink-muted leading-relaxed">
-              The Rajasthan Cultural Heritage Dashboard honors centuries of traditional Indian craftsmanship. The historical motifs, architectural illustrations, folk song references, and photographic reproductions featured on this platform belong to their respective cultural lineages, traditional artisan communities, and rights holders.
+            <p className="text-sm sm:text-base text-text-muted leading-relaxed">
+              The proprietary analytics engines demonstrated on this platform—including:
             </p>
-            <p className="text-sm sm:text-base text-ink-muted leading-relaxed">
-              Frontend code, responsive layout systems, and interactive motion designs authored for this repository are protected under applicable software and copyright conventions. Content is provided solely for personal exploration, educational appreciation, and non-commercial study.
+            <ul className="list-disc pl-6 space-y-2 text-sm sm:text-base text-text-muted">
+              <li><strong className="text-white">Choke Detector™:</strong> Empirical gap analysis between baseline performance and high-pressure index conditions.</li>
+              <li><strong className="text-white">IceVein Score™:</strong> Multi-dimensional composure and high-leverage efficiency formulation.</li>
+              <li><strong className="text-white">Pressure Lens™:</strong> Non-linear leverage weight distribution based on match situation, run rate req., and wickets remaining.</li>
+              <li><strong className="text-white">Smoke Test™:</strong> Robustness screening through 24 multiverse specifications and 10,000 bootstrap resamples.</li>
+              <li><strong className="text-white">LUB20 Lower Bound Metric:</strong> 20th percentile conservative uncertainty floor preventing small-sample distortion.</li>
+            </ul>
+            <p className="text-sm sm:text-base text-text-muted leading-relaxed">
+              are original analytical models authored by the PinkOps research group. All rights to the mathematical formulations and execution code remain with the project authors.
             </p>
-          </section>
+          </div>
 
           {/* Section 3 */}
-          <section className="space-y-3">
-            <div className="flex items-center gap-2 text-maroon">
-              <AlertCircle className="w-5 h-5 text-gold shrink-0" />
-              <h2 className="text-xl sm:text-2xl font-bold font-body">3. Permitted & Prohibited Use</h2>
+          <div className="hud-panel p-6 sm:p-8 bg-dark-card border border-dark-border space-y-3">
+            <div className="flex items-center gap-2 text-white">
+              <BookOpen className="w-5 h-5 text-sandstone shrink-0" />
+              <h2 className="text-xl font-bold font-heading-royal">3. Rajasthan Royals & IPL Intellectual Property</h2>
             </div>
-            <ul className="list-disc pl-6 space-y-2 text-sm sm:text-base text-ink-muted">
-              <li><strong>Permitted:</strong> Exploring cultural visual stories, inspecting the 28 archival artifacts in the interactive lightbox, and sharing educational links to the platform.</li>
-              <li><strong>Prohibited:</strong> Scraping or re-hosting cultural artwork for commercial merchandise without rights holder authorization, attempting denial-of-service or automated stress-testing against the repository, and misrepresenting affiliations with official state tourism departments.</li>
-            </ul>
-          </section>
+            <p className="text-sm sm:text-base text-text-muted leading-relaxed">
+              The Rajasthan Royals name, official team crest, "Halla Bol" motto, "Dil Thanda Rakh" art motifs, and royal pink/blue visual elements are the exclusive intellectual property of the Rajasthan Royals and Royal Multisport Private Limited. This site uses these references strictly in compliance with competition submission guidelines.
+            </p>
+          </div>
 
           {/* Section 4 */}
-          <section className="space-y-3">
-            <div className="flex items-center gap-2 text-maroon">
-              <CheckCircle2 className="w-5 h-5 text-gold shrink-0" />
-              <h2 className="text-xl sm:text-2xl font-bold font-body">4. Disclaimer of Commercial Functionality</h2>
+          <div className="hud-panel p-6 sm:p-8 bg-dark-card border border-dark-border space-y-3">
+            <div className="flex items-center gap-2 text-white">
+              <AlertCircle className="w-5 h-5 text-amber-400 shrink-0" />
+              <h2 className="text-xl font-bold font-heading-royal">4. Competition Invariants & Auction Availability Rules</h2>
             </div>
-            <p className="text-sm sm:text-base text-ink-muted leading-relaxed">
-              This website is an interactive digital exhibition. It does not provide hotel bookings, travel agency tickets, commercial tours, or physical merchandise shipments. Any references to regional destinations, festivals, or monuments are curated strictly for cultural appreciation.
+            <p className="text-sm sm:text-base text-text-muted leading-relaxed">
+              In accordance with official SupeRR Selector competition rules:
             </p>
-          </section>
+            <ul className="list-disc pl-6 space-y-2 text-sm sm:text-base text-text-muted">
+              <li>Candidates are evaluated objectively on the provided competition dataset regardless of current franchise retention or availability status.</li>
+              <li>Final auction targets and role portfolios differentiate between tactical benchmarks (e.g. Jasprit Bumrah as the universal bowling gold standard) and auction-viable targets (e.g. Jamie Overton, Abrar Ahmed).</li>
+              <li>No synthetic auction prices or imaginary purse caps are fabricated outside verified RR 2027 context (19 retained, 6 open slots, ₹27.05 Cr available).</li>
+            </ul>
+          </div>
 
           {/* Section 5 */}
-          <section className="space-y-3">
-            <div className="flex items-center gap-2 text-maroon">
-              <Scale className="w-5 h-5 text-gold shrink-0" />
-              <h2 className="text-xl sm:text-2xl font-bold font-body">5. Limitation of Liability</h2>
+          <div className="hud-panel p-6 sm:p-8 bg-dark-card border border-dark-border space-y-3">
+            <div className="flex items-center gap-2 text-white">
+              <Scale className="w-5 h-5 text-pinkops shrink-0" />
+              <h2 className="text-xl font-bold font-heading-royal">5. Disclaimer of Warranties</h2>
             </div>
-            <p className="text-sm sm:text-base text-ink-muted leading-relaxed">
-              The platform is provided on an "as-is" and "as-available" basis without warranties of any kind. Under no circumstances shall the creators, contributors, or repository maintainers be liable for any indirect, incidental, or consequential damages resulting from your access to or inability to use the Platform.
+            <p className="text-sm sm:text-base text-text-muted leading-relaxed">
+              The data visualisations, statistics, and model outputs are provided "as-is" for competition judgment. While audited with 0 duplicates across 200,999 balls, future performance under varying real-world conditions remains inherently stochastic. PinkOps makes no financial or sporting guarantees beyond empirical mathematical rigor.
             </p>
-          </section>
-
-          {/* Section 6 */}
-          <section className="space-y-3">
-            <h2 className="text-xl sm:text-2xl font-bold font-body text-maroon">6. Governing Law & Amendments</h2>
-            <p className="text-sm sm:text-base text-ink-muted leading-relaxed">
-              These terms shall be governed by and construed in accordance with the laws of India. We reserve the right to amend these terms periodically to reflect ongoing development.
-            </p>
-            <div className="p-4 rounded-lg bg-gold/10 border border-gold/30 text-xs sm:text-sm text-maroon">
-              <strong>Effective Date:</strong> November 2026 • PinkOps Cultural Platform.
-            </div>
-          </section>
+          </div>
 
         </div>
 
         {/* Bottom Back Button */}
-        <div className="text-center mt-10">
+        <div className="text-center mt-12">
           <button
             onClick={() => onNavigate('/')}
-            className="btn-royal-primary"
+            className="btn-pinkops-primary py-3 px-8 text-xs font-mono font-bold tracking-wider"
           >
-            <ArrowLeft className="w-4 h-4 text-gold" />
-            <span>Return to Rajasthan Cultural Dashboard</span>
+            <ArrowLeft className="w-4 h-4 text-white" />
+            <span>RETURN TO WAR ROOM</span>
           </button>
         </div>
 
