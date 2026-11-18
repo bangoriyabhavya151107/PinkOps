@@ -95,8 +95,10 @@ export default function InteractiveMethodology() {
                 }`}
               >
                 <button
+                  type="button"
                   onClick={() => toggleStep(idx)}
                   className="w-full p-4 sm:p-5 text-left flex items-center justify-between gap-4 cursor-pointer bg-transparent border-0"
+                  style={{ background: 'transparent', border: 'none' }}
                   aria-expanded={isExpanded}
                 >
                   <div className="flex items-center gap-4">

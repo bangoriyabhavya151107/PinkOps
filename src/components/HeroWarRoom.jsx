@@ -135,8 +135,10 @@ export default function HeroWarRoom({ onExploreMission, onExploreBoard }) {
       {/* Animated Scroll Indicator */}
       <div className="text-center pt-6">
         <button
+          type="button"
           onClick={onExploreMission}
           className="inline-flex flex-col items-center gap-1.5 text-text-muted hover:text-pinkops transition-colors bg-transparent border-0 cursor-pointer"
+          style={{ background: 'transparent', border: 'none' }}
           aria-label="Scroll down to explore the mission"
         >
           <span className="font-mono text-[10px] font-bold tracking-widest uppercase">

@@ -94,6 +94,7 @@ export default function PinkOpsHeader({ currentRoute = '/', onNavigate, activeSe
             {/* CTA & Mobile Hamburger */}
             <div className="flex items-center gap-4">
               <button
+                type="button"
                 onClick={() => handleNavClick('board')}
                 className="btn-pinkops-primary hidden sm:inline-flex py-2 px-5 text-xs font-bold"
                 aria-label="View Top 10 Reliable Players"
@@ -103,8 +104,10 @@ export default function PinkOpsHeader({ currentRoute = '/', onNavigate, activeSe
               </button>
 
               <button
+                type="button"
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 className="lg:hidden p-2 text-text-main bg-transparent border-0 cursor-pointer"
+                style={{ background: 'transparent', border: 'none' }}
                 aria-label={mobileMenuOpen ? 'Close Menu' : 'Open Menu'}
                 aria-expanded={mobileMenuOpen}
               >
@@ -134,8 +137,10 @@ export default function PinkOpsHeader({ currentRoute = '/', onNavigate, activeSe
             </div>
           </div>
           <button
+            type="button"
             onClick={() => setMobileMenuOpen(false)}
             className="p-2 text-text-muted hover:text-white border-0 bg-transparent cursor-pointer"
+            style={{ background: 'transparent', border: 'none' }}
             aria-label="Close menu"
           >
             <X className="w-6 h-6" />

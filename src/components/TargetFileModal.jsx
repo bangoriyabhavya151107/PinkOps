@@ -35,8 +35,14 @@ export default function TargetFileModal({ player, onClose }) {
         
         {/* Close Button */}
         <button
+          type="button"
           onClick={onClose}
           className="absolute top-4 right-4 z-50 p-2 rounded-full bg-dark-elevated text-text-muted hover:text-white border border-dark-border cursor-pointer transition-colors"
+          style={{
+            backgroundColor: 'var(--color-dark-elevated)',
+            borderColor: 'var(--color-dark-border)',
+            color: 'var(--color-text-muted)',
+          }}
           aria-label="Close dossier (Escape)"
         >
           <X className="w-5 h-5" />

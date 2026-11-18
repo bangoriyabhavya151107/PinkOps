@@ -34,22 +34,34 @@ export default function PinkOpsBoard({ onSelectPlayer }) {
         <div className="flex justify-center mb-12">
           <div className="inline-flex p-1.5 rounded-xl bg-dark-elevated border border-pinkops/30 shadow-tactical">
             <button
+              type="button"
               onClick={() => setActiveTab('batters')}
               className={`px-6 sm:px-8 py-2.5 rounded-lg font-mono text-xs sm:text-sm font-bold uppercase tracking-wider transition-all cursor-pointer ${
                 activeTab === 'batters'
                   ? 'bg-pinkops text-white shadow-tactical'
                   : 'text-text-muted hover:text-white bg-transparent'
               }`}
+              style={{
+                backgroundColor: activeTab === 'batters' ? 'var(--color-pinkops)' : 'transparent',
+                color: activeTab === 'batters' ? '#FFFFFF' : 'var(--color-text-muted)',
+                border: 'none',
+              }}
             >
               FINAL 10 BATTERS
             </button>
             <button
+              type="button"
               onClick={() => setActiveTab('bowlers')}
               className={`px-6 sm:px-8 py-2.5 rounded-lg font-mono text-xs sm:text-sm font-bold uppercase tracking-wider transition-all cursor-pointer ${
                 activeTab === 'bowlers'
                   ? 'bg-pinkops text-white shadow-tactical'
                   : 'text-text-muted hover:text-white bg-transparent'
               }`}
+              style={{
+                backgroundColor: activeTab === 'bowlers' ? 'var(--color-pinkops)' : 'transparent',
+                color: activeTab === 'bowlers' ? '#FFFFFF' : 'var(--color-text-muted)',
+                border: 'none',
+              }}
             >
               FINAL 10 BOWLERS
             </button>
@@ -67,7 +79,7 @@ export default function PinkOpsBoard({ onSelectPlayer }) {
               <ScrollReveal key={player.id} animation="fade-up" delay={player.rank * 40}>
                 <div
                   onClick={() => onSelectPlayer(player)}
-                  className={`hud-panel p-5 sm:p-6 transition-all cursor-pointer group ${
+                  className={`player-card-hud hud-panel p-5 sm:p-6 transition-all cursor-pointer group ${
                     isRank1
                       ? 'border-gold bg-gradient-to-r from-dark-elevated via-[#1F1524] to-dark-elevated shadow-gold-glow'
                       : isTop3

@@ -242,3 +242,121 @@
   border-radius: 5px;
   transition: width 0.4s var(--ease-tactical);
 }
+
+
+/* ==========================================================================
+   WAR-ROOM COLOR THEME UTILITIES & BUTTON COMPONENT OVERRIDES
+   ========================================================================== */
+
+/* Background Solid & Alpha Tokens */
+.bg-void { background-color: var(--color-void) !important; }
+.bg-transparent { background-color: transparent !important; }
+
+.bg-pinkops { background-color: var(--color-pinkops) !important; }
+.bg-pinkops\/10 { background-color: rgba(255, 42, 133, 0.1) !important; }
+.bg-pinkops\/15 { background-color: rgba(255, 42, 133, 0.15) !important; }
+.bg-pinkops\/20 { background-color: rgba(255, 42, 133, 0.2) !important; }
+.bg-pinkops\/30 { background-color: rgba(255, 42, 133, 0.3) !important; }
+.bg-pinkops\/40 { background-color: rgba(255, 42, 133, 0.4) !important; }
+.bg-pinkops\/50 { background-color: rgba(255, 42, 133, 0.5) !important; }
+
+.bg-icevein { background-color: var(--color-icevein) !important; }
+.bg-icevein\/10 { background-color: rgba(0, 229, 255, 0.1) !important; }
+.bg-icevein\/15 { background-color: rgba(0, 229, 255, 0.15) !important; }
+.bg-icevein\/20 { background-color: rgba(0, 229, 255, 0.2) !important; }
+.bg-icevein\/30 { background-color: rgba(0, 229, 255, 0.3) !important; }
+
+.bg-gold { background-color: var(--color-gold) !important; }
+.bg-gold\/10 { background-color: rgba(212, 160, 23, 0.1) !important; }
+.bg-gold\/15 { background-color: rgba(212, 160, 23, 0.15) !important; }
+.bg-gold\/20 { background-color: rgba(212, 160, 23, 0.2) !important; }
+.bg-gold\/30 { background-color: rgba(212, 160, 23, 0.3) !important; }
+
+.bg-dark-surface { background-color: var(--color-dark-surface) !important; }
+.bg-dark-surface\/50 { background-color: rgba(18, 12, 23, 0.5) !important; }
+.bg-dark-surface\/60 { background-color: rgba(18, 12, 23, 0.6) !important; }
+.bg-dark-surface\/70 { background-color: rgba(18, 12, 23, 0.7) !important; }
+.bg-dark-surface\/80 { background-color: rgba(18, 12, 23, 0.8) !important; }
+.bg-dark-surface\/90 { background-color: rgba(18, 12, 23, 0.9) !important; }
+
+.bg-dark-card { background-color: var(--color-dark-surface) !important; }
+.bg-dark-card\/60 { background-color: rgba(18, 12, 23, 0.6) !important; }
+.bg-dark-card\/80 { background-color: rgba(18, 12, 23, 0.8) !important; }
+
+.bg-dark-elevated { background-color: var(--color-dark-elevated) !important; }
+.bg-dark-elevated\/70 { background-color: rgba(27, 18, 34, 0.7) !important; }
+.bg-dark-elevated\/80 { background-color: rgba(27, 18, 34, 0.8) !important; }
+.bg-dark-elevated\/90 { background-color: rgba(27, 18, 34, 0.9) !important; }
+
+.bg-black\/20 { background-color: rgba(0, 0, 0, 0.2) !important; }
+.bg-black\/30 { background-color: rgba(0, 0, 0, 0.3) !important; }
+.bg-black\/40 { background-color: rgba(0, 0, 0, 0.4) !important; }
+.bg-black\/50 { background-color: rgba(0, 0, 0, 0.5) !important; }
+.bg-black\/60 { background-color: rgba(0, 0, 0, 0.6) !important; }
+.bg-black\/85 { background-color: rgba(0, 0, 0, 0.85) !important; }
+
+/* Border Tokens */
+.border-pinkops { border-color: var(--color-pinkops) !important; }
+.border-pinkops\/20 { border-color: rgba(255, 42, 133, 0.2) !important; }
+.border-pinkops\/30 { border-color: rgba(255, 42, 133, 0.3) !important; }
+.border-pinkops\/40 { border-color: rgba(255, 42, 133, 0.4) !important; }
+.border-pinkops\/50 { border-color: rgba(255, 42, 133, 0.5) !important; }
+.border-pinkops\/60 { border-color: rgba(255, 42, 133, 0.6) !important; }
+
+.border-icevein { border-color: var(--color-icevein) !important; }
+.border-icevein\/30 { border-color: rgba(0, 229, 255, 0.3) !important; }
+.border-icevein\/40 { border-color: rgba(0, 229, 255, 0.4) !important; }
+.border-icevein\/50 { border-color: rgba(0, 229, 255, 0.5) !important; }
+
+.border-gold { border-color: var(--color-gold) !important; }
+.border-gold\/20 { border-color: rgba(212, 160, 23, 0.2) !important; }
+.border-gold\/30 { border-color: rgba(212, 160, 23, 0.3) !important; }
+.border-gold\/40 { border-color: rgba(212, 160, 23, 0.4) !important; }
+.border-gold\/50 { border-color: rgba(212, 160, 23, 0.5) !important; }
+
+.border-dark-border { border-color: var(--color-dark-border) !important; }
+.border-dark-border\/40 { border-color: rgba(255, 42, 133, 0.08) !important; }
+.border-dark-border\/60 { border-color: rgba(255, 42, 133, 0.12) !important; }
+.border-dark-border\/80 { border-color: rgba(255, 42, 133, 0.18) !important; }
+.border-dark-border-hover { border-color: var(--color-dark-border-hover) !important; }
+
+/* Status Colors */
+.text-status-green { color: var(--color-status-green) !important; }
+.text-status-red { color: var(--color-status-red) !important; }
+.text-status-amber { color: var(--color-status-amber) !important; }
+.bg-status-green\/15 { background-color: rgba(0, 230, 118, 0.15) !important; }
+.border-status-green\/50 { border-color: rgba(0, 230, 118, 0.5) !important; }
+
+/* Interactive Hover States */
+.hover\:bg-dark-card:hover { background-color: var(--color-dark-surface) !important; }
+.hover\:bg-dark-elevated:hover { background-color: var(--color-dark-elevated) !important; }
+.hover\:border-pinkops:hover { border-color: var(--color-pinkops) !important; }
+.hover\:border-pinkops\/40:hover { border-color: rgba(255, 42, 133, 0.4) !important; }
+.hover\:border-pinkops\/50:hover { border-color: rgba(255, 42, 133, 0.5) !important; }
+.hover\:border-dark-border-hover:hover { border-color: var(--color-dark-border-hover) !important; }
+.hover\:text-white:hover { color: #FFFFFF !important; }
+.hover\:text-pinkops:hover { color: var(--color-pinkops) !important; }
+.hover\:text-icevein:hover { color: var(--color-icevein) !important; }
+
+/* Group Hover Utilities */
+.group:hover .group-hover\:text-pinkops { color: var(--color-pinkops) !important; }
+.group:hover .group-hover\:text-white { color: #FFFFFF !important; }
+.group:hover .group-hover\:text-icevein { color: var(--color-icevein) !important; }
+
+/* Tactical Player Card Styling */
+.player-card-hud {
+  background: rgba(18, 12, 23, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--color-dark-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-tactical);
+  transition: all var(--transition-normal);
+}
+
+.player-card-hud:hover {
+  background: rgba(27, 18, 34, 0.85);
+  border-color: rgba(255, 42, 133, 0.5);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8), 0 0 20px rgba(255, 42, 133, 0.2);
+  transform: translateY(-2px);
+}

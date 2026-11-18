@@ -19,6 +19,31 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Universal Button Reset - Eliminates Native User-Agent White/Gray Boxes */
+button {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  text-align: inherit;
+  text-decoration: none;
+}
+
+button:focus-visible {
+  outline: 2px solid var(--color-pinkops);
+  outline-offset: 2px;
+}
+
 /* Accessible Focus States */
 :focus-visible {
   outline: 2px solid var(--color-pinkops);
@@ -42,11 +67,95 @@ img {
   display: block;
 }
 
+/* Tactical Range Input Slider Styling */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input[type="range"]::-webkit-slider-runnable-track {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 42, 133, 0.25);
+  border-radius: 9999px;
+  height: 8px;
+  transition: all 0.2s ease;
+}
+
+input[type="range"]:hover::-webkit-slider-runnable-track {
+  border-color: rgba(255, 42, 133, 0.5);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: -6px;
+  background: #FF2A85;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  box-shadow: 0 0 10px rgba(255, 42, 133, 0.8), 0 0 20px rgba(255, 42, 133, 0.4);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 16px rgba(255, 42, 133, 1), 0 0 28px rgba(0, 229, 255, 0.6);
+}
+
+/* Firefox */
+input[type="range"]::-moz-range-track {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 42, 133, 0.25);
+  border-radius: 9999px;
+  height: 8px;
+}
+
+input[type="range"]::-moz-range-thumb {
+  background: #FF2A85;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  box-shadow: 0 0 10px rgba(255, 42, 133, 0.8);
+}
+
+/* Custom Tactical Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09060B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 42, 133, 0.3);
+  border-radius: 4px;
+  border: 1px solid rgba(255, 42, 133, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 42, 133, 0.6);
+}
+
 /* Tactical Utility Classes */
 .text-center { text-align: center; }
-.text-pinkops { color: var(--color-pinkops); }
-.text-gold { color: var(--color-gold); }
-.text-icevein { color: var(--color-icevein); }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-pinkops { color: var(--color-pinkops) !important; }
+.text-gold { color: var(--color-gold) !important; }
+.text-icevein { color: var(--color-icevein) !important; }
 
 .relative { position: relative; }
 .overflow-hidden { overflow: hidden; }

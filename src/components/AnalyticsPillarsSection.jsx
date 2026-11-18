@@ -39,6 +39,7 @@ export default function AnalyticsPillarsSection() {
 
               return (
                 <button
+                  type="button"
                   key={pillar.id}
                   onClick={() => setActivePillar(idx)}
                   className={`p-4 rounded-lg text-left transition-all border cursor-pointer ${
@@ -46,6 +47,11 @@ export default function AnalyticsPillarsSection() {
                       ? 'bg-dark-elevated border-pinkops shadow-tactical text-white'
                       : 'bg-dark-surface/80 border-dark-border text-text-muted hover:border-dark-border-hover hover:text-white'
                   }`}
+                  style={{
+                    backgroundColor: isActive ? 'var(--color-dark-elevated)' : 'rgba(18, 12, 23, 0.8)',
+                    borderColor: isActive ? 'var(--color-pinkops)' : 'var(--color-dark-border)',
+                    color: isActive ? '#FFFFFF' : 'var(--color-text-muted)',
+                  }}
                 >
                   <div className="flex items-center justify-between mb-1">
                     <div className="flex items-center gap-2.5">

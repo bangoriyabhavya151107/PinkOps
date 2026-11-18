@@ -118,6 +118,7 @@ export default function PressureEngineSection() {
             <div className="flex flex-wrap gap-2">
               {pressureLevels.map((lvl, idx) => (
                 <button
+                  type="button"
                   key={idx}
                   onClick={() => setActiveStage(idx)}
                   className={`px-3 py-1.5 rounded font-mono text-xs font-bold uppercase cursor-pointer transition-all border ${
@@ -125,6 +126,11 @@ export default function PressureEngineSection() {
                       ? 'bg-pinkops/20 text-white border-pinkops shadow-tactical'
                       : 'bg-dark-elevated text-text-muted border-dark-border hover:text-white'
                   }`}
+                  style={{
+                    backgroundColor: activeStage === idx ? 'rgba(255, 42, 133, 0.25)' : 'var(--color-dark-elevated)',
+                    borderColor: activeStage === idx ? 'var(--color-pinkops)' : 'var(--color-dark-border)',
+                    color: activeStage === idx ? '#FFFFFF' : 'var(--color-text-muted)',
+                  }}
                 >
                   {lvl.level.split(' ')[0]}
                 </button>
